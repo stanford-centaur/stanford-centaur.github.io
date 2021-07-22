@@ -12,7 +12,7 @@ layout: default
 {% for p in site.data.people.faculty %}
 <div class="col" style="text-align:center;">
 <a href="{{ p.website }}">
-  <img class="person-img" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b>{{ p.name }}</b>
@@ -28,7 +28,7 @@ layout: default
 {% for p in site.data.people.staff %}
 <div class="col" style="text-align:center;">
 <a href="{{ p.website }}">
-  <img class="person-img" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b>{{ p.name }}</b>
@@ -44,7 +44,7 @@ layout: default
 {% for p in site.data.people.postdocs %}
 <div class="col" style="text-align:center;">
 <a href="{{ p.website }}">
-  <img class="person-img" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b>{{ p.name }}</b>
@@ -60,7 +60,7 @@ layout: default
 {% for p in site.data.people.students %}
 <div class="col" style="text-align:center;">
 <a href="{{ p.website }}">
-  <img class="person-img" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b>{{ p.name }}</b>

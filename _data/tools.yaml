@@ -1,0 +1,77 @@
+---
+
+- name: Bitwuzla
+  logo: bitwuzla.png
+  website: https://bitwuzla.github.io
+  github: https://github.com/bitwuzla/bitwuzla
+  desc-brief: SMT Solver
+  desc-long: >-
+    Bitwuzla is an award-winning Satisfiability Modulo Theories (SMT) solver
+    for the theories of fixed-size bit-vectors, floating-point arithmetic,
+    arrays and uninterpreted functions and their combinations.
+
+- name: Boolector
+  logo: boolector.png
+  website: https://boolector.github.io
+  github: https://github.com/boolector/boolector
+  desc-brief: SMT Solver
+  desc-long: >-
+    Boolector is an award-winning Satisfiability Modulo Theories (SMT) solver
+    for the theories of fixed-size bit-vectors, arrays and uninterpreted
+    functions and their combinations.
+
+- name: CVC4
+  logo: cvc4.png
+  website: https://cvc4.stanford.edu
+  github: https://github.com/CVC4/CVC4-archived
+  desc-brief: SMT Solver
+  desc-long: >-
+    CVC4 is an award-winning automatic theorem prover for Satisfiability Modulo
+    Theories (SMT) problems.
+
+- name: Cosa
+  logo: cosa.png
+  website: https://github.com/cristian-mattarei/CoSA
+  github: https://github.com/cristian-mattarei/CoSA
+  desc-brief: CoreIR Symbolic Analyzer
+  desc-long: >-
+    CoSA is an SMT-based symbolic model checker for hardware designs.
+
+- name: Cosa2
+  logo: cosa.png
+  website: https://github.com/upscale-project/cosa2
+  github: https://github.com/upscale-project/cosa2
+  desc-brief: CoreIR Symbolic Analyzer
+  desc-long: >-
+    CoSA2 is an SMT-based symbolic model checker for hardware designs.
+
+- name: Marabou
+  logo: marabou.png
+  website: https://github.com/NeuralNetworkVerification/Marabou
+  github: https://github.com/NeuralNetworkVerification/Marabou
+  desc-brief: SMT-Based Framework for Verifying Deep Neural Networks
+  desc-long: >-
+    Marabou is an SMT-based tool that can answer queries about the properties
+    of a neural network by transforming these queries into constraint
+    satisfaction problems.
+
+- name: Pono
+  logo: default.png
+  website: https://github.com/upscale-project/pono
+  github: https://github.com/upscale-project/pono
+  desc-brief: SMT-Based Model Checker
+  desc-long: >-
+    Pono is a flexible and extensible SMT-based model checker that leverages
+    word-level reasoning. 'Pono' is the Hawaiian word for proper, correct, or
+    goodness.
+    <br/><br/>
+    Pono is the successor of our model checkers CoSA and CoSA2.
+
+- name: Smt-Switch
+  logo: default.png
+  website: https://github.com/makaimann/smt-switch
+  github: https://github.com/makaimann/smt-switch
+  desc-brief: A Solver-Agnostic C++ API for SMT Solving
+  desc-long: >-
+    Smt-Switch provides abstract C++ classes which can be implemented by
+    different SMT solvers. Our model checker Pono is built using Smt-Switch.
