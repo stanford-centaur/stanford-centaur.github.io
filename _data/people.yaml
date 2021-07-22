@@ -15,10 +15,10 @@ staff:
 
 - name: Aina Niemetz
   title: Research Scientist
-  img: default.png
+  img: niemetz.png
   website: http://cs.stanford.edu/~niemetz
 
-- name: Mathias Preiner 
+- name: Mathias Preiner
   title: Research Scientist
   img: default.png
   website: http://cs.stanford.edu/~preiner
@@ -55,12 +55,12 @@ students:
 - name: Caleb Donovick
   title: Ph.D. Candidate
   img: default.png
-  website:
+  website: https://profiles.stanford.edu/caleb-donovick
 
 - name: Hanna Lachnitt
   title: Ph.D. Candidate
   img: default.png
-  website:
+  website: https://profiles.stanford.edu/hanna-lachnitt
 
 - name: Makai Mann
   title: Ph.D. Candidate
@@ -75,22 +75,22 @@ students:
 - name: Ying Sheng
   title: Ph.D. Candidate
   img: default.png
-  website:
+  website: https://profiles.stanford.edu/ying-sheng
 
 - name: Lindsey Stuntz
   title: Ph.D. Candidate
   img: default.png
-  website:
+  website: https://profiles.stanford.edu/lindsey-stuntz
 
 - name: Scott Viteri
   title: Ph.D. Candidate
   img: default.png
-  website:
+  website: https://profiles.stanford.edu/scott-viteri
 
 - name: Amalee Wilson
   title: Ph.D. Candidate
   img: wilson.jpg
-  website:
+  website: https://profiles.stanford.edu/amalee-wilson
 
 - name: Haoze Wu
   title: Ph.D. Candidate
