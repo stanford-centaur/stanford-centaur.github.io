@@ -1,0 +1,98 @@
+---
+faculty:
+
+- name: Clark Barrett
+  title: Associate Professor of Computer Science
+  img: clark.jpg
+  website: http://theory.stanford.edu/~barrett/
+
+staff:
+
+- name: Florian Lonsing
+  title: Research Scientist
+  img: lonsing.jpg
+  website: http://www.florianlonsing.com/
+
+- name: Aina Niemetz
+  title: Research Scientist
+  img: default.png
+  website: http://cs.stanford.edu/~niemetz
+
+- name: Mathias Preiner 
+  title: Research Scientist
+  img: default.png
+  website: http://cs.stanford.edu/~preiner
+
+- name: Nestan Tsiskaridze
+  title: Research Scientist
+  img: tsiskaridze.jpg
+  website: https://sites.cs.ucsb.edu/~nestan/
+
+postdocs:
+
+- name: Gereon Kremer
+  title: Postdoctoral Researcher
+  img: default.png
+  website: https://cs.stanford.edu/~gkremer/
+
+- name: Andres Nötzli
+  title: Postdoctoral Researcher
+  img: default.png
+  website: https://cs.stanford.edu/~noetzli/
+
+- name: Aleksandar Zeljić
+  title: Postdoctoral Researcher
+  img: zeljic.png
+  website: https://aleksandarzeljic.github.io/
+
+- name: Yoni Zohar
+  title: Postdoctoral Researcher
+  img: zohar.jpg
+  website: https://cs.stanford.edu/~yoniz/
+
+students:
+
+- name: Caleb Donovick
+  title: Ph.D. Candidate
+  img: default.png
+  website:
+
+- name: Hanna Lachnitt
+  title: Ph.D. Candidate
+  img: default.png
+  website:
+
+- name: Makai Mann
+  title: Ph.D. Candidate
+  img: mann.jpg
+  website: https://makaimann.github.io
+
+- name: Alex Ozdemir
+  title: Ph.D. Candidate
+  img: ozdemir.jpg
+  website: https://cs.stanford.edu/~aozdemir/
+
+- name: Ying Sheng
+  title: Ph.D. Candidate
+  img: default.png
+  website:
+
+- name: Lindsey Stuntz
+  title: Ph.D. Candidate
+  img: default.png
+  website:
+
+- name: Scott Viteri
+  title: Ph.D. Candidate
+  img: default.png
+  website:
+
+- name: Amalee Wilson
+  title: Ph.D. Candidate
+  img: wilson.jpg
+  website:
+
+- name: Haoze Wu
+  title: Ph.D. Candidate
+  img: wu.jpg
+  website: https://anwu1219.github.io/

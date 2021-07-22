@@ -1,0 +1,43 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+img.person-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}
+
+.project-name a {
+  color: #fff;
+}
+
+a.menu {
+  color: #fff;
+  font-size: 25px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.col {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.people {
+  h1, h2, h3 {
+    text-align:center;
+  }
+}
