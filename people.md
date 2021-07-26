@@ -3,8 +3,6 @@ layout: default
 title: people
 ---
 
-# People
-
 <div class="people">
 
 <h2>Faculty</h2>

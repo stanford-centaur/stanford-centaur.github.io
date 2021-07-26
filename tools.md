@@ -3,8 +3,6 @@ layout: default
 title: tools
 ---
 
-# Tools
-
 <div class="row">
 {% for t in site.data.tools %}
 <div class="col" style="text-align:center;">
