@@ -7,9 +7,30 @@
   color: #fff;
 }
 
-a.menu {
-  color: #fff;
-  font-size: 25px;
+#navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      a {
+        display: block;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+      }
+      a.active {
+        padding-top: 10px;
+        border-top: 4px solid #fff;
+      }
+    }
+  }
 }
 
 .row {
