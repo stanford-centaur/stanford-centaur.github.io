@@ -11,7 +11,7 @@ layout: default
   <img src="img/tools/{{ t.logo }}" alt="{{ t.name }}"/>
 </a>
 <br/>
-<b>{{ t.name }}</b>
+<b><a href="{{ t.website }}">{{ t.name }}</a></b>
 <br/>
 {{ t.desc-brief }}
 <br/>
