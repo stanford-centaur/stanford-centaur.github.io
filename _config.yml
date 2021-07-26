@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
+baseurl: /foo
 title: centaur
 description: >-
   Center for Automated Reasoning at Stanford University
