@@ -20,15 +20,6 @@
     for the theories of fixed-size bit-vectors, arrays and uninterpreted
     functions and their combinations.
 
-- name: CVC4
-  logo: cvc4.png
-  website: https://cvc4.stanford.edu
-  github: https://github.com/CVC4/CVC4-archived
-  desc-brief: SMT Solver
-  desc-long: >-
-    CVC4 is an award-winning automatic theorem prover for Satisfiability Modulo
-    Theories (SMT) problems.
-
 - name: Cosa
   logo: cosa.png
   website: https://github.com/cristian-mattarei/CoSA
@@ -44,6 +35,34 @@
   desc-brief: CoreIR Symbolic Analyzer
   desc-long: >-
     CoSA2 is an SMT-based symbolic model checker for hardware designs.
+
+- name: CVC4
+  logo: cvc4.png
+  website: https://cvc4.stanford.edu
+  github: https://github.com/CVC4/CVC4-archived
+  desc-brief: SMT Solver
+  desc-long: >-
+    CVC4 is an award-winning automatic theorem prover for Satisfiability Modulo
+    Theories (SMT) problems.
+
+- name: cvc5
+  logo: cvc5.png
+  website: https://cvc5.github.io
+  github: https://github.com/cvc5/cvc5
+  desc-brief: SMT Solver
+  desc-long: >-
+    cvc5 is an award-winning automatic theorem prover for Satisfiability Modulo
+    Theories (SMT) problems. cvc5 is the successor of CVC4.
+
+- name: ddsmt
+  logo: ddsmt.png
+  website: https://ddsmt.readthedocs.io/
+  github: https://github.com/ddsmt/ddsmt
+  desc-brief: Delta Debugger for SMT-LIB
+  desc-long: >-
+    ddSMT is a delta debugger for input in the SMT-LIB language and its
+    dialects and extensions. It serves as an input minimizer for SMT-LIB(-like)
+    input that triggers interesting behavior for a given command.
 
 - name: Marabou
   logo: marabou.png

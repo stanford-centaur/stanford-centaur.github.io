@@ -1,0 +1,1139 @@
+---
+references:
+
+- id: ReynoldsBLT20
+  type: article-journal
+  author:
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Yoni Zohar
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 9999
+  title: Towards Satisfiability Modulo Parametric Bit-Vectors
+  container-title: Journal of Automated Reasoning
+  url: /publications/2021/NPR+21-JAR.pdf
+  doi:
+  bibtex:
+  artifact: /papers/cade2019-jar
+
+- id: NPR+21-TACAS
+  type: paper-conference
+  author:
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2021
+  title: "Syntax-Guided Quantifier Instantiation"
+  container-title: Proceedings of the 27th International Conference on Tools and
+    Algorithms for the Construction and Analysis of Systems (TACAS'21)
+  url: /publications/2021/NPR+21-TACAS.pdf
+  doi: 10.1007/978-3-030-72013-1_8
+  bibtex: https://dblp.org/rec/bibtex/conf/tacas/NiemetzPRBT21.html
+  artifact: /papers/tacas2021-syqi
+  note: Nominated for the EATCS Best ETAPS Theory Paper Award
+
+- title: "On Solving Quantified Bit-Vector Constraints using Invertibility
+          Conditions"
+  id: NPR+21-FMSD
+  type: article-journal
+  author:
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Yoni Zohar
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2021
+  container-title: Formal Methods in Computer-Aided Design (FMSD)
+  url: /publications/2021/NPR+21-FMSD.pdf
+  doi: 10.1007/s10703-020-00359-9
+  bibtex:
+  artifact: https://cvc4.github.io/papers/cav2018-qbv
+
+- title: "Politeness for the Theory of Algebraic Datatypes"
+  id: SZR+20
+  type: paper-conference
+  author:
+  - name: Ying Sheng
+  - name: Yoni Zohar
+  - name: Christophe Ringeissen
+  - name: Jane Lange
+  - name: Pascal Fontaine
+  - name: Clark Barrett
+  issued:
+  - year: 2020
+  container-title: International Joint Conference on Automated Reasoning (IJCAR)
+  url: /publications/2020/SZR+20.pdf
+  doi: 10.1007/978-3-030-51074-9_14
+  bibtex: https://dblp.org/rec/conf/cade/0007ZRLFB20.html?view=bibtex
+  note: Best Paper
+
+- title: "Scalable Algorithms for Abduction via Enumerative Syntax-Guided
+          Synthesis"
+  id: RBL+20
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Haniel Barbosa
+  - name: Daniel Larraz
+  - name: Cesare Tinelli
+  issued:
+  - year: 2020
+  container-title: International Joint Conference on Automated Reasoning (IJCAR)
+  url: /publications/2020/RBL+20.pdf
+  doi: 10.1007/978-3-030-51074-9_9
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/ReynoldsBLT20
+
+- title: "Finite Model Finding in SMT"
+  id: RTG+20-CAV
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Amit Goel
+  - name: Sava Krstic
+  issued:
+  - year: 2013
+  container-title: Proceedings of the 25th International Conference on Computer
+    Aided Verification (CAV'13)
+  url: /publications/2013/RTG+13-CAV.pdf
+  doi: 10.1007/978-3-642-39799-8_42
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/ReynoldsTGK13
+
+- title: "Finding conflicting instances of quantified formulas in SMT"
+  id: RTM14
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Leonardo Mendonca de Moura
+  issued:
+  - year: 2014
+  container-title: Formal Methods in Computer-Aided Design (FMCAD'14)
+  url: /publications/2014/RTM14.pdf
+  doi: 10.1109/FMCAD.2014.6987613
+  bibtex: https://dblp.org/rec/bibtex/conf/fmcad/ReynoldsTM14
+
+- title: "Induction for SMT solvers"
+  id: RK15
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Viktor Kuncak
+  issued:
+  - year: 2015
+  container-title: Proceedings of the 16th International Conference on
+    Verification, Model Checking and Abstract Interpretation (VMCAI'15)
+  url: /publications/2015/RK15.pdf
+  doi: 10.1007/978-3-662-46081-8_5
+  bibtex: https://dblp.org/rec/bibtex/conf/vmcai/ReynoldsK15
+
+- title: "A Decision Procedure for (Co)datatypes in SMT solver"
+  id: RB15
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Jasmin Christian Blanchette
+  issued:
+  - year: 2015
+  container-title: Proceedings of the 25th International Conference on
+    Automated Deduction (CADE'15)
+  url: /publications/2015/RB15.pdf
+  doi: 10.1007/978-3-319-40229-1_10
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/ReynoldsB15
+
+- title: "Model Finding for Recursive Functions in SMT"
+  id: RBC+16
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Jasmin Christian Blanchette
+  - name: Simon Cruanes
+  - name: Cesare Tinelli
+  issued:
+  - year: 2016
+  container-title: Proceedings of the 8th International Joint Conference on
+    Automated Reasoning (IJCAR'16)
+  url: /publications/2016/RBC+16.pdf
+  doi: 10.1007/978-3-319-40229-1_10
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/ReynoldsBCT16
+
+- title: "A Decision Procedure for Separation Logic in SMT"
+  id: RIS+16
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Radu Iosif
+  - name: Christina Serban
+  - name: Tim King
+  issued:
+  - year: 2016
+  container-title: Proceedings of the 14th International Symposium on Automated
+    Technology for Verification and Analysis (ATVA'16)
+  url: /publications/2016/RIS+16.pdf
+  doi: 10.1007/978-3-319-46520-3_16
+  bibtex: https://dblp.org/rec/bibtex/conf/atva/ReynoldsIS016
+
+- title: "SyGuS Techniques in the Core of an SMT solver"
+  id: RT17
+  type: article-workshop
+  author:
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  issued:
+  - year: 2017
+  container-title: Proceedings of the 6th Workshop on Synthesis (SYNT@CAV'17)
+  url: /publications/2017/RT17.pdf
+  doi: 10.4204/EPTCS.260.8
+  bibtex: https://dblp.org/rec/bibtex/journals/corr/abs-1711-10641
+
+- title: "CVC4 at the SMT Competition 2020"
+  id: smtcomp20
+  type: report
+  author:
+  - name: Clark Barrett
+  - name: Haniel Barbosa
+  - name: Martin Brain
+  - name: Ahmed Irfan
+  - name: Makai Mann
+  - name: Mudathir Mohamed
+  - name: Aina Niemetz
+  - name: Andres Nötzli
+  - name: Alex Ozdemir
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Ying Sheng
+  - name: Cesare Tinelli
+  - name: Amalee Wilson
+  - name: Yoni Zohar
+  issued:
+  - year: 2020
+    month: 6
+  container-title: Technical Report
+  url: /publications/2020/CVC4-SMT-Competition-2020.pdf
+  bibtex: /publications/2020/CVC4-SMT-Competition-2020.bib
+
+- title: "Revisiting Enumerative Instantiation"
+  id: RBF18
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Haniel Barbosa
+  - name: Pascal Fontaine
+  issued:
+  - year: 2018
+    month: 4
+  container-title: Proceedings of the 24th International Conference on Tools and
+    Algorithms for the Construction and Analysis of Systems (TACAS'18)
+  url: /publications/2018/RBF18.pdf
+  doi: 10.1007/978-3-319-89963-3_7
+  bibtex: https://dblp.org/rec/bibtex/conf/tacas/ReynoldsBF18
+
+- title: "Congruence Closure with Free Variables"
+  id: BFR17
+  type: article-conference
+  author:
+  - name: Haniel Barbosa
+  - name: Pascal Fontaine
+  - name: Andrew Reynolds
+  issued:
+  - year: 2017
+    month: 4
+  container-title: Proceedings of the 23rd International Conference on Tools and
+    Algorithms for the Construction and Analysis of Systems (TACAS'17)
+  url: /publications/2017/BFR17.pdf
+  doi: 10.1007/978-3-662-54580-5_13
+  bibtex: https://dblp.org/rec/bibtex/conf/tacas/BarbosaFR17
+
+- title: "Reasoning in the Bernays-Schönfinkel-Ramsey Fragment of Separation
+          Logic"
+  id: RIS17
+  type: article-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Radu Iosif
+  - name: Christina Serban
+  issued:
+  - year: 2017
+  container-title: Proceedings of the 18th International Conference on
+    Verification, Model Checking and Abstract Interpretation (VMCAI'17) 
+  url: /publications/2017/RIS17.pdf
+  doi: 10.1007/978-3-319-52234-02_25
+  bibtex: https://dblp.org/rec/bibtex/conf/vmcai/ReynoldsIS17
+
+- title: "CVC4 at the SMT competition 2019"
+  id: smtcomp19
+  type: report
+  author:
+  - name: Clark Barrett
+  - name: Haniel Barbosa
+  - name: Martin Brain
+  - name: Tim King
+  - name: Makai Mann
+  - name: Aina Niemetz
+  - name: Andres Nötzli
+  - name: Alex Ozdemir
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Yoni Zohar
+  issued:
+  - year: 2019
+    month: 6
+  container-title: Proceedings of the 17th International Workshop on
+    Satisfiability Modulo Theories (SMT'19)
+  url: /publications/2019/CVC4-SMT-Competition-2019.pdf
+  bibtex: /publications/2019/CVC4-SMT-Competition-2019.bib
+
+- title: "CVC4 at the SMT Competition 2018"
+  id: smtcomp18
+  type: report
+  author:
+  - name: Clark Barrett
+  - name: Haniel Barbosa
+  - name: Martin Brain
+  - name: Duligur Ibeling
+  - name: Tim King
+  - name: Paul Meng
+  - name: Aina Niemetz
+  - name: Andres Nötzli
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  issued:
+  - year: 2018
+    month: 6
+  container-title: CoRR abs/1806.08775
+  url: https://arxiv.org/pdf/1806.08775
+  bibtex: https://dblp.org/rec/bibtex/bibtex/journals/corr/abs-1806-08775
+  arxiv: http://arxiv.org/abs/1806.08775
+
+- title: "Reductions for Strings and Regular Expressions Revisited"
+  id: RNB+20-FMCAD
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Andres Nötzli
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2020
+  container-title: Formal Methods in Computer-Aided Design (FMCAD)
+  url: /publications/2020/RNB+20-FMCAD.pdf
+
+- title: "A Decision Procedure for String to Code Point Conversion"
+  id: RNB+20-IJCAR
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Andres Nötzli
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2020
+  container-title: International Joint Conference on Automated Reasoning (IJCAR)
+  url: /publications/2020/RNB+20-IJCAR.pdf
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/ReynoldsNBT20
+  artifact: https://cvc4.github.io/papers/ijcar2020-strings
+
+- title: "Extending enumerative function synthesis via SMT-driven
+          classification"
+  id: BRL+19
+  type: paper-conference
+  author:
+  - name: Haniel Barbosa
+  - name: Andrew Reynolds
+  - name: Daniel Larraz
+  - name: Cesare Tinelli
+  issued:
+  - year: 2019
+  container-title: Formal Methods in Computer-Aided Design (FMCAD)
+  url: /publications/2019/BRL+19.pdf
+  doi: 10.23919/FMCAD.2019.8894267
+  bibtex: https://dblp.org/rec/bibtex/conf/fmcad/BarbosaRLT19
+  note: Best Paper Honorable Mention
+
+- title: "Reasoning with finite sets and cardinality constraints in SMT"
+  id: BBRT18
+  type: article-journal
+  author:
+  - name: Kshitij Bansal
+  - name: Clark Barrett
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  issued:
+  - year: 2018
+    month: 11
+  container-title: Logical Methods in Computer Science
+  volume: '14'
+  issue: '4'
+  abstract: We consider the problem of deciding the satisfiability of quantifier-free
+    formulas in the theory of finite sets with cardinality constraints. Sets are a
+    common high-level data structure used in programming; thus, such a theory is useful
+    for modeling program constructs directly. More importantly, sets are a basic construct
+    of mathematics and thus natural to use when formalizing the properties of computational
+    systems. We develop a calculus describing a modular combination of a procedure
+    for reasoning about membership constraints with a procedure for reasoning about
+    cardinality constraints. Cardinality reasoning involves tracking how different
+    sets overlap. For efficiency, we avoid considering Venn regions directly, as done
+    in previous work. Instead, we develop a novel technique wherein potentially overlapping
+    regions are considered incrementally as needed, using a graph to track the interaction
+    among the different regions. The calculus has been designed to facilitate its
+    implementation within SMT solvers based on the DPLL(T) architecture. Our experimental
+    results demonstrate that the new techniques are competitive with previous techniques
+    and can scale much better on certain classes of problems.
+  keyword: Satisfiability modulo theories, finite sets, decision procedures
+  url: /publications/2018/KRB+18.pdf
+  doi: 10.23638/LMCS-14(4:12)2018
+  bibtex: https://dblp.org/rec/bibtex/journals/lmcs/BansalBRT18
+
+- title: "Solving quantified linear arithmetic by counterexample-guided
+          instantiation"
+  id: RKK17
+  type: article-journal
+  author:
+  - name: Andrew Reynolds
+  - name: Tim King
+  - name: Viktor Kuncak
+  issued:
+  - year: 2017
+  container-title: Formal Methods in System Design
+  publisher: Springer US
+  page: 1-33
+  url: /publications/2017/RKK17.pdf
+  doi: 10.1007/s10703-017-0290-y
+  bibtex: https://dblp.org/rec/bibtex/journals/fmsd/ReynoldsKK17
+
+- title: "Refutation-based synthesis in SMT"
+  id: RKT+17
+  type: article-journal
+  author:
+  - name: Andrew Reynolds
+  - name: Viktor Kuncak
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  - name: Morgan Deters
+  issued:
+  - year: 2019
+  container-title: Formal Methods in System Design
+  publisher: Springer US
+  page: 1-30
+  url: /publications/2017/RKT+17.pdf
+  doi: 10.1007/s10703-017-0270-2
+  bibtex: https://dblp.org/rec/bibtex/journals/fmsd/ReynoldsKTBD19
+
+- title: "Constraint solving for finite model finding in SMT solvers"
+  id: RTB17
+  type: article-journal
+  author:
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  issued:
+  - year: 2017
+  container-title: TPLP
+  page: 516-558
+  volume: '17'
+  issue: '4'
+  url: /publications/2017/RTB17.pdf
+  doi: 10.1017/S1471068417000175
+  bibtex: https://dblp.org/rec/bibtex/journals/tplp/ReynoldsTB17
+
+- title: "A decision procedure for (co)datatypes in SMT solvers"
+  id: RB17
+  type: article-journal
+  author:
+  - name: Andrew Reynolds
+  - name: Jasmin Christian Blanchette
+  issued:
+  - year: 2017
+  container-title: J. Autom. Reasoning
+  page: 341-362
+  volume: '58'
+  issue: '3'
+  url: /publications/2017/RB17.pdf
+  doi: 10.1007/s10817-016-9372-6
+  bibtex: https://dblp.org/rec/bibtex/journals/jar/ReynoldsB17
+
+- title: "An efficient SMT solver for string constraints"
+  id: LRT+16
+  type: article-journal
+  author:
+  - name: Tianyi Liang
+  - name: Andrew Reynolds
+  - name: Nestan Tsiskaridze
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  - name: Morgan Deters
+  issued:
+  - year: 2016
+    month: 6
+  container-title: Formal Methods in System Design
+  publisher: Springer US
+  page: 206-234
+  volume: '48'
+  issue: '3'
+  keyword: String solving; Satisfiability Modulo Theories; Automated Deduction
+  url: /publications/2016/LRT+16.pdf
+  doi: 10.1007/s10703-016-0247-6
+  bibtex: https://dblp.org/rec/bibtex/journals/fmsd/LiangRTTBD16
+  issn: 1572-8102
+
+- title: "Being careful about theory combination"
+  id: JB13
+  type: article-journal
+  author:
+  - name: Dejan Jovanovic
+  - name: Clark Barrett
+  issued:
+  - year: 2013
+    month: 2
+  container-title: Formal Methods in System Design
+  publisher: Springer US
+  page: 67-90
+  volume: '42'
+  issue: '1'
+  keyword: Theory combination; Nelson-Oppen; Satisfiability modulo theories
+  url: /publications/2013/JB13.pdf
+  doi: 10.1007/s10703-012-0159-z
+  bibtex: https://dblp.org/rec/bibtex/journals/fmsd/JovanovicB13
+  issn: 0925-9856
+
+- title: "Towards bit-width-independent proofs in SMT solvers"
+  id: NPR+19
+  type: paper-conference
+  author:
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Yoni Zohar
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2019
+    month: 8
+  container-title: Proceedings of the 27th International Conference on
+    Automated Deduction (CADE'19)
+  collection-title: Lecture Notes in artificial intelligence
+  publisher: Springer
+  page: 366-384
+  volume: '11716'
+  url: /publications/2019/NPR+19.pdf
+  bibtex: https://dblp.org/rec/bibtex/conf/fmcad/BarbosaRLT19
+  doi: 10.1007/978-3-030-29436-6_22
+  artifact: /papers/cade2019-bvproof.html
+
+- title: "Extending SMT solvers to higher-order logic"
+  id: BREO+19
+  type: paper-conference
+  author:
+  - name: Haniel Barbosa
+  - name: Andrew Reynolds
+  - name: Daniel El Ouraoui
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  issued:
+  - year: 2019
+    month: 8
+  container-title: Proceedings of the 27th International Conference on Automated Deduction
+    (CADE'19)
+  collection-title: Lecture Notes in artificial intelligence
+  publisher: Springer
+  page: 35-54
+  volume: '11716'
+  url: /publications/2019/BREO+19.pdf
+  doi: 10.1007/978-3-030-29436-6_3
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/BarbosaROTB19
+
+- title: "Syntax-guided rewrite rule enumeration for SMT solvers"
+  id: NRB+19
+  type: paper-conference
+  author:
+  - name: Andres Nötzli
+  - name: Andrew Reynolds
+  - name: Haniel Barbosa
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2019
+    month: 7
+  container-title: Proceedings of the 22nd International Conference on Theory
+    and Applications of Satisfiability Testing (SAT'19)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 279-297
+  volume: '11628'
+  url: /publications/2019/NRB+19.pdf
+  doi: 10.1007/978-3-030-24258-9_20
+  bibtex: https://dblp.org/rec/bibtex/conf/sat/NotzliRBNPBT19
+  isbn: 978-3-030-24257-2
+
+- title: "DRAT-based bit-vector proofs in CVC4"
+  id: ONP+19
+  type: paper-conference
+  author:
+  - name: Alex Ozdemir
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Yoni Zohar
+  - name: Clark Barrett
+  issued:
+  - year: 2019
+    month: 7
+  container-title: Proceedings of the 22nd International Conference on Theory
+    and Applications of Satisfiability Testing (SAT'19)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 298-305
+  volume: '11628'
+  url: /publications/2019/ONP+19.pdf
+  doi: 10.1007/978-3-030-24258-9_21
+  bibtex: https://dblp.org/rec/bibtex/conf/sat/OzdemirNPZB19
+  isbn: 978-3-030-24257-2
+
+- title: "High-level abstractions for simplifying extended string constraints
+          in SMT"
+  id: RNB+19
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Andres Nötzli
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2019
+    month: 7
+  container-title: Proceedings of the 31st International Conference on Computer
+    Aided Verification (CAV'19)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer International Publishing
+  page: 23-42
+  volume: '11561'
+  url: /publications/2019/RNB+19.pdf
+  doi: 10.1007/978-3-030-25543-5_2
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/ReynoldsNBT19
+  isbn: 978-3-030-25542-8
+
+- title: 'CVC4SY: Smart and fast term enumeration for syntax-guided synthesis'
+  id: RBN+19
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Haniel Barbosa
+  - name: Andres Nötzli
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  issued:
+  - year: 2019
+    month: 7
+  container-title: Proceedings of the 31st International Conference on Computer
+    Aided Verification (CAV'19)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer International Publishing
+  page: 74-83
+  volume: '11561'
+  url: /publications/2019/RBN+19.pdf
+  doi: 10.1007/978-3-030-25543-5_5
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/ReynoldsBNBT19
+  isbn: 978-3-030-25542-8
+
+- title: "Invertibility conditions for floating-point formulas"
+  id: BNP+19
+  type: paper-conference
+  author:
+  - name: Martin Brain
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2019
+    month: 7
+  container-title: Proceedings of the 31st International Conference on Computer
+    Aided Verification (CAV'19)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer International Publishing
+  page: 116-136
+  volume: '11561'
+  url: /publications/2019/BNP+19.pdf
+  doi: 10.1007/978-3-030-25543-5_8
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/BrainNPRBT19
+  isbn: 978-3-030-25542-8
+  artifact: /papers/cav2019-fp.html
+
+- title: "Datatypes with shared selectors"
+  id: RVB+18
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Arjun Viswanathan
+  - name: Haniel Barbosa
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  issued:
+  - year: 2018
+    month: 6
+  container-title: Proceedings of the 9th international joint conference on
+    Automated Reasoning (IJCAR'18)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer International Publishing
+  page: 591-608
+  volume: '10900'
+  url: /publications/2018/RVB+18.pdf
+  doi: 10.1007/978-3-319-94205-6_39
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/ReynoldsVBTB18
+  isbn: 978-3-319-94205-6
+  artifact: /papers/ijcar2018-shsel.html
+
+- title: "Solving quantified bit-vectors using invertibility conditions"
+  id: NPR+18
+  type: paper-conference
+  author:
+  - name: Aina Niemetz
+  - name: Mathias Preiner
+  - name: Andrew Reynolds
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2018
+    month: 7
+  container-title: Proceedings of the 30th International Conference on Computer
+    Aided Verification (CAV'18)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 236-255
+  volume: '10982'
+  url: /publications/2018/NPR+18.pdf
+  doi: 10.1007/978-3-319-96142-2_16
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/NiemetzPRBT18
+  isbn: 978-3-319-96142-2
+  artifact: /papers/cav2018-qbv.html
+
+- title: "Designing theory solvers with extensions"
+  id: RTJ+17
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Dejan Jovanović
+  - name: Clark Barrett
+  issued:
+  - year: 2017
+    month: 9
+  container-title: Proceedings of the 11th International Symposium on Frontiers
+    of Combining Systems (FROCOS'17)
+  collection-title: Lecture Notes in artificial intelligence
+  publisher: Springer
+  page: 22-40
+  volume: '10483'
+  url: /publications/2017/RTJ+17.pdf
+  doi: 10.1007/978-3-319-66167-4_2
+  bibtex: https://dblp.org/rec/bibtex/conf/frocos/ReynoldsTJB17
+  artifact: /papers/frocos2017-ext.html
+
+- title: "Relational constraint solving in SMT"
+  id: MRT+17
+  type: paper-conference
+  author:
+  - name: Baoluo Meng
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  issued:
+  - year: 2017
+    month: 8
+  container-title: Proceedings of the 26th International Conference on
+                   Automated Deduction (CADE'17)
+  collection-title: Lecture Notes in artificial intelligence
+  publisher: Springer
+  page: 148-165
+  volume: '10395'
+  url: /publications/2017/MRT+17.pdf
+  doi: 10.1007/978-3-319-63046-5_10
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/MengRTB17
+  artifact: /papers/cade2017-relations.html
+
+- title: "SMTCoq: A plug-in for integrating SMT solvers into Coq"
+  id: EMT+17
+  type: paper-conference
+  author:
+  - name: Burak Ekici
+  - name: Alain Mebsout
+  - name: Cesare Tinelli
+  - name: Chantal Keller
+  - name: Guy Katz
+  - name: Andrew Reynolds
+  - name: Clark Barrett
+  issued:
+  - year: 2017
+    month: 7
+  container-title: Proceedings of the 29th International Conference on Computer
+    Aided Verification (CAV'17)
+  collection-title: Lecture Notes in Computer Science
+  collection-number: '1'
+  publisher: Springer
+  page: 126-136
+  volume: '10426'
+  url: /publications/2017/EMT+17.pdf
+  doi: 10.1007/978-3-319-63390-9_7
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/EkiciMTKKRB17
+
+- title: "Scaling up DPLL(T) string solvers using context-dependent
+          simplification"
+  id: RWB+17
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Maverick Woo
+  - name: Clark Barrett
+  - name: David Brumley
+  - name: Tianyi Liang
+  - name: Cesare Tinelli
+  issued:
+  - year: 2017
+    month: 7
+  container-title: Proceedings of the 29th International Conference on Computer
+    Aided Verification (CAV'17)
+  collection-title: Lecture Notes in Computer Science
+  collection-number: '1'
+  publisher: Springer
+  page: 453-474
+  volume: '10426'
+  url: /publications/2017/RWB+17.pdf
+  doi: 10.1007/978-3-319-63390-9_24
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/ReynoldsWBBLT17
+  artifact: /papers/cav2017-strings.html 
+
+- title: "Lazy proofs for DPLL(T)-based SMT solvers"
+  id: KBT+16
+  type: paper-conference
+  author:
+  - name: Guy Katz
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  - name: Andrew Reynolds
+  - name: Liana Hadarean
+  issued:
+  - year: 2016
+    month: 10
+  container-title: Proceedings of the 16th International Conference on Formal Methods
+    in Computer-Aided design (FMCAD'16)
+  publisher: FMCAD Inc.
+  page: 93-100
+  url: /publications/2016/KBT+16.pdf
+  doi: 10.1109/FMCAD.2016.7886666
+  bibtex: https://dblp.org/rec/bibtex/conf/fmcad/KatzBTRH16
+  note: Best Paper
+
+- title: "A new decision procedure for finite sets and cardinality constraints
+          in SMT"
+  id: BRBT16
+  type: paper-conference
+  author:
+  - name: Kshitij Bansal
+  - name: Andrew Reynolds
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2016
+    month: 6
+  container-title: Proceedings of the 8th international joint conference on
+    Automated Reasoning (IJCAR'16)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer International Publishing
+  page: 82-98
+  volume: '9706'
+  url: /publications/2016/BRBT16.pdf
+  doi: 10.1007/978-3-319-40229-1_7
+  bibtex: https://dblp.org/rec/bibtex/journals/corr/BansalBRT17
+  isbn: 978-3-319-40229-1
+
+- title: "Fine-grained SMT proofs for the theory of fixed-width bit-vectors"
+  id: HBR+15
+  type: paper-conference
+  author:
+  - name: Liana Hadarean
+  - name: Clark Barrett
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Morgan Deters
+  issued:
+  - year: 2015
+    month: 11
+  container-title: Proceedings of the 20th International Conference on Logic
+    for Programming, Artificial Intelligence, and Reasoning (LPAR'15)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 340-355
+  volume: '9450'
+  url: /publications/2015/HBR+15.pdf
+  doi: 10.1007/978-3-662-48899-7_24
+  bibtex: https://dblp.org/rec/bibtex/conf/lpar/HadareanBRTD15
+
+- title: "A decision procedure for regular membership and length constraints
+          over unbounded strings"
+  id: LTR+15
+  type: paper-conference
+  author:
+  - name: Tianyi Liang
+  - name: Nestan Tsiskaridze
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  issued:
+  - year: 2015
+    month: 9
+  container-title: Proceedings of the 10th International Symposium on Frontiers
+    of Combining Systems (FROCOS'15)
+  collection-title: Lecture Notes in artificial intelligence
+  publisher: Springer
+  page: 135-150
+  volume: '9322'
+  url: /publications/2015/LTR+15.pdf
+  doi: 10.1007/978-3-319-24246-0_9
+  bibtex: https://dblp.org/rec/bibtex/conf/frocos/LiangTRTB15
+
+- title: "Counterexample guided quantifier instantiation for synthesis in SMT"
+  id: RDK+15
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Morgan Deters
+  - name: Viktor Kuncak
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2015
+    month: 7
+  container-title: Proceedings of the 27th International Conference on Computer
+    Aided Verification (CAV'15)
+  collection-title: Lecture Notes in Computer Science
+  collection-number: '2'
+  publisher: Springer
+  page: 198-216
+  volume: '9206'
+  url: /publications/2015/RDK+15.pdf
+  doi: 10.1007/978-3-319-21668-3_12
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/ReynoldsDKTB15
+
+- title: "Deciding local theory extensions via E-matching"
+  id: BRK+15
+  type: paper-conference
+  author:
+  - name: Kshitij Bansal
+  - name: Andrew Reynolds
+  - name: Tim King
+  - name: Clark Barrett
+  - name: Thomas Wies
+  issued:
+  - year: 2015
+    month: 7
+  container-title: Proceedings of the 27th International Conference on Computer
+    Aided Verification (CAV'15)
+  collection-title: Lecture Notes in Computer Science
+  collection-number: '2'
+  publisher: Springer
+  page: 87-105
+  volume: '9206'
+  url: /publications/2015/BRK+15.pdf
+  doi: 10.1007/978-3-319-21668-3_6
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/BansalR0BW15
+
+- title: "Leveraging linear and mixed integer programming for SMT"
+  id: KBT14
+  type: paper-conference
+  author:
+  - name: Tim King
+  - name: Clark Barrett
+  - name: Cesare Tinelli
+  issued:
+  - year: 2014
+    month: 10
+  container-title: Proceedings of the 14th International Conference on Formal
+    Methods in Computer-Aided design (FMCAD'14)
+  publisher: FMCAD Inc.
+  page: 139-146
+  url: /publications/2014/KBT14.pdf
+  doi: 10.1109/FMCAD.2014.6987606
+  bibtex: https://dblp.org/rec/bibtex/conf/fmcad/0001BT14
+
+- title: 'A tale of two solvers: Eager and lazy approaches to bit-vectors'
+  id: HBJ+14
+  type: paper-conference
+  author:
+  - name: Liana Hadarean
+  - name: Clark Barrett
+  - name: Dejan Jovanović
+  - name: Cesare Tinelli
+  - name: Kshitij Bansal
+  issued:
+  - year: 2014
+    month: 7
+  container-title: Proceedings of the 26th International Conference on Computer
+    Aided Verification (CAV'14)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 680-695
+  volume: '8559'
+  url: /publications/2014/HBJ+14.pdf
+  doi: 10.1007/978-3-319-08867-9_45
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/HadareanBJBT14
+
+- title: "A DPLL(T) theory solver for a theory of strings and regular
+          expressions"
+  id: LRT+14
+  type: paper-conference
+  author:
+  - name: Tianyi Liang
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Clark Barrett
+  - name: Morgan Deters
+  issued:
+  - year: 2014
+    month: 7
+  container-title: Proceedings of the 26th International Conference on Computer
+    Aided Verification (CAV'14)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 646-662
+  volume: '8559'
+  url: /publications/2014/LRT+14.pdf
+  doi: 10.1007/978-3-319-08867-9_43
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/LiangRTBD14
+  artifact: /papers/cav2014-strings.html
+
+- title: "Simplex with sum of infeasibilities for SMT"
+  id: KBD13
+  type: paper-conference
+  author:
+  - name: Timothy King
+  - name: Clark Barrett
+  - name: Bruno Dutertre
+  issued:
+  - year: 2013
+    month: 10
+  container-title: Proceedings of the 13th International Conference on Formal
+    Methods in Computer-Aided design (FMCAD'13)
+  publisher: FMCAD Inc.
+  page: 189-196
+  url: /publications/2013/KBD13.pdf
+  bibtex: https://dblp.org/rec/bibtex/conf/fmcad/KingBD13
+
+- title: "The design and implementation of the model constructing
+          satisfiability calculus"
+  id: JBdM13
+  type: paper-conference
+  author:
+  - name: Dejan Jovanović
+  - name: Clark Barrett
+  - name: Leonardo Moura
+    dropping-particle: de
+  issued:
+  - year: 2013
+    month: 10
+  container-title: Proceedings of the 13th International Conference on Formal
+    Methods in Computer-Aided design (FMCAD'13)
+  publisher: FMCAD Inc.
+  page: 173-180
+  url: /publications/2013/JBdM13.pdf
+
+- title: "Quantifier instantiation techniques for finite model finding in SMT"
+  id: RTG+13
+  type: paper-conference
+  author:
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  - name: Amit Goel
+  - name: Sava Krstic
+  - name: Morgan Deters
+  - name: Clark Barrett
+  issued:
+  - year: 2013
+  container-title: Proceedings of the 24th International Conference on
+                   Automated Deduction (CADE'13)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer Berlin Heidelberg
+  page: 377-391
+  volume: '7898'
+  url: /publications/2013/RTG+13.pdf
+  doi: 10.1007/978-3-642-38574-2_26
+  bibtex: https://dblp.org/rec/bibtex/conf/cade/ReynoldsTGKDB13
+  isbn: 978-3-642-38573-5
+  artifact: /papers/cade2013-qifmf.html
+
+- title: "Sharing is caring: Combination of theories"
+  id: JB11-FroCoS
+  type: paper-conference
+  author:
+  - name: Dejan Jovanović
+  - name: Clark Barrett
+  issued:
+  - year: 2011
+    month: 10
+  container-title: Proceedings of the 8th International Symposium on Frontiers
+    of Combining Systems (FROCOS'11)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 195-210
+  volume: '6989'
+  url: /publications/2011/JB11-FroCoS.pdf
+  doi: 10.1007/978-3-642-24364-6_14
+  bibtex: https://dblp.org/rec/bibtex/conf/frocos/JovanovicB11
+
+- title: "CVC4"
+  id: BCD+11
+  type: paper-conference
+  author:
+  - name: Clark Barrett
+  - name: Christopher L. Conway
+  - name: Morgan Deters
+  - name: Liana Hadarean
+  - name: Dejan Jovanović
+  - name: Tim King
+  - name: Andrew Reynolds
+  - name: Cesare Tinelli
+  issued:
+  - year: 2011
+    month: 7
+  container-title: Proceedings of the 23rd International Conference on Computer
+    Aided Verification (CAV'11)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 171-177
+  volume: '6806'
+  url: /publications/2011/BCD+11.pdf
+  doi: 10.1007/978-3-642-22110-1_14
+  bibtex: https://dblp.org/rec/bibtex/conf/cav/BarrettCDHJKRT11
+
+- title: "Polite Theories Revisited"
+  id: JB10-LPAR
+  type: paper-conference
+  author:
+  - name: Dejan Jovanović
+  - name: Clark Barrett
+  issued:
+  - year: 2010
+    month: 10
+  container-title: Proceedings of the 17th International Conference on Logic
+    for Programming, Artificial Intelligence, and Reasoning (LPAR'10)
+  collection-title: Lecture Notes in Computer Science
+  publisher: Springer
+  page: 402-416
+  volume: '6397'
+  url: /publications/2010/JB10-LPAR.pdf
+  doi: 10.1007/978-3-642-16242-8_29
+  bibtex: https://dblp.org/rec/bibtex/conf/lpar/JovanovicB10
+  isbn: 3-642-16241-X, 978-3-642-16241-1
+  issn: 0302-9743
+...
