@@ -5,7 +5,7 @@ title: tools
 
 <div class="row">
 {% for t in site.data.tools %}
-<div class="col" style="text-align:center;">
+<div class="col">
 <a href="{{ t.website }}">
   <img src="img/tools/{{ t.logo }}" alt="{{ t.name }}"/>
 </a>

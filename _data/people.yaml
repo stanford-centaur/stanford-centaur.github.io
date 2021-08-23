@@ -5,6 +5,7 @@ faculty:
   title: Associate Professor of Computer Science
   img: clark.jpg
   website: http://theory.stanford.edu/~barrett/
+  active: yes
 
 staff:
 
@@ -12,21 +13,25 @@ staff:
   title: Research Scientist
   img: lonsing.jpg
   website: http://www.florianlonsing.com/
+  active: yes
 
 - name: Aina Niemetz
   title: Research Scientist
   img: niemetz.png
   website: http://cs.stanford.edu/~niemetz
+  active: yes
 
 - name: Mathias Preiner
   title: Research Scientist
   img: default.png
   website: http://cs.stanford.edu/~preiner
+  active: yes
 
 - name: Nestan Tsiskaridze
   title: Research Scientist
   img: tsiskaridze.jpg
   website: https://sites.cs.ucsb.edu/~nestan/
+  active: yes
 
 postdocs:
 
@@ -34,65 +39,119 @@ postdocs:
   title: Postdoctoral Researcher
   img: default.png
   website: https://cs.stanford.edu/~gkremer/
+  active: yes
+
+- name: Guy Katz
+  title: Postdoctoral Researcher
+  img: katz.webp
+  website: https://www.katz-lab.com/
+  active: no
+  now: Hebrew University
+
+- name: Ahmed Irfan
+  title: Postdoctoral Researcher
+  img: default.png
+  website: https://ahmed-irfan.github.io/
+  active: no
+  now: AWS
+
+- name: Cristian Mattarei
+  title: Postdoctoral Researcher
+  img: mattarei.jpg
+  website: http://www.mattarei.eu/cristian/
+  active: no
+  now: Apple
+
+- name: Aina Niemetz
+  title: Research Scientist
+  img: niemetz.png
+  website: http://cs.stanford.edu/~niemetz
+  active: no 
+  now: Research Scientist at Stanford University
 
 - name: Andres Nötzli
   title: Postdoctoral Researcher
   img: default.png
   website: https://cs.stanford.edu/~noetzli/
+  active: yes
+
+- name: Mathias Preiner
+  title: Research Scientist
+  img: default.png
+  website: http://cs.stanford.edu/~preiner
+  active: no
+  now: Research Scientist at Stanford University
 
 - name: Aleksandar Zeljić
   title: Postdoctoral Researcher
   img: zeljic.png
   website: https://aleksandarzeljic.github.io/
+  active: yes
 
 - name: Yoni Zohar
   title: Postdoctoral Researcher
   img: zohar.jpg
   website: https://cs.stanford.edu/~yoniz/
+  active: no
 
-students:
+grad:
 
 - name: Caleb Donovick
   title: Ph.D. Candidate
   img: default.png
   website: https://profiles.stanford.edu/caleb-donovick
+  active: yes
 
 - name: Hanna Lachnitt
   title: Ph.D. Candidate
   img: default.png
   website: https://profiles.stanford.edu/hanna-lachnitt
+  active: yes
 
 - name: Makai Mann
   title: Ph.D. Candidate
   img: mann.jpg
   website: https://makaimann.github.io
+  active: yes
+
+- name: Andres Nötzli
+  title: Ph.D. Candidate
+  img: default.png
+  website: https://cs.stanford.edu/~noetzli/
+  active: no
+  now: Postdoctoral Researcher at Stanford University
 
 - name: Alex Ozdemir
   title: Ph.D. Candidate
   img: ozdemir.jpg
   website: https://cs.stanford.edu/~aozdemir/
+  active: yes
 
 - name: Ying Sheng
   title: Ph.D. Candidate
   img: default.png
   website: https://profiles.stanford.edu/ying-sheng
+  active: yes
 
-- name: Lindsey Stuntz
-  title: Ph.D. Candidate
-  img: default.png
-  website: https://profiles.stanford.edu/lindsey-stuntz
+  #- name: Lindsey Stuntz
+  #  title: Ph.D. Candidate
+  #  img: default.png
+  #  website: https://profiles.stanford.edu/lindsey-stuntz
 
 - name: Scott Viteri
   title: Ph.D. Candidate
   img: default.png
   website: https://profiles.stanford.edu/scott-viteri
+  active: yes
 
 - name: Amalee Wilson
   title: Ph.D. Candidate
   img: wilson.jpg
   website: https://profiles.stanford.edu/amalee-wilson
+  active: yes
 
 - name: Haoze Wu
   title: Ph.D. Candidate
   img: wu.jpg
   website: https://anwu1219.github.io/
+  active: yes
