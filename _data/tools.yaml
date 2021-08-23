@@ -66,7 +66,7 @@
 
 - name: Marabou
   logo: marabou.png
-  website: https://github.com/NeuralNetworkVerification/Marabou
+  website: https://neuralnetworkverification.github.io/
   github: https://github.com/NeuralNetworkVerification/Marabou
   desc-brief: SMT-Based Framework for Verifying Deep Neural Networks
   desc-long: >-
