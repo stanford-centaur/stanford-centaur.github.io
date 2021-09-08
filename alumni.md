@@ -18,49 +18,65 @@ title: alumni
 <div class="alumni">
 {% if faculty != empty %}
 <h2>Former Faculty</h2>
-{% for p in faculty %}
+{% assign years = faculty | map: 'end' | uniq | sort | reverse %}
+{% for year in years %}
+{% assign f = faculty | where: 'end', year %}
+{% for p in f %}
 <div class="col">
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b>{% if p.now %}, {{ p. now }}{% endif %}
+&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
+{% endfor %}
 {% endfor %}
 {% endif %}
 
 {% if staff != empty %}
 <h2>Former Research Scientists</h2>
-{% for p in staff %}
+{% assign years = staff | map: 'end' | uniq | sort | reverse %}
+{% for year in years %}
+{% assign st = staff | where: 'end', year %}
+{% for p in st %}
 <div class="col">
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b>{% if p.now %}, {{ p. now }}{% endif %}
+&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
+{% endfor %}
 {% endfor %}
 {% endif %}
 
 {% if postdocs != empty %}
 <h2>Former Postdoctoral Researchers</h2>
-{% for p in postdocs %}
+{% assign years = postdocs | map: 'end' | uniq | sort | reverse %}
+{% for year in years %}
+{% assign pd = postdocs | where: 'end', year %}
+{% for p in pd %}
 <div class="col">
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b>{% if p.now %}, {{ p. now }}{% endif %}
+&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
+{% endfor %}
 {% endfor %}
 {% endif %}
 
 {% if grad != empty %}
 <h2>Former Graduate Students</h2>
-{% for p in grad %}
+{% assign years = grad | map: 'end' | uniq | sort | reverse %}
+{% for year in years %}
+{% assign g = grad | where: 'end', year %}
+{% for p in g %}
 <div class="col">
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b>{% if p.now %}, {{ p. now }}{% endif %}
+&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
+{% endfor %}
 {% endfor %}
 {% endif %}
 </div>

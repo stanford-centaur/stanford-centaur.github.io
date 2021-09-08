@@ -28,7 +28,7 @@ title: people
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>
 <br/>
-{{ p.title }}
+{% if p.title %}{{ p.title }}{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -45,7 +45,7 @@ title: people
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>
 <br/>
-{{ p.title }}
+{% if p.title %}{{ p.title }}{% else %}Research Scientist{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -62,7 +62,7 @@ title: people
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>
 <br/>
-{{ p.title }}
+Postdoctoral Researcher
 </div>
 {% endfor %}
 </div>
@@ -79,7 +79,7 @@ title: people
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>
 <br/>
-{{ p.title }}
+{% if p.position == 'phd' %}Ph.D. Student{% else if p.position == 'master' %}Masters Student{% endif %}
 </div>
 {% endfor %}
 </div>
