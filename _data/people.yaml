@@ -1,158 +1,159 @@
 ---
-faculty:
 
 - name: Clark Barrett
+  position: faculty
   title: Associate Professor of Computer Science
   img: clark.jpg
   website: http://theory.stanford.edu/~barrett/
-  active: yes
-
-staff:
+  start: 2016
 
 - name: Florian Lonsing
-  title: Research Scientist
+  position: research_scientist
   img: lonsing.jpg
   website: http://www.florianlonsing.com/
-  active: yes
+  start: 2019
 
 - name: Aina Niemetz
-  title: Research Scientist
+  position: research_scientist
   img: niemetz.png
   website: http://cs.stanford.edu/~niemetz
-  active: yes
+  start: 2019
 
 - name: Mathias Preiner
-  title: Research Scientist
+  position: research_scientist
   img: default.png
   website: http://cs.stanford.edu/~preiner
-  active: yes
+  start: 2019
 
 - name: Nestan Tsiskaridze
-  title: Research Scientist
+  position: research_scientist
   img: tsiskaridze.jpg
   website: https://sites.cs.ucsb.edu/~nestan/
-  active: yes
-
-postdocs:
+  start: 2020
 
 - name: Gereon Kremer
-  title: Postdoctoral Researcher
+  position: postdoc
   img: default.png
   website: https://cs.stanford.edu/~gkremer/
-  active: yes
+  start: 2020
 
 - name: Guy Katz
-  title: Postdoctoral Researcher
+  position: postdoc
   img: katz.webp
   website: https://www.katz-lab.com/
-  active: no
+  start: 2016
+  end: 2018
   now: Hebrew University
 
 - name: Ahmed Irfan
-  title: Postdoctoral Researcher
+  position: postdoc
   img: default.png
   website: https://ahmed-irfan.github.io/
-  active: no
+  start: 2019
+  end: 2021
   now: AWS
 
 - name: Cristian Mattarei
-  title: Postdoctoral Researcher
+  position: postdoc
   img: mattarei.jpg
   website: http://www.mattarei.eu/cristian/
-  active: no
+  start: 2016
+  end: 2018
   now: Apple
 
 - name: Aina Niemetz
-  title: Research Scientist
+  position: postdoc
   img: niemetz.png
   website: http://cs.stanford.edu/~niemetz
-  active: no 
-  now: Research Scientist at Stanford University
+  start: 2017
+  end: 2019
+  now: Research Scientist at Stanford University (Centaur)
 
 - name: Andres Nötzli
-  title: Postdoctoral Researcher
+  position: postdoc
   img: default.png
   website: https://cs.stanford.edu/~noetzli/
-  active: yes
+  start: 2021
 
 - name: Mathias Preiner
-  title: Research Scientist
+  position: postdoc
   img: default.png
   website: http://cs.stanford.edu/~preiner
-  active: no
-  now: Research Scientist at Stanford University
+  start: 2017
+  end: 2019
+  now: Research Scientist at Stanford University (Centaur)
 
 - name: Aleksandar Zeljić
-  title: Postdoctoral Researcher
+  position: postdoc
   img: zeljic.png
   website: https://aleksandarzeljic.github.io/
-  active: yes
+  start: 2018
 
 - name: Yoni Zohar
-  title: Postdoctoral Researcher
+  position: postdoc
   img: zohar.jpg
   website: https://cs.stanford.edu/~yoniz/
-  active: no
+  start: 2018
+  end: 2021
   now: Bar Ilan University
 
-grad:
-
 - name: Caleb Donovick
-  title: Ph.D. Candidate
+  position: phd
   img: default.png
   website: https://profiles.stanford.edu/caleb-donovick
-  active: yes
+  start: 2016
 
 - name: Hanna Lachnitt
-  title: Ph.D. Candidate
+  position: phd
   img: default.png
   website: https://profiles.stanford.edu/hanna-lachnitt
-  active: yes
+  start: 2020
 
 - name: Makai Mann
-  title: Ph.D. Candidate
+  position: phd
   img: mann.jpg
   website: https://makaimann.github.io
-  active: yes
+  start: 2016
 
 - name: Andres Nötzli
-  title: Ph.D. Candidate
+  position: phd
   img: default.png
   website: https://cs.stanford.edu/~noetzli/
-  active: no
-  now: Postdoctoral Researcher at Stanford University
+  start: 2014
+  end: 2021
+  now: Postdoctoral Researcher at Stanford University (Centaur)
 
 - name: Alex Ozdemir
-  title: Ph.D. Candidate
+  position: phd
   img: ozdemir.jpg
   website: https://cs.stanford.edu/~aozdemir/
-  active: yes
+  start: 2018
 
 - name: Ying Sheng
-  title: Ph.D. Candidate
+  position: phd
   img: default.png
   website: https://profiles.stanford.edu/ying-sheng
-  active: yes
+  start: 2018
 
   #- name: Lindsey Stuntz
-  #  title: Ph.D. Candidate
+  #  position: phd
   #  img: default.png
   #  website: https://profiles.stanford.edu/lindsey-stuntz
 
 - name: Scott Viteri
-  title: Ph.D. Candidate
+  position: phd
   img: default.png
   website: https://profiles.stanford.edu/scott-viteri
-  active: yes
+  start: 2019
 
 - name: Amalee Wilson
-  title: Ph.D. Candidate
+  position: phd
   img: wilson.jpg
   website: https://profiles.stanford.edu/amalee-wilson
-  active: yes
+  start: 2019
 
 - name: Haoze Wu
-  title: Ph.D. Candidate
+  position: phd
   img: wu.jpg
   website: https://anwu1219.github.io/
-  active: yes
+  start: 2018
