@@ -22,11 +22,15 @@ title: people
 <div class="row">
 {% for p in faculty %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
+{% else %}
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
 <br/>
-<b><a href="{{ p.website }}">{{ p.name }}</a></b>
+<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
 <br/>
 {% if p.title %}{{ p.title }}{% endif %}
 </div>
@@ -39,11 +43,15 @@ title: people
 <div class="row">
 {% for p in staff %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
+{% else %}
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
 <br/>
-<b><a href="{{ p.website }}">{{ p.name }}</a></b>
+<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}p.name{% endif %}</b>
 <br/>
 {% if p.title %}{{ p.title }}{% else %}Research Scientist{% endif %}
 </div>
@@ -56,11 +64,15 @@ title: people
 <div class="row">
 {% for p in postdocs %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
+{% else %}
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
 <br/>
-<b><a href="{{ p.website }}">{{ p.name }}</a></b>
+<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
 <br/>
 Postdoctoral Researcher
 </div>
@@ -73,11 +85,15 @@ Postdoctoral Researcher
 <div class="row">
 {% for p in grad %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
+{% else %}
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
 <br/>
-<b><a href="{{ p.website }}">{{ p.name }}</a></b>
+<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
 <br/>
 {% if p.position == 'phd' %}Ph.D. Student{% else if p.position == 'master' %}Masters Student{% endif %}
 </div>

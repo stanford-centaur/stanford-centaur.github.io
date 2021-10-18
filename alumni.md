@@ -23,10 +23,14 @@ title: alumni
 {% assign f = faculty | where: 'end', year %}
 {% for p in f %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
 <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
+{% else %}
+<img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
+&nbsp;<b>{% if p.website %}<a href="{{ p. website}}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
 {% endfor %}
 {% endfor %}
@@ -39,10 +43,14 @@ title: alumni
 {% assign st = staff | where: 'end', year %}
 {% for p in st %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
+{% else %}
+  <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
+&nbsp;<b>{% if p.website %}<a href="{{ p. website}}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
 {% endfor %}
 {% endfor %}
@@ -55,10 +63,14 @@ title: alumni
 {% assign pd = postdocs | where: 'end', year %}
 {% for p in pd %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
+{% else %}
+  <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
+&nbsp;<b>{% if p.website %}<a href="{{ p. website}}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
 {% endfor %}
 {% endfor %}
@@ -71,10 +83,14 @@ title: alumni
 {% assign g = phd | where: 'end', year %}
 {% for p in g %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
+{% else %}
+  <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
+&nbsp;<b>{% if p.website %}<a href="{{ p. website}}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
 {% endfor %}
 {% endfor %}
@@ -87,10 +103,14 @@ title: alumni
 {% assign g = master | where: 'end', year %}
 {% for p in g %}
 <div class="col">
+{% if p.website %}
 <a href="{{ p.website }}">
   <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
-&nbsp;<b><a href="{{ p. website}}">{{ p.name }}</a></b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
+{% else %}
+  <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
+&nbsp;<b>{% if p.website %}<a href="{{ p. website}}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
 {% endfor %}
 {% endfor %}

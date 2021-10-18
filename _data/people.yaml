@@ -117,6 +117,7 @@
 
 - name: Yancheng Ou
   position: master
+  website: https://profiles.stanford.edu/yancheng-ou
   start: 2021
 
 - name: Alex Ozdemir
@@ -129,6 +130,7 @@
   position: master
   start: 2018
   end: 2019
+  now: Apple
 
 - name: Ying Sheng
   position: phd
@@ -143,11 +145,13 @@
   position: master
   start: 2019
   end: 2020
+  now: Apple
 
 - name: Shantanu Takoor
   position: master
   start: 2018
   end: 2019
+  now: DeepMind
 
 - name: Scott Viteri
   position: phd
@@ -158,6 +162,7 @@
   position: master
   start: 2019
   end: 2020
+  now: Ph.D. student at U Penn
 
 - name: Amalee Wilson
   position: phd
@@ -175,3 +180,4 @@
   position: master
   start: 2019
   end: 2020
+  now: Facebook Novi
