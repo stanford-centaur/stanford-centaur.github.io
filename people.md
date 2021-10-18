@@ -23,7 +23,7 @@ title: people
 {% for p in faculty %}
 <div class="col">
 <a href="{{ p.website }}">
-  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>
@@ -40,7 +40,7 @@ title: people
 {% for p in staff %}
 <div class="col">
 <a href="{{ p.website }}">
-  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>
@@ -57,7 +57,7 @@ title: people
 {% for p in postdocs %}
 <div class="col">
 <a href="{{ p.website }}">
-  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>
@@ -74,7 +74,7 @@ Postdoctoral Researcher
 {% for p in grad %}
 <div class="col">
 <a href="{{ p.website }}">
-  <img src="img/people/{{ p.img }}" alt="{{ p.name }}"/>
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 </a>
 <br/>
 <b><a href="{{ p.website }}">{{ p.name }}</a></b>

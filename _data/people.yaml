@@ -21,7 +21,6 @@
 
 - name: Mathias Preiner
   position: research_scientist
-  img: default.png
   website: http://cs.stanford.edu/~preiner
   start: 2019
 
@@ -33,7 +32,6 @@
 
 - name: Gereon Kremer
   position: postdoc
-  img: default.png
   website: https://cs.stanford.edu/~gkremer/
   start: 2020
 
@@ -47,7 +45,6 @@
 
 - name: Ahmed Irfan
   position: postdoc
-  img: default.png
   website: https://ahmed-irfan.github.io/
   start: 2019
   end: 2021
@@ -71,13 +68,11 @@
 
 - name: Andres Nötzli
   position: postdoc
-  img: default.png
   website: https://cs.stanford.edu/~noetzli/
   start: 2021
 
 - name: Mathias Preiner
   position: postdoc
-  img: default.png
   website: http://cs.stanford.edu/~preiner
   start: 2017
   end: 2019
@@ -99,13 +94,11 @@
 
 - name: Caleb Donovick
   position: phd
-  img: default.png
   website: https://profiles.stanford.edu/caleb-donovick
   start: 2016
 
 - name: Hanna Lachnitt
   position: phd
-  img: default.png
   website: https://profiles.stanford.edu/hanna-lachnitt
   start: 2020
 
@@ -117,11 +110,14 @@
 
 - name: Andres Nötzli
   position: phd
-  img: default.png
   website: https://cs.stanford.edu/~noetzli/
   start: 2014
   end: 2021
   now: Postdoctoral Researcher at Stanford University (Centaur)
+
+- name: Yancheng Ou
+  position: master
+  start: 2021
 
 - name: Alex Ozdemir
   position: phd
@@ -129,22 +125,39 @@
   website: https://cs.stanford.edu/~aozdemir/
   start: 2018
 
+- name: Parth Shah
+  position: master
+  start: 2018
+  end: 2019
+
 - name: Ying Sheng
   position: phd
-  img: default.png
   website: https://profiles.stanford.edu/ying-sheng
   start: 2018
 
   #- name: Lindsey Stuntz
   #  position: phd
-  #  img: default.png
   #  website: https://profiles.stanford.edu/lindsey-stuntz
+
+- name: Mario Srouji
+  position: master
+  start: 2019
+  end: 2020
+
+- name: Shantanu Takoor
+  position: master
+  start: 2018
+  end: 2019
 
 - name: Scott Viteri
   position: phd
-  img: default.png
   website: https://profiles.stanford.edu/scott-viteri
   start: 2019
+
+- name: Yahan Yang
+  position: master
+  start: 2019
+  end: 2020
 
 - name: Amalee Wilson
   position: phd
@@ -157,3 +170,8 @@
   img: wu.jpg
   website: https://anwu1219.github.io/
   start: 2018
+
+- name: Emma Zhong
+  position: master
+  start: 2019
+  end: 2020
