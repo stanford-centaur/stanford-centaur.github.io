@@ -2,10 +2,24 @@
 
 - name: Clark Barrett
   position: faculty
-  title: Associate Professor of Computer Science
+  title: Professor (Research) of Computer Science,<br/>Director
   img: clark.jpg
   website: http://theory.stanford.edu/~barrett/
   start: 2016
+
+- name: Subhasish Mitra
+  position: faculty
+  title: Professor of Computer Science and Electrical Engineering
+  img: mitra.jpg
+  website: https://web.stanford.edu/~subh/
+  start: 2006
+
+- name: Caroline Trippel
+  position: faculty
+  title: Assistant Professor of Computer Science and Electrical Engineering
+  img: trippel.jpg
+  website: https://cs.stanford.edu/people/trippel/
+  start: 2020
 
 - name: Florian Lonsing
   position: research_scientist
@@ -92,6 +106,10 @@
   end: 2021
   now: Bar Ilan University
 
+- name: Rachel Cleaveland
+  position: phd
+  start: 2021
+
 - name: Caleb Donovick
   position: phd
   website: https://profiles.stanford.edu/caleb-donovick
@@ -107,6 +125,8 @@
   img: mann.jpg
   website: https://makaimann.github.io
   start: 2016
+  end: 2021
+  now: MIT Lincoln Laboratory
 
 - name: Andres Nötzli
   position: phd
