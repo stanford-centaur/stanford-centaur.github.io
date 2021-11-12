@@ -15,7 +15,7 @@ membership fees provide essential funding for the center's activities, but
 members also have the opportunity to pose research challenges from the real
 world and collaborate with the center on solutions.
 
-| Sponsorship level                       | Platinum      |  Gold           | Silver<br/> (founding members only)  |
+| Sponsorship level                       | Platinum      |  Gold           | Silver<br/> (founding year only)  |
 ----------------------------------------- | ------------- | --------------- | ------------------------------------ |
 | Membership fee per year                 | $200K         | $100K           | $50K                                 |
 | Corporate Commitment                    | 3 years       | yearly          | yearly                               |
