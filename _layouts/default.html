@@ -24,19 +24,29 @@
   <body>
     <nav id="navbar">
       <ul>
-        <li><a {% if page.title == "people" %}class="active" {% endif %}href="/foo/people.html">People</a></li>
-        <li><a {% if page.title == "alumni" %}class="active" {% endif %}href="/foo/alumni.html">Alumni</a></li>
-        <li><a {% if page.title == "publications" %}class="active" {% endif %}href="/foo/publications.html">Publications</a></li>
-        <li><a {% if page.title == "tools" %}class="active" {% endif %}href="/foo/tools.html">Tools</a></li>
+        <li><a {% if page.title == "home" %}class="active" {% endif %}href="index.html">Home</a></li>
+        <li><a {% if page.title == "people" %}class="active" {% endif %}href="people.html">People</a></li>
+        <li><a {% if page.title == "alumni" %}class="active" {% endif %}href="alumni.html">Alumni</a></li>
+        <li><a {% if page.title == "publications" %}class="active" {% endif %}href="publications.html">Publications</a></li>
+        <li><a {% if page.title == "tools" %}class="active" {% endif %}href="tools.html">Tools</a></li>
       </ul>
+      <div style="clear:left;"></div>
     </nav>
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      <h1 class="project-name"><a href="{{ "/" | absolute_url }}"><img src="img/logo_header.png"></img></a></h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
+    {% if page.highlight %}
+      <div id="content-high">
+        <div>{{ page.highlight}}</div>
+      </div>
+    {% else %}
+      {% if page.title %}
+        <div id="content-title">{{ page.title | capitalize }}&nbsp;</div>
+      {% endif %}
+    {% endif %}
     <main id="content" class="main-content" role="main">
-      <h1>{{ page.title | capitalize }}</h1>
       {{ content }}
     </main>
 
@@ -56,25 +66,21 @@
                 <li>
                   <a href="https://www.stanford.edu", style="font-family:Rubik;font-size:1rem">
                     <b>Stanford Home</b>
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://visit.stanford.edu/plan/", style="font-family:Rubik;font-size:1rem">
                     <b>Maps &amp; Directions</b>
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.stanford.edu/search/", style="font-family:Rubik;font-size:1rem">
                     <b>Search Stanford</b>
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://emergency.stanford.edu", style="font-family:Rubik;font-size:1rem">
                    <b>Emergency Info</b>
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
               </ul>
@@ -82,37 +88,31 @@
                 <li>
                   <a href="https://www.stanford.edu/site/terms/" title="Terms of use for sites", style="font-family:Rubik;font-size:1rem">
                     Terms of Use
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.stanford.edu/site/privacy/" title="Privacy and cookie policy", style="font-family:Rubik;font-size:1rem">
                     Privacy
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://uit.stanford.edu/security/copyright-infringement" title="Report alleged copyright infringement", style="font-family:Rubik;font-size:1rem">
                     Copyright
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" title="Ownership and use of Stanford trademarks and images", style="font-family:Rubik;font-size:1rem">
                     Trademarks
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/" title="Non-discrimination policy", style="font-family:Rubik;font-size:1rem">
                     Non-Discrimination
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.stanford.edu/site/accessibility" title="Report web accessibility issues", style="font-family:Rubik;font-size:1rem">
                     Accessibility
-                    <span class="su-global-footer__link-a11y">(link is external)</span>
                   </a>
                 </li>
               </ul>
