@@ -18,8 +18,8 @@ world and collaborate with the center on solutions.
 | Sponsorship level                       | Platinum      |  Gold           | Silver<br/> (founding year only)  |
 ----------------------------------------- | ------------- | --------------- | ------------------------------------ |
 | Membership fee per year                 | $200K         | $100K           | $50K                                 |
-| Corporate Commitment                    | 3 years       | yearly          | yearly                               |
-| Research Collaboration Engagement       | High          | Medium          | Low                                  |
+| Corporate commitment                    | 3 years       | yearly          | yearly                               |
+| Research collaboration engagement       | High          | Medium          | Low                                  |
 | Feature request priority                | Top           | High            | Medium                               |
 | Bug fix priority                        | Top           | High            | Medium                               |
 | Visiting scholar positions              | Yes           | Additional fee  | Additional fee                       |
