@@ -37,9 +37,9 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
-    {% if page.highlight %}
-      <div id="content-high">
-        <div>{{ page.highlight}}</div>
+    {% if page.mission %}
+      <div id="content-mission">
+        <div>{{ page.mission}}</div>
       </div>
     {% else %}
       {% if page.title %}
@@ -51,79 +51,89 @@
     </main>
 
     <footer class="site-footer">
-      <div class="su-global-footer su-global-footer--dark", style="text-align:left">
-        <div class="su-global-footer__container" title="Common Stanford resources">
-          <div class="su-global-footer__brand">
-            <a class="su-logo su-global-footer--dark" href="https://www.stanford.edu", style="line-height:0.5;font-family:Stanford,\"Source Serif Pro\",Georgia,Times,Times New Roman,serif">
-              <span style="font-size:2.4rem">Stanford</span>
-              <br />
-              <span style="font-size:1.4rem">University</span>
-            </a>
-          </div>
-          <div class="su-global-footer__content", style="line-height:.75">
-            <nav aria-label="global footer menu">
-              <ul class="su-global-footer__menu su-global-footer__menu--global">
-                <li>
-                  <a href="https://www.stanford.edu", style="font-family:Rubik;font-size:1rem">
-                    <b>Stanford Home</b>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://visit.stanford.edu/plan/", style="font-family:Rubik;font-size:1rem">
-                    <b>Maps &amp; Directions</b>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.stanford.edu/search/", style="font-family:Rubik;font-size:1rem">
-                    <b>Search Stanford</b>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://emergency.stanford.edu", style="font-family:Rubik;font-size:1rem">
-                   <b>Emergency Info</b>
-                  </a>
-                </li>
-              </ul>
-              <ul class="su-global-footer__menu su-global-footer__menu--policy">
-                <li>
-                  <a href="https://www.stanford.edu/site/terms/" title="Terms of use for sites", style="font-family:Rubik;font-size:1rem">
-                    Terms of Use
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.stanford.edu/site/privacy/" title="Privacy and cookie policy", style="font-family:Rubik;font-size:1rem">
-                    Privacy
-                  </a>
-                </li>
-                <li>
-                  <a href="https://uit.stanford.edu/security/copyright-infringement" title="Report alleged copyright infringement", style="font-family:Rubik;font-size:1rem">
-                    Copyright
-                  </a>
-                </li>
-                <li>
-                  <a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" title="Ownership and use of Stanford trademarks and images", style="font-family:Rubik;font-size:1rem">
-                    Trademarks
-                  </a>
-                </li>
-                <li>
-                  <a href="http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/" title="Non-discrimination policy", style="font-family:Rubik;font-size:1rem">
-                    Non-Discrimination
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.stanford.edu/site/accessibility" title="Report web accessibility issues", style="font-family:Rubik;font-size:1rem">
-                    Accessibility
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <div class="su-global-footer__copyright", style="font-family:Rubik;font-size:.8rem">
-              <span>&copy; Stanford University.</span>
-              <span>&nbsp; Stanford, California 94305.</span>
-            </div>
+      <div class="su-global-footer su-global-footer--dark">
+      <div class="su-global-footer__container" title="Common Stanford resources">
+        <div class="su-global-footer__brand">
+          <a class="su-logo su-global-footer--dark" href="https://www.stanford.edu">
+            Stanford
+            <br />
+            University
+          </a>
+        </div>
+        <div class="su-global-footer__content">
+          <nav aria-label="global footer menu">
+            <ul class="su-global-footer__menu su-global-footer__menu--global">
+              <li>
+                <a href="https://www.stanford.edu">
+                  Stanford Home
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://visit.stanford.edu/plan/">
+                  Maps &amp; Directions
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.stanford.edu/search/">
+                  Search Stanford
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://emergency.stanford.edu">
+                  Emergency Info
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="su-global-footer__menu su-global-footer__menu--policy">
+              <li>
+                <a href="https://www.stanford.edu/site/terms/" title="Terms of use for sites">
+                  Terms of Use
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.stanford.edu/site/privacy/" title="Privacy and cookie policy">
+                  Privacy
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://uit.stanford.edu/security/copyright-infringement" title="Report alleged copyright infringement">
+                  Copyright
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" title="Ownership and use of Stanford trademarks and images">
+                  Trademarks
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="http://exploredegrees.stanford.edu/nonacademicregulations/nondiscrimination/" title="Non-discrimination policy">
+                  Non-Discrimination
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.stanford.edu/site/accessibility" title="Report web accessibility issues">
+                  Accessibility
+                  <span class="su-global-footer__link-a11y">(link is external)</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="su-global-footer__copyright">
+            <span>&copy; Stanford University.</span>
+            <span>&nbsp; Stanford, California 94305.</span>
           </div>
         </div>
       </div>
+    </div>
     </footer>
   </body>
 </html>
