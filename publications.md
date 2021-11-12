@@ -6,6 +6,7 @@ title: publications
 {% assign years = site.data.publications.references
   | map: "issued"
   | map: "year"
+  | where_exp: 'y', 'y > 2015'
   | uniq | sort | reverse %}
 
 {% assign books = site.data.publications.references
