@@ -1,0 +1,3 @@
+[submodule "vita"]
+	path = vita
+	url = git@github.com:barrettcw/vita.git
