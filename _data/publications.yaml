@@ -5650,3 +5650,148 @@ references:
   volume: 51
 
 
+
+
+
+- author:
+  - family: Kremer
+    given: Gereon
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 33rd international
+    conference, CAV 2021, virtual event, july 20-23, 2021, proceedings,
+    part II
+  doi: 10.1007/978-3-030-81688-9\\\_11
+  editor:
+  - family: Silva
+    given: Alexandra
+  - family: Leino
+    given: K. Rustan M.
+  id: "DBLP:conf/cav/KremerNP20"
+  issued:
+  - year: 2021
+    month: 7
+  page: 231-242
+  publisher: Springer
+  title: "ddSMT 2.0: Better delta debugging for the SMT-LIBv2 language
+    and friends"
+  title-short: ddSMT 2.0
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-030-81688-9\\\\\\_11"
+  volume: 12760
+- author:
+  - family: Scott
+    given: Joseph
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Nejati
+    given: Saeed
+  - family: Ganesh
+    given: Vijay
+  collection-title: Lecture notes in computer science
+  container-title: Tools and algorithms for the construction and
+    analysis of systems - 27th international conference, TACAS 2021,
+    held as part of the european joint conferences on theory and
+    practice of software, ETAPS 2021, luxembourg city, luxembourg, march
+    27 - april 1, 2021, proceedings, part II
+  doi: 10.1007/978-3-030-72013-1\\\_16
+  editor:
+  - family: Groote
+    given: Jan Friso
+  - family: Larsen
+    given: Kim Guldstrand
+  id: "DBLP:conf/tacas/ScottNPNG21"
+  issued:
+  - year: 2021
+    month: 4
+  page: 303-325
+  publisher: Springer
+  title: "MachSMT: A machine learning-based algorithm selector for SMT
+    solvers"
+  title-short: MachSMT
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-030-72013-1\\\\\\_16"
+  volume: 12652
+- author:
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  container-title: 2020 formal methods in computer aided design, FMCAD
+    2020, haifa, israel, september 21-24, 2020
+  doi: 10.34727/2020/isbn.978-3-85448-042-6\\\_29
+  id: "DBLP:conf/fmcad/NiemetzP20"
+  issued:
+  - year: 2020
+    month: 9
+  page: 214-224
+  publisher: IEEE
+  title: Ternary propagation-based local search for more bit-precise
+    reasoning
+  type: paper-conference
+  url: "https://doi.org/10.34727/2020/isbn.978-3-85448-042-6\\\\\\_29"
+- author:
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Wolf
+    given: Clifford
+  - family: Biere
+    given: Armin
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 30th international
+    conference, CAV 2018, held as part of the federated logic
+    conference, FloC 2018, oxford, UK, july 14-17, 2018, proceedings,
+    part I
+  doi: 10.1007/978-3-319-96145-3\\\_32
+  editor:
+  - family: Chockler
+    given: Hana
+  - family: Weissenbacher
+    given: Georg
+  id: "DBLP:conf/cav/NiemetzPWB18"
+  issued:
+  - year: 2018
+    month: 7
+  page: 587-595
+  publisher: Springer
+  title: Btor2 , BtorMC and boolector 3.0
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-319-96145-3\\\\\\_32"
+  volume: 10981
+- author:
+  - family: Nötzli
+    given: Andres
+  genre: PhD thesis
+  id: AN2021
+  issued:
+  - year: 2021
+    month: 6
+  note: Stanford, California
+  publisher: Stanford University
+  title: Towards better simplifications in SMT solvers with applications
+    in string solving
+  type: thesis
+  url: "https://searchworks.stanford.edu/view/13876436"
+- author:
+  - family: Mann
+    given: Makai
+  genre: PhD thesis
+  id: MM2021
+  issued:
+  - year: 2021
+    month: 8
+  note: Stanford, California
+  publisher: Stanford University
+  title: Augmenting transition systems for scalable symbolic model
+    checking
+  type: thesis
+  url: "https://searchworks.stanford.edu/view/13972018"
+
+
