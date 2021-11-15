@@ -8,6 +8,17 @@ body {
   background-color: #f6f7f7;
 }
 
+#header-logo {
+  max-width: 50%;
+  min-width: 600px;
+}
+
+@media screen and (max-width: 700px) {
+  #header-logo {
+    min-width: 400px;
+  }
+}
+
 img[alt=sponsor] {
   height: 100px;
   margin: 0.5em;
@@ -32,14 +43,27 @@ a {
   background-color: #3f97b5;
   color: #fff;
   display: block;
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: bold;
   margin: 0 auto;
   max-width: 64rem;
   padding: 1em 3em;
-  background-image: url("/img/logo_title.png");
+  position: relative;
+}
+
+#content-title:before {
+  content: "";
+  position: absolute;
+  background-image: url("/img/arrow.svg");
   background-repeat: no-repeat;
-  background-position: right top;
+  background-size: contain;
+  background-position: left top;
+  height: 80%;
+  top: 10%;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  opacity: 0.1;
 }
 
 #content-mission {
@@ -48,19 +72,33 @@ a {
   display: block;
   margin: 0 auto;
   max-width: 64rem;
+  position: relative;
 
-  div {
-    color: #fff;
-    font-weight: bold;
-    padding-top: 1.5em;
-    padding-left: 5.5em;
-    padding-bottom: 1em;
-    padding-right: 5.5em;
-    background-image: url("/img/logo_title.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right top;
-  }
+  color: #fff;
+  font-size: 1.5em;
+  padding-top: 4em;
+  padding-left: 6em;
+  padding-bottom: 4em;
+  padding-right: 6em;
+}
+
+@media screen and (max-width: 700px) {
+  #content-mission { font-size: 1.2em; }
+}
+
+#content-mission:before {
+  content: "";
+  position: absolute;
+  background-image: url("/img/symbol.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  height: 80%;
+  top: 10%;
+  left: 0;
+  right: 8px;
+  bottom: 10%;
+  opacity: 0.1;
 }
 
 
@@ -112,6 +150,14 @@ a {
         border-top: 4px solid #3f97b5;
       }
     }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #navbar ul li { float: none; }
+  #navbar ul li a.active {
+    border: 0;
+    background-color: #3f97b5;
   }
 }
 

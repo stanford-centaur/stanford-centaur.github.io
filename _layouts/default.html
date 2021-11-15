@@ -34,13 +34,13 @@
       <div style="clear:left;"></div>
     </nav>
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="{{ "/" | absolute_url }}"><img src="img/logo_header.png"></img></a></h1>
+      <h1 class="project-name"><a href="{{ "/" | absolute_url }}"><img id="header-logo" src="img/logo.svg"></img></a></h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
     {% if page.mission %}
       <div id="content-mission">
-        <div>{{ page.mission}}</div>
+        {{ page.mission }}
       </div>
     {% else %}
       {% if page.title %}
