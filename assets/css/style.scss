@@ -197,6 +197,13 @@ a {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .col img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .alumni {
   .col {
     text-align: left;
