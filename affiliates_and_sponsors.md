@@ -3,6 +3,14 @@ layout: default
 title: affiliates and sponsors
 ---
 
+Sponsors
+--------
+
+![sponsor](/img/sponsors/amazon.png)
+![sponsor](/img/sponsors/bsf.png)
+![sponsor](/img/sponsors/ford.png)
+![sponsor](/img/sponsors/nsf.png)
+
 Membership
 ----------
 
@@ -31,11 +39,3 @@ world and collaborate with the center on solutions.
 It is the intention of all Centaur researchers that any software developed will be released under a corporate-friendly open-source model, such as the 3-clause BSD license. Companies may provide additional funding above the membership fee to support extra effort on shared research goals.  As with other Centaur research, any results from such additional funding will be shared publicly.
 
 To view Stanford policies, please see [Stanford University Policies for Industrial Affiliate Programs](https://doresearch.stanford.edu/policies/research-policy-handbook/definitions-and-types-agreements/establishment-industrial-affiliates-and-related-membership-supported-programs)
-
-Sponsors
---------
-
-![sponsor](/img/sponsors/amazon.png)
-![sponsor](/img/sponsors/bsf.png)
-![sponsor](/img/sponsors/ford.png)
-![sponsor](/img/sponsors/nsf.png)
