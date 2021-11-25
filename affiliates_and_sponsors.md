@@ -3,16 +3,17 @@ layout: default
 title: affiliates and sponsors
 ---
 
-Sponsors
---------
+# Sponsors
 
-![sponsor](/img/sponsors/amazon.png)
+## Federal Sponsors
 ![sponsor](/img/sponsors/bsf.png)
-![sponsor](/img/sponsors/ford.png)
 ![sponsor](/img/sponsors/nsf.png)
 
-Membership
-----------
+## Corporate Research Sponsors
+![sponsor](/img/sponsors/amazon.png)
+![sponsor](/img/sponsors/ford.png)
+
+# Membership
 
 Members who join in this academic year (2021-2022) will be permanently archived
 as *founding* members of the center.
@@ -38,8 +39,8 @@ world and collaborate with the center on solutions.
 
 It is the intention of all Centaur researchers that any software developed will be released under a corporate-friendly open-source model, such as the 3-clause BSD license. Companies may provide additional funding above the membership fee to support extra effort on shared research goals.  As with other Centaur research, any results from such additional funding will be shared publicly.
 
-Additional Program Funding
---------------------------
+# Additional Program Funding
+
 Industrial Affiliates Programs may permit companies to provide additional
 funding above the membership fee to support an area of on-going research within
 the program. All research results arising from the use of the additional
