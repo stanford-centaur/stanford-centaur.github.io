@@ -32,12 +32,15 @@ world and collaborate with the center on solutions.
 | Bug fix priority                        | Top           | High            | Medium                               |
 | Visiting scholar positions              | Yes           | Additional fee  | Additional fee                       |
 | Annual research retreat                 | Yes           | Yes             | Yes                                  |
+| Faculty site visits                     | Yes           | No              | No                                   |
 | Zulip channel invitation                | Yes           | Yes             | Yes                                  |
 | Research seminar invitations            | Yes           | Yes             | Yes                                  |
 | Student internships and recruiting      | Yes           | Yes             | Yes                                  |
 
 
-It is the intention of all Centaur researchers that any software developed will be released under a corporate-friendly open-source model, such as the 3-clause BSD license. Companies may provide additional funding above the membership fee to support extra effort on shared research goals.  As with other Centaur research, any results from such additional funding will be shared publicly.
+It is the intention of all Centaur researchers that any software developed will be released under a corporate-friendly open-source model, such as the 3-clause BSD license.
+
+Presentations from faculty site visits and annual retreats, and all information, data and results arising from such interactions will be shared with all members and the public.
 
 # Additional Program Funding
 
