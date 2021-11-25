@@ -1,6 +1,18 @@
 ---
 
+categories:
+- id: 1
+  name: SMT
+- id: 2
+  name: Model Checking
+- id: 3
+  name: Neural Network Verification
+- id: 10
+  name: Deprecated Tools
+
+tools:
 - name: Bitwuzla
+  category: 1
   logo: bitwuzla.png
   website: https://bitwuzla.github.io
   github: https://github.com/bitwuzla/bitwuzla
@@ -11,6 +23,7 @@
     arrays and uninterpreted functions and their combinations.
 
 - name: Boolector
+  category: 1
   logo: boolector.png
   website: https://boolector.github.io
   github: https://github.com/boolector/boolector
@@ -21,31 +34,37 @@
     functions and their combinations.
 
 - name: Cosa
+  category: 10
   logo: cosa.png
   website: https://github.com/cristian-mattarei/CoSA
   github: https://github.com/cristian-mattarei/CoSA
   desc-brief: CoreIR Symbolic Analyzer
   desc-long: >-
     CoSA is an SMT-based symbolic model checker for hardware designs.
+    It is succeeded by Pono.
 
 - name: Cosa2
+  category: 10
   logo: cosa.png
   website: https://github.com/upscale-project/cosa2
   github: https://github.com/upscale-project/cosa2
   desc-brief: CoreIR Symbolic Analyzer
   desc-long: >-
     CoSA2 is an SMT-based symbolic model checker for hardware designs.
+    It is succeeded by Pono.
 
 - name: CVC4
+  category: 10
   logo: cvc4.png
   website: https://cvc4.stanford.edu
   github: https://github.com/CVC4/CVC4-archived
   desc-brief: SMT Solver
   desc-long: >-
     CVC4 is an award-winning automatic theorem prover for Satisfiability Modulo
-    Theories (SMT) problems.
+    Theories (SMT) problems. It is succeeded by cvc5.
 
 - name: cvc5
+  category: 1
   logo: cvc5.png
   website: https://cvc5.github.io
   github: https://github.com/cvc5/cvc5
@@ -55,6 +74,7 @@
     Theories (SMT) problems. cvc5 is the successor of CVC4.
 
 - name: ddsmt
+  category: 1
   logo: ddsmt.png
   website: https://ddsmt.readthedocs.io/
   github: https://github.com/ddsmt/ddsmt
@@ -65,6 +85,7 @@
     input that triggers interesting behavior for a given command.
 
 - name: Marabou
+  category: 3
   logo: marabou.png
   website: https://neuralnetworkverification.github.io/
   github: https://github.com/NeuralNetworkVerification/Marabou
@@ -75,6 +96,7 @@
     satisfaction problems.
 
 - name: Pono
+  category: 2
   logo: default.png
   website: https://github.com/upscale-project/pono
   github: https://github.com/upscale-project/pono
@@ -87,6 +109,7 @@
     Pono is the successor of our model checkers CoSA and CoSA2.
 
 - name: Smt-Switch
+  category: 1
   logo: default.png
   website: https://github.com/makaimann/smt-switch
   github: https://github.com/makaimann/smt-switch
