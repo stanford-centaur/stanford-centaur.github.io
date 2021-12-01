@@ -7,6 +7,7 @@ title: affiliates and sponsors
 
 ## Federal Sponsors
 ![sponsor](/img/sponsors/bsf.png)
+![sponsor](/img/sponsors/darpa.png)
 ![sponsor](/img/sponsors/nsf.png)
 
 ## Corporate Research Sponsors
