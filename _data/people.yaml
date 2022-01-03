@@ -21,6 +21,8 @@
   website: https://cs.stanford.edu/people/trippel/
   start: 2020
 
+# Research scientists
+
 - name: Florian Lonsing
   position: research_scientist
   img: lonsing.jpg
@@ -44,10 +46,15 @@
   website: https://sites.cs.ucsb.edu/~nestan/
   start: 2020
 
-- name: Gereon Kremer
+
+# Postdocs
+
+- name: Ahmed Irfan
   position: postdoc
-  website: https://cs.stanford.edu/~gkremer/
-  start: 2020
+  website: https://ahmed-irfan.github.io/
+  start: 2019
+  end: 2021
+  now: AWS
 
 - name: Guy Katz
   position: postdoc
@@ -57,12 +64,10 @@
   end: 2018
   now: Hebrew University
 
-- name: Ahmed Irfan
+- name: Gereon Kremer
   position: postdoc
-  website: https://ahmed-irfan.github.io/
-  start: 2019
-  end: 2021
-  now: AWS
+  website: https://cs.stanford.edu/~gkremer/
+  start: 2020
 
 - name: Cristian Mattarei
   position: postdoc
@@ -106,9 +111,8 @@
   end: 2021
   now: Bar Ilan University
 
-- name: Rachel Cleaveland
-  position: phd
-  start: 2021
+
+# PhD students
 
 - name: Caleb Donovick
   position: phd
@@ -136,31 +140,59 @@
   end: 2021
   now: Postdoctoral Researcher at Stanford University (Centaur)
 
-- name: Yancheng Ou
-  position: master
-  website: https://profiles.stanford.edu/yancheng-ou
-  start: 2021
-
 - name: Alex Ozdemir
   position: phd
   img: ozdemir.jpg
   website: https://cs.stanford.edu/~aozdemir/
   start: 2018
 
-- name: Parth Shah
-  position: master
-  start: 2018
-  end: 2019
-  now: Apple
-
 - name: Ying Sheng
   position: phd
   website: https://profiles.stanford.edu/ying-sheng
   start: 2018
 
+- name: Matthew Sotoudeh
+  position: phd
+  start: 2022
+
   #- name: Lindsey Stuntz
   #  position: phd
   #  website: https://profiles.stanford.edu/lindsey-stuntz
+
+- name: Scott Viteri
+  position: phd
+  website: https://profiles.stanford.edu/scott-viteri
+  start: 2019
+
+- name: Anjiang Wei
+  position: phd
+  start: 2022
+
+- name: Amalee Wilson
+  position: phd
+  img: wilson.jpg
+  website: https://profiles.stanford.edu/amalee-wilson
+  start: 2019
+
+- name: Haoze Wu
+  position: phd
+  img: wu.jpg
+  website: https://anwu1219.github.io/
+  start: 2018
+
+
+# Master students
+
+- name: Yancheng Ou
+  position: master
+  website: https://profiles.stanford.edu/yancheng-ou
+  start: 2021
+
+- name: Parth Shah
+  position: master
+  start: 2018
+  end: 2019
+  now: Apple
 
 - name: Mario Srouji
   position: master
@@ -174,28 +206,11 @@
   end: 2019
   now: DeepMind
 
-- name: Scott Viteri
-  position: phd
-  website: https://profiles.stanford.edu/scott-viteri
-  start: 2019
-
 - name: Yahan Yang
   position: master
   start: 2019
   end: 2020
   now: Ph.D. student at U Penn
-
-- name: Amalee Wilson
-  position: phd
-  img: wilson.jpg
-  website: https://profiles.stanford.edu/amalee-wilson
-  start: 2019
-
-- name: Haoze Wu
-  position: phd
-  img: wu.jpg
-  website: https://anwu1219.github.io/
-  start: 2018
 
 - name: Emma Zhong
   position: master
