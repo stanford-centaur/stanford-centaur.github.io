@@ -28,7 +28,7 @@ world and collaborate with the center on solutions.
 ----------------------------------------- | ------------- | --------------- | ------------------------------------ |
 | Membership fee per year                 | $200K         | $100K           | $50K                                 |
 | Corporate commitment                    | 3 years       | yearly          | yearly                               |
-| Research collaboration engagement       | High          | Medium          | Low                                  |
+| Engagement with Faculty and Students    | High          | Medium          | Low                                  |
 | Feature request priority                | Top           | High            | Medium                               |
 | Bug fix priority                        | Top           | High            | Medium                               |
 | Visiting scholar positions              | Yes           | Additional fee  | Additional fee                       |
