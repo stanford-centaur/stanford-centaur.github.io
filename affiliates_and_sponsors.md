@@ -14,8 +14,8 @@ title: affiliates and sponsors
 ![sponsor](/img/sponsors/amazon.png)
 
 ## Affiliated Stanford Centers
-[Stanford Center for Agile Hardware](aha.stanford.edu)
-[Stanford Center for AI Safety](http://aisafety.stanford.edu/)
+[Stanford Center for Agile Hardware](https://aha.stanford.edu)  
+[Stanford Center for AI Safety](https://aisafety.stanford.edu/)  
 [Stanford Center for Blockchain Research](https://cbr.stanford.edu/)
 
 # Membership
