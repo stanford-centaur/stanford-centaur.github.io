@@ -12,7 +12,6 @@ title: affiliates and sponsors
 
 ## Corporate Research Sponsors
 ![sponsor](/img/sponsors/amazon.png)
-![sponsor](/img/sponsors/ford.png)
 
 # Membership
 
