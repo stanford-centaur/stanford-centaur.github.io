@@ -5,13 +5,18 @@ title: affiliates and sponsors
 
 # Sponsors
 
-## Federal Sponsors
+## Government Sponsors
 ![sponsor](/img/sponsors/bsf.png)
 ![sponsor](/img/sponsors/darpa.png)
 ![sponsor](/img/sponsors/nsf.png)
 
 ## Corporate Research Sponsors
 ![sponsor](/img/sponsors/amazon.png)
+
+## Affiliated Stanford Centers
+[Stanford Center for Agile Hardware](aha.stanford.edu)
+[Stanford Center for AI Safety](http://aisafety.stanford.edu/)
+[Stanford Center for Blockchain Research](https://cbr.stanford.edu/)
 
 # Membership
 
