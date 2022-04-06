@@ -1,5 +1,3 @@
-
-
 references:
 - abstract: "Disclosed are improved methods and structures for verifying
     integrated circuits and in particular systems-on-a-chip constructed
@@ -311,6 +309,100 @@ references:
   type: chapter
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/BSST09.pdf"
   volume: 185
+- abstract: Many SMT solvers implement efficient SAT-based procedures
+    for solving fixed-size bit-vector formulas. These techniques,
+    however, cannot be used directly to reason about bit-vectors of
+    symbolic bit-width. To address this shortcoming, we propose a
+    translation from bit-vector formulas with parametric bit-width to
+    formulas in a logic supported by SMT solvers that includes
+    non-linear integer arithmetic, uninterpreted functions, and
+    universal quantification. While this logic is undecidable, our
+    approach can still solve many formulas that arise in practice by
+    capitalizing on advances in SMT solving for non-linear arithmetic
+    and universally quantified formulas. We provide several case studies
+    in which we have applied this approach with promising results,
+    including the bit-width independent verification of invertibility
+    conditions, compiler optimizations, and bit-vector rewrite rules.
+  author:
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Reynolds
+    given: Andrew
+  - family: Zohar
+    given: Yoni
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  container-title: Journal of Automated Reasoning
+  doi: 10.1007/s10817-021-09598-9
+  id: NPR+21c
+  issue: 7
+  issued:
+  - year: 2021
+    month: 10
+  keyword: Satisfiability Modulo Theories, Bit-precise Reasoning,
+    Parametric Bit-vectors
+  page: 1001-1025
+  publisher: Springer
+  title: Towards satisfiability modulo parametric bit-vectors
+  type: article-journal
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPR+21c.pdf"
+  volume: 65
+- abstract: "Neural networks can learn complex, non-convex functions,
+    and it is challenging to guarantee their correct behavior in
+    safety-critical contexts. Many approaches exist to find failures in
+    networks (e.g., adversarial examples), but these cannot guarantee
+    the absence of failures. Verification algorithms address this need
+    and provide formal guarantees about a neural network by answering
+    \"yes or no\" questions. For example, they can answer whether a
+    violation exists within certain bounds. However, individual \"yes or
+    no\" questions cannot answer qualitative questions such as \"what is
+    the largest error within these bounds\"; the answers to these lie in
+    the domain of optimization. Therefore, we propose strategies to
+    extend existing verifiers to perform optimization and find: (i) the
+    most extreme failure in a given input region and (ii) the minimum
+    input perturbation required to cause a failure. A naive approach
+    using a bisection search with an off-the-shelf verifier results in
+    many expensive and overlapping calls to the verifier. Instead, we
+    propose an approach that tightly integrates the optimization process
+    into the verification procedure, achieving better runtime
+    performance than the naive approach. We evaluate our approach
+    implemented as an extension of Marabou, a state-of-the-art neural
+    network verifier, and compare its performance with the bisection
+    approach and MIPVerify, an optimization-based verifier. We observe
+    complementary performance between our extension of Marabou and
+    MIPVerify."
+  author:
+  - family: Strong
+    given: Christopher A.
+  - family: Wu
+    given: Haoze
+  - family: Zeljić
+    given: Aleksandar
+  - family: Julian
+    given: Kyle D.
+  - family: Katz
+    given: Guy
+  - family: Barrett
+    given: Clark
+  - family: Kochenderfer
+    given: Mykel J.
+  container-title: Machine Learning
+  doi: 10.1007/s10994-021-06050-2
+  id: SWZ+21
+  issued:
+  - year: 2021
+    month: 10
+  keyword: Neural network verifcation; Optimization; Adversarial
+    examples; Marabou
+  publisher: Springer
+  title: Global optimization of objective functions represented by ReLU
+    networks
+  type: article-journal
+  url: "https://rdcu.be/czUFw"
 - abstract: Deep neural networks have emerged as a widely used and
     effective means for tackling complex, real-world problems. However,
     a major obstacle in applying them to safety-critical systems is the
@@ -1025,6 +1117,384 @@ references:
   type: article-journal
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/SJO+05.pdf"
   volume: 24
+- abstract: "Inspired by sum-of-infeasibilities methods in convex
+    optimization, we propose a novel procedure for analyzing
+    verification queries on neural networks with piecewise-linear
+    activation functions. Given a convex relaxation which
+    over-approximates the non-convex activation functions, we encode the
+    violations of activation functions as a cost function and optimize
+    it with respect to the convex relaxation. The cost function,
+    referred to as the Sum-of-Infeasibilities (SoI), is designed so that
+    its minimum is zero and achieved only if all the activation
+    functions are satisfied. We propose a stochastic procedure, DeepSoI,
+    to efficiently minimize the SoI. An extension to a canonical
+    case-analysis-based complete search procedure can be achieved by
+    replacing the convex procedure executed at each search state with
+    DeepSoI. Extending the complete search with DeepSoI achieves
+    multiple simultaneous goals: 1) it guides the search towards a
+    counter-example; 2) it enables more informed branching decisions;
+    and 3) it creates additional opportunities for bound derivation. An
+    extensive evaluation across different benchmarks and solvers
+    demonstrates the benefit of the proposed techniques. In particular,
+    we demonstrate that SoI significantly improves the performance of an
+    existing complete search procedure. Moreover, the SoI-based
+    implementation outperforms other state-of-the-art complete
+    verifiers. We also show that our technique can efficiently improve
+    upon the perturbation bound derived by a recent adversarial attack
+    algorithm."
+  author:
+  - family: Wu
+    given: Haoze
+  - family: Zeljić
+    given: Aleksandar
+  - family: Katz
+    given: Guy
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 28<sup>th</sup> international conference
+    on tools and algorithms for the construction and analysis of systems
+    (TACAS'22)
+  id: WZK+22
+  issued:
+  - year: 2022
+    month: 4
+  publisher: Springer
+  title: Efficient neural network analysis with sum-of-infeasibilities
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WZK+22.pdf"
+- abstract: cvc5 is the latest SMT solver in the cooperating validity
+    checker series and builds on the successful code base of CVC4. This
+    paper serves as a comprehensive system description of cvc5's
+    architectural design and highlights the major features and
+    components introduced since CVC4 1.8. We evaluate cvc5's performance
+    on all benchmarks in SMT-LIB and provide a comparison against CVC4
+    and Z3.
+  author:
+  - family: Barbosa
+    given: Haniel
+  - family: Barrett
+    given: Clark W.
+  - family: Brain
+    given: Martin
+  - family: Kremer
+    given: Gereon
+  - family: Lachnitt
+    given: Hanna
+  - family: Mann
+    given: Makai
+  - family: Mohamed
+    given: Abdalrhman
+  - family: Mohamed
+    given: Mudathir
+  - family: Niemetz
+    given: Aina
+  - family: Nötzli
+    given: Andres
+  - family: Ozdemir
+    given: Alex
+  - family: Preiner
+    given: Mathias
+  - family: Reynolds
+    given: Andrew
+  - family: Sheng
+    given: Ying
+  - family: Tinelli
+    given: Cesare
+  - family: Zohar
+    given: Yoni
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 28<sup>th</sup> international conference
+    on tools and algorithms for the construction and analysis of systems
+    (TACAS'22)
+  doi: 10.1007/978-3-030-99524-9\\\_24
+  editor:
+  - family: Fisman
+    given: Dana
+  - family: Rosu
+    given: Grigore
+  id: BBB+22
+  issued:
+  - year: 2022
+    month: 4
+  award: Best SCP Tool Paper Award.
+  page: 415-442
+  publisher: Springer
+  title: "cvc5: A versatile and industrial-strength SMT solver"
+  title-short: cvc5
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BBB+22.pdf"
+  volume: 13243
+- abstract: The state of the art for bit-precise reasoning in the
+    context of Satisfiability Modulo Theories (SMT) is a SAT-based
+    technique called bit-blasting where the input formula is first
+    simplified and then translated to an equisatisfiable propositional
+    formula. The main limitation of this technique is scalability,
+    especially in the presence of large bit-widths and arithmetic
+    operators. We introduce an alternative technique, which we call
+    int-blasting, based on a translation to an extension of integer
+    arithmetic rather than propositional logic. We present several
+    translations, discuss their differences, and evaluate them on
+    benchmarks that arise from the verification of rewrite rule
+    candidates for bit-vector solving, as well as benchmarks from
+    SMT-LIB. We also provide preliminary results on 35 benchmarks that
+    arise from smart contract verification. The evaluation shows that
+    this technique is particularly useful for benchmarks with large
+    bit-widths and can solve benchmarks that the state of the art
+    cannot.
+  author:
+  - family: Zohar
+    given: Yoni
+  - family: Irfan
+    given: Ahmed
+  - family: Mann
+    given: Makai
+  - family: Niemetz
+    given: Aina
+  - family: Nötzli
+    given: Andres
+  - family: Preiner
+    given: Mathias
+  - family: Reynolds
+    given: Andrew
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 23<sup>rd</sup> international conference
+    on verification, model checking, and abstract interpretion (VMCAI
+    '22)
+  doi: 10.1007/978-3-030-94583-1_24
+  editor:
+  - family: Finkbeiner
+    given: Bernd
+  - family: Wies
+    given: Thomas
+  id: ZIM+22
+  issued:
+  - year: 2022
+    month: 1
+  page: 496-518
+  publisher: Springer
+  title: Bit-precise reasoning via int-blasting
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/ZIM+22.pdf"
+  volume: 13182
+- abstract: The increasing complexity of modern confgurable systems
+    makes it critical to improve the level of automation in the process
+    of system confguration. Such automation can also improve the agility
+    of the development cycle, allowing for rapid and automated
+    integration of decoupled workfows. In this paper, we present a new
+    framework for automated confguration of systems representable as
+    state machines. The framework leverages model checking and
+    satisfability modulo theories (SMT) and can be applied to any
+    application domain representable using SMT formulas. Our approach
+    can also be applied modularly, improving its scalability.
+    Furthermore, we show how optimization can be used to produce
+    confgurations that are best according to some metric and also more
+    likely to be understandable to humans. We showcase this framework
+    and its fexibility by using it to confgure a CGRA memory tile for
+    various image processing applications.
+  author:
+  - family: Tsiskaridze
+    given: Nestan
+  - family: Strange
+    given: Maxwell
+  - family: Mann
+    given: Makai
+  - family: Sreedhar
+    given: Kavya
+  - family: Liu
+    given: Qiaoyi
+  - family: Horowitz
+    given: Mark
+  - family: Barrett
+    given: Clark
+  container-title: Proceedings of the 21<sup>st</sup> international conference
+    on formal methods in computer-aided design (FMCAD'21)
+  doi: 10.34727/2021/isbn.978-3-85448-046-4_19
+  editor:
+  - family: Piskac
+    given: Ruzica
+  - family: Whalen
+    given: Michael W.
+  id: TSM+21
+  issued:
+  - year: 2021
+    month: 10
+  page: 102-111
+  publisher: TU Wien Academic Press
+  title: Automating system configuration
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/TSM+21.pdf"
+- abstract: Hardware accelerators (HAs) are essential building blocks
+    for fast and energy-efficient computing systems. Accelerator Quick
+    Error Detection (A-QED) is a recent formal technique which uses
+    Bounded Model Checking for pre-silicon verification of HAs. A-QED
+    checks an HA for self-consistency, i.e., whether identical inputs
+    within a sequence of operations always produce the same output.
+    Under modest assumptions, A-QED is both sound and complete. However,
+    as is well-known, large design sizes significantly limit the
+    scalability of formal verification, including A-QED. We overcome
+    this scalability challenge through a new decomposition technique for
+    A-QED, called A-QED with Decomposition (A-QED$^2$). A-QED$^2$
+    systematically decomposes an HA into smaller, functional
+    sub-modules, called sub-accelerators, which are then verified
+    independently using A-QED. We prove completeness of A-QED$^2$ ; in
+    particular, if the full HA under verification contains a bug, then
+    A-QED$^2$ ensures detection of that bug during A-QED verification of
+    the corresponding subaccelerators. Results on over 100 (buggy)
+    versions of a wide variety of HAs with millions of logic gates
+    demonstrate the effectiveness and practicality of A-QED$^2$.
+  author:
+  - family: Chattopadhyay
+    given: Saranyu
+  - family: Lonsing
+    given: Florian
+  - family: Piccolboni
+    given: Luca
+  - family: Soni
+    given: Deepraj
+  - family: Wei
+    given: Peng
+  - family: Zhang
+    given: Xiaofan
+  - family: Zhou
+    given: Yuan
+  - family: Carloni
+    given: Luca
+  - family: Chen
+    given: Deming
+  - family: Cong
+    given: Jason
+  - family: Karri
+    given: Ramesh
+  - family: Zhang
+    given: Zhiru
+  - family: Trippel
+    given: Caroline
+  - family: Barrett
+    given: Clark
+  - family: Mitra
+    given: Subhasish
+  container-title: Proceedings of the 21<sup>st</sup> international conference
+    on formal methods in computer-aided design (FMCAD'21)
+  doi: 10.34727/2021/isbn.978-3-85448-046-4_12
+  editor:
+  - family: Piskac
+    given: Ruzica
+  - family: Whalen
+    given: Michael W.
+  id: CLP+21
+  issued:
+  - year: 2021
+    month: 10
+  page: 42-52
+  publisher: TU Wien Academic Press
+  title: Scaling up hardware accelerator verification using A-QED with
+    functional decomposition
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/CLP+21.pdf"
+- abstract: "In recent years, cloud service providers have sold
+    computation in increasingly granular units. Most recently,
+    \\\"serverless\\\" executors run a single executable with restricted
+    network access and for a limited time. The beneft of these
+    restrictions is scale: thousand-way parallelism can be allocated in
+    seconds, and CPU time is billed with sub-second granularity. To
+    exploit these executors, we introduce gg-SAT: an implementation of
+    divide-and-conquer SAT solving. Infrastructurally, gg-SAT departs
+    substantially from previous implementations: rather than handling
+    process or server management itself, gg-SAT builds on the gg
+    framework, allowing computations to be executed on a confgurable
+    backend, including serverless offerings such as AWS Lambda. Our
+    experiments suggest that when run on the same hardware, gg-SAT
+    performs competitively with other D&C solvers, and that the 1000-way
+    parallelism it offers (through AWS Lambda) is useful for some
+    challenging SAT instances."
+  author:
+  - family: Ozdemir
+    given: Alex
+  - family: Wu
+    given: Haoze
+  - family: Barrett
+    given: Clark
+  container-title: Proceedings of the 21<sup>st</sup> international conference
+    on formal methods in computer-aided design (FMCAD'21)
+  doi: 10.34727/2021/isbn.978-3-85448-046-4_33
+  editor:
+  - family: Piskac
+    given: Ruzica
+  - family: Whalen
+    given: Michael W.
+  id: OWB21
+  issued:
+  - year: 2021
+    month: 10
+  page: 241-245
+  publisher: TU Wien Academic Press
+  title: SAT solving in the serverless cloud
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/OWB21.pdf"
+- abstract: "We introduce DeepCert, a tool-supported method for
+    verifying the robustness of deep neural network (DNN) image
+    classifiers to contextually relevant perturbations such as blur,
+    haze, and changes in image contrast. While the robustness of DNN
+    classifiers has been the subject of intense research in recent
+    years, the solutions delivered by this research focus on verifying
+    DNN robustness to small perturbations in the images being
+    classified, with perturbation magnitude measured using established
+    L_p norms. This is useful for identifying potential adversarial
+    attacks on DNN image classifiers, but cannot verify DNN robustness
+    to contextually relevant image perturbations, which are typically
+    not small when expressed with L_p norms. DeepCert addresses this
+    underexplored verification problem by supporting: (1) the encoding
+    of real-world image perturbations; (2) the systematic evaluation of
+    contextually relevant DNN robustness, using both testing and formal
+    verification; (3) the generation of contextually relevant
+    counterexamples; and, through these, (4) the selection of DNN image
+    classifiers suitable for the operational context (i) envisaged when
+    a potentially safety-critical system is designed, or (ii) observed
+    by a deployed system. We demonstrate the effectiveness of DeepCert
+    by showing how it can be used to verify the robustness of DNN image
+    classifiers build for two benchmark datasets ('German Traffic Sign'
+    and 'CIFAR-10') to multiple contextually relevant perturbations."
+  author:
+  - family: Paterson
+    given: Colin
+  - family: Wu
+    given: Haoze
+  - family: Grese
+    given: John
+  - family: Calinescu
+    given: Radu
+  - family: Păsăreanu
+    given: Corina S.
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in computer science
+  container-title: Computer safety, reliability, and security (SAFECOMP
+    '21)
+  doi: 10.1007/978-3-030-83903-1_5
+  editor:
+  - family: Habli
+    given: Ibrahim
+  - family: Sujan
+    given: Mark
+  - family: Bitsch
+    given: Friedemann
+  id: PWG+21
+  issued:
+  - year: 2021
+    month: 9
+  page: 3-17
+  publisher: Springer International Publishing
+  title: "DeepCert: Verification of contextually relevant robustness for
+    neural network image classifiers"
+  title-short: DeepCert
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/PWG+21.pdf"
+  volume: 12852
 - abstract: Symbolic model checking is an important tool for finding
     bugs (or proving the absence of bugs) in modern system designs.
     Because of this, improving the ease of use, scalability, and
@@ -1060,8 +1530,9 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 3<sup>rd</sup> international conference
-    on computer aided verification (CAV '21)
+  container-title: Proceedings of the 33<sup>rd</sup> international conference
+    on computer aided verification (CAV'21)
+  doi: 10.1007/978-3-030-81688-9_22
   editor:
   - family: Leino
     given: Rustan
@@ -1071,11 +1542,13 @@ references:
   issued:
   - year: 2021
     month: 7
+  page: 461-474
   publisher: Springer International Publishing
   title: "Pono: A flexible and extensible SMT-based model checker"
   title-short: Pono
   type: paper-conference
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/MIL+21.pdf"
+  volume: 12760
 - abstract: We make two contributions to the study of polite combination
     in satisfiability modulo theories. The first is a separation between
     politeness and strong politeness, by presenting a polite theory that
@@ -1109,8 +1582,8 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 8<sup>th</sup> international conference
-    on automated deduction (CADE '21)
+  container-title: Proceedings of the 28<sup>th</sup> international conference
+    on automated deduction (CADE'21)
   editor:
   - family: Platzer
     given: André
@@ -1144,9 +1617,10 @@ references:
     given: Yoni
   - family: Stuntz
     given: Lindsey
-  - dropping-particle: abd
-    family: Kristopher Brown
-    given: Ahmed Irfan
+  - family: Irfan
+    given: Ahmed
+  - family: Brown
+    given: Kristopher
   - family: Donovick
     given: Caleb
   - family: Guman
@@ -1156,8 +1630,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 4<sup>th</sup> international conference
-    on theory and applications of satisfiability testing (SAT '21)
+  container-title: Proceedings of the 24<sup>th</sup> international conference
+    on theory and applications of satisfiability testing (SAT'21)
   doi: 10.1007/978-3-030-80223-3_26
   editor:
   - family: Li
@@ -1171,7 +1645,7 @@ references:
   note: Barcelona, Spain
   page: 377-386
   publisher: Springer
-  title: "Smt-switch: A solver-agnostic c++ API for SMT solving"
+  title: "Smt-switch: A solver-agnostic C++ API for SMT solving"
   title-short: Smt-switch
   type: paper-conference
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/MWZ+21.pdf"
@@ -1199,9 +1673,9 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
+  container-title: Proceedings of the 27<sup>th</sup> international conference
     on tools and algorithms for the construction and analysis of systems
-    (TACAS '21)
+    (TACAS'21)
   doi: 10.1007/978-3-030-72016-2
   editor:
   - family: Groote
@@ -1246,9 +1720,9 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
+  container-title: Proceedings of the 27<sup>th</sup> international conference
     on tools and algorithms for the construction and analysis of systems
-    (TACAS '21)
+    (TACAS'21)
   doi: 10.1007/978-3-030-72013-1
   editor:
   - family: Groote
@@ -1293,10 +1767,10 @@ references:
   - family: Katz
     given: Guy
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
+  container-title: Proceedings of the 27<sup>th</sup> international conference
     on tools and algorithms for the construction and analysis of systems
-    (TACAS '21)
-  doi: 10.1007/978-3-030-72013-1
+    (TACAS'21)
+  doi: 10.1007/978-3-030-72013-1_11
   editor:
   - family: Groote
     given: Jan Friso
@@ -1342,8 +1816,8 @@ references:
     given: Baoluo
   - family: Lopez
     given: James
-  container-title: Proceedings of the 9<sup>th</sup> digital avionics systems
-    conference (DASC '20)
+  container-title: Proceedings of the 39<sup>th</sup> digital avionics systems
+    conference (DASC'20)
   doi: 10.1109/DASC50938.2020.9256616
   id: IJW+20
   issued:
@@ -1375,8 +1849,8 @@ references:
   - family: Katz
     given: Guy
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 8<sup>th</sup> international symposium
-    on automated technology for verification and analysis (ATVA '20)
+  container-title: Proceedings of the 18<sup>th</sup> international symposium
+    on automated technology for verification and analysis (ATVA'20)
   doi: 10.1007/978-3-030-59152-6_3
   editor:
   - family: Hung
@@ -1420,8 +1894,8 @@ references:
     given: Clark
   - family: Tinelli
     given: Cesare
-  container-title: Proceedings of the 0<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '20)
+  container-title: Proceedings of the 20<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'20)
   doi: 10.34727/2020/isbn.978-3-85448-042-6_30
   editor:
   - family: Ivrii
@@ -1474,8 +1948,8 @@ references:
     given: Corina
   - family: Barrett
     given: Clark
-  container-title: Proceedings of the 0<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '20)
+  container-title: Proceedings of the 20<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'20)
   doi: 10.34727/2020/isbn.978-3-85448-042-6_20
   editor:
   - family: Ivrii
@@ -1526,8 +2000,8 @@ references:
     given: Subhasish
   - family: Barrett
     given: Clark
-  container-title: Proceedings of the 0<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '20)
+  container-title: Proceedings of the 20<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'20)
   doi: 10.34727/2020/isbn.978-3-85448-042-6_9
   editor:
   - family: Ivrii
@@ -1577,8 +2051,8 @@ references:
   - family: Hanrahan
     given: Pat
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 2<sup>nd</sup> international conference
-    on computer aided verification (CAV '20)
+  container-title: Proceedings of the 32<sup>nd</sup> international conference
+    on computer aided verification (CAV'20)
   editor:
   - family: Lahiri
     given: Shuvendu K.
@@ -1626,8 +2100,8 @@ references:
   - family: Dill
     given: David L.
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 2<sup>nd</sup> international conference
-    on computer aided verification (CAV '20)
+  container-title: Proceedings of the 32<sup>nd</sup> international conference
+    on computer aided verification (CAV'20)
   editor:
   - family: Lahiri
     given: Shuvendu K.
@@ -1729,8 +2203,8 @@ references:
     given: N.
   - family: Zhang
     given: K.
-  container-title: Proceedings of the 7<sup>th</sup> design automation
-    conference (DAC '20)
+  container-title: Proceedings of the 57<sup>th</sup> design automation
+    conference (DAC'20)
   doi: 10.1109/DAC18072.2020.9218553
   id: BBB+20
   issued:
@@ -1782,8 +2256,8 @@ references:
     given: Clark
   - family: Mitra
     given: Subhasish
-  container-title: Proceedings of the 7<sup>th</sup> design automation
-    conference (DAC '20)
+  container-title: Proceedings of the 57<sup>th</sup> design automation
+    conference (DAC'20)
   doi: 10.1109/DAC18072.2020.9218715
   id: SLC+20
   issued:
@@ -1819,8 +2293,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 0<sup>th</sup> international joint
-    conference on automated reasoning (IJCAR '20)
+  container-title: Proceedings of the 10<sup>th</sup> international joint
+    conference on automated reasoning (IJCAR'20)
   editor:
   - family: Peltier
     given: Nicolas
@@ -1831,7 +2305,7 @@ references:
   issued:
   - year: 2020
     month: 7
-  note: "*Best paper award.*"
+  award: Best paper award.
   page: 238-255
   publisher: Springer International Publishing
   title: Politeness for the theory of algebraic datatypes
@@ -1861,7 +2335,7 @@ references:
     given: Cesare
   collection-title: Lecture notes in computer science
   container-title: Proceedings of the 9<sup>th</sup> international joint
-    conference on automated reasoning (IJCAR '20)
+    conference on automated reasoning (IJCAR'20)
   editor:
   - family: Peltier
     given: Nicolas
@@ -1902,7 +2376,7 @@ references:
     given: Guy
   collection-title: Lecture notes in computer science
   container-title: "NASA formal methods: 12th international symposium,
-    (NFM '20)"
+    (NFM'20)"
   editor:
   - family: Lee
     given: Ritchie
@@ -1938,9 +2412,9 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 6<sup>th</sup> international conference
+  container-title: Proceedings of the 26<sup>th</sup> international conference
     on tools and algorithms for the construction and analysis of systems
-    (TACAS '20)
+    (TACAS'20)
   editor:
   - family: Biere
     given: Armin
@@ -1995,7 +2469,7 @@ references:
   - family: Kunz
     given: Wolfgang
   container-title: Proceedings of the 2020 design, automation and test
-    in europe (DATE '20)
+    in europe (DATE'20)
   doi: 10.23919/DATE48585.2020.9116515
   id: DFS+20
   issued:
@@ -2087,7 +2561,7 @@ references:
   - family: Leskovec
     given: Jure
   container-title: Advances in neural information processing systems 32
-    (NeurIPS '19)
+    (NeurIPS'19)
   editor:
   - family: Wallach
     given: H.
@@ -2158,7 +2632,7 @@ references:
   - family: Barrett
     given: Clark
   container-title: Proceedings of the international conference on
-    computer-aided design (ICCAD '19)
+    computer-aided design (ICCAD'19)
   doi: 10.1109/ICCAD45719.2019.8942096
   editor:
   - family: Pan
@@ -2231,8 +2705,8 @@ references:
     given: I.
   - family: Barrett
     given: C.
-  container-title: Proceedings of the 8<sup>th</sup> digital avionics systems
-    conference (DASC '19)
+  container-title: Proceedings of the 38<sup>th</sup> digital avionics systems
+    conference (DASC'19)
   doi: 10.1109/DASC43569.2019.9081780
   id: LRM+19
   issued:
@@ -2270,8 +2744,8 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 7<sup>th</sup> international conference
-    on automated deduction (CADE '19)
+  container-title: Proceedings of the 27<sup>th</sup> international conference
+    on automated deduction (CADE'19)
   editor:
   - family: Fontaine
     given: Pascal
@@ -2315,8 +2789,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 7<sup>th</sup> international conference
-    on automated deduction (CADE '19)
+  container-title: Proceedings of the 27<sup>th</sup> international conference
+    on automated deduction (CADE'19)
   editor:
   - family: Fontaine
     given: Pascal
@@ -2361,8 +2835,8 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 2<sup>nd</sup> international conference
-    on theory and applications of satisfiability testing (SAT '19)
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on theory and applications of satisfiability testing (SAT'19)
   doi: 10.1007/978-3-030-24258-9_20
   editor:
   - family: Janota
@@ -2406,8 +2880,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 2<sup>nd</sup> international conference
-    on theory and applications of satisfiability testing (SAT '19)
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on theory and applications of satisfiability testing (SAT'19)
   doi: 10.1007/978-3-030-24258-9_21
   editor:
   - family: Janota
@@ -2450,8 +2924,8 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 1<sup>st</sup> international conference
-    on computer aided verification (CAV '19)
+  container-title: Proceedings of the 31<sup>st</sup> international conference
+    on computer aided verification (CAV'19)
   doi: 10.1007/978-3-030-25543-5_2
   editor:
   - family: Dillig
@@ -2492,8 +2966,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 1<sup>st</sup> international conference
-    on computer aided verification (CAV '19)
+  container-title: Proceedings of the 31<sup>st</sup> international conference
+    on computer aided verification (CAV'19)
   doi: 10.1007/978-3-030-25543-5_5
   editor:
   - family: Dillig
@@ -2540,8 +3014,8 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 1<sup>st</sup> international conference
-    on computer aided verification (CAV '19)
+  container-title: Proceedings of the 31<sup>st</sup> international conference
+    on computer aided verification (CAV'19)
   doi: 10.1007/978-3-030-25543-5_8
   editor:
   - family: Dillig
@@ -2603,8 +3077,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 1<sup>st</sup> international conference
-    on computer aided verification (CAV '19)
+  container-title: Proceedings of the 31<sup>st</sup> international conference
+    on computer aided verification (CAV'19)
   doi: 10.1007/978-3-030-25540-4_26
   editor:
   - family: Dillig
@@ -2656,7 +3130,7 @@ references:
   - family: Kunz
     given: W.
   container-title: Proceedings of the 2019 design, automation and test
-    in europe (DATE '19)
+    in europe (DATE'19)
   doi: 10.23919/DATE.2019.8715004
   id: FSB+19
   isbn: 978-3-9819263-2-3
@@ -2717,7 +3191,7 @@ references:
   - family: Mitra
     given: S.
   container-title: Proceedings of the 2019 design, automation and test
-    in europe (DATE '19)
+    in europe (DATE'19)
   doi: 10.23919/DATE.2019.8715271
   id: SDS+19
   isbn: 978-3-9819263-2-3
@@ -2764,8 +3238,8 @@ references:
     given: Dillon
   - family: Hanrahan
     given: Pat
-  container-title: Proceedings of the 8<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '18)
+  container-title: Proceedings of the 18<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'18)
   doi: 10.23919/FMCAD.2018.8603014
   editor:
   - family: Bjørner
@@ -2818,8 +3292,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 6<sup>th</sup> international symposium
-    on automated technology for verification and analysis (ATVA '18)
+  container-title: Proceedings of the 16<sup>th</sup> international symposium
+    on automated technology for verification and analysis (ATVA'18)
   doi: 10.1007/978-3-030-01090-4_1
   editor:
   - family: Lahiri
@@ -2866,7 +3340,7 @@ references:
     given: Clark
   collection-title: Lecture notes in computer science
   container-title: Proceedings of the 9<sup>th</sup> international joint
-    conference on automated reasoning (IJCAR '18)
+    conference on automated reasoning (IJCAR'18)
   doi: 10.1007/978-3-319-94205-6_39
   editor:
   - family: Galmiche
@@ -2913,8 +3387,8 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 0<sup>th</sup> international conference
-    on computer aided verification (CAV '18)
+  container-title: Proceedings of the 30<sup>th</sup> international conference
+    on computer aided verification (CAV'18)
   doi: 10.1007/978-3-319-96142-2_16
   editor:
   - family: Chockler
@@ -2968,7 +3442,7 @@ references:
   - family: Kunz
     given: W.
   container-title: Proceedings of the 2018 design, automation and test
-    in europe (DATE '18)
+    in europe (DATE'18)
   doi: 10.23919/DATE.2018.8341979
   id: FUN+18
   isbn: 978-3-9819263-0-9
@@ -3009,7 +3483,7 @@ references:
   - family: Athanas
     given: Peter
   container-title: Proceedings of the ACM symposium on SDN research
-    (SOSR '18)
+    (SOSR'18)
   doi: 10.1145/3185467.3185497
   id: NKF+18
   isbn: 978-1-4503-5664-0
@@ -3051,9 +3525,9 @@ references:
   - family: Smith
     given: Ben
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 4<sup>th</sup> international conference
+  container-title: Proceedings of the 24<sup>th</sup> international conference
     on tools and algorithms for the construction and analysis of systems
-    (TACAS '18)
+    (TACAS'18)
   doi: 10.1007/978-3-319-89963-3_4
   editor:
   - family: Beyer
@@ -3097,8 +3571,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 1<sup>th</sup> international symposium
-    on frontiers of combining systems (FroCoS '17)
+  container-title: Proceedings of the 11<sup>th</sup> international symposium
+    on frontiers of combining systems (FroCoS'17)
   editor:
   - family: Dixon
     given: Clare
@@ -3142,8 +3616,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 6<sup>th</sup> international conference
-    on automated deduction (CADE '17)
+  container-title: Proceedings of the 26<sup>th</sup> international conference
+    on automated deduction (CADE'17)
   editor:
   - dropping-particle: de
     family: Moura
@@ -3188,8 +3662,8 @@ references:
     given: Mykel J.
   collection-number: 1
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 9<sup>th</sup> international conference
-    on computer aided verification (CAV '17)
+  container-title: Proceedings of the 29<sup>th</sup> international conference
+    on computer aided verification (CAV'17)
   editor:
   - family: Majumdar
     given: Rupak
@@ -3238,8 +3712,8 @@ references:
     given: Subhasish
   collection-number: 1
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 9<sup>th</sup> international conference
-    on computer aided verification (CAV '17)
+  container-title: Proceedings of the 29<sup>th</sup> international conference
+    on computer aided verification (CAV'17)
   editor:
   - family: Majumdar
     given: Rupak
@@ -3286,8 +3760,8 @@ references:
     given: Clark
   collection-number: 1
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 9<sup>th</sup> international conference
-    on computer aided verification (CAV '17)
+  container-title: Proceedings of the 29<sup>th</sup> international conference
+    on computer aided verification (CAV'17)
   editor:
   - family: Majumdar
     given: Rupak
@@ -3335,8 +3809,8 @@ references:
     given: Cesare
   collection-number: 1
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 9<sup>th</sup> international conference
-    on computer aided verification (CAV '17)
+  container-title: Proceedings of the 29<sup>th</sup> international conference
+    on computer aided verification (CAV'17)
   editor:
   - family: Majumdar
     given: Rupak
@@ -3375,7 +3849,7 @@ references:
     given: Clark
   - family: Wies
     given: Thomas
-  container-title: Proceedings of the 8<sup>th</sup> international conference
+  container-title: Proceedings of the 18<sup>th</sup> international conference
     on verification, model checking, and abstract interpretion (VMCAI
     '17)
   doi: 10.1007/978-3-319-52234-0_29
@@ -3423,8 +3897,8 @@ references:
     given: Andrew
   - family: Hadarean
     given: Liana
-  container-title: Proceedings of the 6<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '16)
+  container-title: Proceedings of the 16<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'16)
   editor:
   - family: Piskac
     given: Ruzica
@@ -3434,7 +3908,8 @@ references:
   issued:
   - year: 2016
     month: 10
-  note: Mountain View, California. *Best paper award.*
+  note: Mountain View, California.
+  award: Best paper award.
   page: 93-100
   publisher: FMCAD Inc.
   title: Lazy proofs for DPLL(T)-based SMT solvers
@@ -3469,7 +3944,7 @@ references:
     given: Cesare
   collection-title: Lecture notes in computer science
   container-title: Proceedings of the 8<sup>th</sup> international joint
-    conference on automated reasoning (IJCAR '16)
+    conference on automated reasoning (IJCAR'16)
   doi: 10.1007/978-3-319-40229-1_7
   editor:
   - family: Olivetti
@@ -3519,9 +3994,9 @@ references:
   - family: Deters
     given: Morgan
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 0<sup>th</sup> international conference
+  container-title: Proceedings of the 20<sup>th</sup> international conference
     on logic for programming, artificial intelligence, and reasoning
-    (LPAR '15)
+    (LPAR'15)
   editor:
   - family: Davis
     given: Martin
@@ -3577,13 +4052,14 @@ references:
     given: Clark
   - family: Mitra
     given: Subhasish
-  container-title: Proceedings of the 2<sup>nd</sup> international test
-    conference (ITC '15)
+  container-title: Proceedings of the 42<sup>nd</sup> international test
+    conference (ITC'15)
   id: LSB+15
   issued:
   - year: 2015
     month: 10
-  note: Anaheim, California. *Best paper award.*
+  note: Anaheim, California.
+  award: Best paper award.
   page: 1-10
   publisher: IEEE
   title: A structured approach to post-silicon validation and debug
@@ -3611,8 +4087,8 @@ references:
     given: Clark
   - family: Harel
     given: David
-  container-title: Proceedings of the 5<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '15)
+  container-title: Proceedings of the 15<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'15)
   id: KBH15
   issued:
   - year: 2015
@@ -3650,8 +4126,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 0<sup>th</sup> international symposium
-    on frontiers of combining systems (FroCoS '15)
+  container-title: Proceedings of the 10<sup>th</sup> international symposium
+    on frontiers of combining systems (FroCoS'15)
   doi: 10.1007/978-3-319-24246-0_9
   editor:
   - family: Lutz
@@ -3699,8 +4175,8 @@ references:
     given: Cesare
   collection-number: 2
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
-    on computer aided verification (CAV '15)
+  container-title: Proceedings of the 27<sup>th</sup> international conference
+    on computer aided verification (CAV'15)
   editor:
   - family: Kroening
     given: Daniel
@@ -3750,8 +4226,8 @@ references:
     given: Thomas
   collection-number: 2
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
-    on computer aided verification (CAV '15)
+  container-title: Proceedings of the 27<sup>th</sup> international conference
+    on computer aided verification (CAV'15)
   editor:
   - family: Kroening
     given: Daniel
@@ -3783,9 +4259,9 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 1<sup>st</sup> international conference
+  container-title: Proceedings of the 21<sup>st</sup> international conference
     on tools and algorithms for the construction and analysis of systems
-    (TACAS '15)
+    (TACAS'15)
   editor:
   - family: Baier
     given: Christel
@@ -3828,8 +4304,8 @@ references:
     given: Clark
   - family: Tinelli
     given: Cesare
-  container-title: Proceedings of the 4<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '14)
+  container-title: Proceedings of the 14<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'14)
   id: KBT14
   issued:
   - year: 2014
@@ -3870,8 +4346,8 @@ references:
   - family: Bansal
     given: Kshitij
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 6<sup>th</sup> international conference
-    on computer aided verification (CAV '14)
+  container-title: Proceedings of the 26<sup>th</sup> international conference
+    on computer aided verification (CAV'14)
   editor:
   - family: Biere
     given: Armin
@@ -3922,8 +4398,8 @@ references:
   - family: Deters
     given: Morgan
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 6<sup>th</sup> international conference
-    on computer aided verification (CAV '14)
+  container-title: Proceedings of the 26<sup>th</sup> international conference
+    on computer aided verification (CAV'14)
   editor:
   - family: Biere
     given: Armin
@@ -3962,7 +4438,7 @@ references:
   - family: Wies
     given: Thomas
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 5<sup>th</sup> international conference
+  container-title: Proceedings of the 15<sup>th</sup> international conference
     on verification, model checking, and abstract interpretation (VMCAI
     '14)
   editor:
@@ -4000,8 +4476,8 @@ references:
     given: Clark
   - family: Dutertre
     given: Bruno
-  container-title: Proceedings of the 3<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '13)
+  container-title: Proceedings of the 13<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'13)
   id: KBD13
   issued:
   - year: 2013
@@ -4032,8 +4508,8 @@ references:
   - dropping-particle: de
     family: Moura
     given: Leonardo
-  container-title: Proceedings of the 3<sup>th</sup> international conference
-    on formal methods in computer-aided design (FMCAD '13)
+  container-title: Proceedings of the 13<sup>th</sup> international conference
+    on formal methods in computer-aided design (FMCAD'13)
   id: JBdM13
   issued:
   - year: 2013
@@ -4061,7 +4537,7 @@ references:
     given: Morgan
   collection-title: Lecture notes in artificial intelligence
   container-title: Proceedings of the 9<sup>th</sup> international symposium
-    on frontiers of combining systems (FroCoS '13)
+    on frontiers of combining systems (FroCoS'13)
   doi: 10.1007/978-3-642-40885-4_9
   editor:
   - family: Fontaine
@@ -4112,8 +4588,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 4<sup>th</sup> international conference
-    on automated deduction (CADE '13)
+  container-title: Proceedings of the 24<sup>th</sup> international conference
+    on automated deduction (CADE'13)
   doi: 10.1007/978-3-642-38574-2_26
   editor:
   - family: Bonacina
@@ -4149,7 +4625,7 @@ references:
     given: Clark
   collection-title: Lecture notes in computer science
   container-title: Proceedings of the 8<sup>th</sup> international symposium
-    on frontiers of combining systems (FroCoS '11)
+    on frontiers of combining systems (FroCoS'11)
   editor:
   - family: Tinelli
     given: Cesare
@@ -4197,8 +4673,8 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 3<sup>rd</sup> international conference
-    on computer aided verification (CAV '11)
+  container-title: Proceedings of the 23<sup>rd</sup> international conference
+    on computer aided verification (CAV'11)
   editor:
   - family: Gopalakrishnan
     given: Ganesh
@@ -4235,9 +4711,9 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
+  container-title: Proceedings of the 17<sup>th</sup> international conference
     on logic for programming, artificial intelligence, and reasoning
-    (LPAR '10)
+    (LPAR'10)
   editor:
   - family: Fermüller
     given: Christian G.
@@ -4278,8 +4754,8 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 2<sup>nd</sup> international conference
-    on computer aided verification (CAV '10)
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on computer aided verification (CAV'10)
   editor:
   - family: Touili
     given: Tayssir
@@ -4319,7 +4795,7 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 5<sup>th</sup> international static
+  container-title: Proceedings of the 15<sup>th</sup> international static
     analysis symposium (SAS '08)
   editor:
   - family: Alpuente
@@ -4370,7 +4846,7 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 1<sup>st</sup> international conference
+  container-title: Proceedings of the 21<sup>st</sup> international conference
     on automated deduction (CADE '07)
   editor:
   - family: Pfenning
@@ -4400,7 +4876,7 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 9<sup>th</sup> international conference
+  container-title: Proceedings of the 19<sup>th</sup> international conference
     on computer aided verification (CAV '07)
   editor:
   - family: Damm
@@ -4445,7 +4921,7 @@ references:
   - family: Tinelli
     given: Cesare
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 3<sup>th</sup> international conference
+  container-title: Proceedings of the 13<sup>th</sup> international conference
     on logic for programming, artificial intelligence, and reasoning
     (LPAR '06)
   editor:
@@ -4478,7 +4954,7 @@ references:
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 8<sup>th</sup> international conference
+  container-title: Proceedings of the 18<sup>th</sup> international conference
     on computer aided verification (CAV '06)
   editor:
   - family: Ball
@@ -4506,7 +4982,7 @@ references:
   - family: Stump
     given: Aaron
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
+  container-title: Proceedings of the 17<sup>th</sup> international conference
     on computer aided verification (CAV '05)
   editor:
   - family: Etessami
@@ -4548,7 +5024,7 @@ references:
   - family: Zuck
     given: Lenore
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 7<sup>th</sup> international conference
+  container-title: Proceedings of the 17<sup>th</sup> international conference
     on computer aided verification (CAV '05)
   editor:
   - family: Etessami
@@ -4599,7 +5075,7 @@ references:
   - family: Berezin
     given: Sergey
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 6<sup>th</sup> international conference
+  container-title: Proceedings of the 16<sup>th</sup> international conference
     on computer aided verification (CAV '04)
   editor:
   - family: Alur
@@ -4627,7 +5103,7 @@ references:
   - family: Dill
     given: David L.
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 4<sup>th</sup> international conference
+  container-title: Proceedings of the 14<sup>th</sup> international conference
     on computer aided verification (CAV '02)
   editor:
   - family: Brinksma
@@ -4654,7 +5130,7 @@ references:
   - family: Stump
     given: Aaron
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 4<sup>th</sup> international conference
+  container-title: Proceedings of the 14<sup>th</sup> international conference
     on computer aided verification (CAV '02)
   editor:
   - family: Brinksma
@@ -4682,7 +5158,7 @@ references:
     given: David L.
   - family: Levitt
     given: Jeremy
-  container-title: Proceedings of the 6<sup>th</sup> IEEE symposium on logic
+  container-title: Proceedings of the 16<sup>th</sup> IEEE symposium on logic
     in computer science (LICS '01)
   id: SBDL01
   issued:
@@ -4702,7 +5178,7 @@ references:
   - family: Stump
     given: Aaron
   collection-title: Lecture notes in artificial intelligence
-  container-title: Proceedings of the 7<sup>th</sup> international conference
+  container-title: Proceedings of the 17<sup>th</sup> international conference
     on computer-aided deduction (CADE '00)
   editor:
   - family: McAllester
@@ -4725,13 +5201,14 @@ references:
     given: David L.
   - family: Levitt
     given: Jeremy R.
-  container-title: Proceedings of the 5<sup>th</sup> design automation
+  container-title: Proceedings of the 35<sup>th</sup> design automation
     conference (DAC '98)
   id: BDL98
   issued:
   - year: 1998
     month: 6
-  note: San Francisco, California. *Best paper award.*
+  note: San Francisco, California.
+  award: Best paper award.
   page: 522-527
   publisher: Association for Computing Machinery
   title: A decision procedure for bit-vector arithmetic
@@ -4807,8 +5284,8 @@ references:
     given: Cesare
   - family: Barrett
     given: Clark
-  container-title: Proceedings of the 8<sup>th</sup> international workshop
-    on satisfiability modulo theories (SMT '20)
+  container-title: Proceedings of the 18<sup>th</sup> international workshop
+    on satisfiability modulo theories (SMT'20)
   id: MWT+20
   issued:
   - year: 2020
@@ -4843,7 +5320,7 @@ references:
   collection-title: Electronic proceedings in theoretical computer
     science
   container-title: Proceedings of the sixth workshop on proof eXchange
-    for theorem proving (PxTP '19)
+    for theorem proving (PxTP'19)
   editor:
   - family: Reis
     given: Giselle
@@ -4891,7 +5368,7 @@ references:
   - family: Schapira
     given: Michael
   container-title: Proceedings of the 2019 workshop on network meets AI
-    & ML (NetAI '19)
+    & ML (NetAI'19)
   doi: 10.1145/3341216.3342218
   id: KBK+19
   isbn: 9781450368728
@@ -4929,8 +5406,8 @@ references:
     given: Clark
   - family: Tinelli
     given: Cesare
-  container-title: Proceedings of the 6<sup>th</sup> international workshop
-    on satisfiability modulo theories (SMT '18)
+  container-title: Proceedings of the 16<sup>th</sup> international workshop
+    on satisfiability modulo theories (SMT'18)
   id: RBN+18
   issued:
   - year: 2018
@@ -4968,7 +5445,7 @@ references:
   collection-title: Electronic proceedings in theoretical computer
     science
   container-title: Proceedings of the first workshop on formal
-    verification of autonomous vehicles (FVAV '17)
+    verification of autonomous vehicles (FVAV'17)
   editor:
   - family: Bulwahn
     given: Lukas
@@ -4993,7 +5470,7 @@ references:
   - family: Barrett
     given: Clark
   container-title: Proceedings of the 9<sup>th</sup> international workshop on
-    satisfiability modulo theories (SMT '11)
+    satisfiability modulo theories (SMT'11)
   id: KB11
   issued:
   - year: 2011
@@ -5010,7 +5487,7 @@ references:
   - family: Tinelli
     given: Cesare
   container-title: Proceedings of the 8<sup>th</sup> international workshop on
-    satisfiability modulo theories (SMT '10)
+    satisfiability modulo theories (SMT'10)
   id: BST10
   issued:
   - year: 2010
@@ -5025,7 +5502,7 @@ references:
   - family: Barrett
     given: Clark
   container-title: Proceedings of the 8<sup>th</sup> international workshop on
-    satisfiability modulo theories (SMT '10)
+    satisfiability modulo theories (SMT'10)
   id: JB10-SMT
   issued:
   - year: 2010
@@ -5048,7 +5525,7 @@ references:
   - family: Barrett
     given: Clark
   container-title: Proceedings of the 8<sup>th</sup> international workshop on
-    satisfiability modulo theories (SMT '10)
+    satisfiability modulo theories (SMT'10)
   id: RHT+10
   issued:
   - year: 2010
@@ -5649,10 +6126,6 @@ references:
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/B13.pdf"
   volume: 51
 
-
-
-
-
 - author:
   - family: Kremer
     given: Gereon
@@ -5793,5 +6266,3 @@ references:
     checking
   type: thesis
   url: "https://searchworks.stanford.edu/view/13972018"
-
-
