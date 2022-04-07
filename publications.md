@@ -88,8 +88,8 @@ title: publications
 {% assign mpapers = ypapers
   | where_exp: 'r', 'r.issued[0].month == month' %}
 {% for item in mpapers %}
-{% capture title %}{% assign t = item.title | split: ' ' %}{% for word in t %}{{ word | capitalize }} {% endfor %}{% endcapture %}
-{% if item.url %}[{{ title }}]({{ item.url }}){% else %}{{ title }} {% endif %}. {% for author in item.author %}{% if item.author.size > 1 %}{% if forloop.last == true %} and {% elsif forloop.first == false %}, {% endif %}{% endif %}{{ author.given }} {{ author.family }}{% endfor %}. {% if item.container-title %} In {{ item.container-title }},{% endif %}{% if item.volume %} vol. {{ item.volume }},{% endif %} {% if item.collection-title %}{{ item.collection-title }},{% endif %} {% if item.page %} pp. {{ item.page }},{% endif %} {{ item.publisher }}. ({{ item.issued[0].year}})
+{% if item.url %}[{{ item.title }}]({{ item.url }}){% else %}{{ item.title }} {% endif %}. {% for author in item.author %}{% if item.author.size > 1 %}{% if forloop.last == true %} and {% elsif forloop.first == false %}, {% endif %}{% endif %}{{ author.given }} {{ author.family }}{% endfor %}. {% if item.container-title %} In {{ item.container-title }},{% endif %}{% if item.volume %} vol. {{ item.volume }},{% endif %} {% if item.collection-title %}{{ item.collection-title }},{% endif %} {% if item.page %} pp. {{ item.page }},{% endif %} {{ item.publisher }}. ({{ item.issued[0].year}})
+{% if item.award %}<br/><span class="awards"><strong>{{ item.award }}</strong></span>{% endif %}
 {% endfor %}
 {% endfor %}
 {% endif %}
