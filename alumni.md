@@ -65,12 +65,12 @@ title: alumni
 <div class="col">
 {% if p.website %}
 <a href="{{ p.website }}">
-  <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
-</a>
-{% else %}
-  <img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
 {% endif %}
-&nbsp;<b>{% if p.website %}<a href="{{ p. website}}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
+<img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% if p.website %}
+</a>
+{% endif %}
+&nbsp;<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
 </div>
 {% endfor %}
 {% endfor %}
