@@ -151,22 +151,10 @@
   website: https://profiles.stanford.edu/ying-sheng
   start: 2018
 
-- name: Matthew Sotoudeh
-  position: phd
-  start: 2022
-
-  #- name: Lindsey Stuntz
-  #  position: phd
-  #  website: https://profiles.stanford.edu/lindsey-stuntz
-
 - name: Scott Viteri
   position: phd
   website: https://profiles.stanford.edu/scott-viteri
   start: 2019
-
-- name: Anjiang Wei
-  position: phd
-  start: 2022
 
 - name: Amalee Wilson
   position: phd
@@ -187,6 +175,7 @@
   position: master
   website: https://profiles.stanford.edu/yancheng-ou
   start: 2021
+  end: 2022
 
 - name: Parth Shah
   position: master
