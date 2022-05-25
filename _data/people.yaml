@@ -97,6 +97,12 @@
   end: 2019
   now: Research Scientist at Stanford University (Centaur)
 
+- name: Min Wu
+  position: postdoc
+  img: wu_min.jpg
+  website: https://profiles.stanford.edu/276567
+  start: 2022
+
 - name: Aleksandar Zeljić
   position: postdoc
   img: zeljic.png
@@ -164,7 +170,7 @@
 
 - name: Haoze Wu
   position: phd
-  img: wu.jpg
+  img: wu_andrew.jpg
   website: https://anwu1219.github.io/
   start: 2018
 
