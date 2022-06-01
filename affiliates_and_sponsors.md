@@ -8,6 +8,7 @@ title: affiliates and sponsors
 ## Silver Members
 
 ![sponsor](/img/sponsors/certora.png)
+![sponsor](/img/sponsors/adacore.png)
 
 ## Government Sponsors
 ![sponsor](/img/sponsors/bsf.png)
