@@ -238,11 +238,21 @@ span.awards {
 }
 
 .btn {
+  font-size: 100%;
   margin-top: 10px;
   padding: 5px 10px 5px 10px;
   color: $body-text-color;
   border-color: $body-text-color;
   background-color: #efefef;
+}
+
+.btn:hover {
+  font-size: 100%;
+  margin-top: 10px;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+  border-color: #3f97b5;
+  background-color: #3f97b5;
 }
 
 .people {
