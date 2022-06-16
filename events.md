@@ -61,7 +61,7 @@ Session II
 </tr>
 <tr>
 <td>10:20am-10:40am</td>
-<td>TBD</td>
+<td>cvc5 secrets</td>
 <td>TBD</td>
 <td>TBD</td>
 </tr>
