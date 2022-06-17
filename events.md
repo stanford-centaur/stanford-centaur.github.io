@@ -62,8 +62,8 @@ Session II
 <tr>
 <td>10:20am-10:40am</td>
 <td>cvc5 secrets</td>
-<td>TBD</td>
-<td>TBD</td>
+<td>Andrew Reynolds</td>
+<td>Research Scientist at University of Iowa</td>
 </tr>
 <tr>
 <td>10:40am-11:00am</td>
