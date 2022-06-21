@@ -4,9 +4,9 @@ title: events
 ---
 
 <h1>CENTAUR Annual Meeting 2022</h1>
-<h3>Paul Brest Hall<p>
-555 Salvatierra Walk<p>
-Stanford, CA 94305</h3>
+<h4>Paul Brest Hall<br/>
+555 Salvatierra Walk<br/>
+Stanford, CA 94305</h4>
 <br/>
 <a href="https://www.eventbrite.com/e/ai-safety-centaur-and-data-science-affiliates-programs-registration-325036020487" class="btn">
 Register
