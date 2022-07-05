@@ -12,6 +12,7 @@ Stanford, CA 94305</h4>
 Register
 </a>
 
+<h2>Wednesday July 13</h2>
 <table>
 <tr>
 <td style="width:20%;">8:30am-8:50am</td>
