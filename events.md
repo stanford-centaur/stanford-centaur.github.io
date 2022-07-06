@@ -70,10 +70,10 @@ Session II
 <td>Research Scientist at University of Iowa</td>
 </tr>
 <tr>
-<td>10:40am-11:00am</td>
-<td>Reasoning about finite fields</td>
-<td>Alex Ozdemir</td>
-<td>Phd student</td>
+<td>4:10pm-4:30pm</td>
+<td>Reasoning about sequences</td>
+<td>Yoni Zohar</td>
+<td>Faculty at Bar-Ilan University</td>
 </tr>
 <tr>
 <td>11:00am-11:20am</td>
@@ -157,10 +157,10 @@ Session V
 <td>Postdoctoral scholar</td>
 </tr>
 <tr>
-<td>4:10pm-4:30pm</td>
-<td>Reasoning about sequences</td>
-<td>Yoni Zohar</td>
-<td>Faculty at Bar-Ilan University</td>
+<td>10:40am-11:00am</td>
+<td>Reasoning about finite fields</td>
+<td>Alex Ozdemir</td>
+<td>Phd student</td>
 </tr>
 <tr>
 <td>4:30pm-4:35pm</td>
