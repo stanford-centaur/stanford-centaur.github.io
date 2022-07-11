@@ -8,7 +8,8 @@ title: people
 {% assign postdocs = site.data.people | where: 'position', 'postdoc' %}
 {% assign phd = site.data.people | where: 'position', 'phd' %}
 {% assign master = site.data.people | where: 'position', 'master' %}
-{% assign grad = phd | concat: master %}
+{% assign bachelor = site.data.people | where: 'position', 'bachelor' %}
+{% assign grad = phd | concat: master | concat: bachelor %}
 
 {% assign faculty = faculty | where_exp: 'f', 'f.end == nil' %}
 {% assign staff = staff | where_exp: 's', 's.end == nil' %}
@@ -95,7 +96,7 @@ Postdoctoral Researcher
 <br/>
 <b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
 <br/>
-{% if p.position == 'phd' %}Ph.D. Student{% else if p.position == 'master' %}Masters Student{% endif %}
+{% if p.position == 'phd' %}Ph.D.{% elsif p.position == 'master' %}Masters{% elsif p.position == 'bachelor' %}Bachelors{% endif %} Student
 </div>
 {% endfor %}
 </div>

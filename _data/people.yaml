@@ -68,6 +68,8 @@
   position: postdoc
   website: https://cs.stanford.edu/~gkremer/
   start: 2020
+  end: 2022
+  now: Certora
 
 - name: Cristian Mattarei
   position: postdoc
@@ -119,6 +121,14 @@
 
 
 # PhD students
+
+- name: Samuel Akinwande
+  position: phd
+  start: 2022
+
+- name: Rachel Cleaveland
+  position: phd
+  start: 2022
 
 - name: Caleb Donovick
   position: phd
@@ -212,3 +222,13 @@
   start: 2019
   end: 2020
   now: Facebook Novi
+
+# Bachelor students
+
+- name: Joey Guman
+  position: bachelor
+  start: 2022
+
+- name: Tobey Shim
+  position: bachelor
+  start: 2022
