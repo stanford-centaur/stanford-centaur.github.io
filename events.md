@@ -59,19 +59,19 @@ Session II
 </tr>
 <tr>
 <td>10:00am-10:20am</td>
-<td>cvc5: a versatile and industrial-strength SMT solver</td>
+<td>cvc5: A Versatile and Industrial-Strength SMT Solver</td>
 <td>Mathias Preiner</td>
 <td>Research scientist</td>
 </tr>
 <tr>
 <td>10:20am-10:40am</td>
-<td>cvc5 secrets</td>
+<td>cvc5 Secrets</td>
 <td>Andrew Reynolds</td>
 <td>Research Scientist at University of Iowa</td>
 </tr>
 <tr>
 <td>10:40am-11:00am</td>
-<td>Reasoning about sequences</td>
+<td>Reasoning about Sequences</td>
 <td>Yoni Zohar</td>
 <td>Faculty at Bar-Ilan University</td>
 </tr>
@@ -90,21 +90,21 @@ Session III
 
 <tr>
 <td>11:20am-11:40am</td>
-<td>Murxla: an API fuzzer for SMT solvers</td>
+<td>Murxla: A Modulor and Highly Extensible API fuzzer for SMT Solvers</td>
 <td>Aina Niemetz</td>
 <td>Research scientist</td>
 </tr>
 
 <tr>
 <td>11:40am-12:00pm</td>
-<td>Lightning talks</td>
+<td>Lightning Talks</td>
 <td></td>
 <td></td>
 </tr>
 
 <tr>
 <td>12:00pm-1:25pm</td>
-<td>Lunch and poster session</td>
+<td>Lunch and Poster Session</td>
 <td></td>
 <td></td>
 </tr>
@@ -122,13 +122,13 @@ Session IV
 </tr>
 <tr>
 <td>1:40pm-2:00pm</td>
-<td>Pono: An SMT-based model checker</td>
+<td>Pono: An SMT-based Model Checker</td>
 <td>Florian Lonsing</td>
 <td>Research scientist</td>
 </tr>
 <tr>
 <td>2:00pm-3:00pm</td>
-<td>Automated reasoning: challenges and opportunities</td>
+<td>Automated Reasoning: Challenges and Opportunities</td>
 <td>Industry Panel</td>
 <td></td>
 </tr>
@@ -146,25 +146,25 @@ Session V
 </tr>
 <tr>
 <td>3:30pm-3:50pm</td>
-<td>Parallel SMT solving</td>
+<td>Parallel SMT Solving</td>
 <td>Amalee Wilson</td>
 <td>PhD student</td>
 </tr>
 <tr>
 <td>3:50pm-4:10pm</td>
-<td>Reasoning about strings</td>
+<td>Reasoning about Strings</td>
 <td>Andres Noetzli</td>
 <td>Postdoctoral scholar</td>
 </tr>
 <tr>
 <td>4:10pm-4:30pm</td>
-<td>Reasoning about finite fields</td>
+<td>Reasoning about Finite Fields</td>
 <td>Alex Ozdemir</td>
 <td>Phd student</td>
 </tr>
 <tr>
 <td>4:30pm-4:35pm</td>
-<td>Closing remarks</td>
+<td>Closing Remarks</td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
