@@ -84,6 +84,17 @@ tools:
     dialects and extensions. It serves as an input minimizer for SMT-LIB(-like)
     input that triggers interesting behavior for a given command.
 
+- name: Murxla
+  category: 1
+  logo: murxla.png
+  website: https://murxla.github.io/
+  github: https://github.com/murxla/murxla
+  desc-brief: An API Fuzzer for SMT Solvers
+  desc-long: >-
+    Murxla is a solver-agnostic fuzzer for SMT Solvers that randomly
+    generates valid sequences of solver API calls based on a customizable API
+    model, with full support for semantics and features of SMT-LIB.
+
 - name: Marabou
   category: 3
   logo: marabou.png
