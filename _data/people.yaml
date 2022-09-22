@@ -21,6 +21,13 @@
   website: https://cs.stanford.edu/people/trippel/
   start: 2020
 
+- name: Thomas Icard
+  position: faculty
+  title: Associate Professor of Philosophy and, by courtesy, of Computer Science
+  img: icard.jpeg
+  website: https://web.stanford.edu/~icard/
+  start: 2022
+
 # Research scientists
 
 - name: Florian Lonsing
@@ -91,6 +98,8 @@
   position: postdoc
   website: https://cs.stanford.edu/~noetzli/
   start: 2021
+  end: 2022
+  now: TODO
 
 - name: Mathias Preiner
   position: postdoc
@@ -118,6 +127,12 @@
   start: 2018
   end: 2021
   now: Bar Ilan University
+
+# Visiting Researchers
+#
+- name: Teruhiro Tagomori
+  position: visiting
+  start: 2020
 
 
 # PhD students
@@ -184,6 +199,17 @@
   website: https://anwu1219.github.io/
   start: 2018
 
+- name: Abdalrhman Mohamed
+  position: phd
+  start: 2022
+
+- name: Aron Perez-Lopez
+  position: phd
+  start: 2022
+
+- name: Livia Sun
+  position: phd
+  start: 2022
 
 # Master students
 
@@ -223,12 +249,18 @@
   end: 2020
   now: Facebook Novi
 
+- name: Udayan Mandal
+  position: master
+  start: 2022
+
 # Bachelor students
 
 - name: Joey Guman
   position: bachelor
   start: 2022
+  end: 2022
 
 - name: Tobey Shim
   position: bachelor
   start: 2022
+  end: 2022
