@@ -5,8 +5,10 @@ title: affiliates and sponsors
 
 # Sponsors
 
-## Silver Members
+## Platinum Members
+![sponsor](/img/sponsors/amazon.png)
 
+## Silver Members
 ![sponsor](/img/sponsors/certora.png)
 ![sponsor](/img/sponsors/adacore.png)
 
@@ -16,7 +18,7 @@ title: affiliates and sponsors
 ![sponsor](/img/sponsors/nsf.png)
 
 ## Corporate Research Sponsors
-![sponsor](/img/sponsors/amazon.png)
+![sponsor](/img/sponsors/vmware.png)
 
 # Affiliated Stanford Centers
 [Stanford Center for Agile Hardware](https://aha.stanford.edu)  
