@@ -2,33 +2,41 @@
 layout: default
 title: affiliates and sponsors
 ---
+<div id="sponsors">
+<div style="text-align:right;"><span class="founding" style="padding-left:30px;">Founding Member</span></div>
 
-# Sponsors
+<h2>Platinum Members</h2>
+<p>
+<span class="founding"><img src="/img/sponsors/amazon.png" /></span>
+</p>
 
-## Platinum Members
-![sponsor](/img/sponsors/amazon.png)
+<h2>Silver Members</h2>
+<p>
+<span class="founding"><img src="/img/sponsors/certora.png" /></span>
+<span class="founding"><img src="/img/sponsors/adacore.png" /></span>
+</p>
 
-## Silver Members
-![sponsor](/img/sponsors/certora.png)
-![sponsor](/img/sponsors/adacore.png)
+<h2>Government Sponsors</h2>
+<p>
+<img class="sponsor" src="/img/sponsors/bsf.png" />
+<img class="sponsor" src="/img/sponsors/darpa.png" />
+<img class="sponsor" src="/img/sponsors/nsf.png" />
+</p>
 
-## Government Sponsors
-![sponsor](/img/sponsors/bsf.png)
-![sponsor](/img/sponsors/darpa.png)
-![sponsor](/img/sponsors/nsf.png)
+<h2>Corporate Research Sponsors</h2>
+<p>
+<img class="sponsor" src="/img/sponsors/vmware.png" />
+</p>
 
-## Corporate Research Sponsors
-![sponsor](/img/sponsors/vmware.png)
+</div>
 
 # Affiliated Stanford Centers
 [Stanford Center for Agile Hardware](https://aha.stanford.edu)  
 [Stanford Center for AI Safety](https://aisafety.stanford.edu/)  
 [Stanford Center for Blockchain Research](https://cbr.stanford.edu/)
 
-# Membership
 
-Members who join in this academic year (2021-2022) will be permanently archived
-as *founding* members of the center.
+# Membership
 
 Our corporate members are a vital and integral part of Centaur.  Not only do
 membership fees provide essential funding for the center's activities, but

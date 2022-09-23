@@ -21,11 +21,22 @@ body {
   }
 }
 
-img[alt=sponsor] {
+div#sponsors p {
+  text-align: center;
+}
+
+img.sponsor, img.founding, span.founding img{
   height: 100px;
   margin: 1em;
   padding: 10px;
   display: inline-block;
+}
+
+span.founding {
+  display: inline-block;
+  background-image: url("/img/favicon.png");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
 }
 
 a {
