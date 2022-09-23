@@ -3,7 +3,7 @@ layout: default
 title: affiliates and sponsors
 ---
 <div id="sponsors">
-<div style="text-align:right;"><span class="founding" style="padding-left:30px;">Founding Member</span></div>
+<div style="text-align:right;"><span class="founding" style="padding-left:30px;">Founding Sponsor</span></div>
 
 <h2>Platinum Members</h2>
 <p>
@@ -25,7 +25,7 @@ title: affiliates and sponsors
 
 <h2>Corporate Research Sponsors</h2>
 <p>
-<img class="sponsor" src="/img/sponsors/vmware.png" />
+<span class="founding"><img class="sponsor" src="/img/sponsors/vmware.png" /></span>
 </p>
 
 </div>
