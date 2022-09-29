@@ -309,6 +309,79 @@ references:
   type: chapter
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/BSST09.pdf"
   volume: 185
+- abstract: We develop a framework for model checking infinite-state
+    systems by automatically augmenting them with auxiliary variables,
+    enabling quantifier-free induction proofs for systems that would
+    otherwise require quantified invariants. We combine this mechanism
+    with a counterexample-guided abstraction refinement scheme for the
+    theory of arrays. Our framework can thus, in many cases, reduce
+    inductive reasoning with quantifiers and arrays to quantifier-free
+    and array-free reasoning. We evaluate the approach on a wide set of
+    benchmarks from the literature. The results show that our
+    implementation often outperforms state-of-the-art tools,
+    demonstrating its practical potential.
+  author:
+  - family: Mann
+    given: Makai
+  - family: Irfan
+    given: Ahmed
+  - family: Griggio
+    given: Alberto
+  - family: Padon
+    given: Oded
+  - family: Barrett
+    given: Clark
+  container-title: Logical Methods in Computer Science
+  doi: "10.46298/lmcs-18(3:26)2022"
+  id: MIG+22
+  issue: 3
+  issued:
+  - year: 2022
+    month: 8
+  title: Counterexample-guided prophecy for model checking modulo the
+    theory of arrays
+  type: article-journal
+  url: "https://arxiv.org/pdf/2101.06825v6.pdf"
+  volume: 18
+- abstract: Algebraic datatypes, and among them lists and trees, have
+    attracted a lot of interest in automated reasoning and
+    Satisfiability Modulo Theories (SMT). Since its latest stable
+    version, the SMT-LIB standard defines a theory of algebraic
+    datatypes, which is currently supported by several mainstream SMT
+    solvers. In this paper, we study this particular theory of datatypes
+    and prove that it is strongly polite, showing how it can be combined
+    with other arbitrary disjoint theories using polite combination. The
+    combination method uses a new, simple, and natural notion of
+    additivity that enables deducing strong politeness from (weak)
+    politeness.
+  author:
+  - family: Sheng
+    given: Ying
+  - family: Zohar
+    given: Yoni
+  - family: Ringeissen
+    given: Christophe
+  - family: Lange
+    given: Jane
+  - family: Fontaine
+    given: Pascal
+  - family: Barrett
+    given: Clark
+  container-title: Journal of Automated Reasoning
+  doi: 10.1007/s10817-022-09625-3
+  id: SZR+22
+  issue: 3
+  issued:
+  - year: 2022
+    month: 8
+  keyword: Satisfiability Modulo Theories, Automated reasoning, Theory
+    combination, Algebraic datatypes, Polite combination
+  page: 331-335
+  publisher: Springer
+  title: Polite combination of algebraic datatypes
+  type: article-journal
+  url: "https://rdcu.be/cMVOR"
+  volume: 66
 - abstract: Many SMT solvers implement efficient SAT-based procedures
     for solving fixed-size bit-vector formulas. These techniques,
     however, cannot be used directly to reason about bit-vectors of
@@ -1117,52 +1190,259 @@ references:
   type: article-journal
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/SJO+05.pdf"
   volume: 24
-- abstract: "Inspired by sum-of-infeasibilities methods in convex
-    optimization, we propose a novel procedure for analyzing
-    verification queries on neural networks with piecewise-linear
-    activation functions. Given a convex relaxation which
-    over-approximates the non-convex activation functions, we encode the
-    violations of activation functions as a cost function and optimize
-    it with respect to the convex relaxation. The cost function,
-    referred to as the Sum-of-Infeasibilities (SoI), is designed so that
-    its minimum is zero and achieved only if all the activation
-    functions are satisfied. We propose a stochastic procedure, DeepSoI,
-    to efficiently minimize the SoI. An extension to a canonical
-    case-analysis-based complete search procedure can be achieved by
-    replacing the convex procedure executed at each search state with
-    DeepSoI. Extending the complete search with DeepSoI achieves
-    multiple simultaneous goals: 1) it guides the search towards a
-    counter-example; 2) it enables more informed branching decisions;
-    and 3) it creates additional opportunities for bound derivation. An
-    extensive evaluation across different benchmarks and solvers
-    demonstrates the benefit of the proposed techniques. In particular,
-    we demonstrate that SoI significantly improves the performance of an
-    existing complete search procedure. Moreover, the SoI-based
-    implementation outperforms other state-of-the-art complete
-    verifiers. We also show that our technique can efficiently improve
-    upon the perturbation bound derived by a recent adversarial attack
-    algorithm."
+- abstract: Dynamic arrays, also referred to as vectors, are fundamental
+    data structures used in many programs. Modeling their semantics
+    efficiently is crucial when reasoning about such programs. The
+    theory of arrays is widely supported but is not ideal, because the
+    number of elements is fixed (determined by its index sort) and
+    cannot be adjusted, which is a problem, given that the length of
+    vectors often plays an important role when reasoning about vector
+    programs. In this paper, we propose reasoning about vectors using a
+    theory of sequences. We introduce the theory, propose a basic
+    calculus adapted from one for the theory of strings, and extend it
+    to efficiently handle common vector operations. We prove that our
+    calculus is sound and show how to construct a model when it
+    terminates with a saturated configuration. Finally, we describe an
+    implementation of the calculus in cvc5 and demonstrate its efficacy
+    by evaluating it on verification conditions for smart contracts and
+    benchmarks derived from existing array benchmarks.
   author:
-  - family: Wu
-    given: Haoze
-  - family: Zeljić
-    given: Aleksandar
-  - family: Katz
-    given: Guy
+  - family: Sheng
+    given: Ying
+  - family: Nötzli
+    given: Andres
+  - family: Reynolds
+    given: Andrew
+  - family: Zohar
+    given: Yoni
+  - family: Dill
+    given: David
+  - family: Grieskamp
+    given: Wolfgang
+  - family: Park
+    given: Junkil
+  - family: Qadeer
+    given: Shaz
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 11<sup>th</sup> international joint
+    conference on automated reasoning (IJCAR'22)
+  doi: 10.1007/978-3-031-10769-6_7
+  editor:
+  - family: Blanchette
+    given: Jasmin
+  - family: Kovács
+    given: Laura
+  - family: Pattinson
+    given: Dirk
+  id: SNR+22
+  issued:
+  - year: 2022
+    month: 8
+  page: 125-143
+  publisher: Springer Nature
+  title: Reasoning about vectors using an SMT theory of sequences
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SNR+22.pdf"
+  volume: 13385
+- abstract: The cvc5 SMT solver solves quantifier-free nonlinear real
+    arithmetic problems by combining the cylindrical algebraic coverings
+    method with incremental linearization in an abstraction-refinement
+    loop. The result is a complete algebraic decision procedure that
+    leverages efficient heuristics for refining candidate models.
+    Furthermore, it can be used with quantifiers, integer variables, and
+    in combination with other theories. We describe the overall
+    framework, individual solving techniques, and a number of
+    implementation details. We demonstrate its effectiveness with an
+    evaluation on the SMT-LIB benchmarks.
+  author:
+  - family: Kremer
+    given: Gereon
+  - family: Reynolds
+    given: Andrew
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 11<sup>th</sup> international joint
+    conference on automated reasoning (IJCAR'22)
+  doi: 10.1007/978-3-031-10769-6_7
+  editor:
+  - family: Blanchette
+    given: Jasmin
+  - family: Kovács
+    given: Laura
+  - family: Pattinson
+    given: Dirk
+  id: KRB+22
+  issued:
+  - year: 2022
+    month: 8
+  page: 95-105
+  publisher: Springer Nature
+  title: Cooperating techniques for solving nonlinear real arithmetic in
+    the cvc5 SMT solver (system description)
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KRB+22.pdf"
+  volume: 13385
+- abstract: Proof production for SMT solvers is paramount to ensure
+    their correctness independently from implementations, which are
+    often prohibitively difficult to verify. Historically, however, SMT
+    proof production has struggled with performance and coverage issues,
+    resulting in the disabling of many crucial solving techniques and in
+    coarse-grained (and thus hard to check) proofs. We present a
+    flexible proof-production architecture designed to handle the
+    complexity of versatile, industrial-strength SMT solvers and show
+    how we leverage it to produce detailed proofs, including for
+    components previously unsupported by any solver. The architecture
+    allows proofs to be produced modularly, lazily, and with numerous
+    safeguards for correctness. This architecture has been implemented
+    in the state-of-the-art SMT solver cvc5. We evaluate its proofs for
+    SMT-LIB benchmarks and show that the new architecture produces
+    better coverage than previous approaches, has acceptable performance
+    overhead, and supports detailed proofs for most solving components.
+  author:
+  - family: Barbosa
+    given: Haniel
+  - family: Reynolds
+    given: Andrew
+  - family: Kremer
+    given: Gereon
+  - family: Lachnitt
+    given: Hanna
+  - family: Niemetz
+    given: Aina
+  - family: Nötzli
+    given: Andres
+  - family: Ozdemir
+    given: Alex
+  - family: Preiner
+    given: Mathias
+  - family: Viswanathan
+    given: Arjun
+  - family: Viteri
+    given: Scott
+  - family: Zohar
+    given: Yoni
+  - family: Tinelli
+    given: Cesare
   - family: Barrett
     given: Clark
   collection-title: Lecture notes in computer science
-  container-title: Proceedings of the 28<sup>th</sup> international conference
-    on tools and algorithms for the construction and analysis of systems
-    (TACAS'22)
-  id: WZK+22
+  container-title: Proceedings of the 11<sup>th</sup> international joint
+    conference on automated reasoning (IJCAR'22)
+  doi: 10.1007/978-3-031-10769-6_3
+  editor:
+  - family: Blanchette
+    given: Jasmin
+  - family: Kovács
+    given: Laura
+  - family: Pattinson
+    given: Dirk
+  id: BRK+22
   issued:
   - year: 2022
-    month: 4
-  publisher: Springer
-  title: Efficient neural network analysis with sum-of-infeasibilities
+    month: 8
+  page: 15-35
+  publisher: Springer Nature
+  title: Flexible proof production in an industrial-strength SMT solver
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WZK+22.pdf"
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BRK+22.pdf"
+  volume: 13385
+- abstract: In the past decade, satisfiability modulo theories (SMT)
+    solvers have been extended to support the theory of strings and
+    regular expressions. This theory has proven to be useful in a wide
+    range of applications in academia and industry. To accommodate the
+    expressive nature of string constraints used in those applications,
+    string solvers use a multi-layered architecture where extended
+    operators are reduced to a set of core operators. These reductions,
+    however, are often costly to reason about. In this work, we propose
+    new techniques for eagerly discovering conflicts based on equality
+    reasoning and lazily avoiding reductions for certain extended
+    functions based on lightweight reasoning. We present a strategy for
+    integrating and scheduling these techniques in a CDCL(T)-based
+    theory solver for strings and regular expressions. We implement the
+    techniques and the strategy in cvc5, a state-of-the-art SMT solver,
+    and show that they lead to a significant performance improvement.
+  author:
+  - family: Nötzli
+    given: Andres
+  - family: Reynolds
+    given: Andrew
+  - family: Barbosa
+    given: Haniel
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 34<sup>th</sup> international conference
+    on computer aided verification (CAV'22)
+  doi: 10.1007/978-3-031-13188-2_11
+  editor:
+  - family: Shoham
+    given: Sharon
+  - family: Vizel
+    given: Yakir
+  id: NRB+22
+  issued:
+  - year: 2022
+    month: 8
+  page: 205-226
+  publisher: Springer
+  title: Even faster conflicts and lazier reductions for string solvers
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NRB+22.pdf"
+  volume: 13372
+- abstract: SMT solvers are highly complex pieces of software with
+    performance, robustness, and correctness as key requirements.
+    Complementing traditional testing techniques for these solvers with
+    randomized stress testing has been shown to be quite effective.
+    Recent work has showcased the value of input fuzzing for finding
+    issues, but this approach typically does not comprehensively test a
+    solver's API. Previous work on model-based API fuzzing was tailored
+    to a single solver and a small subset of SMT-LIB. We present Murxla,
+    a comprehensive, modular, and highly extensible model-based API
+    fuzzer for SMT solvers. Murxla randomly generates valid sequences of
+    solver API calls based on a customizable API model, with full
+    support for the semantics and features of SMT-LIB. It is
+    solver-agnostic but extensible to allow for solver-specific testing
+    and supports option fuzzing, cross-checking with other solvers,
+    translation to SMT-LIBv2, and SMT-LIBv2 input fuzzing. Our
+    evaluation confirms its efficacy in finding issues in multiple
+    state-of-the-art SMT solvers.
+  author:
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 34<sup>th</sup> international conference
+    on computer aided verification (CAV'22)
+  doi: 10.1007/978-3-031-13188-2_5
+  editor:
+  - family: Shoham
+    given: Sharon
+  - family: Vizel
+    given: Yakir
+  id: NPB22
+  issued:
+  - year: 2022
+    month: 8
+  page: 92-106
+  publisher: Springer
+  title: "Murxla: A modular and highly extensible API fuzzer for SMT
+    solvers"
+  title-short: Murxla
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPB22.pdf"
+  volume: 13372
 - abstract: cvc5 is the latest SMT solver in the cooperating validity
     checker series and builds on the successful code base of CVC4. This
     paper serves as a comprehensive system description of cvc5's
@@ -1224,6 +1504,60 @@ references:
   title-short: cvc5
   type: paper-conference
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/BBB+22.pdf"
+  volume: 13243
+- abstract: "Inspired by sum-of-infeasibilities methods in convex
+    optimization, we propose a novel procedure for analyzing
+    verification queries on neural networks with piecewise-linear
+    activation functions. Given a convex relaxation which
+    over-approximates the non-convex activation functions, we encode the
+    violations of activation functions as a cost function and optimize
+    it with respect to the convex relaxation. The cost function,
+    referred to as the Sum-of-Infeasibilities (SoI), is designed so that
+    its minimum is zero and achieved only if all the activation
+    functions are satisfied. We propose a stochastic procedure, DeepSoI,
+    to efficiently minimize the SoI. An extension to a canonical
+    case-analysis-based complete search procedure can be achieved by
+    replacing the convex procedure executed at each search state with
+    DeepSoI. Extending the complete search with DeepSoI achieves
+    multiple simultaneous goals: 1) it guides the search towards a
+    counter-example; 2) it enables more informed branching decisions;
+    and 3) it creates additional opportunities for bound derivation. An
+    extensive evaluation across different benchmarks and solvers
+    demonstrates the benefit of the proposed techniques. In particular,
+    we demonstrate that SoI significantly improves the performance of an
+    existing complete search procedure. Moreover, the SoI-based
+    implementation outperforms other state-of-the-art complete
+    verifiers. We also show that our technique can efficiently improve
+    upon the perturbation bound derived by a recent adversarial attack
+    algorithm."
+  author:
+  - family: Wu
+    given: Haoze
+  - family: Zeljić
+    given: Aleksandar
+  - family: Katz
+    given: Guy
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 28<sup>th</sup> international conference
+    on tools and algorithms for the construction and analysis of systems
+    (TACAS'22)
+  doi: 10.1007/978-3-030-99524-9\\\_24
+  editor:
+  - family: Fisman
+    given: Dana
+  - family: Rosu
+    given: Grigore
+  id: WZK+22
+  issued:
+  - year: 2022
+    month: 4
+  page: 143-163
+  publisher: Springer
+  title: Efficient neural network analysis with sum-of-infeasibilities
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WZK+22.pdf"
   volume: 13243
 - abstract: The state of the art for bit-precise reasoning in the
     context of Satisfiability Modulo Theories (SMT) is a SAT-based
@@ -2221,14 +2555,14 @@ references:
     formal design specification. While A- QED is effective for both RTL
     and high-level synthesis (HLS) design flows, it integrates
     seamlessly with HLS flows. Our A-QED results on several hardware
-    accelerator designs demonstrate its practicality and effectiveness:
-    1. A-QED detected all bugs detected by conventional verification
-    flow. 2. A-QED detected bugs that escaped conventional verification
-    flow. 3. A-QED improved verification productivity dramatically, by
-    30X, in one of our case studies (1 person-day using A-QED vs. 30
-    person-days using conventional verification flow). 4. A-QED produced
-    short counterexamples for easy debug (37X shorter on average vs.
-    conventional verification flow)."
+    accelerator designs demonstrate its practicality and
+    effectiveness: 1. A-QED detected all bugs detected by conventional
+    verification flow. 2. A-QED detected bugs that escaped conventional
+    verification flow. 3. A-QED improved verification productivity
+    dramatically, by 30X, in one of our case studies (1 person-day using
+    A-QED vs. 30 person-days using conventional verification flow). 4.
+    A-QED produced short counterexamples for easy debug (37X shorter on
+    average vs. conventional verification flow)."
   author:
   - family: Singh
     given: Eshan
@@ -4025,24 +4359,24 @@ references:
     manual steps. Such ad hoc approaches cannot scale with increasing IC
     complexity. We present Symbolic Quick Error Detection (Symbolic
     QED), a structured approach to post-silicon validation and debug.
-    Symbolic QED combines the following steps in a coordinated fashion:
-    1. Quick Error Detection (QED) tests that quickly detect bugs with
-    short error detection latencies and high coverage. 2. Formal
-    analysis techniques to localize bugs and generate minimal-length bug
-    traces upon detection of the corresponding bugs. We demonstrate the
-    practicality and effectiveness of Symbolic QED using the OpenSPARC
-    T2, a 500-million-transistor open-source multicore System-on-Chip
-    (SoC) design, and using \"difficult\" logic bug scenarios that
-    occurred in various state-of-the-art commercial multicore SoCs. Our
-    results show that Symbolic QED: (i) is fully automatic (unlike
-    manual techniques in use today that can be extremely time-consuming
-    and expensive); (ii) requires only a few hours in contrast to manual
-    approaches that might take days (or even months) or formal
-    techniques that often take days or fail completely for large
-    designs; (iii) generates counter-examples (for activating and
-    detecting logic bugs) that are up to 6 orders of magnitude shorter
-    than those produced by traditional techniques; and, (iv) does not
-    require any additional hardware."
+    Symbolic QED combines the following steps in a coordinated
+    fashion: 1. Quick Error Detection (QED) tests that quickly detect
+    bugs with short error detection latencies and high coverage. 2.
+    Formal analysis techniques to localize bugs and generate
+    minimal-length bug traces upon detection of the corresponding bugs.
+    We demonstrate the practicality and effectiveness of Symbolic QED
+    using the OpenSPARC T2, a 500-million-transistor open-source
+    multicore System-on-Chip (SoC) design, and using \"difficult\" logic
+    bug scenarios that occurred in various state-of-the-art commercial
+    multicore SoCs. Our results show that Symbolic QED: (i) is fully
+    automatic (unlike manual techniques in use today that can be
+    extremely time-consuming and expensive); (ii) requires only a few
+    hours in contrast to manual approaches that might take days (or even
+    months) or formal techniques that often take days or fail completely
+    for large designs; (iii) generates counter-examples (for activating
+    and detecting logic bugs) that are up to 6 orders of magnitude
+    shorter than those produced by traditional techniques; and, (iv)
+    does not require any additional hardware."
   author:
   - family: Lin
     given: David
