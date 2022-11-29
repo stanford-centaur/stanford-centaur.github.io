@@ -23,7 +23,7 @@ title: affiliates and sponsors
 <img class="sponsor" src="/img/sponsors/nsf.png" />
 </p>
 
-<h2>Corporate Research Sponsors</h2>
+<h2>Additional Sponsors</h2>
 <p>
 <span class="founding"><img class="sponsor" src="/img/sponsors/vmware.png" /></span>
 </p>
