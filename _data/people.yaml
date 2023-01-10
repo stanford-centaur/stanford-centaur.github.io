@@ -136,14 +136,14 @@
   website: https://anwu1219.github.io/
   start: 2018
 
-#- name: Aron Perez-Lopez
-#  position: phd
-#  start: 2022
+- name: Aron Perez-Lopez
+  position: phd
+  start: 2022
 
-#- name: Livia Sun
-#  position: phd
-#  img: sun.jpeg
-#  start: 2022
+- name: Livia Sun
+  position: phd
+  img: sun.jpeg
+  start: 2022
 
 # Master students
 
