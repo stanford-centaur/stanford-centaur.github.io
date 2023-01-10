@@ -30,14 +30,6 @@
 
 # Research scientists
 
-- name: Florian Lonsing
-  position: research_scientist
-  img: lonsing.jpg
-  website: http://www.florianlonsing.com/
-  start: 2019
-  end: 2022
-  now: AWS
-
 - name: Aina Niemetz
   position: research_scientist
   img: niemetz.png
@@ -63,79 +55,18 @@
   website:
   start: 2022
 
-- name: Ahmed Irfan
-  position: postdoc
-  website: https://ahmed-irfan.github.io/
-  start: 2019
-  end: 2021
-  now: SRI
-
-- name: Guy Katz
-  position: postdoc
-  img: katz.webp
-  website: https://www.katz-lab.com/
-  start: 2016
-  end: 2018
-  now: Hebrew University
-
-- name: Gereon Kremer
-  position: postdoc
-  website: https://cs.stanford.edu/~gkremer/
-  start: 2020
-  end: 2022
-  now: Certora
-
-- name: Cristian Mattarei
-  position: postdoc
-  img: mattarei.jpg
-  website: http://www.mattarei.eu/cristian/
-  start: 2016
-  end: 2018
-  now: Apple
-
-- name: Aina Niemetz
-  position: postdoc
-  img: niemetz.png
-  website: http://cs.stanford.edu/~niemetz
-  start: 2017
-  end: 2019
-  now: Research Scientist at Stanford University (Centaur)
-
-- name: Andres Nötzli
-  position: postdoc
-  website: https://cs.stanford.edu/~noetzli/
-  start: 2021
-  end: 2022
-
-- name: Mathias Preiner
-  position: postdoc
-  website: http://cs.stanford.edu/~preiner
-  start: 2017
-  end: 2019
-  now: Research Scientist at Stanford University (Centaur)
-
 - name: Min Wu
   position: postdoc
   img: wu_min.jpg
   website: https://profiles.stanford.edu/276567
   start: 2022
 
-- name: Aleksandar Zeljić
-  position: postdoc
-  img: zeljic.png
-  website: https://aleksandarzeljic.github.io/
-  start: 2018
-
-- name: Yoni Zohar
-  position: postdoc
-  img: zohar.jpg
-  website: https://cs.stanford.edu/~yoniz/
-  start: 2018
-  end: 2021
-  now: Bar Ilan University
-
 # Visiting Researchers
-#
+
+- name: Guy Amir
+  position: visiting
+  start: 2022
+
 - name: Teruhiro Tagomori
   position: visiting
   start: 2020
@@ -163,20 +94,13 @@
   website: https://profiles.stanford.edu/hanna-lachnitt
   start: 2020
 
-- name: Makai Mann
+- name: Abdalrhman Mohamed
   position: phd
-  img: mann.jpg
-  website: https://makaimann.github.io
-  start: 2016
-  end: 2021
-  now: MIT Lincoln Laboratory
+  start: 2022
 
-- name: Andres Nötzli
+- name: Abdalrhman Mohamed
   position: phd
-  website: https://cs.stanford.edu/~noetzli/
-  start: 2014
-  end: 2021
-  now: Postdoctoral Researcher at Stanford University (Centaur)
+  start: 2022
 
 - name: Alex Ozdemir
   position: phd
@@ -196,6 +120,10 @@
   website: https://profiles.stanford.edu/scott-viteri
   start: 2019
 
+- name: Leni Ven
+  position: phd
+  start: 2023
+
 - name: Amalee Wilson
   position: phd
   img: wilson.jpg
@@ -208,20 +136,101 @@
   website: https://anwu1219.github.io/
   start: 2018
 
-- name: Abdalrhman Mohamed
-  position: phd
-  start: 2022
+#- name: Aron Perez-Lopez
+#  position: phd
+#  start: 2022
 
-- name: Aron Perez-Lopez
-  position: phd
-  start: 2022
-
-- name: Livia Sun
-  position: phd
-  img: sun.jpeg
-  start: 2022
+#- name: Livia Sun
+#  position: phd
+#  img: sun.jpeg
+#  start: 2022
 
 # Master students
+
+- name: Harun Khan
+  position: master
+  start: 2023
+
+- name: Udayan Mandal
+  position: master
+  start: 2022
+
+# Bachelor students
+
+# Alumni
+
+- name: Joey Guman
+  position: bachelor
+  start: 2022
+  end: 2022
+
+- name: Ahmed Irfan
+  position: postdoc
+  website: https://ahmed-irfan.github.io/
+  start: 2019
+  end: 2021
+  now: SRI
+
+- name: Guy Katz
+  position: postdoc
+  img: katz.webp
+  website: https://www.katz-lab.com/
+  start: 2016
+  end: 2018
+  now: Hebrew University
+
+- name: Gereon Kremer
+  position: postdoc
+  website: https://cs.stanford.edu/~gkremer/
+  start: 2020
+  end: 2022
+  now: Certora
+
+- name: Florian Lonsing
+  position: research_scientist
+  img: lonsing.jpg
+  website: http://www.florianlonsing.com/
+  start: 2019
+  end: 2022
+  now: AWS
+
+- name: Cristian Mattarei
+  position: postdoc
+  img: mattarei.jpg
+  website: http://www.mattarei.eu/cristian/
+  start: 2016
+  end: 2018
+  now: Apple
+
+- name: Makai Mann
+  position: phd
+  img: mann.jpg
+  website: https://makaimann.github.io
+  start: 2016
+  end: 2021
+  now: MIT Lincoln Laboratory
+
+- name: Aina Niemetz
+  position: postdoc
+  img: niemetz.png
+  website: http://cs.stanford.edu/~niemetz
+  start: 2017
+  end: 2019
+  now: Research Scientist at Stanford University (Centaur)
+
+- name: Andres Nötzli
+  position: phd
+  website: https://cs.stanford.edu/~noetzli/
+  start: 2014
+  end: 2021
+  now: Postdoctoral Researcher at Stanford University (Centaur)
+
+- name: Andres Nötzli
+  position: postdoc
+  website: https://cs.stanford.edu/~noetzli/
+  start: 2021
+  end: 2022
+  now: Cubist
 
 - name: Yancheng Ou
   position: master
@@ -229,11 +238,23 @@
   start: 2021
   end: 2022
 
+- name: Mathias Preiner
+  position: postdoc
+  website: http://cs.stanford.edu/~preiner
+  start: 2017
+  end: 2019
+  now: Research Scientist at Stanford University (Centaur)
+
 - name: Parth Shah
   position: master
   start: 2018
   end: 2019
   now: Apple
+
+- name: Tobey Shim
+  position: bachelor
+  start: 2022
+  end: 2022
 
 - name: Mario Srouji
   position: master
@@ -253,24 +274,24 @@
   end: 2020
   now: Ph.D. student at U Penn
 
+- name: Aleksandar Zeljić
+  position: postdoc
+  img: zeljic.png
+  website: https://aleksandarzeljic.github.io/
+  start: 2018
+  end: 2022
+  now: Synopsis
+
 - name: Emma Zhong
   position: master
   start: 2019
   end: 2020
   now: Facebook Novi
 
-- name: Udayan Mandal
-  position: master
-  start: 2022
-
-# Bachelor students
-
-- name: Joey Guman
-  position: bachelor
-  start: 2022
-  end: 2022
-
-- name: Tobey Shim
-  position: bachelor
-  start: 2022
-  end: 2022
+- name: Yoni Zohar
+  position: postdoc
+  img: zohar.jpg
+  website: https://cs.stanford.edu/~yoniz/
+  start: 2018
+  end: 2021
+  now: Bar Ilan University
