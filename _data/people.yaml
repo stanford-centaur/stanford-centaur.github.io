@@ -35,6 +35,8 @@
   img: lonsing.jpg
   website: http://www.florianlonsing.com/
   start: 2019
+  end: 2022
+  now: AWS
 
 - name: Aina Niemetz
   position: research_scientist
@@ -56,12 +58,17 @@
 
 # Postdocs
 
+- name: Pei Huang
+  position: postdoc
+  website:
+  start: 2022
+
 - name: Ahmed Irfan
   position: postdoc
   website: https://ahmed-irfan.github.io/
   start: 2019
   end: 2021
-  now: AWS
+  now: SRI
 
 - name: Guy Katz
   position: postdoc
