@@ -309,6 +309,144 @@ references:
   type: chapter
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/BSST09.pdf"
   volume: 185
+- abstract: Recently, Graph Neural Networks (GNNs) have been applied for
+    scheduling jobs over clusters, achieving better performance than
+    hand-crafted heuristics. Despite their impressive performance,
+    concerns remain over whether these GNN-based job schedulers meet
+    users' expectations about other important properties, such as
+    strategy-proofness, sharing incentive, and stability. In this work,
+    we consider formal verification of GNN-based job schedulers. We
+    address several domain-specific challenges such as networks that are
+    deeper and specifications that are richer than those encountered
+    when verifying image and NLP classifiers. We develop vegas, the
+    first general framework for verifying both single-step and
+    multi-step properties of these schedulers based on carefully
+    designed algorithms that combine abstractions, refinements, solvers,
+    and proof transfer. Our experimental results show that vegas
+    achieves significant speed-up when verifying important properties of
+    a state-of-the-art GNN-based scheduler compared to previous methods.
+  author:
+  - family: Wu
+    given: Haoze
+  - family: Barrett
+    given: Clark
+  - family: Sharif
+    given: Mahmood
+  - family: Narodytska
+    given: Nina
+  - family: Singh
+    given: Gagandeep
+  container-title: Proceedings of the ACM on Programming Languages
+  doi: 10.1145/3563325
+  id: WBS+22
+  issue: OOPSLA2
+  issued:
+  - year: 2022
+    month: 10
+  page: 1036-1065
+  title: Scalable verification of GNN-based job schedulers
+  type: article-journal
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WBS+22.pdf"
+  volume: 6
+- abstract: With the slowing of Moore's law, computer architects have
+    turned to domain-specific hardware specialization to continue
+    improving the performance and efficiency of computing systems.
+    However, specialization typically entails significant modifications
+    to the software stack to properly leverage the updated hardware. The
+    lack of a structured approach for updating both the compiler and the
+    accelerator in tandem has impeded many attempts to systematize this
+    procedure. We propose a new approach to enable flexible and
+    evolvable domain-specific hardware specialization based on
+    coarse-grained reconfigurable arrays (CGRAs). Our agile methodology
+    employs a combination of new programming languages and formal
+    methods to automatically generate the accelerator hardware and its
+    compiler from a single source of truth. This enables the creation of
+    design-space exploration frameworks that automatically generate
+    accelerator architectures that approach the efficiencies of
+    hand-designed accelerators, with a significantly lower design effort
+    for both hardware and compiler generation. Our current system
+    accelerates dense linear algebra applications, but is modular and
+    can be extended to support other domains. Our methodology has the
+    potential to significantly improve the productivity of
+    hardware-software engineering teams and enable quicker customization
+    and deployment of complex accelerator-rich computing systems.
+  author:
+  - family: Koul
+    given: Kalhan
+  - family: Melchert
+    given: Jackson
+  - family: Sreedhar
+    given: Kavya
+  - family: Truong
+    given: Leonard
+  - family: Nyengele
+    given: Gedeon
+  - family: Zhang
+    given: Keyi
+  - family: Liu
+    given: Qiaoyi
+  - family: Setter
+    given: Jeff
+  - family: Chen
+    given: Po-Han
+  - family: Mei
+    given: Yuchen
+  - family: Strange
+    given: Maxwell
+  - family: Daly
+    given: Ross
+  - family: Donovick
+    given: Caleb
+  - family: Carsello
+    given: Alex
+  - family: Kong
+    given: Taeyoung
+  - family: Feng
+    given: Kathleen
+  - family: Huff
+    given: Dillon
+  - family: Nayak
+    given: Ankita
+  - family: Setaluri
+    given: Rajsekhar
+  - family: Thomas
+    given: James
+  - family: Bhagdikar
+    given: Nikhil
+  - family: Durst
+    given: David
+  - family: Myers
+    given: Zachary
+  - family: Tsiskaridze
+    given: Nestan
+  - family: Richardson
+    given: Stephen
+  - family: Bahr
+    given: Rick
+  - family: Fatahalian
+    given: Kayvon
+  - family: Hanrahan
+    given: Pat
+  - family: Barrett
+    given: Clark
+  - family: Horowitz
+    given: Mark
+  - family: Torng
+    given: Christopher
+  - family: Kjolstad
+    given: Fredrik
+  - family: Raina
+    given: Priyanka
+  container-title: ACM Transactions on Embedded Computing Systems
+  doi: 10.1145/3534933
+  id: KMS+22
+  issued:
+  - year: 2022
+    month: 4
+  title: "AHA: An agile approach to the design of course-grained
+    reconfigurable accelerators and compilers"
+  title-short: AHA
+  type: article-journal
 - abstract: We develop a framework for model checking infinite-state
     systems by automatically augmenting them with auxiliary variables,
     enabling quantifier-free induction proofs for systems that would
@@ -1190,6 +1328,296 @@ references:
   type: article-journal
   url: "http://www.cs.stanford.edu/\\~barrett/pubs/SJO+05.pdf"
   volume: 24
+- abstract: Convolutional neural networks (CNNs) have achieved immense
+    popularity in areas like computer vision, image processing, speech
+    proccessing, and many others. Unfortunately, despite their excellent
+    performance, they are prone to producing erroneous results---for
+    example, minor perturbations to their inputs can result in severe
+    classification errors. In this paper, we present the CNN-ABS
+    framework, which implements an abstraction-refinement based scheme
+    for CNN verification. Specifically, CNN-ABS simplifies the
+    verification problem through the removal of convolutional
+    connections in a way that soundly creates an over-approximation of
+    the original problem; it then iteratively restores these connections
+    if the resulting problem becomes too abstract. CNN-ABS is designed
+    to use existing verification engines as a backend, and our
+    evaluation demonstrates that it can significantly boost the
+    performance of a state-of-the-art DNN verification engine, reducing
+    runtime by 15.7% on average.
+  author:
+  - family: Ostrovsky
+    given: Matan
+  - family: Barrett
+    given: Clark
+  - family: Katz
+    given: Guy
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 20<sup>th</sup> international symposium
+    on automated technology for verification and analysis (ATVA'22)
+  doi: 10.1007/978-3-031-19992-9_25
+  editor:
+  - family: Bouajjani
+    given: Ahmed
+  - family: Holík
+    given: Lukáš
+  - family: Wu
+    given: Zhilin
+  id: OBK22
+  issued:
+  - year: 2022
+    month: 10
+  page: 391-396
+  publisher: Springer International Publishing
+  title: An abstraction-refinement approach to verifying convolutional
+    neural networks
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/OBK22.pdf"
+  volume: 13505
+- abstract: Creating a compiler for an instruction set architecture
+    (ISA) requires a set of rewrite rules describing how to translate
+    from the compiler's intermediate representation (IR) to the ISA. We
+    address this challenge by synthesizing rewrite rules from a
+    register-transfer level (RTL) description of the target architecture
+    (with minimal annotations about its state and the ISA format),
+    together with formal IR semantics, by constructing SMT queries where
+    solutions represent valid rewrite rules. We evaluate our approach on
+    multiple architectures, supporting both integer and floating-point
+    operations. We synthesize both integer and floating-point rewrite
+    rules from an intermediate representation to various reconfigurable
+    array architectures in under 1.2 seconds per rule. We also
+    synthesize integer rewrite rules from WebAssembly to RISC-V with
+    both standard and custom extensions in under 4 seconds per rule, and
+    we synthesize floating-point rewrite rules in under 8 seconds per
+    rule.
+  author:
+  - family: Daly
+    given: Ross
+  - family: Donovick
+    given: Caleb
+  - family: Melchert
+    given: Jackson
+  - family: Setaluri
+    given: Rajsekhar
+  - family: Tsiskaridze
+    given: Nestan
+  - family: Raina
+    given: Priyanka
+  - family: Barrett
+    given: Clark
+  - family: Hanrahan
+    given: Pat
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'22)
+  doi: 10.34727/2022/isbn.978-3-85448-053-2_20
+  editor:
+  - family: Griggio
+    given: Alberto
+  - family: Rungta
+    given: Neha
+  id: DDM+22
+  issued:
+  - year: 2022
+    month: 10
+  page: 139-150
+  publisher: TU Wien Academic Press
+  title: Synthesizing instruction selection rewrite rules from RTL using
+    SMT
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/DDM+22.pdf"
+- abstract: Satisfiability modulo theories (SMT) solvers are widely used
+    to prove security and safety properties of computer systems. For
+    these applications, it is crucial that the result reported by an SMT
+    solver be correct. Recently, there has been a renewed focus on
+    producing independently checkable proofs in SMT solvers, partly with
+    the aim of addressing this risk. These proofs record the reasoning
+    done by an SMT solver and are ideally detailed enough to be easy to
+    check. At the same time, modern SMT solvers typically implement
+    hundreds of different term-rewriting rules in order to achieve
+    state-of-the-art performance. Generating detailed proofs for
+    applications of these rules is a challenge, because code
+    implementing rewrite rules can be large and complex. Instrumenting
+    this code to additionally produce proofs makes it even more complex
+    and makes it harder to add new rewrite rules. We propose an
+    alternative approach to the direct instrumentation of the rewriting
+    module of an SMT solver. The approach uses a domain-specific
+    language (DSL) to describe a set of rewrite rules declaratively and
+    then reconstructs detailed proofs for specific rewrite steps on
+    demand based on those declarative descriptions.
+  author:
+  - family: Nötzli
+    given: Andres
+  - family: Barbosa
+    given: Haniel
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Reynolds
+    given: Andrew
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'22)
+  doi: 10.34727/2022/isbn.978-3-85448-053-2_12
+  editor:
+  - family: Griggio
+    given: Alberto
+  - family: Rungta
+    given: Neha
+  id: NBN+22
+  issued:
+  - year: 2022
+    month: 10
+  page: 65-74
+  publisher: TU Wien Academic Press
+  title: Reconstructing fine-grained proofs of rewrites using a
+    domain-specific language
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NBN+22.pdf"
+- abstract: With the increasing availability of parallel computing
+    power, there is a growing focus on parallelizing algorithms for
+    important automated reasoning problems such as Boolean
+    satisfiability (SAT). Divide-and-Conquer (D&C) is a popular parallel
+    SAT solving paradigm that partitions SAT instances into independent
+    sub-problems which are then solved in parallel. For unsatisfiable
+    instances, state-of-the-art D&C solvers generate DRAT refutations
+    for each sub-problem. However, they do not generate a single
+    refutation for the original instance. To close this gap, we present
+    Proof-Stitch, a procedure for combining refutations of different
+    sub-problems into a single refutation for the original instance. We
+    prove the correctness of the procedure and propose optimizations to
+    reduce the size and checking time of the combined refutations by
+    invoking existing trimming tools in the proof-combination process.
+    We also provide an extensible implementation of the proposed
+    technique. Experiments on instances from last year's SAT competition
+    show that the optimized refutations are checkable up to seven times
+    faster than unoptimized refutations.
+  author:
+  - family: Nair
+    given: Abhishek
+  - family: Chattopadhyay
+    given: Saranyu
+  - family: Wu
+    given: Haoze
+  - family: Ozdemir
+    given: Alex
+  - family: Barrett
+    given: Clark
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'22)
+  doi: 10.34727/2022/isbn.978-3-85448-053-2_14
+  editor:
+  - family: Griggio
+    given: Alberto
+  - family: Rungta
+    given: Neha
+  id: NCW+22
+  issued:
+  - year: 2022
+    month: 10
+  page: 84-88
+  publisher: TU Wien Academic Press
+  title: "Proof-stitch: Proof combination for divide-and-conquer SAT
+    solvers"
+  title-short: Proof-stitch
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NCW+22.pdf"
+- abstract: With the increasing application of deep learning in
+    mission-critical systems, there is a growing need to obtain formal
+    guarantees about the behaviors of neural networks. Indeed, many
+    approaches for verifying neural networks have been recently
+    proposed, but these generally struggle with limited scalability or
+    insufficient accuracy. A key component in many state-of-the-art
+    verification schemes is computing lower and upper bounds on the
+    values that neurons in the network can obtain for a specific input
+    domain---and the tighter these bounds, the more likely the
+    verification is to succeed. Many common algorithms for computing
+    these bounds are variations of the symbolic-bound propagation
+    method; and among these, approaches that utilize a process called
+    back-substitution are particularly successful. In this paper, we
+    present an approach for making back-substitution produce tighter
+    bounds. To achieve this, we formulate and then minimize the
+    imprecision errors incurred during back-substitution. Our technique
+    is general, in the sense that it can be integrated into numerous
+    existing symbolic-bound propagation techniques, with only minor
+    modifications. We implement our approach as a proof-of-concept tool,
+    and present favorable results compared to state-of-the-art verifiers
+    that perform back-substitution.
+  author:
+  - family: Zelazny
+    given: Tom
+  - family: Wu
+    given: Haoze
+  - family: Barrett
+    given: Clark
+  - family: Katz
+    given: Guy
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'22)
+  doi: 10.34727/2022/isbn.978-3-85448-053-2_7
+  editor:
+  - family: Griggio
+    given: Alberto
+  - family: Rungta
+    given: Neha
+  id: ZWB+22
+  issued:
+  - year: 2022
+    month: 10
+  page: 17-26
+  publisher: TU Wien Academic Press
+  title: On optimizing back-substitution methods for neural network
+    verification
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/ZWB+22.pdf"
+- abstract: "Deep neural networks (DNNs) are increasingly being employed
+    in safety-critical systems, and there is an urgent need to guarantee
+    their correctness. Consequently, the verification community has
+    devised multiple techniques and tools for verifying DNNs. When DNN
+    verifiers discover an input that triggers an error, that is easy to
+    confirm; but when they report that no error exists, there is no way
+    to ensure that the verification tool itself is not flawed. As
+    multiple errors have already been observed in DNN verification
+    tools, this calls the applicability of DNN verification into
+    question. In this work, we present a novel mechanism for enhancing
+    Simplex-based DNN verifiers with proof production capabilities: the
+    generation of an easy-to-check witness of unsatisfiability, which
+    attests to the absence of errors. Our proof production is based on
+    an efficient adaptation of the well-known Farkas' lemma, combined
+    with mechanisms for handling piecewise-linear functions and
+    numerical precision errors. As a proof of concept, we implemented
+    our technique on top of the Marabou DNN verifier. Our evaluation on
+    a safety-critical system for airborne collision avoidance shows that
+    proof production succeeds in almost all cases and requires only
+    minimal overhead."
+  author:
+  - family: Isac
+    given: Omri
+  - family: Barrett
+    given: Clark
+  - family: Zhang
+    given: Min
+  - family: Katz
+    given: Guy
+  container-title: Proceedings of the 22<sup>nd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'22)
+  doi: 10.34727/2022/isbn.978-3-85448-053-2_9
+  editor:
+  - family: Griggio
+    given: Alberto
+  - family: Rungta
+    given: Neha
+  id: IBZ+22
+  issued:
+  - year: 2022
+    month: 10
+  page: 38-48
+  publisher: TU Wien Academic Press
+  title: Neural network verification with proof production
+  type: paper-conference
+  url: "http://www.cs.stanford.edu/\\~barrett/pubs/IBZ+22.pdf"
 - abstract: Dynamic arrays, also referred to as vectors, are fundamental
     data structures used in many programs. Modeling their semantics
     efficiently is crucial when reasoning about such programs. The
