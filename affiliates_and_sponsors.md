@@ -10,6 +10,11 @@ title: affiliates and sponsors
 <span class="founding"><img src="/img/sponsors/amazon.png" /></span>
 </p>
 
+<h2>Gold Members</h2>
+<p>
+<img class="sponsor" src="/img/sponsors/ethereum.png" />
+</p>
+
 <h2>Silver Members</h2>
 <p>
 <span class="founding"><img src="/img/sponsors/certora.png" /></span>
