@@ -32,12 +32,14 @@
 
 - name: Aina Niemetz
   position: research_scientist
+  title: Senior Research Scientist
   img: niemetz.png
   website: http://cs.stanford.edu/~niemetz
   start: 2019
 
 - name: Mathias Preiner
   position: research_scientist
+  title: Senior Research Scientist
   website: http://cs.stanford.edu/~preiner
   start: 2019
 
@@ -118,6 +120,8 @@
 
 - name: Leni Ven
   position: phd
+  website: https://leni.sh/
+  img: ven.png
   start: 2023
 
 - name: Amalee Wilson
