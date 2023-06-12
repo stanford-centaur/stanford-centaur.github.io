@@ -146,7 +146,7 @@ Session V
 </tr>
 <tr>
 <td>3:30pm-3:50pm</td>
-<td>Partitioning Strategies for Parallel SMT Solving</a></td>
+<td>Partitioning Strategies for Parallel SMT Solving</td>
 <td>Amalee Wilson</td>
 <td>PhD Student</td>
 </tr>
