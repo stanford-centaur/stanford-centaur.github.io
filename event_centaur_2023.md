@@ -21,6 +21,7 @@ Register
 <td style="width:20%;"></td>
 </tr>
 
+<tr>
 <td>9:00am-9:10am</td>
 <td>Opening Remarks</td>
 <td>Clark Barrett</td>
