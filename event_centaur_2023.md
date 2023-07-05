@@ -15,7 +15,7 @@ Register
 <h2>Thursday August 17</h2>
 <table>
 <tr>
-<td style="width:20%;">8:30am-8:50am</td>
+<td style="width:20%;">8:30am-9:00am</td>
 <td style="width:32">Breakfast and Registration</td>
 <td style="width:18%;"></td>
 <td style="width:20%;"></td>
