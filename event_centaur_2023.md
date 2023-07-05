@@ -161,4 +161,15 @@ Session V
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
+
+<tr>
+<td colspan="4" style="text-align:center;font-weight:bold;">
+Reception
+</td>
+</tr>
+<tr>
+<td>4:30pm-6:00pm</td>
+<td colspan="3">Reception</td>
+</tr>
+
 </table>
