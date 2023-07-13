@@ -97,7 +97,7 @@ Session III
 
 <tr>
 <td>12:10pm-12:35pm</td>
-<td><a href="https://www.youtube.com/watch?v=b5f6IGJUi8Y&list=PLqYw1C4YGfr3KQtHU6ch4gIHHwThDIZRK&index=7">Lightning Talks</a></td>
+<td>Lightning Talks</td>
 <td></td>
 <td></td>
 </tr>
@@ -116,7 +116,7 @@ Session IV
 </tr>
 <tr>
 <td>2:05pm-2:20pm</td>
-<td><a href="https://www.youtube.com/watch?v=xgUuQrVROkM&list=PLqYw1C4YGfr3KQtHU6ch4gIHHwThDIZRK&index=8">The Stanford LINX program</a></td>
+<td>The Stanford LINX program</td>
 <td>Breauna Spencer</td>
 <td>DEI Director, Stanford Computer Science</td>
 </tr>
