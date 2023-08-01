@@ -103,7 +103,7 @@ Session III
 </tr>
 
 <tr>
-<td>12:35pm-2:05pm</td>
+<td>12:35pm-2:20pm</td>
 <td>Lunch and Poster Session</td>
 <td></td>
 <td></td>
@@ -113,12 +113,6 @@ Session III
 <td colspan="4" style="text-align:center;font-weight:bold;">
 Session IV
 </td>
-</tr>
-<tr>
-<td>2:05pm-2:20pm</td>
-<td>The Stanford LINX program</td>
-<td>Breauna Spencer</td>
-<td>DEI Director, Stanford Computer Science</td>
 </tr>
 <tr>
 <td>2:20pm-2:40pm</td>
