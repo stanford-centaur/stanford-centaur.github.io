@@ -65,7 +65,7 @@ Session II
 </tr>
 <tr>
 <td>10:40am-11:00am</td>
-<td>G-QED: Generalized QED Pre-silicon Verification beyond Non-Interfering Hardware Accelerators</td>
+<td>G-QED Pre-silicon Verification</td>
 <td>Saranyu Chattopadhyay</td>
 <td>PhD Student</td>
 </tr>
