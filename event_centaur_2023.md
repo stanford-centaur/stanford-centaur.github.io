@@ -59,7 +59,7 @@ Session II
 </tr>
 <tr>
 <td>10:20am-10:40am</td>
-<td>Bitwuzla: A New SMT Solver For Bitvectors and More</td>
+<td>Bitwuzla: A New SMT Solver For Bit-Precise Reasoning</td>
 <td>Mathias Preiner</td>
 <td>Senior Research Scientist</td>
 </tr>
@@ -71,7 +71,7 @@ Session II
 </tr>
 <tr>
 <td>11:00am-11:20am</td>
-<td>An Integration of Cadical in cvc5</td>
+<td>IPASIR-UP: User Propagators for CDCL - A CaDiCaL Integration into CDCL(T)</td>
 <td>Aina Niemetz</td>
 <td>Senior Research Scientist</td>
 </tr>
