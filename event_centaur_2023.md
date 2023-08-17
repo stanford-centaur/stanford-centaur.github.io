@@ -117,8 +117,8 @@ Session IV
 <tr>
 <td>2:20pm-2:40pm</td>
 <td>Advances in Syntax-Guided Synthesis</td>
-<td>Abdalrhman Mohamedl</td>
-<td></td>
+<td>Abdalrhman Mohamed</td>
+<td>PhD Student</td>
 </tr>
 <tr>
 <td>2:40pm-3:00pm</td>
