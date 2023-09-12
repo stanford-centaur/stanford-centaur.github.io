@@ -8,8 +8,11 @@ title: events
 555 Salvatierra Walk<br/>
 Stanford, CA 94305</h4>
 <br/>
-<a href="https://www.eventbrite.com/e/centaur-2023-annual-meeting-tickets-646630839247" class="btn">
+<!--a href="https://www.eventbrite.com/e/centaur-2023-annual-meeting-tickets-646630839247" class="btn">
 Register
+</a-->
+<a href="https://youtu.be/g4yNwnGNANI?si=IwMv4t33gyCxMHBv" class="btn">
+Recap Video
 </a>
 
 <h2>Thursday August 17</h2>
