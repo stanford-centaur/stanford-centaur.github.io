@@ -68,10 +68,12 @@
 - name: Guy Amir
   position: visiting
   start: 2022
+  end: 2022
 
 - name: Teruhiro Tagomori
   position: visiting
   start: 2020
+  end: 2023
 
 
 # PhD students
@@ -211,14 +213,6 @@
   end: 2021
   now: MIT Lincoln Laboratory
 
-- name: Aina Niemetz
-  position: postdoc
-  img: niemetz.png
-  website: http://cs.stanford.edu/~niemetz
-  start: 2017
-  end: 2019
-  now: Research Scientist at Stanford University (Centaur)
-
 - name: Andres Nötzli
   position: phd
   website: https://cs.stanford.edu/~noetzli/
@@ -238,13 +232,6 @@
   website: https://profiles.stanford.edu/yancheng-ou
   start: 2021
   end: 2022
-
-- name: Mathias Preiner
-  position: postdoc
-  website: http://cs.stanford.edu/~preiner
-  start: 2017
-  end: 2019
-  now: Research Scientist at Stanford University (Centaur)
 
 - name: Parth Shah
   position: master

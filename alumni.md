@@ -9,13 +9,15 @@ title: alumni
 {% assign phd = site.data.people | where: 'position', 'phd' %}
 {% assign master = site.data.people | where: 'position', 'master' %}
 {% assign bachelor = site.data.people | where: 'position', 'bachelor' %}
+{% assign visitors = site.data.people | where: 'position', 'visiting' %}
 
 {% assign faculty = faculty | where_exp: 'p', 'p.end != nil' %}
 {% assign staff = staff | where_exp: 'p', 'p.end != nil' %}
 {% assign postdocs = postdocs | where_exp: 'p', 'p.end != nil' %}
 {% assign phd = phd | where_exp: 'p', 'p.end != nil' %}
 {% assign master = master | where_exp: 'p', 'p.end != nil' %}
-{% assign bachelor = bachelor| where_exp: 'p', 'p.end != nil' %}
+{% assign bachelor = bachelor | where_exp: 'p', 'p.end != nil' %}
+{% assign visitors = visitors | where_exp: 'p', 'p.end != nil' %}
 
 <div class="alumni">
 {% if faculty != empty %}
@@ -137,4 +139,25 @@ title: alumni
 {% endfor %}
 {% endfor %}
 {% endif %}
+
+{% if visitors != empty %}
+<h2>Former Visiting Researchers</h2>
+{% assign years = visitors | map: 'end' | uniq | sort | reverse %}
+{% for year in years %}
+{% assign pd = visitors | where: 'end', year %}
+{% for p in pd %}
+<div class="col">
+{% if p.website %}
+<a href="{{ p.website }}">
+{% endif %}
+<img style="vertical-align:middle" src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% if p.website %}
+</a>
+{% endif %}
+&nbsp;<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b> ({{ p.start }}&ndash;{{ p.end}}){% if p.now %}, {{ p. now }}{% endif %}
+</div>
+{% endfor %}
+{% endfor %}
+{% endif %}
+
 </div>
