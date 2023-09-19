@@ -9,7 +9,7 @@ title: alumni
 {% assign phd = site.data.people | where: 'position', 'phd' %}
 {% assign master = site.data.people | where: 'position', 'master' %}
 {% assign bachelor = site.data.people | where: 'position', 'bachelor' %}
-{% assign visitors = site.data.people | where: 'position', 'visiting' %}
+{% assign visiting = site.data.people | where: 'position', 'visiting' %}
 
 {% assign faculty = faculty | where_exp: 'p', 'p.end != nil' %}
 {% assign staff = staff | where_exp: 'p', 'p.end != nil' %}
@@ -17,10 +17,10 @@ title: alumni
 {% assign phd = phd | where_exp: 'p', 'p.end != nil' %}
 {% assign master = master | where_exp: 'p', 'p.end != nil' %}
 {% assign bachelor = bachelor | where_exp: 'p', 'p.end != nil' %}
-{% assign visitors = visitors | where_exp: 'p', 'p.end != nil' %}
+{% assign visiting = visiting | where_exp: 'p', 'p.end != nil' %}
 
 <div class="alumni">
-{% if faculty != empty %}
+{% if faculty.size != 0 %}
 <h2>Former Faculty</h2>
 {% assign years = faculty | map: 'end' | uniq | sort | reverse %}
 {% for year in years %}
@@ -40,7 +40,7 @@ title: alumni
 {% endfor %}
 {% endif %}
 
-{% if staff != empty %}
+{% if staff.size != 0 %}
 <h2>Former Research Scientists</h2>
 {% assign years = staff | map: 'end' | uniq | sort | reverse %}
 {% for year in years %}
@@ -60,7 +60,7 @@ title: alumni
 {% endfor %}
 {% endif %}
 
-{% if postdocs != empty %}
+{% if postdocs.size != 0 %}
 <h2>Former Postdoctoral Researchers</h2>
 {% assign years = postdocs | map: 'end' | uniq | sort | reverse %}
 {% for year in years %}
@@ -80,7 +80,7 @@ title: alumni
 {% endfor %}
 {% endif %}
 
-{% if phd != empty %}
+{% if phd.size != 0 %}
 <h2>Former Ph.D. Students</h2>
 {% assign years = phd | map: 'end' | uniq | sort | reverse %}
 {% for year in years %}
@@ -100,7 +100,7 @@ title: alumni
 {% endfor %}
 {% endif %}
 
-{% if master != empty %}
+{% if master.size != 0 %}
 <h2>Former Masters Students</h2>
 {% assign years = master | map: 'end' | uniq | sort | reverse %}
 {% for year in years %}
@@ -120,7 +120,7 @@ title: alumni
 {% endfor %}
 {% endif %}
 
-{% if bachelor != empty %}
+{% if bachelor.size != 0 %}
 <h2>Former Bachelors Students</h2>
 {% assign years = bachelor | map: 'end' | uniq | sort | reverse %}
 {% for year in years %}
@@ -140,11 +140,11 @@ title: alumni
 {% endfor %}
 {% endif %}
 
-{% if visitors != empty %}
+{% if visiting.size != 0 %}
 <h2>Former Visiting Researchers</h2>
-{% assign years = visitors | map: 'end' | uniq | sort | reverse %}
+{% assign years = visiting | map: 'end' | uniq | sort | reverse %}
 {% for year in years %}
-{% assign pd = visitors | where: 'end', year %}
+{% assign pd = visiting | where: 'end', year %}
 {% for p in pd %}
 <div class="col">
 {% if p.website %}

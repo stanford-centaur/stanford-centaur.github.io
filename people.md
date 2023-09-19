@@ -20,7 +20,7 @@ title: people
 
 <div class="people">
 
-{% if faculty != blank %}
+{% if faculty.size != 0 %}
 <h2>Faculty</h2>
 <div class="row">
 {% for p in faculty %}
@@ -41,7 +41,7 @@ title: people
 </div>
 {% endif %}
 
-{% if staff != blank %}
+{% if staff.size != 0 %}
 <h2>Research Scientists</h2>
 <div class="row">
 {% for p in staff %}
@@ -62,7 +62,7 @@ title: people
 </div>
 {% endif %}
 
-{% if postdocs != blank %}
+{% if postdocs.size != 0 %}
 <h2>Postdoctoral Researchers</h2>
 <div class="row">
 {% for p in postdocs %}
@@ -83,7 +83,7 @@ Postdoctoral Researcher
 </div>
 {% endif %}
 
-{% if visiting != blank %}
+{% if visiting.size != 0 %}
 <h2>Visiting Researchers</h2>
 <div class="row">
 {% for p in visiting %}
@@ -104,7 +104,7 @@ Visiting Researcher
 </div>
 {% endif %}
 
-{% if grad != blank %}
+{% if grad.size != 0 %}
 <h2>Graduate Students</h2>
 <div class="row">
 {% for p in grad %}
