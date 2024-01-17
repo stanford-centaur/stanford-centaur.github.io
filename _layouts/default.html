@@ -21,7 +21,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/decanter.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
   </head>
   <body>
     <section class="su-brand-bar su-brand-bar--dark">
@@ -31,19 +31,21 @@
     </section>
     <nav id="navbar">
       <ul>
-        <li><a {% if page.title == "home" %}class="active" {% endif %}href="index.html">Home</a></li>
-        <li><a {% if page.title == "events" %}class="active" {% endif %}href="events.html">Events</a></li>
-        <li><a {% if page.title == "courses" %}class="active" {% endif %}href="courses.html">Courses</a></li>
-        <li><a {% if page.title == "people" %}class="active" {% endif %}href="people.html">People</a></li>
-        <li><a {% if page.title == "alumni" %}class="active" {% endif %}href="alumni.html">Alumni</a></li>
-        <li><a {% if page.title == "publications" %}class="active" {% endif %}href="publications.html">Publications</a></li>
-        <li><a {% if page.title == "tools" %}class="active" {% endif %}href="tools.html">Tools</a></li>
-        <li><a {% if page.title == "affiliates and sponsors" %}class="active" {% endif %}href="affiliates_and_sponsors.html">Affiliates and Sponsors</a></li>
+        <li><a {% if page.title=="home" %}class="active" {% endif %}href="/index.html">Home</a></li>
+        <li><a {% if page.title=="events" %}class="active" {% endif %}href="/blog.html">Blog</a></li>
+        <li><a {% if page.title=="events" %}class="active" {% endif %}href="/events.html">Events</a></li>
+        <li><a {% if page.title=="courses" %}class="active" {% endif %}href="/courses.html">Courses</a></li>
+        <li><a {% if page.title=="people" %}class="active" {% endif %}href="/people.html">People</a></li>
+        <li><a {% if page.title=="alumni" %}class="active" {% endif %}href="/alumni.html">Alumni</a></li>
+        <li><a {% if page.title=="publications" %}class="active" {% endif %}href="/publications.html">Publications</a></li>
+        <li><a {% if page.title=="tools" %}class="active" {% endif %}href="/tools.html">Tools</a></li>
+        <li><a {% if page.title=="affiliates and sponsors" %}class="active" {% endif
+            %}href="/affiliates_and_sponsors.html">Affiliates and Sponsors</a></li>
       </ul>
       <div style="clear:left;"></div>
     </nav>
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="{{ "/" | absolute_url }}"><img id="header-logo" src="img/logo.svg"></img></a></h1>
+      <h1 class="project-name"><a href="/"><img id="header-logo" src="/img/logo.svg"></img></a></h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
 
