@@ -32,7 +32,8 @@
     <nav id="navbar">
       <ul>
         <li><a {% if page.title=="home" %}class="active" {% endif %}href="/index.html">Home</a></li>
-        <li><a {% if page.title=="events" %}class="active" {% endif %}href="/blog.html">Blog</a></li>
+        <li><a {% if page.title=="blog" %}class="active" {% endif %}href="/blog.html">Blog</a></li>
+        <li><a {% if page.title=="news" %}class="active" {% endif %}href="/news.html">News</a></li>
         <li><a {% if page.title=="events" %}class="active" {% endif %}href="/events.html">Events</a></li>
         <li><a {% if page.title=="courses" %}class="active" {% endif %}href="/courses.html">Courses</a></li>
         <li><a {% if page.title=="people" %}class="active" {% endif %}href="/people.html">People</a></li>
@@ -54,8 +55,23 @@
         {{ page.mission }}
       </div>
     {% else %}
-      {% if page.title %}
+      {% if page.layout != 'blog-post' and page.title %}
         <div id="content-title">{{ page.title | capitalize }}&nbsp;</div>
+      {% endif %}
+      {% if page.layout == 'blog-post' %}
+      <div id="content-title">{{ page.title }} &nbsp;</div>
+      
+      <div id="content-author-info" style="background-color: #3f97b5;
+                                                                        color: #fff;
+                                                                        display: block;
+                                                                        font-size: 1.25em;
+                                                                        font-weight: bold;
+                                                                        margin: 0 auto;
+                                                                        max-width: 96rem;
+                                                                        padding: .1em 1em 1.75em 4.5em;
+                                                                        position: relative;">
+        by {{ page.author }}, {{ page.date | date_to_string }} &nbsp;
+      </div>
       {% endif %}
     {% endif %}
     <main id="content" class="main-content" role="main">
