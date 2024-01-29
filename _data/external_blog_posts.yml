@@ -1,0 +1,13 @@
+- title: "Partitioning Strategies for Distributed SMT Solving"
+  url: "https://cvc5.github.io/blog/2023/12/15/partitioning-strategies-for-distributed-smt-solving.html"
+  author: Amalee Wilson
+  date: "2023-12-15"
+  excerpt: "Partitioning is a divide-and-conquer approach where a difficult problem is split into hopefully easier subproblems that can be solved in parallel. This strategy is notoriously difficult to get right with SMT problems. We found that while it’s no panacea, partitioning can be used to diversify solving and reliably improve performance in a portfolio."
+  external: true
+
+- title: "Adding a New Theory to cvc5"
+  url: "https://cvc5.github.io/2024/01/26/adding-a-new-theory-to-cvc5.html"
+  author: Alex Ozdemir
+  date: "2024-01-26"
+  excerpt: "cvc5 is an SMT solver with support for many theories: integers, reals, bit-vectors, algebraic datatypes, separation logic, sets, bags, and more. This means that is can find satisfying solutions for formulas involving these kinds of objects. In this post, I explain the process of adding a new theory to cvc5: the theory of prime-order finite fields."
+  external: true
