@@ -75,6 +75,18 @@ span.awards {
   position: relative;
 }
 
+#content-author-info {
+  background-color: #3f97b5;
+  color: #fff;
+  display: block;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: .1em 1em 1.75em 4.5em;
+  position: relative;
+}
+
 #content-title:before {
   content: "";
   position: absolute;
