@@ -175,7 +175,7 @@ references:
   publisher: IOS Press
   title: Satisfiability modulo theories
   type: chapter
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BSST21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BSST21.pdf"
   volume: 336
 - abstract: Satisfiability Modulo Theories (SMT) refers to the problem
     of determining whether a first-order formula is satisfiable with
@@ -218,7 +218,7 @@ references:
   publisher: Springer International Publishing
   title: Satisfiability modulo theories
   type: chapter
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BT18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BT18.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -244,7 +244,7 @@ references:
   publisher-place: London, UK
   title: Proofs in satisfiability modulo theories
   type: chapter
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BdMF15.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BdMF15.pdf"
   volume: 55
 - abstract: Applications in artificial intelligence and formal
     verification have greatly benefited from the recent advances in SAT.
@@ -307,8 +307,285 @@ references:
   publisher: IOS Press
   title: Satisfiability modulo theories
   type: chapter
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BSST09.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BSST09.pdf"
   volume: 185
+- abstract: Dynamic arrays, also referred to as vectors, are fundamental
+    data structures used in many programs. Modeling their semantics
+    efficiently is crucial when reasoning about such programs. The
+    theory of arrays is widely supported but is not ideal, because the
+    number of elements is fixed (determined by its index sort) and
+    cannot be adjusted, which is a problem, given that the length of
+    vectors often plays an important role when reasoning about vector
+    programs. In this paper, we propose reasoning about vectors using a
+    theory of sequences. We introduce the theory, propose a basic
+    calculus adapted from one for the theory of strings, and extend it
+    to efficiently handle common vector operations. We prove that our
+    calculus is sound and show how to construct a model when it
+    terminates with a saturated configuration. Finally, we describe an
+    implementation of the calculus in cvc5 and demonstrate its efficacy
+    by evaluating it on verification conditions for smart contracts and
+    benchmarks derived from existing array benchmarks.
+  author:
+  - family: Sheng
+    given: Ying
+  - family: Nötzli
+    given: Andres
+  - family: Reynolds
+    given: Andrew
+  - family: Zohar
+    given: Yoni
+  - family: Dill
+    given: David
+  - family: Grieskamp
+    given: Wolfgang
+  - family: Park
+    given: Junkil
+  - family: Qadeer
+    given: Shaz
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  container-title: Journal of Automated Reasoning
+  doi: 10.1007/s10817-023-09682-2
+  id: SNR+23
+  issue: 32
+  issued:
+  - year: 2023
+    month: 9
+  publisher: Springer
+  title: "Reasoning about vectors: Satisfiability modulo a theory of
+    sequences"
+  title-short: Reasoning about vectors
+  type: article-journal
+  url: "https://link.springer.com/article/10.1007/s10817-023-09682-2"
+  volume: 67
+- abstract: Polite theory combination is a method for obtaining a solver
+    for a combination of two (or more) theories using the solvers of
+    each individual theory as black boxes. Unlike the earlier
+    Nelson--Oppen method, which is usable only when both theories are
+    stably infinite, only one of the theories needs to be strongly
+    polite in order to use the polite combination method. In its
+    original presentation, politeness was required from one of the
+    theories rather than strong politeness, which was later proven to be
+    insufficient. The first contribution of this paper is a proof that
+    indeed these two notions are different, obtained by presenting a
+    polite theory that is not strongly polite. We also study several
+    variants of this question. The cost of the generality afforded by
+    the polite combination method, compared to the Nelson--Oppen method,
+    is a larger space of arrangements to consider, involving variables
+    that are not necessarily shared between the purified parts of the
+    input formula. The second contribution of this paper is a hybrid
+    method (building on both polite and Nelson--Oppen combination),
+    which aims to reduce the number of considered variables when a
+    theory is stably infinite with respect to some of its sorts but not
+    all of them. The time required to reason about arrangements is
+    exponential in the worst case, so reducing the number of variables
+    considered has the potential to improve performance significantly.
+    We show preliminary evidence for this by demonstrating significant
+    speed-up on a smart contract verification benchmark.
+  author:
+  - family: Sheng
+    given: Ying
+  - family: Zohar
+    given: Yoni
+  - family: Ringeissen
+    given: Christophe
+  - family: Reynolds
+    given: Andrew
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  container-title: Journal of Automated Reasoning
+  doi: 10.1007/s10817-023-09684-0
+  id: SZR+23
+  issue: 34
+  issued:
+  - year: 2023
+    month: 9
+  publisher: Springer
+  title: Combining stable infiniteness and (strong) politeness
+  type: article-journal
+  url: "https://link.springer.com/article/10.1007/s10817-023-09684-0"
+  volume: 67
+- abstract: Moving toward a full suite of proof-producing automated
+    reasoning tools with SMT solvers that can produce full,
+    independently checkable proofs for real-world problems.
+  author:
+  - family: Barbosa
+    given: Haniel
+  - family: Barrett
+    given: Clark
+  - family: Cook
+    given: Byron
+  - family: Dutertre
+    given: Bruno
+  - family: Kremer
+    given: Gereon
+  - family: Lachnitt
+    given: Hanna
+  - family: Niemetz
+    given: Aina
+  - family: Nötzli
+    given: Andres
+  - family: Ozdemir
+    given: Alex
+  - family: Preiner
+    given: Mathias
+  - family: Reynolds
+    given: Andrew
+  - family: Tinelli
+    given: Cesare
+  - family: Zohar
+    given: Yoni
+  container-title: Communications of the Association for Computing
+    Machinery (CACM)
+  doi: 10.1145/3587692
+  id: BBC+23
+  issue: 10
+  issued:
+  - year: 2023
+    month: 10
+  page: 86-95
+  publisher: Association for Computing Machinery
+  title: Generating and exploiting automated reasoning proof
+    certificates
+  type: article-journal
+  url: "http://dx.doi.org/10.1145/3587692"
+  volume: 66
+- abstract: Every major technical invention resurfaces the dual-use
+    dilemma---the new technology has the potential to be used for good
+    as well as for harm. Generative AI (GenAI) techniques, such as large
+    language models (LLMs) and diffusion models, have shown remarkable
+    capabilities (e.g., in-context learning, code-completion, and
+    text-to-image generation and editing). However, GenAI can be used
+    just as well by attackers to generate new attacks and increase the
+    velocity and efficacy of existing attacks. This monograph reports
+    the findings of a workshop held at Google (co-organized by Stanford
+    University and the University of Wisconsin-Madison) on the dual-use
+    dilemma posed by GenAI. This work is not meant to be comprehensive,
+    but is rather an attempt to synthesize some of the interesting
+    findings from the workshop. We discuss short-term and long-term
+    goals for the community on this topic. We hope this work provides
+    both a launching point for a discussion on this important topic as
+    well as interesting problems that the research community can work to
+    address.
+  author:
+  - family: Barrett
+    given: Clark
+  - family: Boyd
+    given: Brad
+  - family: Bursztein
+    given: Elie
+  - family: Carlini
+    given: Nicholas
+  - family: Chen
+    given: Brad
+  - family: Choi
+    given: Jihye
+  - family: Chowdhury
+    given: Amrita Roy
+  - family: Christodorescu
+    given: Mihai
+  - family: Datta
+    given: Anupam
+  - family: Feizi
+    given: Soheil
+  - family: Fisher
+    given: Kathleen
+  - family: Hashimoto
+    given: Tatsunori
+  - family: Hendrycks
+    given: Dan
+  - family: Jha
+    given: Somesh
+  - family: Kang
+    given: Daniel
+  - family: Kerschbaum
+    given: Florian
+  - family: Mitchell
+    given: Eric
+  - family: Mitchell
+    given: John
+  - family: Ramzan
+    given: Zulfikar
+  - family: Shams
+    given: Khawaja
+  - family: Song
+    given: Dawn
+  - family: Taly
+    given: Ankur
+  - family: Yang
+    given: Diyi
+  container-title: Foundations and Trends in Privacy and Security
+  doi: 10.1561/3300000041
+  id: BBB+23
+  issn: 2474-1558
+  issue: 1
+  issued:
+  - year: 2023
+    month: 1
+  page: 1-52
+  publisher: now publishers inc.
+  title: Identifying and mitigating the security risks of generative AI
+  type: article-journal
+  url: "http://dx.doi.org/10.1561/3300000041"
+  volume: 6
+- abstract: Program synthesis is the mechanised construction of
+    software. One of the main difficulties is the efficient exploration
+    of the very large solution space, and tools often require a
+    user-provided syntactic restriction of the search space. While
+    useful in general, such syntactic restrictions provide little help
+    for the generation of programs that contain non-trivial costants,
+    unless the user is able to provide the constants in advance. This is
+    a fundamentally difficult task for state-of-the-art synthesisers. We
+    propose a new approach to the synthesis of programs with non-trivial
+    constants that combines the strengths of a counterexample-guided
+    inductive synthesiser with those of a theory solver, exploring the
+    solution space more efficiently without relying on user guidance. We
+    call this approach CEGIS($\mathcal{T}$), where $\mathcal{T}$ is a
+    first-order theory. We present two exemplars, one based on
+    Fourier-Motzkin (FM) variable elimination and one based on
+    first-order satisfiability. We demonstrate the practical value of
+    CEGIS($\mathcal{T}$) by automatically synthesising programs for a
+    set of intricate benchmarks. Additionally, we present a case study
+    where we integrate CEGIS($\mathcal{T}$) within the mature
+    synthesiser CVC4 and show that CEGIS($\mathcal{T}$) improves CVC4's
+    results.
+  author:
+  - family: Abate
+    given: Alessandro
+  - family: Barbosa
+    given: Haniel
+  - family: Barrett
+    given: Clark
+  - family: David
+    given: Cristina
+  - family: Kesseli
+    given: Pascal
+  - family: Kroening
+    given: Daniel
+  - family: Polgreen
+    given: Elizabeth
+  - family: Reynolds
+    given: Andrew
+  - family: Tinelli
+    given: Cesare
+  container-title: Journal of Automated Reasoning
+  doi: 10.1007/s10817-023-09664-4
+  id: ABB+23
+  issue: 19
+  issued:
+  - year: 2023
+    month: 5
+  keyword: Program synthesis, Automated reasoning, Satisfiability modulo
+    theories, Counterexample guided inductive synthesis
+  publisher: Springer
+  title: Synthesising programs with non-trivial constants
+  type: article-journal
+  url: "http://theory.stanford.edu/\\~barrett/pubs/ABB+23.pdf"
+  volume: 67
 - abstract: Recently, Graph Neural Networks (GNNs) have been applied for
     scheduling jobs over clusters, achieving better performance than
     hand-crafted heuristics. Despite their impressive performance,
@@ -346,7 +623,7 @@ references:
   page: 1036-1065
   title: Scalable verification of GNN-based job schedulers
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WBS+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/WBS+22.pdf"
   volume: 6
 - abstract: With the slowing of Moore's law, computer architects have
     turned to domain-specific hardware specialization to continue
@@ -447,6 +724,7 @@ references:
     reconfigurable accelerators and compilers"
   title-short: AHA
   type: article-journal
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KMS+22.pdf"
 - abstract: We develop a framework for model checking infinite-state
     systems by automatically augmenting them with auxiliary variables,
     enabling quantifier-free induction proofs for systems that would
@@ -520,6 +798,47 @@ references:
   type: article-journal
   url: "https://rdcu.be/cMVOR"
   volume: 66
+- abstract: Deep neural networks have emerged as a widely used and
+    effective means for tackling complex, real-world problems. However,
+    a major obstacle in applying them to safety-critical systems is the
+    great difficulty in providing formal guarantees about their
+    behavior. We present a novel, scalable, and efficient technique for
+    verifying properties of deep neural networks (or providing
+    counter-examples). The technique is based on the simplex method,
+    extended to handle the non-convex Rectified Linear Unit (ReLU)
+    activation function, which is a crucial ingredient in many modern
+    neural networks. The verification procedure tackles neural networks
+    as a whole, without making any simplifying assumptions. We evaluated
+    our technique on a prototype deep neural network implementation of
+    the next-generation airborne collision avoidance system for unmanned
+    aircraft (ACAS Xu). Results show that our technique can successfully
+    prove properties of networks that are an order of magnitude larger
+    than the largest networks that could be verified previously.
+  author:
+  - family: Katz
+    given: Guy
+  - family: Barrett
+    given: Clark
+  - family: Dill
+    given: David L.
+  - family: Julian
+    given: Kyle
+  - family: Kochenderfer
+    given: Mykel J.
+  container-title: Formal Methods in System Design
+  doi: 10.1007/s10703-021-00363-7
+  id: KBD+22
+  issued:
+  - year: 2022
+    month: 2
+  keyword: Neural networks; Verification; Satisfiability modulo theories
+  page: 87-116
+  publisher: Springer
+  title: "Reluplex: A calculus for reasoning about deep neural networks"
+  title-short: Reluplex
+  type: article-journal
+  url: "https://rdcu.be/cnBec"
+  volume: 60
 - abstract: Many SMT solvers implement efficient SAT-based procedures
     for solving fixed-size bit-vector formulas. These techniques,
     however, cannot be used directly to reason about bit-vectors of
@@ -560,7 +879,7 @@ references:
   publisher: Springer
   title: Towards satisfiability modulo parametric bit-vectors
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPR+21c.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NPR+21c.pdf"
   volume: 65
 - abstract: "Neural networks can learn complex, non-convex functions,
     and it is challenging to guarantee their correct behavior in
@@ -614,45 +933,6 @@ references:
     networks
   type: article-journal
   url: "https://rdcu.be/czUFw"
-- abstract: Deep neural networks have emerged as a widely used and
-    effective means for tackling complex, real-world problems. However,
-    a major obstacle in applying them to safety-critical systems is the
-    great difficulty in providing formal guarantees about their
-    behavior. We present a novel, scalable, and efficient technique for
-    verifying properties of deep neural networks (or providing
-    counter-examples). The technique is based on the simplex method,
-    extended to handle the non-convex Rectified Linear Unit (ReLU)
-    activation function, which is a crucial ingredient in many modern
-    neural networks. The verification procedure tackles neural networks
-    as a whole, without making any simplifying assumptions. We evaluated
-    our technique on a prototype deep neural network implementation of
-    the next-generation airborne collision avoidance system for unmanned
-    aircraft (ACAS Xu). Results show that our technique can successfully
-    prove properties of networks that are an order of magnitude larger
-    than the largest networks that could be verified previously.
-  author:
-  - family: Katz
-    given: Guy
-  - family: Barrett
-    given: Clark
-  - family: Dill
-    given: David L.
-  - family: Julian
-    given: Kyle
-  - family: Kochenderfer
-    given: Mykel J.
-  container-title: Formal Methods in System Design
-  doi: 10.1007/s10703-021-00363-7
-  id: KBD+21
-  issued:
-  - year: 2021
-    month: 7
-  keyword: Neural networks; Verification; Satisfiability modulo theories
-  publisher: Springer
-  title: "Reluplex: A calculus for reasoning about deep neural networks"
-  title-short: Reluplex
-  type: article-journal
-  url: "https://rdcu.be/cnBec"
 - abstract: Deep neural networks are widely used for nonlinear function
     approximation, with applications ranging from computer vision to
     control. Although these networks involve the composition of simple
@@ -689,7 +969,7 @@ references:
   publisher: now publishers
   title: Algorithms for verifying deep neural networks
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LAL+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LAL+21.pdf"
   volume: 4
 - abstract: We present a novel approach for solving quantified
     bit-vector constraints in Satisfiability Modulo Theories (SMT) based
@@ -730,7 +1010,7 @@ references:
   title: On solving quantified bit-vectors using invertibility
     conditions
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPR+21b.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NPR+21b.pdf"
   volume: 57
 - abstract: We introduce the first program synthesis engine implemented
     inside an SMT solver. We present an approach that extracts solution
@@ -773,7 +1053,7 @@ references:
   publisher: Springer US
   title: Refutation-based synthesis in SMT
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RKT+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RKT+19.pdf"
   volume: 55
 - abstract: We consider the problem of deciding the satisfiability of
     quantifier-free formulas in the theory of finite sets with
@@ -866,7 +1146,7 @@ references:
   title: Logic bug detection and localization using symbolic quick error
     detection
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SLB+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SLB+18.pdf"
 - abstract: Satisfiability modulo theories (SMT) solvers have been used
     successfully as reasoning engines for automated verification and
     other applications based on automated reasoning. Current techniques
@@ -900,7 +1180,7 @@ references:
   publisher: Cambridge University Press
   title: Constraint solving for finite model finding in SMT solvers
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RTB17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RTB17.pdf"
   volume: 17
 - abstract: Reducing the error detection latency is critical for
     improving the design visibility while searching for design errors.
@@ -934,7 +1214,7 @@ references:
   title-short: Symbolic quick error detection for pre-silicon and
     post-silicon validation
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SLB+16.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SLB+16.pdf"
   volume: 33
 - abstract: An increasing number of applications in verification and
     security rely on or could benefit from automatic solvers that can
@@ -985,7 +1265,7 @@ references:
   publisher: Springer US
   title: An efficient SMT solver for string constraints
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LRT+16.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LRT+16.pdf"
   volume: 48
 - abstract: The annual Satisﬁability Modulo Theories Competition
     (SMT-COMP) was initiated in 2005 in order to stimulate the advance
@@ -1024,7 +1304,7 @@ references:
   publisher: Springer Netherlands
   title: 6 years of SMT-COMP
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDdM+13.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDdM+13.pdf"
   volume: 50
 - abstract: One of the main shortcomings of traditional methods for
     combining theories is the complexity of guessing the arrangement of
@@ -1056,7 +1336,7 @@ references:
   publisher: Springer US
   title: Being careful about theory combination
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JB13.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JB13.pdf"
   volume: 42
 - abstract: First-order logic provides a convenient formalism for
     describing a wide variety of verification conditions. Two main
@@ -1102,7 +1382,7 @@ references:
   title: Solving quantified verification conditions using satisfiability
     modulo theories
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/GBT09.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/GBT09.pdf"
   volume: 55
 - abstract: The Satisfiability Modulo Theories Competition (SMT-COMP) is
     an annual competition aimed at stimulating the advance of the
@@ -1133,7 +1413,7 @@ references:
   title: Design and results of the 3<sup>rd</sup> annual satisfiability modulo
     theories competition (SMT-COMP 2007)
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDO+08.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDO+08.pdf"
   volume: 17
 - abstract: The Satisﬁability Modulo Theories Competition (SMT-COMP)
     arose from the SMT-LIB initiative to spur adoption of common,
@@ -1164,7 +1444,7 @@ references:
   title: Design and results of the 2<sup>nd</sup> satisfiability modulo
     theories competition (SMT-COMP 2006)
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BdMS07.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BdMS07.pdf"
   volume: 31
 - abstract: Inductive data types are a valuable modeling tool for
     software verification. In the past, decision procedures have been
@@ -1201,7 +1481,7 @@ references:
   title: An abstract decision procedure for a theory of inductive data
     types
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BST07-JSAT.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BST07-JSAT.pdf"
   volume: 3
 - abstract: The Satisfiability Modulo Theories Competition (SMT-COMP) is
     intended to spark further advances in the decision procedures field,
@@ -1232,7 +1512,7 @@ references:
   title: Design and results of the 1<sup>st</sup> satisfiability modulo
     theories competition (SMT-COMP 2005)
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BdMS05-JAR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BdMS05-JAR.pdf"
   volume: 35
 - abstract: This paper presents new approaches to the validation of loop
     optimizations that compilers use to obtain the highest performance
@@ -1285,7 +1565,7 @@ references:
   publisher: Springer Netherlands
   title: Translation and run-time validation of loop transformations
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/ZPG+05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/ZPG+05.pdf"
   volume: 27
 - abstract: The Forte formal verification environment for
     datapath-dominated hardware is described. Forte has proven to be
@@ -1326,8 +1606,969 @@ references:
   title: An industrially effective environment for formal hardware
     verification
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SJO+05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SJO+05.pdf"
   volume: 24
+- abstract: We present VeriX (Verified eXplainability), a system for
+    producing optimal robust explanations and generating counterfactuals
+    along decision boundaries of machine learning models. We build such
+    explanations and counterfactuals iteratively using constraint
+    solving techniques and a heuristic based on feature-level
+    sensitivity ranking. We evaluate our method on image recognition
+    benchmarks and a real-world scenario of autonomous aircraft taxiing.
+  author:
+  - family: Wu
+    given: Min
+  - family: Wu
+    given: Haoze
+  - family: Barrett
+    given: Clark
+  container-title: Advances in neural information processing systems 36
+    (NeurIPS 2023)
+  editor:
+  - family: Oh
+    given: A.
+  - family: Neumann
+    given: T.
+  - family: Globerson
+    given: A.
+  - family: Saenko
+    given: K.
+  - family: Hardt
+    given: M.
+  - family: Levine
+    given: S.
+  id: WWB23
+  issued:
+  - year: 2023
+    month: 1
+  page: 22247-22268
+  publisher: Curran Associates, Inc.
+  title: "VeriX: Towards verified explainability of deep neural
+    networks"
+  title-short: VeriX
+  type: paper-conference
+  url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/46907c2ff9fafd618095161d76461842-Paper-Conference.pdf"
+  volume: 36
+- abstract: "Large Language Models (LLMs) and other large foundation
+    models have achieved impressive results, but their size exacerbates
+    existing resource consumption and latency challenges. In particular,
+    the large-scale deployment of these models is hindered by the
+    significant resource requirements during inference. In this paper,
+    we study two approaches for mitigating these challenges: employing a
+    cache to store previous queries and learning a model selector to
+    choose from an ensemble of models for query processing.
+    Theoretically, we provide an optimal algorithm for jointly
+    optimizing both approaches to reduce the inference cost in both
+    offline and online tabular settings. By combining a caching
+    algorithm, namely Greedy Dual Size with Frequency (GDSF) or Least
+    Expected Cost (LEC), with a model selector, we achieve optimal rates
+    in both offline and online settings. Empirically, simulations show
+    that our caching and model selection algorithm greatly improves over
+    the baselines, with up to 50x improvement over the baseline when the
+    ratio between the maximum cost and minimum cost is 100. Experiments
+    on real datasets show a 4.3x improvement in FLOPs over the baseline
+    when the ratio for FLOPs is 10, and a 1.8x improvement in latency
+    when the ratio for average latency is 1.85."
+  author:
+  - family: Zhu
+    given: Banghua
+  - family: Sheng
+    given: Ying
+  - family: Zheng
+    given: Lianmin
+  - family: Barrett
+    given: Clark
+  - family: Jordan
+    given: Michael
+  - family: Jiao
+    given: Jiantao
+  container-title: Advances in neural information processing systems 36
+    (NeurIPS 2023)
+  editor:
+  - family: Oh
+    given: A.
+  - family: Neumann
+    given: T.
+  - family: Globerson
+    given: A.
+  - family: Saenko
+    given: K.
+  - family: Hardt
+    given: M.
+  - family: Levine
+    given: S.
+  id: ZSZ+23b
+  issued:
+  - year: 2023
+    month: 1
+  page: 59062-59094
+  publisher: Curran Associates, Inc.
+  title: Towards optimal caching and model selection for large model
+    inference
+  type: paper-conference
+  url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/b914a8fcea5c176cf1ed75c762ce27fd-Paper-Conference.pdf"
+  volume: 36
+- abstract: Large Language Models (LLMs), despite their recent
+    impressive accomplishments, are notably cost-prohibitive to deploy,
+    particularly for applications involving long-content generation,
+    such as dialogue systems and story writing. Often, a large amount of
+    transient state information, referred to as the KV cache, is stored
+    in GPU memory in addition to model parameters, scaling linearly with
+    the sequence length and batch size. In this paper, we introduce a
+    novel approach for implementing the KV cache which significantly
+    reduces its memory footprint. Our approach is based on the
+    noteworthy observation that a small portion of tokens contributes
+    most of the value when computing attention scores. We call these
+    tokens Heavy Hitters (H$_2$). Through a comprehensive investigation,
+    we find that ($i$) the emergence of H$_2$ is natural and strongly
+    correlates with the frequent co-occurrence of tokens in the text,
+    and ($ii$) removing them results in significant performance
+    degradation. Based on these insights, we propose Heavy Hitter Oracle
+    (H$_2$O), a KV cache eviction policy that dynamically retains a
+    balance of recent and H$_2$ tokens. We formulate the KV cache
+    eviction as a dynamic submodular problem and prove (under mild
+    assumptions) a theoretical guarantee for our novel eviction
+    algorithm which could help guide future work. We validate the
+    accuracy of our algorithm with OPT, LLaMA, and GPT-NeoX across a
+    wide range of tasks. Our implementation of H$_2$O with 20% heavy
+    hitters improves the throughput over three leading inference systems
+    DeepSpeed Zero-Inference, Hugging Face Accelerate, and FlexGen by up
+    to 29x , 29x , and 3x on OPT-6.7B and OPT-30B. With the same batch
+    size, H$_2$O can reduce the latency by up to 1.9x.
+  author:
+  - family: Zhang
+    given: Zhenyu
+  - family: Sheng
+    given: Ying
+  - family: Zhou
+    given: Tianyi
+  - family: Chen
+    given: Tianlong
+  - family: Zheng
+    given: Lianmin
+  - family: Cai
+    given: Ruisi
+  - family: Song
+    given: Zhao
+  - family: Tian
+    given: Yuandong
+  - family: Ré
+    given: Christopher
+  - family: Barrett
+    given: Clark
+  - family: Wang
+    given: Zhangyang \"Atlas\"
+  - family: Chen
+    given: Beidi
+  container-title: Advances in neural information processing systems 36
+    (NeurIPS 2023)
+  editor:
+  - family: Oh
+    given: A.
+  - family: Neumann
+    given: T.
+  - family: Globerson
+    given: A.
+  - family: Saenko
+    given: K.
+  - family: Hardt
+    given: M.
+  - family: Levine
+    given: S.
+  id: ZSZ+23a
+  issued:
+  - year: 2023
+    month: 1
+  page: 34661-34710
+  publisher: Curran Associates, Inc.
+  title: "H$_2$o: Heavy-hitter oracle for efficient generative inference
+    of large language models"
+  title-short: H$_2$o
+  type: paper-conference
+  url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/6ceefa7b15572587b78ecfcebb2827f8-Paper-Conference.pdf"
+  volume: 36
+- abstract: Syntax-guided synthesis (SyGuS) is a recent software
+    synthesis paradigm in which an automated synthesis tool is asked to
+    synthesize a term that satisfies both a semantic and a syntactic
+    specification. We consider a special case of the SyGuS problem,
+    where a term is already known to satisfy the semantic specification
+    but may not satisfy the syntactic one. The goal is then to find an
+    equivalent term that additionally satisfies the syntactic
+    specification, provided by a context-free grammar. We introduce a
+    novel procedure for solving this problem which leverages pattern
+    matching and automated discovery of rewrite rules. We also provide
+    an implementation of the procedure by modifying the SyGuS solver
+    embedded in the cvc5 SMT solver. Our evaluation shows that our new
+    procedure significantly outperforms the state of the art on a large
+    set of SyGuS problems for standard SMT-LIB theories such as
+    bit-vectors, arithmetic, and strings.
+  author:
+  - family: Mohamed
+    given: Abdalrhman
+  - family: Reynolds
+    given: Andrew
+  - family: Barrett
+    given: Clark
+  - family: Tinelli
+    given: Cesare
+  container-title: Proceedings of the 23<sup>rd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'23)
+  doi: 10.34727/2023/isbn.978-3-85448-060-0_27
+  editor:
+  - family: Nadel
+    given: Alexander
+  - family: Rozier
+    given: Kristin Yvonne
+  id: MRB+23
+  issued:
+  - year: 2023
+    month: 10
+  note: Ames, IA
+  page: 189-198
+  publisher: TU Wien Academic Press
+  title: A procedure for SyGuS solution fitting via matching and rewrite
+    rule discovery
+  type: paper-conference
+  url: "https://repositum.tuwien.at/handle/20.500.12708/188730"
+- abstract: We present Self-Driven Strategy Learning (SDSL), a
+    lightweight online learning methodology for automated reasoning
+    tasks that involve solving a set of related problems. SDSL does not
+    require offline training, but instead automatically constructs a
+    dataset while solving earlier problems. It fits a machine learning
+    model to this data which is then used to adjust the solving strategy
+    for later problems. We formally define the approach as a set of
+    abstract transition rules. We describe a concrete instance of the
+    SDSL calculus which uses conditional sampling for generating data
+    and random forests as the underlying machine learning model. We
+    implement the approach on top of the KISSAT solver and show that the
+    combination of KISSAT+SDSL certifies larger bounds and finds more
+    counter-examples than other state-of-the-art bounded model checking
+    approaches on benchmarks obtained from the latest Hardware Model
+    Checking Competition.
+  author:
+  - family: Wu
+    given: Haoze
+  - family: Hahn
+    given: Christopher
+  - family: Lonsing
+    given: Florian Matthias
+  - family: Mann
+    given: Makai
+  - family: Ramanujan
+    given: Raghuram
+  - family: Barrett
+    given: Clark
+  container-title: Proceedings of the 23<sup>rd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'23)
+  doi: 10.34727/2023/isbn.978-3-85448-060-0_10
+  editor:
+  - family: Nadel
+    given: Alexander
+  - family: Rozier
+    given: Kristin Yvonne
+  id: WHL+23
+  issued:
+  - year: 2023
+    month: 10
+  note: Ames, IA
+  page: 23-33
+  publisher: TU Wien Academic Press
+  title: Lightweight online learning for sets of related problems in
+    automated reasoning
+  type: paper-conference
+  url: "https://repositum.tuwien.at/handle/20.500.12708/188730"
+- abstract: For many users of Satisfiability Modulo Theories (SMT)
+    solvers, the solver's performance is the main bottleneck in their
+    application. One promising approach for improving performance is to
+    leverage the increasing availability of parallel and cloud
+    computing. However, despite many efforts, the best parallel approach
+    to date consists of running a portfolio of solvers, meaning that
+    performance is still limited by the best possible sequential
+    performance. In this paper, we revisit divide-and-conquer approaches
+    to parallel SMT, in which a challenging problem is partitioned into
+    several subproblems. We introduce several new partitioning
+    strategies and evaluate their performance, both alone as well as
+    within portfolios, on a large set of difficult SMT benchmarks. We
+    show that hybrid portfolios that include our new strategies can
+    significantly outperform traditional portfolios for parallel SMT.
+  author:
+  - family: Wilson
+    given: Amalee
+  - family: Nötzli
+    given: Andres
+  - family: Reynolds
+    given: Andrew
+  - family: Cook
+    given: Byron
+  - family: Tinelli
+    given: Cesare
+  - family: Barrett
+    given: Clark
+  container-title: Proceedings of the 23<sup>rd</sup> international conference
+    on formal methods in computer-aided design (FMCAD'23)
+  doi: 10.34727/2023/isbn.978-3-85448-060-0_28
+  editor:
+  - family: Nadel
+    given: Alexander
+  - family: Rozier
+    given: Kristin Yvonne
+  id: WNR+23
+  issued:
+  - year: 2023
+    month: 10
+  note: Ames, IA
+  page: 199-208
+  publisher: TU Wien Academic Press
+  title: Partitioning strategies for distributed SMT solving
+  type: paper-conference
+  url: "https://repositum.tuwien.at/handle/20.500.12708/188827"
+- abstract: Piecewise-affine (PWA) systems are widely used for modeling
+    and control of robotics problems including modeling contact
+    dynamics. A common approach is to encode the control problem of the
+    PWA system as a Mixed-Integer Convex Program (MICP), which can be
+    solved by general-purpose off-the-shelf MICP solvers. To mitigate
+    the scalability challenge of solving these MICP problems, existing
+    work focuses on devising efficient and strong formulations of the
+    problems, while less effort has been spent on exploiting their
+    specific structure to develop specialized solvers. The latter is the
+    theme of our work. We focus on efficiently handling one-hot
+    constraints, which are particularly relevant when encoding PWA
+    dynamics. We have implemented our techniques in a tool, Soy, which
+    organically integrates logical reasoning, arithmetic reasoning, and
+    stochastic local search. For a set of PWA control benchmarks, Soy
+    solves more problems, faster, than two state-of-the-art MICP
+    solvers.
+  author:
+  - family: Wu
+    given: Haoze
+  - family: Wu
+    given: Min
+  - family: Sadigh
+    given: Dorsa
+  - family: Barrett
+    given: Clark
+  container-title: 2023 IEEE/RSJ international conference on intelligent
+    robots and systems (IROS'23)
+  doi: 10.1109/IROS55552.2023.10342011
+  id: WWS+23
+  issued:
+  - year: 2023
+    month: 10
+  note: Detroit, MI, USA
+  page: 6281-6288
+  publisher: IEEE
+  title: "Soy: An efficient MILP solver for piecewise-affine systems"
+  title-short: Soy
+  type: paper-conference
+  url: "https://doi.org/10.1109/IROS55552.2023.10342011"
+- abstract: "This work is a part of an ongoing effort to understand the
+    relationships between properties used in theory combination. We here
+    focus on including two properties that are related to shiny
+    theories: the finite model property and stable finiteness. For any
+    combination of properties, we consider the question of whether there
+    exists a theory that exhibits it. When there is, we provide an
+    example with the simplest possible signature. One particular class
+    of interest includes theories with the finite model property that
+    are not finitely witnessable. To construct such theories, we utilize
+    the Busy Beaver function."
+  author:
+  - family: Toledo
+    given: Guilherme V.
+  - family: Zohar
+    given: Yoni
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in artificial intelligence
+  container-title: Proceedings of the 14<sup>th</sup> international symposium
+    on frontiers of combining systems (FroCoS'23)
+  doi: 10.1007/978-3-031-43369-6_9
+  editor:
+  - family: Sattler
+    given: Uri
+  - family: Suda
+    given: Martin
+  id: TZB23-frocos
+  issued:
+  - year: 2023
+    month: 9
+  note: Prague, Czech Republic
+  page: 159-175
+  publisher: Springer
+  title: "Combining finite combination properties: Finite models and
+    busy beavers"
+  title-short: Combining finite combination properties
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-031-43369-6_9"
+  volume: 14279
+- abstract: We prove the correctness of invertibility conditions for the
+    theory of fixed-width bit-vectors---used to solve quantified
+    bit-vector formulas in the Satisfiability Modulo Theories (SMT)
+    solver cvc5---in the Coq proof assistant. Previous work proved many
+    of these in a completely automatic fashion for arbitrary bit-width;
+    however, some were only proved for bit-widths up to 65, even though
+    they are being used to solve formulas over larger bit-widths. In
+    this paper we describe the process of proving a representative
+    subset of these invertibility conditions in Coq. In particular, we
+    describe the BVList library for bit-vectors in Coq, our extensions
+    to it, and proofs of the invertibility conditions.
+  author:
+  - family: Ekici
+    given: Burak
+  - family: Viswanathan
+    given: Arjun
+  - family: Zohar
+    given: Yoni
+  - family: Tinelli
+    given: Cesare
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in artificial intelligence
+  container-title: Proceedings of the 14<sup>th</sup> international symposium
+    on frontiers of combining systems (FroCoS'23)
+  doi: 10.1007/978-3-031-43369-6_3
+  editor:
+  - family: Sattler
+    given: Uri
+  - family: Suda
+    given: Martin
+  id: EVZ+23
+  issued:
+  - year: 2023
+    month: 9
+  note: Prague, Czech Republic
+  page: 41-59
+  publisher: Springer
+  title: Formal verification of bit-vector invertibility conditions in
+    coq
+  type: paper-conference
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-43369-6_3"
+  volume: 14279
+- abstract: "Hardware accelerators (HAs) underpin high-performance and
+    energy-efficient digital systems. Correctness of these systems thus
+    depends on the correctness of constituent HAs.
+    Self-consistency-based pre-silicon verification techniques, like
+    A-QED (Accelerator Quick Error Detection), provide a quick and
+    provably thorough HA verification framework that does not require
+    extensive design-specific properties or a full functional
+    specification. However, A-QED is limited to verifying HAs which are
+    non-interfering -- i.e., they produce the same result for a given
+    input independent of its context within a sequence of inputs. We
+    present a new technique called G-QED (Generalized QED) which goes
+    beyond non-interfering HAs while retaining A-QED's benefits. Our
+    extensive results as well as a detailed industrial case study show
+    that: G-QED is highly thorough in detecting critical bugs in
+    well-verified designs that otherwise escape traditional verification
+    flows while simultaneously improving verification productivity
+    18-fold (from 370 person days to 21 person days). These results are
+    backed by theoretical guarantees of soundness and completeness."
+  author:
+  - family: Chattopadhyay
+    given: Saranyu
+  - family: Devarajegowda
+    given: Keerthikumara
+  - family: Zhao
+    given: Bihan
+  - family: Lonsing
+    given: Florian
+  - family: D'Agostino
+    given: Brandon A.
+  - family: Vavelidou
+    given: Ioanna
+  - family: Bhatt
+    given: Vijay D.
+  - family: Prebeck
+    given: Sebastian
+  - family: Ecker
+    given: Wolfgang
+  - family: Trippel
+    given: Caroline
+  - family: Barrett
+    given: Clark
+  - family: Mitra
+    given: Subhasish
+  container-title: Proceedings of the 60<sup>th</sup> design automation
+    conference (DAC'23)
+  doi: 10.1109/DAC56929.2023.10247903
+  id: CDZ+23
+  issued:
+  - year: 2023
+    month: 7
+  keyword: Productivity; Context; Design automation; Digital systems;
+    Side-channel attacks; Energy efficiency; Timing; QED; Quick Error
+    Detection; Accelerators; Processors; Functional consistency
+  note: San Francisco, CA
+  publisher: IEEE
+  title: "G-QED: Generalized QED pre-silicon verification beyond
+    non-interfering hardware accelerators"
+  title-short: G-QED
+  type: paper-conference
+  url: "https://ieeexplore.ieee.org/document/10247903"
+- abstract: The architecture of a coarse-grained reconfigurable array
+    (CGRA) processing element (PE) has a significant effect on the
+    performance and energy-efficiency of an application running on the
+    CGRA. This paper presents APEX, an automated approach for generating
+    specialized PE architectures for an application or an application
+    domain. APEX first analyzes application domain benchmarks using
+    frequent subgraph mining to extract commonly occurring computational
+    subgraphs. APEX then generates specialized PEs by merging subgraphs
+    using a datapath graph merging algorithm. The merged datapath graphs
+    are translated into a PE specification from which we automatically
+    generate the PE hardware description in Verilog along with a
+    compiler that maps applications to the PE. The PE hardware and
+    compiler are inserted into a flexible CGRA generation and
+    compilation toolchain that allows for agile evaluation of CGRAs. We
+    evaluate APEX for two domains, machine learning and image
+    processing. For image processing applications, our automatically
+    generated CGRAs with specialized PEs achieve from 5% to 30% less
+    area and from 22% to 46% less energy compared to a general-purpose
+    CGRA. For machine learning applications, our automatically generated
+    CGRAs consume 16% to 59% less energy and 22% to 39% less area than a
+    general-purpose CGRA. This work paves the way for creation of
+    application domain-driven design-space exploration frameworks that
+    automatically generate efficient programmable accelerators, with a
+    much lower design effort for both hardware and compiler generation.
+  author:
+  - family: Melchert
+    given: Jackson
+  - family: Feng
+    given: Kathleen
+  - family: Donovick
+    given: Caleb
+  - family: Daly
+    given: Ross
+  - family: Sharma
+    given: Ritvik
+  - family: Barrett
+    given: Clark
+  - family: Horowitz
+    given: Mark A.
+  - family: Hanrahan
+    given: Pat
+  - family: Raina
+    given: Priyanka
+  collection-title: ASPLOS 2023
+  container-title: Proceedings of the 28<sup>th</sup> ACM international
+    conference on architectural support for programming languages and
+    operating systems (ASPLOS), volume 3
+  doi: 10.1145/3582016.3582070
+  id: MFD+23
+  isbn: 9781450399180
+  issued:
+  - year: 2023
+    month: 3
+  keyword: subgraph, reconfigurable accelerators, processing elements,
+    hardware-software co-design, graph analysis, domain-specific
+    accelerators, design space exploration, CGRA
+  note: Vancouver, BC, Canada
+  page: 33-45
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  title: "APEX: A framework for automated processing element design
+    space exploration using frequent subgraph analysis"
+  title-short: APEX
+  type: paper-conference
+  url: "https://doi.org/10.1145/3582016.3582070"
+- abstract: "Deep neural networks (DNNs) are increasingly being deployed
+    to perform safety-critical tasks. The opacity of DNNs, which
+    prevents humans from reasoning about them, presents new safety and
+    security challenges. To address these challenges, the verification
+    community has begun developing techniques for rigorously analyzing
+    DNNs, with numerous verification algorithms proposed in recent
+    years. While a significant amount of work has gone into developing
+    these verification algorithms, little work has been devoted to
+    rigorously studying the computability and complexity of the
+    underlying theoretical problems. Here, we seek to contribute to the
+    bridging of this gap. We focus on two kinds of DNNs: those that
+    employ piecewise-linear activation functions (e.g., ReLU), and those
+    that employ piecewise-smooth activation functions (e.g., Sigmoids).
+    We prove the two following theorems: (i) the decidability of
+    verifying DNNs with a particular set of piecewise-smooth activation
+    functions, including Sigmoid and tanh, is equivalent to a
+    well-known, open problem formulated by Tarski; and (ii) the DNN
+    verification problem for any quantifier-free linear arithmetic
+    specification can be reduced to the DNN reachability problem, whose
+    approximation is NP-complete. These results answer two fundamental
+    questions about the computability and complexity of DNN
+    verification, and the ways it is affected by the network's
+    activation functions and error tolerance; and could help guide
+    future efforts in developing DNN verification tools."
+  author:
+  - family: Isac
+    given: Omri
+  - family: Zohar
+    given: Yoni
+  - family: Barrett
+    given: Clark
+  - family: Katz
+    given: Guy
+  collection-title: Leibniz international proceedings in informatics
+    (LIPIcs)
+  container-title: 34<sup>th</sup> international conference on concurrency
+    theory (CONCUR'23)
+  doi: 10.4230/LIPIcs.CONCUR.2023.26
+  editor:
+  - family: Pérez
+    given: Guillermo A.
+  - family: Raskin
+    given: Jean-François
+  id: IZB+23
+  isbn: 978-3-95977-299-0
+  issn: 1868-8969
+  issued:
+  - year: 2023
+    month: 9
+  note: Antwerp, Belgium
+  page: "26:1-26:18"
+  publisher: Schloss Dagstuhl -- Leibniz-Zentrum für Informatik
+  publisher-place: Dagstuhl, Germany
+  title: DNN verification, reachability, and the exponential function
+    problem
+  type: paper-conference
+  url: "https://drops.dagstuhl.de/opus/volltexte/2023/19020/"
+  volume: 279
+- abstract: Zero Knowledge Proofs (ZKPs) are cryptographic protocols by
+    which a prover convinces a verifier of the truth of a statement
+    without revealing any other information. Typically, statements are
+    expressed in a high-level language and then compiled to a low-level
+    representation on which the ZKP operates. Thus, a bug in a ZKP
+    compiler can compromise the statement that the ZK proof is supposed
+    to establish. This paper takes a step towards ZKP compiler
+    correctness by partially verifying a field-blasting compiler pass, a
+    pass that translates Boolean and bit-vector logic into equivalent
+    operations in a finite field. First, we define correctness for
+    field-blasters and ZKP compilers more generally. Next, we describe
+    the specific field-blaster using a set of encoding rules and define
+    verification conditions for individual rules. Finally, we connect
+    the rules and the correctness definition by showing that if our
+    verification conditions hold, the field-blaster is correct. We have
+    implemented our approach in the CirC ZKP compiler and have proved
+    bounded versions of the corresponding verification conditions. We
+    show that our partially verified field-blaster does not hurt the
+    performance of the compiler or its output; we also report on four
+    bugs uncovered during verification.
+  author:
+  - family: Ozdemir
+    given: Alex
+  - family: Wahby
+    given: Riad S.
+  - family: Brown
+    given: Fraser
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 35<sup>th</sup> international conference
+    on computer aided verification (CAV'23)
+  doi: 10.1007/978-3-031-37709-9_8
+  editor:
+  - family: Enea
+    given: Constantin
+  - family: Lal
+    given: Akash
+  id: OWB+23
+  issued:
+  - year: 2023
+    month: 7
+  note: Paris, France
+  page: 154-175
+  publisher: Springer
+  title: Bounded verification for finite-field-blasting
+  type: paper-conference
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-37709-9_8"
+  volume: 13965
+- abstract: We study satisfiability modulo the theory of finite fields
+    and give a decision procedure for this theory. We implement our
+    procedure for prime fields inside the cvc5 SMT solver. Using this
+    theory, we construct SMT queries that encode translation validation
+    for various zero knowledge proof compilers applied to Boolean
+    computations. We evaluate our procedure on these benchmarks. Our
+    experiments show that our implementation is superior to previous
+    approaches (which encode field arithmetic using integers or
+    bit-vectors).
+  author:
+  - family: Ozdemir
+    given: Alex
+  - family: Kremer
+    given: Gereon
+  - family: Tinelli
+    given: Cesare
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in computer science
+  container-title: Proceedings of the 35<sup>th</sup> international conference
+    on computer aided verification (CAV'23)
+  doi: 10.1007/978-3-031-37703-7_8
+  editor:
+  - family: Enea
+    given: Constantin
+  - family: Lal
+    given: Akash
+  id: OKT+23
+  issued:
+  - year: 2023
+    month: 7
+  note: Paris, France
+  page: 163-186
+  publisher: Springer
+  title: Satisfiability modulo finite fields
+  type: paper-conference
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-37703-7_8"
+  volume: 13965
+- abstract: We make two contributions to the study of theory combination
+    in satisfiability modulo theories. The first is a table of examples
+    for the combinations of the most common model-theoretic properties
+    in theory combination, namely stable infiniteness, smoothness,
+    convexity, finite witnessability, and strong finite witnessability
+    (and therefore politeness and strong politeness as well). All of our
+    examples are sharp, in the sense that we also offer proofs that no
+    theories are available within simpler signatures. This table
+    significantly progresses the current understanding of the various
+    properties and their interactions. The most remarkable example in
+    this table is of a theory over a single sort that is polite but not
+    strongly polite (the existence of such a theory was only known until
+    now for two-sorted signatures). The second contribution is a new
+    combination theorem showing that in order to apply polite theory
+    combination, it is sufficient for one theory to be stably infinite
+    and strongly finitely witnessable, thus showing that smoothness is
+    not a critical property in this combination method. This result has
+    the potential to greatly simplify the process of showing which
+    theories can be used in polite combination, as showing stable
+    infiniteness is considerably simpler than showing smoothness.
+  author:
+  - family: Toledo
+    given: Guilherme V.
+  - family: Zohar
+    given: Yoni
+  - family: Barrett
+    given: Clark
+  collection-title: Lecture notes in artificial intelligence
+  container-title: Proceedings of the 29<sup>th</sup> international conference
+    on automated deduction (CADE'23)
+  doi: 10.1007/978-3-031-38499-8_30
+  editor:
+  - family: Pientka
+    given: Brigitte
+  - family: Tinelli
+    given: Cesare
+  id: TZB23-cade
+  issued:
+  - year: 2023
+    month: 7
+  note: Rome, Italy
+  page: 522-541
+  publisher: Springer
+  title: "Combining combination properties: An analysis of stable
+    infiniteness, convexity, and politeness"
+  title-short: Combining combination properties
+  type: paper-conference
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-38499-8_30"
+  volume: 14132
+- abstract: The softmax function is a ubiquitous component at the output
+    of neural networks and increasingly in intermediate layers as well.
+    This paper provides convex lower bounds and concave upper bounds on
+    the softmax function, which are compatible with convex optimization
+    formulations for characterizing neural networks and other ML models.
+    We derive bounds using both a natural exponential-reciprocal
+    decomposition of the softmax as well as an alternative decomposition
+    in terms of the log-sum-exp function. The new bounds are provably
+    and/or numerically tighter than linear bounds obtained in previous
+    work on robustness verification of transformers. As illustrations of
+    the utility of the bounds, we apply them to verification of
+    transformers as well as of the robustness of predictive uncertainty
+    estimates of deep ensembles.
+  author:
+  - family: Wei
+    given: Dennis
+  - family: Wu
+    given: Haoze
+  - family: Wu
+    given: Min
+  - family: Chen
+    given: Pin-Yu
+  - family: Barrett
+    given: Clark
+  - family: Farchi
+    given: Eitan
+  collection-title: Proceedings of machine learning research
+  container-title: Proceedings of the 26<sup>th</sup> international conference
+    on artificial intelligence and statistics (AISTATS'23)
+  editor:
+  - family: Ruiz
+    given: Francisco
+  - family: Dy
+    given: Jennifer
+  - dropping-particle: van de
+    family: Meent
+    given: Jan-Willem
+  id: WWW+23
+  issued:
+  - year: 2023
+    month: 4
+  note: Valencia, Spain
+  page: 6853-6878
+  publisher: PMLR
+  title: Convex bounds on the softmax function with applications to
+    robustness verification
+  type: paper-conference
+  url: "https://proceedings.mlr.press/v206/wei23c.html"
+  volume: 206
+- abstract: Neural networks have become critical components of reactive
+    systems in various do- mains within computer science. Despite their
+    excellent performance, using neural networks entails numerous risks
+    that stem from our lack of ability to understand and reason about
+    their behavior. Due to these risks, various formal methods have been
+    proposed for verify- ing neural networks; but unfortunately, these
+    typically struggle with scalability barriers. Recent attempts have
+    demonstrated that abstraction-refinement approaches could play a
+    significant role in mitigating these limitations; but these
+    approaches can often produce net- works that are so abstract, that
+    they become unsuitable for verification. To deal with this issue, we
+    present CEGARETTE, a novel verification mechanism where both the
+    system and the property are abstracted and refined simultaneously.
+    We observe that this approach allows us to produce abstract networks
+    which are both small and sufficiently accurate, allowing for quick
+    verification times while avoiding a large number of refinement
+    steps. For evaluation purposes, we implemented CEGARETTE as an
+    extension to the recently proposed CEGAR-NN framework. Our results
+    are highly promising, and demonstrate a significant improvement in
+    performance over multiple benchmarks.
+  author:
+  - family: Cohen
+    given: Elazar
+  - family: Elboher
+    given: Yizhak Yisrael
+  - family: Barrett
+    given: Clark
+  - family: Katz
+    given: Guy
+  collection-title: EPiC series in computing
+  container-title: Proceedings of 24<sup>th</sup> international conference on
+    logic for programming, artificial intelligence and reasoning (LPAR
+    '23)
+  doi: 10.29007/3mk7
+  editor:
+  - family: Piskac
+    given: Ruzica
+  - family: Voronkov
+    given: Andrei
+  id: CEB+23
+  issued:
+  - year: 2023
+    month: 3
+  note: Manizales, Columbia
+  page: 124-143
+  publisher: EasyChair
+  title: Tighter abstract queries in neural network verification
+  type: paper-conference
+  url: "https://easychair.org/publications/paper/q7L6"
+  volume: 94
+- abstract: A well-known challenge in leveraging automatic theorem
+    provers, such as satisfiability modulo theories (SMT) solvers, to
+    discharge proof obligations from interactive theorem provers (ITPs)
+    is determining which axioms to send to the solver together with the
+    con- jecture to be proven. Too many axioms may confuse or clog the
+    solver, while too few may make a theorem unprovable. When a solver
+    fails to prove a conjecture, it is unclear to the user which case
+    transpired. In this paper we enhance SMTCoq --- an integration
+    between the Coq ITP and the cvc5 SMT solver --- with a tactic called
+    abduce aimed at mitigating the uncertainty above. When the solver
+    fails to prove the goal, the user may invoke abduce which will use
+    abductive reasoning to provide facts that will allow the solver to
+    prove the goal, if any.
+  author:
+  - family: Barbosa
+    given: Haniel
+  - family: Keller
+    given: Chantal
+  - family: Reynolds
+    given: Andrew
+  - family: Viswanathan
+    given: Arjun
+  - family: Tinelli
+    given: Cesare
+  - family: Barrett
+    given: Clark
+  collection-title: EPiC series in computing
+  container-title: Proceedings of 24<sup>th</sup> international conference on
+    logic for programming, artificial intelligence and reasoning (LPAR
+    '23)
+  doi: 10.29007/432m
+  editor:
+  - family: Piskac
+    given: Ruzica
+  - family: Voronkov
+    given: Andrei
+  id: BKR+23
+  issued:
+  - year: 2023
+    month: 3
+  note: Manizales, Columbia
+  page: 11-22
+  publisher: EasyChair
+  title: An interactive SMT tactic in coq using abductive reasoning
+  type: paper-conference
+  url: "https://easychair.org/publications/paper/lNvq"
+  volume: 94
+- abstract: We consider the problem of certifying the robustness of deep
+    neural networks against real-world distribution shifts. To do so, we
+    bridge the gap between hand-crafted specifications and realistic
+    deployment settings by considering a neural-symbolic verification
+    framework in which generative models are trained to learn
+    perturbations from data and specifications are defined with respect
+    to the output of these learned models. A pervasive challenge arising
+    from this setting is that although S-shaped activations (e.g.,
+    sigmoid, tanh) are common in the last layer of deep generative
+    models, existing verifiers cannot tightly approximate S-shaped
+    activations. To address this challenge, we propose a general
+    meta-algorithm for handling S-shaped activations which leverages
+    classical notions of counter-example-guided abstraction refinement.
+    The key idea is to "lazily" refine the abstraction of S-shaped
+    functions to exclude spurious counter-examples found in the previous
+    abstraction, thus guaranteeing progress in the verification process
+    while keeping the state-space small. For networks with sigmoid
+    activations, we show that our technique outperforms state-of-the-art
+    verifiers on certifying robustness against both canonical
+    adversarial perturbations and numerous real-world distribution
+    shifts. Furthermore, experiments on the MNIST and CIFAR-10 datasets
+    show that distribution-shift-aware algorithms have significantly
+    higher certified robustness against distribution shifts.
+  author:
+  - family: Wu
+    given: Haoze
+  - family: Tagomori
+    given: Teruhiro
+  - family: Robey
+    given: Alexander
+  - family: Yang
+    given: Fengjun
+  - family: Matni
+    given: Nikolai
+  - family: Pappas
+    given: George
+  - family: Hassani
+    given: Hamed
+  - family: Păsăreanu
+    given: Corina
+  - family: Barrett
+    given: Clark
+  container-title: Proceedings of the 2023 IEEE conference on secure and
+    trustworthy machine learning (SaTML)
+  doi: 10.1109/SaTML54575.2023.00042
+  editor:
+  - family: McDaniel
+    given: Patrick
+  - family: Papernot
+    given: Nicolas
+  id: WTR+23
+  issued:
+  - year: 2023
+    month: 2
+  note: Raleigh, NC
+  page: 537-553
+  publisher: IEEE
+  title: Toward certified robustness against real-world distribution
+    shifts
+  type: paper-conference
+  url: "http://theory.stanford.edu/\\~barrett/pubs/WTR+23.pdf"
 - abstract: Convolutional neural networks (CNNs) have achieved immense
     popularity in areas like computer vision, image processing, speech
     proccessing, and many others. Unfortunately, despite their excellent
@@ -1371,7 +2612,7 @@ references:
   title: An abstraction-refinement approach to verifying convolutional
     neural networks
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/OBK22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/OBK22.pdf"
   volume: 13505
 - abstract: Creating a compiler for an instruction set architecture
     (ISA) requires a set of rewrite rules describing how to translate
@@ -1423,7 +2664,7 @@ references:
   title: Synthesizing instruction selection rewrite rules from RTL using
     SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/DDM+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/DDM+22.pdf"
 - abstract: Satisfiability modulo theories (SMT) solvers are widely used
     to prove security and safety properties of computer systems. For
     these applications, it is crucial that the result reported by an SMT
@@ -1475,7 +2716,7 @@ references:
   title: Reconstructing fine-grained proofs of rewrites using a
     domain-specific language
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NBN+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NBN+22.pdf"
 - abstract: With the increasing availability of parallel computing
     power, there is a growing focus on parallelizing algorithms for
     important automated reasoning problems such as Boolean
@@ -1523,7 +2764,7 @@ references:
     solvers"
   title-short: Proof-stitch
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NCW+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NCW+22.pdf"
 - abstract: With the increasing application of deep learning in
     mission-critical systems, there is a growing need to obtain formal
     guarantees about the behaviors of neural networks. Indeed, many
@@ -1571,7 +2812,7 @@ references:
   title: On optimizing back-substitution methods for neural network
     verification
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/ZWB+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/ZWB+22.pdf"
 - abstract: "Deep neural networks (DNNs) are increasingly being employed
     in safety-critical systems, and there is an urgent need to guarantee
     their correctness. Consequently, the verification community has
@@ -1617,7 +2858,7 @@ references:
   publisher: TU Wien Academic Press
   title: Neural network verification with proof production
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/IBZ+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/IBZ+22.pdf"
 - abstract: Dynamic arrays, also referred to as vectors, are fundamental
     data structures used in many programs. Modeling their semantics
     efficiently is crucial when reasoning about such programs. The
@@ -1674,7 +2915,7 @@ references:
   publisher: Springer Nature
   title: Reasoning about vectors using an SMT theory of sequences
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SNR+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SNR+22.pdf"
   volume: 13385
 - abstract: The cvc5 SMT solver solves quantifier-free nonlinear real
     arithmetic problems by combining the cylindrical algebraic coverings
@@ -1715,7 +2956,7 @@ references:
   title: Cooperating techniques for solving nonlinear real arithmetic in
     the cvc5 SMT solver (system description)
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KRB+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KRB+22.pdf"
   volume: 13385
 - abstract: Proof production for SMT solvers is paramount to ensure
     their correctness independently from implementations, which are
@@ -1779,7 +3020,7 @@ references:
   publisher: Springer Nature
   title: Flexible proof production in an industrial-strength SMT solver
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BRK+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BRK+22.pdf"
   volume: 13385
 - abstract: In the past decade, satisfiability modulo theories (SMT)
     solvers have been extended to support the theory of strings and
@@ -1824,7 +3065,7 @@ references:
   publisher: Springer
   title: Even faster conflicts and lazier reductions for string solvers
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NRB+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NRB+22.pdf"
   volume: 13372
 - abstract: SMT solvers are highly complex pieces of software with
     performance, robustness, and correctness as key requirements.
@@ -1869,7 +3110,7 @@ references:
     solvers"
   title-short: Murxla
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPB22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NPB22.pdf"
   volume: 13372
 - abstract: cvc5 is the latest SMT solver in the cooperating validity
     checker series and builds on the successful code base of CVC4. This
@@ -1931,7 +3172,7 @@ references:
   title: "cvc5: A versatile and industrial-strength SMT solver"
   title-short: cvc5
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BBB+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BBB+22.pdf"
   volume: 13243
 - abstract: "Inspired by sum-of-infeasibilities methods in convex
     optimization, we propose a novel procedure for analyzing
@@ -1985,7 +3226,7 @@ references:
   publisher: Springer
   title: Efficient neural network analysis with sum-of-infeasibilities
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WZK+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/WZK+22.pdf"
   volume: 13243
 - abstract: The state of the art for bit-precise reasoning in the
     context of Satisfiability Modulo Theories (SMT) is a SAT-based
@@ -2041,7 +3282,7 @@ references:
   publisher: Springer
   title: Bit-precise reasoning via int-blasting
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/ZIM+22.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/ZIM+22.pdf"
   volume: 13182
 - abstract: The increasing complexity of modern confgurable systems
     makes it critical to improve the level of automation in the process
@@ -2089,7 +3330,7 @@ references:
   publisher: TU Wien Academic Press
   title: Automating system configuration
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/TSM+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/TSM+21.pdf"
 - abstract: Hardware accelerators (HAs) are essential building blocks
     for fast and energy-efficient computing systems. Accelerator Quick
     Error Detection (A-QED) is a recent formal technique which uses
@@ -2157,7 +3398,7 @@ references:
   title: Scaling up hardware accelerator verification using A-QED with
     functional decomposition
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/CLP+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/CLP+21.pdf"
 - abstract: "In recent years, cloud service providers have sold
     computation in increasingly granular units. Most recently,
     \\\"serverless\\\" executors run a single executable with restricted
@@ -2197,7 +3438,7 @@ references:
   publisher: TU Wien Academic Press
   title: SAT solving in the serverless cloud
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/OWB21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/OWB21.pdf"
 - abstract: "We introduce DeepCert, a tool-supported method for
     verifying the robustness of deep neural network (DNN) image
     classifiers to contextually relevant perturbations such as blur,
@@ -2255,7 +3496,7 @@ references:
     neural network image classifiers"
   title-short: DeepCert
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/PWG+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/PWG+21.pdf"
   volume: 12852
 - abstract: Symbolic model checking is an important tool for finding
     bugs (or proving the absence of bugs) in modern system designs.
@@ -2309,7 +3550,7 @@ references:
   title: "Pono: A flexible and extensible SMT-based model checker"
   title-short: Pono
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MIL+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MIL+21.pdf"
   volume: 12760
 - abstract: We make two contributions to the study of polite combination
     in satisfiability modulo theories. The first is a separation between
@@ -2360,7 +3601,7 @@ references:
   title: "Politeness and stable infiniteness: Stronger together"
   title-short: Politeness and stable infiniteness
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SZR+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SZR+21.pdf"
   volume: 12699
 - abstract: This paper presents Smt-Switch, an open-source,
     solver-agnostic API for SMT solving. Smt-Switch provides simple,
@@ -2410,7 +3651,7 @@ references:
   title: "Smt-switch: A solver-agnostic C++ API for SMT solving"
   title-short: Smt-switch
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MWZ+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MWZ+21.pdf"
   volume: 12831
 - abstract: We develop a framework for model checking infinite-state
     systems by automatically augmenting them with auxiliary variables,
@@ -2453,7 +3694,7 @@ references:
   title: Counterexample-guided prophecy for model checking modulo the
     theory of arrays
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MIG+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MIG+21.pdf"
   volume: 12651
 - abstract: This paper presents a novel approach for quantifier
     instantiation in Satisfiability Modulo Theories (SMT) that leverages
@@ -2499,7 +3740,7 @@ references:
   publisher: Springer
   title: Syntax-guided quantifier instantiation
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPR+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NPR+21.pdf"
   volume: 12652
 - abstract: Deep learning has emerged as an effective approach for
     creating modern software systems, with neural networks often
@@ -2546,7 +3787,7 @@ references:
   publisher: Springer
   title: An SMT-based approach for verifying binarized neural networks
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/AWB+21.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/AWB+21.pdf"
   volume: 12652
 - abstract: The ACAS X family of aircraft collision avoidance systems
     uses large numeric lookup tables to make decisions. Recent work used
@@ -2588,7 +3829,7 @@ references:
   title: Towards verification of neural networks for small unmanned
     aircraft collision avoidance
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/IJW+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/IJW+20.pdf"
 - abstract: Deep neural networks are revolutionizing the way complex
     systems are developed. However, these automatically-generated
     networks are opaque to humans, making it difficult to reason about
@@ -2627,7 +3868,7 @@ references:
   publisher: Springer International Publishing
   title: Verifying recurrent neural networks using invariant inference
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JBK20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JBK20.pdf"
   volume: 12302
 - abstract: The theory of strings supported by solvers in formal methods
     contains a large number of operators. Instead of implementing a
@@ -2672,7 +3913,7 @@ references:
   publisher: TU Wien Academic Press
   title: Reductions for strings and regular expressions revisited
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RNB+20-FMCAD.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RNB+20-FMCAD.pdf"
 - abstract: Inspired by recent successes of parallel techniques for
     solving Boolean satisfiability, we investigate a set of strategies
     and heuristics to leverage parallelism and improve the scalability
@@ -2726,7 +3967,7 @@ references:
   publisher: TU Wien Academic Press
   title: Parallelization techniques for verifying neural networks
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WOZ+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/WOZ+20.pdf"
 - abstract: "Symbolic quick error detection (SQED) is a formal
     pre-silicon verification technique targeted at processor designs. It
     leverages bounded model checking (BMC) to check a design for
@@ -2778,7 +4019,7 @@ references:
   publisher: TU Wien Academic Press
   title: A theoretical framework for symbolic quick error detection
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LMB20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LMB20.pdf"
 - abstract: While hardware generators have drastically improved design
     productivity, they have introduced new challenges for the task of
     verification. To effectively cover the functionality of a
@@ -2831,7 +4072,7 @@ references:
     metaprogramming portable hardware verification components"
   title-short: Fault
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/THS+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/THS+20.pdf"
   volume: 12224
 - abstract: The Libra blockchain is designed to store billions of
     dollars in assets, so the security of code that executes
@@ -2878,7 +4119,7 @@ references:
   publisher: Springer International Publishing
   title: The move prover
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/ZCQ+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/ZCQ+20.pdf"
   volume: 12224
 - abstract: Although an agile approach is standard for software design,
     how to properly adapt this method to hardware is still an open
@@ -2975,7 +4216,7 @@ references:
   publisher: Association for Computing Machinery
   title: Creating an agile hardware design flow
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BBB+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BBB+20.pdf"
 - abstract: "We present A-QED (Accelerator-Quick Error Detection), a new
     approach for pre-silicon formal verification of stand-alone hardware
     accelerators. A-QED relies on bounded model checking -- however, it
@@ -3028,7 +4269,7 @@ references:
   publisher: Association for Computing Machinery
   title: A-QED verification of hardware accelerators
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SLC+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SLC+20.pdf"
 - abstract: Algebraic datatypes, and among them lists and trees, have
     attracted a lot of interest in automated reasoning and
     Satisfiability Modulo Theories (SMT). Since its latest stable
@@ -3072,7 +4313,7 @@ references:
   publisher: Springer International Publishing
   title: Politeness for the theory of algebraic datatypes
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SZR+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SZR+20.pdf"
   volume: 12166
 - abstract: In text encoding standards such as Unicode, text strings are
     sequences of code points, each of which can be represented as a
@@ -3112,7 +4353,7 @@ references:
   publisher: Springer International Publishing
   title: A decision procedure for string to code point conversion
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RNB+20-IJCAR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RNB+20-IJCAR.pdf"
   volume: 12166
 - abstract: "Deep neural network (DNN) verification is an emerging
     field, with diverse verification engines quickly becoming available.
@@ -3156,7 +4397,7 @@ references:
   publisher: Springer
   title: Simplifying neural networks using formal verification
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/GFM+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/GFM+20.pdf"
 - abstract: Symbolic model checking has become an important part of the
     verification flow in industrial hardware design. However, its use is
     still limited due to scaling issues. One way to address this is to
@@ -3192,7 +4433,7 @@ references:
   title: Partial order reduction for deep bug finding in synchronous
     hardware
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MB20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MB20.pdf"
   volume: 12078
 - abstract: The required manual effort and verification expertise are
     among the main hurdles for adopting formal verification in processor
@@ -3243,7 +4484,7 @@ references:
   title: Gap-free processor verification by S$^2$QED and property
     generation
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/DFS+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/DFS+20.pdf"
 - abstract: Coarse-grained reconfigurable architectures (CGRAs) are
     becoming popular accelerators for computationally intensive tasks.
     CGRAs offer the reconfigurability of an FPGA, but with larger
@@ -3289,7 +4530,7 @@ references:
   title: Agile SMT-based mapping for CGRAs with restricted routing
     networks
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/DMB+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/DMB+19.pdf"
 - abstract: The Boolean Satisfiability (SAT) problem is the canonical
     NP-complete problem and is fundamental to computer science, with a
     wide array of applications in planning, verification, and theorem
@@ -3347,7 +4588,7 @@ references:
   title: "G2SAT: Learning to generate SAT formulas"
   title-short: G2SAT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/YWB+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/YWB+19.pdf"
 - abstract: As designs grow in size and complexity, design verification
     becomes one of the most difficult and costly tasks facing design
     teams. Formal verification techniques offer great promise because of
@@ -3410,7 +4651,7 @@ references:
   title-short: Unlocking the power of formal hardware verification with
     CoSA and symbolic QED
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LGM+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LGM+19.pdf"
 - abstract: Detect and avoid (DAA) all other aircraft is a critical
     component to enable small unmanned aircraft system (sUAS) beyond
     visual line of sight (BVLOS) operations. Derived from the version of
@@ -3477,7 +4718,7 @@ references:
   title: Integration and flight test of small UAS detect and avoid on a
     miniaturized avionics platform
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LRM+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LRM+19.pdf"
 - abstract: Many SMT solvers implement efficient SAT-based procedures
     for solving fixed-size bit-vector formulas. These approaches,
     however, cannot be used directly to reason about bit-vectors of
@@ -3520,7 +4761,7 @@ references:
   publisher: Springer
   title: Towards bit-width-independent proofs in SMT solvers
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPR+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NPR+19.pdf"
   volume: 11716
 - abstract: SMT solvers have throughout the years been able to cope with
     increasingly expressive formulas, from ground logics to full
@@ -3565,7 +4806,7 @@ references:
   publisher: Springer
   title: Extending SMT solvers to higher-order logic
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BREO+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BREO+19.pdf"
   volume: 11716
 - abstract: The performance of modern Satisfiability Modulo Theories
     (SMT) solvers relies crucially on efficient decision procedures as
@@ -3615,7 +4856,7 @@ references:
   publisher: Springer
   title: Syntax-guided rewrite rule enumeration for SMT solvers
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NRB+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NRB+19.pdf"
   volume: 11628
 - abstract: Many state-of-the-art Satisfiability Modulo Theories (SMT)
     solvers for the theory of fixed-size bit-vectors employ an approach
@@ -3660,7 +4901,7 @@ references:
   publisher: Springer
   title: DRAT-based bit-vector proofs in CVC4
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/ONP+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/ONP+19.pdf"
   volume: 11628
 - abstract: Satisfiability Modulo Theories (SMT) solvers with support
     for the theory of strings have recently emerged as powerful tools
@@ -3705,7 +4946,7 @@ references:
   title: High-level abstractions for simplifying extended string
     constraints in SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RNB+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RNB+19.pdf"
   volume: 11561
 - abstract: We present CVC4SY, a syntax-guided synthesis (SyGuS) solver
     based on three bounded term enumeration strategies. The first
@@ -3748,7 +4989,7 @@ references:
     synthesis"
   title-short: CVC4SY
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RBN+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RBN+19.pdf"
   volume: 11561
 - abstract: Automated reasoning procedures are essential for a number of
     applications that involve bit-exact floating-point computations.
@@ -3794,7 +5035,7 @@ references:
   publisher: Springer International Publishing
   title: Invertibility conditions for floating-point formulas
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BNP+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BNP+19.pdf"
   volume: 11561
 - abstract: Deep neural networks are revolutionizing the way complex
     systems are designed. Consequently, there is a pressing need for
@@ -3858,7 +5099,7 @@ references:
   title: The marabou framework for verification and analysis of deep
     neural networks
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KHI+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KHI+19.pdf"
   volume: 11561
 - abstract: "Recent discovery of security attacks in advanced
     processors, known as Spectre and Meltdown, has resulted in high
@@ -3905,7 +5146,7 @@ references:
   title: Processor hardware security vulnerabilities and their detection
     by unique program execution checking
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/FSB+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/FSB+19.pdf"
 - abstract: "We present an industrial case study that demonstrates the
     practicality and effectiveness of Symbolic Quick Error Detection
     (Symbolic QED) in detecting logic design flaws (logic bugs) during
@@ -3968,7 +5209,7 @@ references:
   title-short: Symbolic QED pre-silicon verification for automotive
     microcontroller cores
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SDS+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SDS+19.pdf"
 - abstract: Symbolic model-checking is a well-established technique used
     in hardware design to assess, and formally verify, functional
     correctness. However, most modern model-checkers encode the problem
@@ -4019,7 +5260,7 @@ references:
   title: "CoSA: Integrated verification for agile hardware design"
   title-short: CoSA
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MMB+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MMB+18.pdf"
 - abstract: Deep neural networks have achieved impressive results in
     many complex applications, including classification tasks for image
     and speech recognition, pattern analysis or perception in
@@ -4074,7 +5315,7 @@ references:
     neural networks"
   title-short: DeepSafe
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/GKP+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/GKP+18.pdf"
   volume: 11138
 - abstract: We introduce a new theory of algebraic datatypes where
     selector symbols can be shared between multiple constructors,
@@ -4121,7 +5362,7 @@ references:
   publisher: Springer International Publishing
   title: Datatypes with shared selectors
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RVB+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RVB+18.pdf"
   volume: 10900
 - abstract: We present a novel approach for solving quantified
     bit-vector formulas in Satisfiability Modulo Theories (SMT) based on
@@ -4167,7 +5408,7 @@ references:
   publisher: Springer
   title: Solving quantified bit-vectors using invertibility conditions
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NPR+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NPR+18.pdf"
   volume: 10982
 - abstract: Driven by the demand for highly customizable processor cores
     for IoT and related applications, there is a renewed interest in
@@ -4217,7 +5458,7 @@ references:
   title: Symbolic quick error detection using symbolic initial state for
     pre-silicon verification
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/FUN+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/FUN+18.pdf"
 - abstract: With the rise of programmable network switches, network
     infrastructure is becoming more flexible and more capable than ever
     before. Programming languages such as P4 lower the barrier for
@@ -4258,7 +5499,7 @@ references:
   title: "p4pktgen: Automated test case generation for P4 programs"
   title-short: p4pktgen
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/NKF+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/NKF+18.pdf"
 - abstract: Nearly all web-based interfaces are written in JavaScript.
     Given its prevalence, the support for high performance JavaScript
     code is crucial. The ECMA Technical Committee 39 (TC39) has recently
@@ -4301,13 +5542,13 @@ references:
   issued:
   - year: 2018
     month: 4
-  note: Thessaloniki, Greece
+  note: Thessaloniki, Greece. *Distinguished Artifact Award.*
   page: 55-71
   publisher: Springer
   title: "EMME: A formal tool for ECMAScript memory model evaluation"
   title-short: EMME
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MBG+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MBG+18.pdf"
   volume: 10806
 - abstract: Satisfiability Modulo Theories (SMT) solvers have been
     developed to natively support a wide range of theories, including
@@ -4349,7 +5590,7 @@ references:
   publisher: Springer
   title: Designing theory solvers with extensions
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RTJ+17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RTJ+17.pdf"
   volume: 10483
 - abstract: Relational logic is useful for reasoning about computational
     problems with relational structures, including high-level system
@@ -4393,7 +5634,7 @@ references:
   publisher: Springer
   title: Relational constraint solving in SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MRT+17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MRT+17.pdf"
   volume: 10395
 - abstract: Deep neural networks have emerged as a widely used and
     effective means for tackling complex, real-world problems. However,
@@ -4442,7 +5683,7 @@ references:
     networks"
   title-short: Reluplex
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KBD+17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KBD+17.pdf"
   volume: 10426
 - abstract: "During post-silicon validation, manufactured integrated
     circuits are extensively tested in actual system environments to
@@ -4492,7 +5733,7 @@ references:
     validation enabled by quick error detection and formal methods"
   title-short: E-QED
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SBM17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SBM17.pdf"
   volume: 10426
 - abstract: This paper describes SMTCoq, a plug-in for the integration
     of external solvers into the Coq proof assistant. Based on a checker
@@ -4539,7 +5780,7 @@ references:
   title: "SMTCoq: A plug-in for integrating SMT solvers into Coq"
   title-short: SMTCoq
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/EMT+17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/EMT+17.pdf"
   volume: 10426
 - abstract: Efficient reasoning about strings is essential to a growing
     number of security and verification applications. We describe
@@ -4588,7 +5829,7 @@ references:
   title: Scaling up DPLL(T) string solvers using context-dependent
     simplification
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RWB+17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RWB+17.pdf"
   volume: 10426
 - abstract: Scalability is a key challenge in static analysis. For
     imperative languages like C, the approach taken for modeling memory
@@ -4630,7 +5871,7 @@ references:
   publisher: Springer International Publishing
   title: Partitioned memory models for program analysis
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WBW17.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/WBW17.pdf"
 - abstract: With the integration of SMT solvers into analysis frameworks
     aimed at ensuring a system's end-to-end correctness, having a high
     level of confidence in these solvers' results has become crucial.
@@ -4676,7 +5917,7 @@ references:
   publisher: FMCAD Inc.
   title: Lazy proofs for DPLL(T)-based SMT solvers
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KBT+16.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KBT+16.pdf"
 - abstract: We consider the problem of deciding the theory of finite
     sets with cardinality constraints in a satisfiability modulo
     theories solver. Sets are a common high-level data structure used in
@@ -4724,7 +5965,7 @@ references:
   title: A new decision procedure for finite sets and cardinality
     constraints in SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BRBT16.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BRBT16.pdf"
   volume: 9706
 - abstract: Many high-level verification tools rely on SMT solvers to
     efficiently discharge complex verification conditions. Some
@@ -4778,7 +6019,7 @@ references:
   title: Fine-grained SMT proofs for the theory of fixed-width
     bit-vectors
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/HBR+.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/HBR+.pdf"
   volume: 9450
 - abstract: "During post-silicon validation and debug, manufactured
     integrated circuits (ICs) are tested in actual system environments
@@ -4827,7 +6068,7 @@ references:
   title: A structured approach to post-silicon validation and debug
     using symbolic quick error detection
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LSB+.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LSB+.pdf"
 - abstract: We present a method for the automatic compositional
     verification of certain classes of concurrent programs. Our approach
     is based on the casting of the model checking problem into a theory
@@ -4860,7 +6101,7 @@ references:
   publisher: FMCAD Inc.
   title: Theory-aided model checking of concurrent transition systems
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KBH15.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KBH15.pdf"
 - abstract: We prove that the quantifier-free fragment of the theory of
     character strings with regular language membership constraints and
     linear integer constraints over string lengths is decidable. We do
@@ -4906,7 +6147,7 @@ references:
   title: A decision procedure for regular membership and length
     constraints over unbounded strings
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LTR+15.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LTR+15.pdf"
   volume: 9322
 - abstract: We introduce the first program synthesis engine implemented
     inside an SMT solver. We present an approach that extracts solution
@@ -4954,7 +6195,7 @@ references:
   title: Counterexample guided quantifier instantiation for synthesis in
     SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RDK+15.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RDK+15.pdf"
   volume: 9206
 - abstract: Satisfiability Modulo Theories (SMT) solvers incorporate
     decision procedures for theories of data types that commonly occur
@@ -5004,7 +6245,7 @@ references:
   publisher: Springer
   title: Deciding local theory extensions via E-matching
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BRK+15.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BRK+15.pdf"
   volume: 9206
 - abstract: Cascade is a static program analysis tool developed at New
     York University. It uses bounded model checking to generate
@@ -5038,7 +6279,7 @@ references:
   publisher: Springer
   title: Cascade (competition contribution)
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WB15.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/WB15.pdf"
   volume: 9035
 - abstract: SMT solvers combine SAT reasoning with specialized theory
     solvers to either find a feasible solution to a set of constraints
@@ -5077,7 +6318,7 @@ references:
   publisher: FMCAD Inc.
   title: Leveraging linear and mixed integer programming for SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KBT14.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KBT14.pdf"
 - abstract: The standard method for deciding bit-vector constraints is
     via eager reduction to propositional logic. This is usually done
     after first applying powerful rewrite techniques. While often
@@ -5126,7 +6367,7 @@ references:
     bit-vectors"
   title-short: A tale of two solvers
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/HBJ+14.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/HBJ+14.pdf"
   volume: 8559
 - abstract: An increasing number of applications in verification and
     security rely on or could benefit from automatic solvers that can
@@ -5177,7 +6418,7 @@ references:
   title: A DPLL(T) theory solver for a theory of strings and regular
     expressions
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/LRT+14.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/LRT+14.pdf"
   volume: 8559
 - abstract: Cascade is a program static analysis tool developed at New
     York University. Cascade takes as input a program and a control
@@ -5217,7 +6458,7 @@ references:
   publisher: Springer Berlin Heidelberg
   title: Cascade 2.0
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/WBW14.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/WBW14.pdf"
   volume: 8318
 - abstract: The de facto standard for state-of-the-art real and integer
     linear reasoning within Satisfiability Modulo Theories (SMT) solvers
@@ -5249,7 +6490,7 @@ references:
   publisher: FMCAD Inc.
   title: Simplex with sum of infeasibilities for SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KBD13.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KBD13.pdf"
 - abstract: We present the design and implementation of the Model
     Constructing Satisfiability (MCSat) calculus. The MCSat calculus
     generalizes ideas found in CDCL-style propositional SAT solvers to
@@ -5282,7 +6523,7 @@ references:
   title: The design and implementation of the model constructing
     satisfiability calculus
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JBdM13.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JBdM13.pdf"
 - abstract: In this paper, we present recent results about the
     verification of counter machines by using decision procedures for
     Presburger arithmetic. We recall several known classes of counter
@@ -5318,7 +6559,7 @@ references:
   publisher: Springer Berlin Heidelberg
   title: Witness runs for counter machines
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDD13.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDD13.pdf"
   volume: 8152
 - abstract: SMT-based applications increasingly rely on SMT solvers
     being able to deal with quantified formulas. Current work shows that
@@ -5367,7 +6608,7 @@ references:
   title: Quantifier instantiation techniques for finite model finding in
     SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RTG+13.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RTG+13.pdf"
   volume: 7898
 - abstract: One of the main shortcomings of the traditional methods for
     combining theories is the complexity of guessing the arrangement of
@@ -5403,7 +6644,7 @@ references:
   title: "Sharing is caring: Combination of theories"
   title-short: Sharing is caring
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JB11-FroCoS.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JB11-FroCoS.pdf"
   volume: 6989
 - abstract: CVC4 is the latest version of the Cooperating Validity
     Checker. A joint project of NYU and U Iowa, CVC4 aims to support the
@@ -5451,7 +6692,7 @@ references:
   publisher: Springer
   title: CVC4
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BCD+11.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BCD+11.pdf"
   volume: 6806
 - abstract: The classic method of Nelson and Oppen for combining
     decision procedures requires the theories to be stably-infinite.
@@ -5492,7 +6733,7 @@ references:
   publisher: Springer
   title: Polite theories revisited
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JB10-LPAR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JB10-LPAR.pdf"
   volume: 6397
 - abstract: For efficiency and portability, network packet processing
     code is typically written in low-level languages and makes use of
@@ -5534,7 +6775,7 @@ references:
   publisher: Springer
   title: Verifying low-level implementations of high-level datatypes
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/CB10.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/CB10.pdf"
   volume: 6174
 - abstract: It is well known that the use of points-to information can
     substantially improve the accuracy of a static program analysis.
@@ -5574,7 +6815,7 @@ references:
   title: Pointer analysis, conditional soundness, and proving the
     absence of errors
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/CDN+08.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/CDN+08.pdf"
   volume: 5079
 - abstract: First order logic provides a convenient formalism for
     describing a wide variety of verification conditions. Two main
@@ -5623,7 +6864,7 @@ references:
   title: Solving quantified verification conditions using satisfiability
     modulo theories
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/GBT07.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/GBT07.pdf"
   volume: 4603
 - abstract: CVC3, a joint project of NYU and U Iowa, is the new and
     latest version of the Cooperating Validity Checker. CVC3 extends and
@@ -5654,7 +6895,7 @@ references:
   publisher: Springer-Verlag
   title: CVC3
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BT07.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BT07.pdf"
   volume: 4590
 - abstract: Lazy algorithms for Satisfiability Modulo Theories (SMT)
     combine a generic DPLL-based SAT engine with a theory solver for the
@@ -5700,7 +6941,7 @@ references:
   publisher: Springer-Verlag
   title: Splitting on demand in SAT modulo theories
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BNO+06.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BNO+06.pdf"
   volume: 4246
 - abstract: We present a tool, called Cascade, to check assertions in C
     programs as part of a multi-stage verification strategy. Cascade
@@ -5733,7 +6974,7 @@ references:
   title: "CASCADE: C assertion checker and deductive engine"
   title-short: CASCADE
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SB06.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SB06.pdf"
   volume: 4144
 - author:
   - family: Barrett
@@ -5761,7 +7002,7 @@ references:
   title: "SMT-COMP: Satisfiability modulo theories competition"
   title-short: SMT-COMP
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BdMS05-CAV.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BdMS05-CAV.pdf"
   volume: 3576
 - abstract: "We describe a tool called TVOC, that uses the translation
     validation approach to check the validity of compiler optimizations:
@@ -5803,7 +7044,7 @@ references:
   title: "TVOC: A translation validator for optimizing compilers"
   title-short: TVOC
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BFG+05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BFG+05.pdf"
   volume: 3576
 - abstract: Translation validation is a technique that verifies the
     results of every run of a translator, such as a compiler, instead of
@@ -5830,7 +7071,7 @@ references:
   title: Theory and algorithms for the generation and validation of
     speculative loop optimizations
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/HBG04.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/HBG04.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -5855,7 +7096,7 @@ references:
     checker"
   title-short: CVC Lite
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BB04.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BB04.pdf"
   volume: 3114
 - author:
   - family: Stump
@@ -5882,7 +7123,7 @@ references:
   title: "CVC: A cooperating validity checker"
   title-short: CVC
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SBD02.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SBD02.pdf"
   volume: 2404
 - author:
   - family: Barrett
@@ -5909,7 +7150,7 @@ references:
   title: Checking satisfiability of first-order formulas by incremental
     translation to SAT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDS02-CAV02.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDS02-CAV02.pdf"
   volume: 2404
 - author:
   - family: Stump
@@ -5931,7 +7172,7 @@ references:
   publisher: IEEE Computer Society
   title: A decision procedure for an extensional theory of arrays
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SBDL01.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SBDL01.pdf"
 - author:
   - family: Barrett
     given: Clark W.
@@ -5954,7 +7195,7 @@ references:
   publisher: Springer-Verlag
   title: A framework for cooperating decision procedures
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDS00.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDS00.pdf"
   volume: 1831
 - author:
   - family: Barrett
@@ -5975,7 +7216,7 @@ references:
   publisher: Association for Computing Machinery
   title: A decision procedure for bit-vector arithmetic
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDL98.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDL98.pdf"
 - author:
   - family: Su
     given: Jeffrey X.
@@ -6000,7 +7241,7 @@ references:
   publisher: Springer-Verlag
   title: Automatic generation of invariants in processor verification
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SDB96.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SDB96.pdf"
   volume: 1166
 - author:
   - family: Barrett
@@ -6026,7 +7267,7 @@ references:
   publisher: Springer-Verlag
   title: Validity checking for combinations of theories with equality
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDL96.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDL96.pdf"
   volume: 1166
 - abstract: This extended abstract describes work in progress on
     Smt-Switch, an open-source, solver-agnostic API for SMT solving.
@@ -6056,7 +7297,7 @@ references:
     (extended abstract)"
   title-short: Smt-switch
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MWT+20.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MWT+20.pdf"
 - abstract: This work is a part of an ongoing effort to prove the
     correctness of invertibility conditions for the theory of
     fixed-width bit-vectors, which are used to solve quantified
@@ -6097,7 +7338,7 @@ references:
   title: Verifying bit-vector invertibility conditions in coq (extended
     abstract)
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/EVZ+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/EVZ+19.pdf"
   volume: 301
 - abstract: Deep reinforcement learning (RL) has recently been
     successfully applied to networking contexts including routing, flow
@@ -6142,7 +7383,7 @@ references:
   publisher: Association for Computing Machinery
   title: Verifying deep-RL-driven systems
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KBK+19.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KBK+19.pdf"
 - abstract: In this paper, we explore a development paradigm for SMT
     solver developers where rewrite rules are suggested to the developer
     using syntax-guided enumeration. We capitalize on the recent
@@ -6177,7 +7418,7 @@ references:
   note: Oxford, United Kingdom
   title: Rewrites for SMT solvers using syntax-guided enumeration
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RBN+18.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RBN+18.pdf"
 - abstract: Autonomous vehicles are highly complex systems, required to
     function reliably in a wide variety of situations. Manually crafting
     software controllers for these vehicles is difficult, but there has
@@ -6240,7 +7481,7 @@ references:
   note: Snowbird, Utah
   title: Exploring and categorizing error spaces using BMC and SMT
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/KB11.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/KB11.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -6257,7 +7498,7 @@ references:
   note: Edinburgh, Scotland
   title: The SMT-LIB standard -- version 2.0
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BST10.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BST10.pdf"
 - author:
   - family: Jovanović
     given: Dejan
@@ -6272,7 +7513,7 @@ references:
   note: Edinburgh, Scotland
   title: Sharing is caring
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JB10-SMT.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JB10-SMT.pdf"
 - author:
   - family: Reynolds
     given: Andrew
@@ -6295,7 +7536,7 @@ references:
   note: Edinburgh, Scotland
   title: Comparing proof systems for linear real arithmetic with LFSC
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/RHT+10.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/RHT+10.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -6323,7 +7564,7 @@ references:
   title: An abstract decision procedure for satisfiability in the theory
     of recursive data types
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BST07-PDPAR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BST07-PDPAR.pdf"
   volume: 174(8)
 - author:
   - family: McLaughlin
@@ -6351,7 +7592,7 @@ references:
     and CVC Lite"
   title-short: Cooperating theorem provers
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/MBG06.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/MBG06.pdf"
   volume: 144(2)
 - author:
   - family: Hu
@@ -6381,7 +7622,7 @@ references:
   publisher: Elsevier
   title: Validating more loop optimizations
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/HBG+05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/HBG+05.pdf"
   volume: 141(2)
 - author:
   - family: Goldberg
@@ -6411,7 +7652,7 @@ references:
     optimizing compilers"
   title-short: Into the loops
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/GZB05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/GZB05.pdf"
   volume: 132(1)
 - author:
   - family: Berezin
@@ -6451,7 +7692,7 @@ references:
   publisher: Elsevier
   title: A practical approach to partial functions in CVC Lite
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BBS+05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BBS+05.pdf"
   volume: 125(3)
 - author:
   - family: Barrett
@@ -6483,7 +7724,7 @@ references:
   publisher: Elsevier
   title: Combining SAT methods with non-clausal decision heuristics
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BD05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BD05.pdf"
   volume: 125(3)
 - author:
   - family: Barrett
@@ -6499,7 +7740,7 @@ references:
   note: Miami, Florida
   title: A proof-producing boolean search engine
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BB03.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BB03.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -6524,7 +7765,7 @@ references:
   publisher: Elsevier
   title: Run-time validation of speculative optimizations using CVC
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BGZ03.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BGZ03.pdf"
   volume: 89(2)
 - author:
   - family: Barrett
@@ -6549,7 +7790,7 @@ references:
   title: A generalization of Shostak's method for combining decision
     procedures
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDS02-FROCOS02.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDS02-FROCOS02.pdf"
   volume: 2309
 - author:
   - family: Stump
@@ -6574,8 +7815,104 @@ references:
   title: Producing proofs from an arithmetic decision procedure in
     elliptical LF
   type: paper-conference
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/SBD02b.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/SBD02b.pdf"
   volume: 70(2)
+- abstract: The high computational and memory requirements of large
+    language model (LLM) inference make it feasible only with multiple
+    high-end accelerators. Motivated by the emerging demand for
+    latency-insensitive tasks with batched processing, this paper
+    initiates the study of high-throughput LLM inference using limited
+    resources, such as a single commodity GPU. We present FlexGen, a
+    high-throughput generation engine for running LLMs with limited GPU
+    memory. FlexGen can be flexibly configured under various hardware
+    resource constraints by aggregating memory and computation from the
+    GPU, CPU, and disk. By solving a linear programming problem, it
+    searches for efficient patterns to store and access tensors. FlexGen
+    further compresses the weights and the attention cache to 4 bits
+    with negligible accuracy loss. These techniques enable FlexGen to
+    have a larger space of batch size choices and thus significantly
+    increase maximum throughput. As a result, when running OPT-175B on a
+    single 16GB GPU, FlexGen achieves significantly higher throughput
+    compared to state-of-the-art offloading systems, reaching a
+    generation throughput of 1 token/s for the first time with an
+    effective batch size of 144. On the HELM benchmark, FlexGen can
+    benchmark a 30B model with a 16GB GPU on 7 representative
+    sub-scenarios in 21 hours.
+  author:
+  - family: Sheng
+    given: Ying
+  - family: Zheng
+    given: Lianmin
+  - family: Yuan
+    given: Binhang
+  - family: Li
+    given: Zhuohan
+  - family: Ryabinin
+    given: Max
+  - family: Fu
+    given: Daniel Y.
+  - family: Xie
+    given: Zhiqiang
+  - family: Chen
+    given: Beidi
+  - family: Barrett
+    given: Clark
+  - family: Gonzalez
+    given: Joseph E.
+  - family: Liang
+    given: Percy
+  - family: Ré
+    given: Christopher
+  - family: Stoica
+    given: Ion
+  - family: Zhang
+    given: Ce
+  id: SZY+23
+  issued:
+  - year: 2023
+    month: 1
+  title: "FlexGen: High-throughput generative inference of large
+    language models with a single GPU"
+  title-short: FlexGen
+  type: report
+  url: "http://arxiv.org/abs/2303.06865"
+- abstract: Domain-specific languages for hardware can significantly
+    enhance designer productivity, but sometimes at the cost of ease of
+    verification. On the other hand, ISA specification languages are too
+    static to be used during early stage design space exploration. We
+    present PEak, an open-source hardware design and specification
+    language, which aims to improve both design productivity and
+    verification capability. PEak does this by providing a single source
+    of truth for functional models, formal specifications, and RTL. PEak
+    has been used in several academic projects, and PEak-generated RTL
+    has been included in three fabricated hardware accelerators. In
+    these projects, the formal capabilities of PEak were crucial for
+    enabling both novel design space exploration techniques and
+    automated compiler synthesis.
+  author:
+  - family: Donovick
+    given: Caleb
+  - family: Daly
+    given: Ross
+  - family: Melchert
+    given: Jackson
+  - family: Truong
+    given: Lenny
+  - family: Raina
+    given: Priyanka
+  - family: Hanrahan
+    given: Pat
+  - family: Barrett
+    given: Clark
+  id: DDM+23
+  issued:
+  - year: 2023
+    month: 1
+  title: "PEak: A single source of truth for hardware design and
+    verification"
+  title-short: PEak
+  type: report
+  url: "http://arxiv.org/abs/2308.13106"
 - author:
   - family: Ganesan
     given: Karthik
@@ -6753,7 +8090,7 @@ references:
     satisfiability modulo theories"
   title-short: Problem solving for the 21st century
   type: report
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BKM14.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BKM14.pdf"
 - author:
   - family: Jovanović
     given: Dejan
@@ -6768,7 +8105,7 @@ references:
   title: "Sharing is caring: Combination of theories"
   title-short: Sharing is caring
   type: report
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JB11-TR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JB11-TR.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -6787,7 +8124,7 @@ references:
   title: Design and results of the 4<sup>th</sup> annual satisfiability modulo
     theories competition (SMT-COMP 2008)
   type: report
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BDOS10-TR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BDOS10-TR.pdf"
 - author:
   - family: Jovanović
     given: Dejan
@@ -6801,7 +8138,7 @@ references:
   publisher: Depatrment of Computer Science, New York University
   title: Polite theories revisited
   type: report
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/JB10-TR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/JB10-TR.pdf"
 - author:
   - family: Conway
     given: Christopher L.
@@ -6820,7 +8157,7 @@ references:
   title: Points-to analysis, conditional soundness, and proving the
     absence of errors
   type: report
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/CDN+08-TR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/CDN+08-TR.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -6838,7 +8175,7 @@ references:
   publisher: Department of Computer Science, University of Iowa
   title: Splitting on demand in SAT Modulo Theories
   type: report
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BNO+06-TR.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BNO+06-TR.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -6855,7 +8192,7 @@ references:
   title: An abstract decision procedure for satisfiability in the theory
     of recursive data types
   type: report
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/BST05.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/BST05.pdf"
 - author:
   - family: Barrett
     given: Clark W.
@@ -6869,7 +8206,7 @@ references:
   title: Checking validity of quantifier-free formulas in combinations
     of first-order theories
   type: thesis
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/B03.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/B03.pdf"
 - author:
   - family: Barrett
     given: Clark
@@ -6885,7 +8222,7 @@ references:
   title: "\"Decision Procedures:An Algorithmic Point of View,\" by Daniel
     Kroening and Ofer Strichman, Springer-Verlag, 2008"
   type: article-journal
-  url: "http://www.cs.stanford.edu/\\~barrett/pubs/B13.pdf"
+  url: "http://theory.stanford.edu/\\~barrett/pubs/B13.pdf"
   volume: 51
 
 - author:

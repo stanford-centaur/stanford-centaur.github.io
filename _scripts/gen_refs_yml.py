@@ -6,7 +6,7 @@ import subprocess
 
 parent_dir = pathlib.Path(__file__).parent.parent.resolve()
 path_refs_bib = parent_dir.joinpath("_refs", "refs.bib")
-path_vita_bib = parent_dir.joinpath("_refs", "vita", "vita.bib")
+path_vita_bib = parent_dir.joinpath("_refs", "vita.bib")
 path_outfile = parent_dir.joinpath("_data", "publications.yml")
 
 pandoc_args_vita = [
