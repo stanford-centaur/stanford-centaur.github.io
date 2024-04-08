@@ -11,3 +11,10 @@
   date: "2024-01-26"
   excerpt: "cvc5 is an SMT solver with support for many theories: integers, reals, bit-vectors, algebraic datatypes, separation logic, sets, bags, and more. This means that is can find satisfying solutions for formulas involving these kinds of objects. In this post, I explain the process of adding a new theory to cvc5: the theory of prime-order finite fields."
   external: true
+
+- title: "Reconstructing cvc5 proofs in Isabelle/HOL- Part I: Communication between Isabelle and cvc5"
+  url: "https://cvc5.github.io/blog/2024/03/15/isabelle-reconstruction.html"
+  author: Hanna Lachnitt
+  date: "2024-03-15"
+  excerpt: "If you have used the cvc5 SMT solver before you know that it can solve many complicated problems fast, especially for the theories it supports! But can other programs profit from cvc5’s efficiency too? And if so, how can cvc5 effectively communicate with these external tools? Could we use their feedback to increase our trust in cvc5’s result even more?"
+  external: true
