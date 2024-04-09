@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 title: "VeriX: Towards Verified Explainability of Deep Neural Networks"
 author: Min Wu
 brief: "VeriX: Towards Verified Explainability of Deep Neural Networks by Min Wu"
-date: 2024-1-15
+date: 2024-01-15
 ---
 
 Broad deployment of artificial intelligence (AI) systems in safety-critical domains, such as autonomous driving and healthcare, necessitates the development of approaches for trustworthy AI. One key ingredient for trustworthiness is explainability: the ability for an AI system to communicate the reasons for its behavior in terms that humans can understand.
