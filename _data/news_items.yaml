@@ -1,3 +1,40 @@
+- title: "Pei Huang's paper accepted to SAIV2024"
+  excerpt: "<b> Parallel Verification for δ-Equivalence of Neural Network Quantization </b> by Pei Huang, Yuting Yang, Haoze Wu, Ieva Daukantas, Min Wu, Fuqi Jia and Clark Barrett
+  has been accepted to the <i> 7th International Symposium on AI Verification </i> located in Montreal, Canada!"
+  date: "2024-05-19"
+
+
+- title: "Chuyue Sun and Ying Sheng's paper accepted to SAIV2024"
+  urls: 
+    - url: "https://arxiv.org/abs/2310.17807"
+      label: "Clover: Closed-Loop Verifiable Code Generation"
+  excerpt: "<b> Clover: Closed-Loop Verifiable Code Generation </b> by Chuyue Sun, Ying Sheng, Oded Padon and Clark Barrett 
+  has been accepted to the <i>7th International Symposium on AI Verification </i> located in Montreal, Canada!"
+  date: "2024-05-19"
+
+
+- title: "Aina Niemetz and Mathias Preiner's paper accepted to CAV2024"
+  excerpt: " <b> Scalable Bit-Blasting with Abstractions </b> by Aina Niemetz, Mathias Preiner and Yoni Zohar
+   has been accepted to the <i> 36th International Conference on Computer Aided Verification </i> in Montreal, Canada! "
+  date: "2024-05-15"
+
+- title: "Alex Ozdemir's paper accepted to CAV2024"
+  urls: 
+    - url: "https://eprint.iacr.org/2024/572"
+      label: "Split Gröbner Bases for Satisfiability Modulo Finite Fields"
+  excerpt: " <b> Split Gröbner Bases for Satisfiability Modulo Finite Fields </b> by Alex Ozdemir, Shankara Pailoor, Alp Bassa, Kostas Ferles, Clark Barrett
+   and Işil Dillig has been accepted to the <i> 36th International Conference on Computer Aided Verification </i>  in Montreal, Canada! "
+  date: "2024-05-15"
+
+- title: "Haoze Wu's paper accepted to CAV2024"
+  urls: 
+    - url: "https://arxiv.org/pdf/2401.14461"
+      label: "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks"
+  excerpt: " <b> Marabou 2.0: A Versatile Formal Analyzer of Neural Networks </b> by Haoze Wu, Omri Isac, Aleksandar Zeljić, Teruhiro Tagomori, Matthew Daggitt, 
+  Wen Kokke, Idan Refaeli, Guy Amir, Kyle Julian, Shahaf Bassan, Pei Huang, Ori Lahav, Min Wu, Min Zhang, Ekaterina Komendantskaya, Guy Katz and Clark Barrett has been 
+  accepted to the <i> 36th International Conference on Computer Aided Verification </i>  located in Montreal, Canada! "
+  date: "2024-05-15"
+
 - title: "Benjamin Przybocki awarded Churchill Scholarship"
   urls:
     - url: "https://news.stanford.edu/report/2024/01/22/two-stanford-students-win-churchill-scholarship/"
