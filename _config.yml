@@ -3,3 +3,5 @@ baseurl: /
 title: Centaur
 description: >-
   Center for Automated Reasoning at Stanford University
+kramdown:
+  math_engine: mathjax
