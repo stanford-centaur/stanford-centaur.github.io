@@ -28,7 +28,7 @@ The baseline approach models neural networks and formal properties as integer li
 
 | ![](/assets/blog-images/2024-5-15-towards-efficient-verification-of-quantized-neural-networks/fig2.png) | 
 |:--:| 
-| *Figure 2: An example of QNN workflow. The constant \\(s\\) (for “scale”) is an arbitrary real number. The constant \\(z\\) (for “zero point”) is an integer. The quantization operation is a mapping from a real number \\(\gamma\\) to an integer \\(q\\) of the form Quant: \\(q=Round(\frac{\gamma}{s}+z)\\), De-quant: \\(\gamma=s(q-z)\\). A number in “()” is its corresponding fixed-point representation.* |
+| *Figure 2: An example of QNN workflow. The constant \\(s\\) (for “scale”) is an arbitrary real number. The constant \\(z\\) (for “zero point”) is an integer. The quantization operation is a mapping from a real number \\(\gamma\\) to an integer \\(q\\) of the form Quant: \\(q=Round(\frac{\gamma}{s}+z)\\), De-quant: \\(\gamma=s(q-z)\\). A number in the form of “I(F)” means that “I” is its integer representation and “F” is its corresponding fixed-point representation.* |
 
 However, a precise method may encounter scalability issues on larger QNNs. To address this, we also design a gradient-based method for finding counterexamples. We use a rewriting trick for the non-differentiable round operation, which enables the backward process to cross through the round operation and gives us the desired gradient information. If this method finds a counterexample, then we immediately know that the property does not hold, without having to invoke the ILP solver.
  
