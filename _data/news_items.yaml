@@ -1,3 +1,13 @@
+
+- title: "Haoze Wu received a Centennial Teaching Assistant award"
+  urls:
+    - url: "https://ctl.stanford.edu/cta-winners#2024"
+      label: "List of 2024 CTA winners"
+  excerpt: "Haoze (Andrew) Wu has been recognized with Centennial Teaching Assistant (CTA) award for his service 
+  as a teaching assistant (TA)!"
+  
+  date: "2024-05-28"
+
 - title: "Pei Huang's paper accepted to SAIV2024"
   excerpt: "<b> Parallel Verification for δ-Equivalence of Neural Network Quantization </b> by Pei Huang, Yuting Yang, Haoze Wu, Ieva Daukantas, Min Wu, Fuqi Jia and Clark Barrett
   has been accepted to the <i> 7th International Symposium on AI Verification </i> located in Montreal, Canada!"
@@ -12,10 +22,17 @@
   has been accepted to the <i>7th International Symposium on AI Verification </i> located in Montreal, Canada!"
   date: "2024-05-19"
 
+- title: "Nestan Tsiskaridze's paper accepted to SAIV2024"
+  urls: 
+    - url: "https://arxiv.org/abs/2404.16122"
+      label: "Generalized Optimization Modulo Theories"
+  excerpt: "<b> Generalized Optimization Modulo Theories </b> by Nestan Tsiskaridze, Clark Barrett and Cesare Tinelli 
+  has been accepted to the <i>7th International Symposium on AI Verification </i> located in Montreal, Canada!"
+  date: "2024-05-19"
 
 - title: "Aina Niemetz and Mathias Preiner's paper accepted to CAV2024"
   excerpt: " <b> Scalable Bit-Blasting with Abstractions </b> by Aina Niemetz, Mathias Preiner and Yoni Zohar
-   has been accepted to the <i> 36th International Conference on Computer Aided Verification </i> in Montreal, Canada! "
+   has been accepted to the <i> 36th International Conference on Computer Aided Verification </i> located in Montreal, Canada! "
   date: "2024-05-15"
 
 - title: "Alex Ozdemir's paper accepted to CAV2024"
@@ -23,7 +40,7 @@
     - url: "https://eprint.iacr.org/2024/572"
       label: "Split Gröbner Bases for Satisfiability Modulo Finite Fields"
   excerpt: " <b> Split Gröbner Bases for Satisfiability Modulo Finite Fields </b> by Alex Ozdemir, Shankara Pailoor, Alp Bassa, Kostas Ferles, Clark Barrett
-   and Işil Dillig has been accepted to the <i> 36th International Conference on Computer Aided Verification </i>  in Montreal, Canada! "
+   and Işil Dillig has been accepted to the <i> 36th International Conference on Computer Aided Verification </i>  located in Montreal, Canada! "
   date: "2024-05-15"
 
 - title: "Haoze Wu's paper accepted to CAV2024"
