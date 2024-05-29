@@ -1,9 +1,9 @@
 
-- title: "Haoze Wu received a Centennial Teaching Assistant award"
+- title: "Haoze Wu received the Centennial Teaching Assistant (CTA) Award"
   urls:
     - url: "https://ctl.stanford.edu/cta-winners#2024"
       label: "List of 2024 CTA winners"
-  excerpt: "Haoze (Andrew) Wu has been recognized with Centennial Teaching Assistant (CTA) award for his service 
+  excerpt: "Haoze (Andrew) Wu has been recognized with the Centennial Teaching Assistant (CTA) Award for his service 
   as a teaching assistant (TA)!"
   
   date: "2024-05-28"
@@ -22,12 +22,12 @@
   has been accepted to the <i>7th International Symposium on AI Verification </i> located in Montreal, Canada!"
   date: "2024-05-19"
 
-- title: "Nestan Tsiskaridze's paper accepted to SAIV2024"
+- title: "Nestan Tsiskaridze's paper accepted to IJCAR 2024"
   urls: 
     - url: "https://arxiv.org/abs/2404.16122"
       label: "Generalized Optimization Modulo Theories"
   excerpt: "<b> Generalized Optimization Modulo Theories </b> by Nestan Tsiskaridze, Clark Barrett and Cesare Tinelli 
-  has been accepted to the <i>7th International Symposium on AI Verification </i> located in Montreal, Canada!"
+  has been accepted to the <i>12th International Joint Conference on Automated Reasoning</i> located in Nancy, France!"
   date: "2024-05-19"
 
 - title: "Aina Niemetz and Mathias Preiner's paper accepted to CAV2024"
