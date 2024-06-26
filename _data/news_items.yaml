@@ -1,3 +1,29 @@
+- title: "Ying Sheng joining UCLA"
+  excerpt: "Ying Sheng has accepted a faculty offer from UCLA!"
+  date: "2024-06-23"
+
+- title: "Udayan Mandal received the Cristofer Stephensen Memorial Award"
+  excerpt: "Udayan Mandal has been awarded the Cristofer Stephensen Memorial Award for his master's thesis!"
+  date: "2024-06-23"
+
+- title: "Benjamin Przybocki received the Firestone Medal"
+  urls:
+    - url: "https://undergrad.stanford.edu/about-vpue/awards-and-graduation-honors/golden-firestone-and-kennedy-thesis-awards#firestone-winners"
+      label: "List of 2024 Firestone Medal winners"
+  excerpt: "Benjamin Przybocki has been recognized with the Firestone Medal for his undergraduate thesis, 
+  <b> Theoretical Aspects of Satisfiability Modulo Theories</b>!"
+  date: "2024-06-14"
+
+- title: "Benjamin Przybocki's paper accepted to FM 2024"
+  excerpt: "<b> The nonexistence of unicorns and many-sorted Löwenheim–Skolem theorems </b> by Benjamin Przybocki, Guilherme Toledo, 
+Yoni Zohar, and Clark Barrett has been accepted to the <i> 26th International Symposium on Formal Methods </i> located in Milan, Italy!"
+  date: "2024-06-10"
+
+- title: "SMT tutorial paper accepted to FM 2024"
+  excerpt: "<b> Satisfiability Modulo Theories: A Beginner's Tutorial </b> by Clark Barrett, Cesare Tinelli, Haniel Barbosa, Aina Niemetz,
+   Mathias Preiner, Andrew Reynolds and Yoni Zohar has been accepted to the <i> 26th International Symposium on Formal Methods </i> located in Milan, Italy!"
+  date: "2024-05-24"
+
 
 - title: "Haoze Wu received the Centennial Teaching Assistant (CTA) Award"
   urls:
@@ -5,7 +31,6 @@
       label: "List of 2024 CTA winners"
   excerpt: "Haoze (Andrew) Wu has been recognized with the Centennial Teaching Assistant (CTA) Award for his service 
   as a teaching assistant (TA)!"
-  
   date: "2024-05-28"
 
 - title: "Pei Huang's paper accepted to SAIV2024"
