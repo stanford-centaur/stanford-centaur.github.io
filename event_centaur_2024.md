@@ -26,7 +26,7 @@ Recap Video
 
 <tr>
 <td>9:00am-9:10am</td>
-<td>Opening Remarks</a></td>
+<td>Opening Remarks</td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
@@ -38,9 +38,9 @@ Session I
 </tr>
 <tr>
 <td>9:10am-9:30am</td>
-<td>Certified Machine Learning</a></td>
+<td>Certified Machine Learning</td>
 <td>Clark Barrett</td>
-<td>Faculty</td>
+<td>Professor, Director of Centaur</td>
 </tr>
 <tr>
 <td>9:30am-9:50am</td>
