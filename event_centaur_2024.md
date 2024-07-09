@@ -44,7 +44,7 @@ Session I
 </tr>
 <tr>
 <td>9:30am-9:50am</td>
-<td>LLMs for Hardware Verification</td>
+<td>Translating Natural Language to Temporal Logics with Large Language Models and Model Checkers</td>
 <td>Daniel Mendoza</td>
 <td>PhD Student</td>
 </tr>
