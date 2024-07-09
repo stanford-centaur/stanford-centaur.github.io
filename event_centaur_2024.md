@@ -79,7 +79,7 @@ Session II
 <td>PhD Student</td>
 </tr>
 <tr>
-<td>11:20am-11:50am</td>
+<td>11:20am-12:00am</td>
 <td>Coffee break</td>
 <td></td>
 <td></td>
@@ -92,21 +92,14 @@ Session III
 </tr>
 
 <tr>
-<td>11:50am-12:10pm</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td>12:10pm-12:35pm</td>
+<td>11:50pm-12:30pm</td>
 <td>Lightning Talks</td>
 <td></td>
 <td></td>
 </tr>
 
 <tr>
-<td>12:35pm-2:20pm</td>
+<td>12:30pm-2:20pm</td>
 <td>Lunch and Poster Session</td>
 <td></td>
 <td></td>
