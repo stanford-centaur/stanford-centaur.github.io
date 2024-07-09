@@ -44,9 +44,9 @@ Session I
 </tr>
 <tr>
 <td>9:30am-9:50am</td>
-<td></td>
-<td>Caroline Trippel</td>
-<td>Assistant Professor</td>
+<td>LLMs for Hardware Verification</td>
+<td>Daniel Mendoza</td>
+<td>PhD Student</td>
 </tr>
 <tr>
 <td>9:50am-10:20am</td>
