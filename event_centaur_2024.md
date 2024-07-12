@@ -40,7 +40,7 @@ Session I
 <td>9:10am-9:30am</td>
 <td>Certified Machine Learning</td>
 <td>Clark Barrett</td>
-<td>Professor, Director of Centaur</td>
+<td>Director of Centaur</td>
 </tr>
 <tr>
 <td>9:30am-9:50am</td>
