@@ -3,6 +3,7 @@ layout: default
 title: events
 ---
 ## Upcoming
+- [CENTAUR Annual Meeting](event_centaur_2024.html), August 27, 2024.
 
 ## Past
 - [CENTAUR Annual Meeting](event_centaur_2023.html), August 17, 2023.
