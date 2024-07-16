@@ -3166,7 +3166,7 @@ references:
   issued:
   - year: 2022
     month: 4
-  award: Best SCP Tool Paper Award.
+  award: SCP Best Tool Paper Award
   page: 415-442
   publisher: Springer
   title: "cvc5: A versatile and industrial-strength SMT solver"
@@ -3742,6 +3742,7 @@ references:
   type: paper-conference
   url: "http://theory.stanford.edu/\\~barrett/pubs/NPR+21.pdf"
   volume: 12652
+  award: Nominated for the EATCS Best ETAPS Theory Paper Award
 - abstract: Deep learning has emerged as an effective approach for
     creating modern software systems, with neural networks often
     surpassing hand-crafted systems. Unfortunately, neural networks are
@@ -4308,7 +4309,7 @@ references:
   issued:
   - year: 2020
     month: 7
-  award: Best paper award.
+  award: Best Paper Award
   page: 238-255
   publisher: Springer International Publishing
   title: Politeness for the theory of algebraic datatypes
@@ -5542,7 +5543,7 @@ references:
   issued:
   - year: 2018
     month: 4
-  note: Thessaloniki, Greece. *Distinguished Artifact Award.*
+  award: Distinguished Artifact Award
   page: 55-71
   publisher: Springer
   title: "EMME: A formal tool for ECMAScript memory model evaluation"
@@ -5912,7 +5913,7 @@ references:
   - year: 2016
     month: 10
   note: Mountain View, California.
-  award: Best paper award.
+  award: Best Paper Award
   page: 93-100
   publisher: FMCAD Inc.
   title: Lazy proofs for DPLL(T)-based SMT solvers
@@ -6062,7 +6063,7 @@ references:
   - year: 2015
     month: 10
   note: Anaheim, California.
-  award: Best paper award.
+  award: Best Paper Award
   page: 1-10
   publisher: IEEE
   title: A structured approach to post-silicon validation and debug
@@ -7211,7 +7212,7 @@ references:
   - year: 1998
     month: 6
   note: San Francisco, California.
-  award: Best paper award.
+  award: Best Paper Award
   page: 522-527
   publisher: Association for Computing Machinery
   title: A decision procedure for bit-vector arithmetic
@@ -8224,7 +8225,89 @@ references:
   type: article-journal
   url: "http://theory.stanford.edu/\\~barrett/pubs/B13.pdf"
   volume: 51
-
+- author:
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 35th international
+    conference, CAV 2023, paris, france, july 17-22, 2023, proceedings,
+    part II
+  doi: 10.1007/978-3-031-37703-7\\\_1
+  editor:
+  - family: Enea
+    given: Constantin
+  - family: Lal
+    given: Akash
+  id: "DBLP:conf/cav/NiemetzP23"
+  issued:
+  - year: 2023
+    month: 1
+  page: 3-17
+  publisher: Springer
+  title: Bitwuzla
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-031-37703-7\\\\\\_1"
+  volume: 13965
+  award: CAV Distinguished Paper Award
+- author:
+  - family: Fazekas
+    given: Katalin
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Kirchweger
+    given: Markus
+  - family: Szeider
+    given: Stefan
+  - family: Biere
+    given: Armin
+  collection-title: LIPIcs
+  container-title: 26th international conference on theory and
+    applications of satisfiability testing, SAT 2023, july 4-8, 2023,
+    alghero, italy
+  doi: 10.4230/LIPICS.SAT.2023.8
+  editor:
+  - family: Mahajan
+    given: Meena
+  - family: Slivovsky
+    given: Friedrich
+  id: "DBLP:conf/sat/FazekasNPKSB23"
+  issued:
+  - year: 2023
+    month: 1
+  page: "8:1-8:13"
+  publisher: Schloss Dagstuhl - Leibniz-Zentrum für Informatik
+  title: "IPASIR-UP: User propagators for CDCL"
+  type: paper-conference
+  url: "https://doi.org/10.4230/LIPIcs.SAT.2023.8"
+  volume: 271
+  award: SAT Highlighted Paper
+- author:
+  - family: Scott
+    given: Joseph
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Nejati
+    given: Saeed
+  - family: Ganesh
+    given: Vijay
+  container-title: Int. J. Softw. Tools Technol. Transf.
+  doi: 10.1007/S10009-023-00696-0
+  id: "DBLP:journals/sttt/ScottNPNG23"
+  issue: 2
+  issued:
+  - year: 2023
+    month: 1
+  page: 219-239
+  title: Algorithm Selection for SMT
+  type: article-journal
+  url: "https://doi.org/10.1007/s10009-023-00696-0"
+  volume: 25
 - author:
   - family: Kremer
     given: Gereon
