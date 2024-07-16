@@ -1781,7 +1781,7 @@ references:
     month: 1
   page: 34661-34710
   publisher: Curran Associates, Inc.
-  title: "H$_2$o: Heavy-hitter oracle for efficient generative inference
+  title: "H<sub>2</sub>o: Heavy-hitter oracle for efficient generative inference
     of large language models"
   title-short: H$_2$o
   type: paper-conference
