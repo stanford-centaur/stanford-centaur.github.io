@@ -8243,7 +8243,7 @@ references:
   id: "DBLP:conf/cav/NiemetzP23"
   issued:
   - year: 2023
-    month: 1
+    month: 7
   page: 3-17
   publisher: Springer
   title: Bitwuzla
@@ -8277,7 +8277,7 @@ references:
   id: "DBLP:conf/sat/FazekasNPKSB23"
   issued:
   - year: 2023
-    month: 1
+    month: 7
   page: "8:1-8:13"
   publisher: Schloss Dagstuhl - Leibniz-Zentrum für Informatik
   title: "IPASIR-UP: User propagators for CDCL"
@@ -8302,7 +8302,7 @@ references:
   issue: 2
   issued:
   - year: 2023
-    month: 1
+    month: 2
   page: 219-239
   title: Algorithm Selection for SMT
   type: article-journal
