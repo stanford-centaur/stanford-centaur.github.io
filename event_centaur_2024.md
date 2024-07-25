@@ -62,7 +62,7 @@ Session II
 </tr>
 <tr>
 <td>10:20am-10:40am</td>
-<td>Scalable Bit-Blasting witih Abstractions</td>
+<td>Scalable Bit-Blasting with Abstractions</td>
 <td>Aina Niemetz</td>
 <td>Senior Research Scientist</td>
 </tr>
@@ -92,14 +92,20 @@ Session III
 </tr>
 
 <tr>
-<td>11:50am-12:30pm</td>
+<td>11:50am-12:05pm</td>
+<td>Announcement</td>
+<td>Matt Harvey</td>
+<td>SCPD chief corporate engagement officer</td>
+</tr>
+<tr>
+<td>12:05pm-12:35pm</td>
 <td>Lightning Talks</td>
 <td></td>
 <td></td>
 </tr>
 
 <tr>
-<td>12:30pm-2:20pm</td>
+<td>12:35pm-2:20pm</td>
 <td>Lunch and Poster Session</td>
 <td></td>
 <td></td>
