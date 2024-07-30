@@ -1,3 +1,13 @@
+- title: "Clark Barrett and David Dill received the CAV Award"
+  urls:
+    - url: "https://i-cav.org/2024/cav-award/"
+      label: "2024 CAV award"
+    - url:  "https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5"
+      label: "Reluplex algorithm"
+  excerpt: "Clark Barrett received his second, and David Dill his third, CAV Award for developing the Reluplex algorithm! "
+  date: "2024-07-29"
+
+
 - title: "Ying Sheng joining UCLA"
   excerpt: "Ying Sheng has accepted a faculty offer from UCLA!"
   date: "2024-06-23"
