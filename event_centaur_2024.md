@@ -8,9 +8,9 @@ title: events
 555 Salvatierra Walk<br/>
 Stanford, CA 94305</h4>
 <br/>
-<a href="https://www.eventbrite.ca/e/2024-centaur-annual-meeting-tickets-920513369267" class="btn">
+<!--<a href="https://www.eventbrite.ca/e/2024-centaur-annual-meeting-tickets-920513369267" class="btn">
 Register
-</a>
+</a-->
 <!--<a href="https://youtu.be/g4yNwnGNANI?si=IwMv4t33gyCxMHBv" class="btn">
 Recap Video
 </a>-->
@@ -26,7 +26,7 @@ Recap Video
 
 <tr>
 <td>9:00am-9:10am</td>
-<td>Opening Remarks</td>
+<td><a href="https://youtu.be/qFo4NdV_Hv8">Opening Remarks</a></td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
@@ -38,13 +38,13 @@ Session I
 </tr>
 <tr>
 <td>9:10am-9:30am</td>
-<td>Certified Machine Learning</td>
+<td><a href="https://youtu.be/dLTg0m82IEw">Certified Machine Learning</a></td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
 <tr>
 <td>9:30am-9:50am</td>
-<td>Translating Natural Language to Temporal Logics with Large Language Models and Model Checkers</td>
+<td><a href="https://youtu.be/7bbzdntLC_E">Translating Natural Language to Temporal Logics with Large Language Models and Model Checkers</a></td>
 <td>Daniel Mendoza</td>
 <td>PhD Student</td>
 </tr>
@@ -62,19 +62,19 @@ Session II
 </tr>
 <tr>
 <td>10:20am-10:40am</td>
-<td>Scalable Bit-Blasting with Abstractions</td>
+<td><a href="https://youtu.be/cQwQCMuDE2c">Scalable Bit-Blasting with Abstractions</a></td>
 <td>Aina Niemetz</td>
 <td>Senior Research Scientist</td>
 </tr>
 <tr>
 <td>10:40am-11:00am</td>
-<td>Split Groebner Bases for Satisfiability Modulo Finite Fields</td>
+<td><a href="https://youtu.be/JwoIeIZXJps">Split Groebner Bases for Satisfiability Modulo Finite Fields</a></td>
 <td>Alex Ozdemir</td>
 <td>PhD Student</td>
 </tr>
 <tr>
 <td>11:00am-11:20am</td>
-<td>Efficiently Synthesizing Instruction Selection Rewrite Rules using SMT</td>
+<td><a href="https://youtu.be/nLNnLge_G4o">Efficiently Synthesizing Instruction Selection Rewrite Rules using SMT</a></td>
 <td>Ross Daly</td>
 <td>PhD Student</td>
 </tr>
@@ -93,13 +93,13 @@ Session III
 
 <tr>
 <td>11:50am-12:05pm</td>
-<td>Announcement</td>
+<td><a href="https://youtu.be/xAwUaL2jqqE">Accessing Stanford Classes for Corporations</a></td>
 <td>Matt Harvey</td>
 <td>SCPD chief corporate engagement officer</td>
 </tr>
 <tr>
 <td>12:05pm-12:35pm</td>
-<td>Lightning Talks</td>
+<td><a href="https://youtu.be/0ma1wMmQel0">Lightning Talks</a></td>
 <td></td>
 <td></td>
 </tr>
@@ -118,13 +118,13 @@ Session IV
 </tr>
 <tr>
 <td>2:20pm-2:40pm</td>
-<td>Machine Assisted Theorem Proving</td>
+<td><a href="https://youtu.be/1XYDsSE74_s">Machine Assisted Theorem Proving</a></td>
 <td>Leni Aniva</td>
 <td>PhD Student</td>
 </tr>
 <tr>
 <td>2:40pm-3:00pm</td>
-<td>Automating Proofs in the Isabelle/HOL Proof Assistant</td>
+<td><a href="https://youtu.be/Yx1MNK9t-_o">Automating Proofs in the Isabelle/HOL Proof Assistant</a></td>
 <td>Hanna Lachnitt</td>
 <td>PhD Student</td>
 </tr>
@@ -142,13 +142,13 @@ Session V
 </tr>
 <tr>
 <td>3:30pm-3:50pm</td>
-<td>Efficient SAT-Based Bounded Model Checking of Evolving Systems</td>
+<td><a href="https://youtu.be/gRuBGRJ3j3Q">Efficient SAT-Based Bounded Model Checking of Evolving Systems</a></td>
 <td>Sophie Andrews</td>
 <td>Recent MS Graduate</td>
 </tr>
 <tr>
 <td>3:50pm-4:10pm</td>
-<td>Towards Improved Stability for SMT Solvers</td>
+<td><a href="https://youtu.be/5ITAlDzSC-c">Towards Improved Stability for SMT Solvers</a></td>
 <td>Daneshvar Amrollahi</td>
 <td>PhD Student</td>
 </tr>
