@@ -26,7 +26,7 @@ Recap Video
 
 <tr>
 <td>9:00am-9:10am</td>
-<td><a href="https://youtu.be/qFo4NdV_Hv8">Opening Remarks</a></td>
+<td><a href="https://youtu.be/KiyOg4924x0">Opening Remarks</a></td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
