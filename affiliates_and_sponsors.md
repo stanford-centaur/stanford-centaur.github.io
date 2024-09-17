@@ -61,11 +61,13 @@ world and collaborate with the center on solutions.
 | Zulip channel invitation                | Yes           | Yes             |
 | Research seminar invitations            | Yes           | Yes             |
 | Student internships and recruiting      | Yes           | Yes             |
-
+| Discounted Stanford courses             | Yes           | Yes             |
 
 It is the intention of all Centaur researchers that any software developed will be released under a corporate-friendly open-source model, such as the 3-clause BSD license.
 
 Presentations from faculty site visits and annual retreats, and all information, data and results arising from such interactions will be shared with all members and the public.
+
+Employees at member companies get a discount on select professional and technical courses from the [Stanford Engineering Center for Global & Online Education](https://online.stanford.edu/professional-education).
 
 # Additional Program Funding
 
