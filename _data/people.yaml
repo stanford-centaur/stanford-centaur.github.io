@@ -63,6 +63,12 @@
   website: https://profiles.stanford.edu/276567
   start: 2022
 
+- name: Max Lamparth
+  position: postdoc
+  website: https://www.maxlamparth.com/
+  start: 2023
+
+
 # Visiting Researchers
 
 - name: Guy Amir
@@ -75,6 +81,14 @@
   start: 2020
   end: 2023
 
+- name: Omri Isac
+  position: visiting
+  start: 2024
+  end: 2024
+
+- name: Fuqi Jia
+  position: visiting
+  start: 2024
 
 # PhD students
 
@@ -92,6 +106,7 @@
 - name: Rachel Cleaveland
   position: phd
   start: 2022
+  img: cleaveland.jpg
 
 - name: Caleb Donovick
   position: phd
@@ -114,11 +129,6 @@
   website: https://cs.stanford.edu/~aozdemir/
   start: 2018
 
-- name: Ying Sheng
-  position: phd
-  img: sheng.jpg
-  website: https://profiles.stanford.edu/ying-sheng
-  start: 2018
 
 - name: Scott Viteri
   position: phd
@@ -138,11 +148,6 @@
   website: https://profiles.stanford.edu/amalee-wilson
   start: 2019
 
-- name: Haoze Wu
-  position: phd
-  img: wu_andrew.jpg
-  website: https://anwu1219.github.io/
-  start: 2018
 
 - name: Aron Perez-Lopez
   position: phd
@@ -162,17 +167,46 @@
 
 # Master students
 
-- name: Harun Khan
-  position: master
-  start: 2023
 
-- name: Udayan Mandal
-  position: master
-  start: 2022
+
 
 # Bachelor students
 
 # Alumni
+
+- name: Ying Sheng
+  position: phd
+  img: sheng.jpg
+  website: https://profiles.stanford.edu/ying-sheng
+  start: 2018
+  end: 2024
+  now: UCLA
+
+- name: Sophia Andrews
+  position: master
+  start: 2023
+  end: 2024
+  now: Apple
+
+- name: Harun Khan
+  position: master
+  start: 2023
+  end: 2024
+  now: Ph.D. student at Stanford
+
+- name: Haoze Wu
+  position: phd
+  img: wu_andrew.jpg
+  website: https://anwu1219.github.io/
+  start: 2018
+  end: 2024
+  now: Amherst College
+
+- name: Udayan Mandal
+  position: master
+  start: 2022
+  end: 2024
+  now: Atlassian
 
 - name: Joey Guman
   position: bachelor
