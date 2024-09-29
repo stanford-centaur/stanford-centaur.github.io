@@ -3,7 +3,7 @@
     - url: "https://hanielbarbosa.com/papers/fm2024.pdf"
       label: "Satisfiability Modulo Theories: A Beginner’s Tutorial"
   excerpt: "<b> Satisfiability Modulo Theories: A Beginner's Tutorial </b> by Clark Barrett, Cesare Tinelli, Haniel Barbosa, Aina Niemetz,
-   Mathias Preiner, Andrew Reynolds and Yoni Zohar has been selected as a distinguished tutorial at  the <i> 26th International Symposium on Formal Methods </i> located in Milan, Italy!"
+   Mathias Preiner, Andrew Reynolds, and Yoni Zohar has been selected as a distinguished tutorial at  the <i> 26th International Symposium on Formal Methods </i> located in Milan, Italy!"
   date: "2024-09-26"
 
 
@@ -15,7 +15,7 @@
       label: "Efficiently Synthesizing Lowest Cost Rewrite Rules for Instruction Selection"
     - url: "https://repositum.tuwien.at/bitstream/20.500.12708/200789/1/Cleaveland-2024-Memory%20Consistency%20Model-Aware%20Cache%20Coherence%20for%20Hetero...-vor.pdf"
       label: Memory Consistency Model-Aware Cache Coherence for Heterogeneous Hardware
-  excerpt: " Papers by Udayan Mandal, Ross Daly and Rachel Cleaveland as well as a tool paper 'SMT-D: New Strategies for Portfolio-Based SMT Solving' have been accepted to FMCAD2024. "
+  excerpt: " Papers by Udayan Mandal, Ross Daly, and Rachel Cleaveland as well as a tool paper 'SMT-D: New Strategies for Portfolio-Based SMT Solving' have been accepted to FMCAD2024. "
   date: "2024-09-26"
 
 

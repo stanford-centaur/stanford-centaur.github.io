@@ -112,6 +112,7 @@
   position: phd
   website: https://profiles.stanford.edu/caleb-donovick
   start: 2016
+  end: 2024
 
 - name: Hanna Lachnitt
   position: phd
@@ -173,6 +174,23 @@
 # Bachelor students
 
 # Alumni
+
+- name: Jibiana Jakpor
+  position: bachelor
+  start: 2024
+  end: 2024
+
+- name: Benjamin Przybocki
+  position: bachelor
+  start: 2023
+  end: 2024 
+  now: Oxford
+
+- name: Kaia Xiaofu Li
+  position: bachelor
+  start: 2023
+  end: 2024 
+
 
 - name: Ying Sheng
   position: phd

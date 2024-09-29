@@ -28,18 +28,13 @@ title: Affiliates and sponsors
 
 
 # Founding Sponsors
-<h4> Platinum </h4> 
-<dl>
-  <dd>Amazon </dd>
-</dl>
-<h4> Silver </h4>
-<dl>
-<dd> Adacore, Certora </dd>
-</dl>
-<h4> Additional </h4>
-<dl>
-<dd> Vmware </dd>
-</dl>
+<ul>
+<li>Amazon</li>
+<li>Adacore</li>
+<li>Certora</li>
+<li>Vmware</li>
+</ul>
+
 
 
 # Affiliated Stanford Centers
