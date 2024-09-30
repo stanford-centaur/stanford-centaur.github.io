@@ -184,7 +184,7 @@
   position: bachelor
   start: 2023
   end: 2024 
-  now: Oxford
+  now: Cambridge
 
 - name: Kaia Xiaofu Li
   position: bachelor
@@ -198,9 +198,9 @@
   website: https://profiles.stanford.edu/ying-sheng
   start: 2018
   end: 2024
-  now: UCLA
+  now: XAI, UCLA
 
-- name: Sophia Andrews
+- name: Sophie Andrews
   position: master
   start: 2023
   end: 2024
