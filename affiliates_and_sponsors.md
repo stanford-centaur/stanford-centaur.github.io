@@ -1,25 +1,14 @@
 ---
 layout: default
-title: affiliates and sponsors
+title: Affiliates and sponsors
 ---
 <div id="sponsors">
-<div style="text-align:right;"><span class="founding" style="padding-left:30px;">Founding Sponsor</span></div>
 
 <h2>Platinum Members</h2>
 <p>
-<span class="founding"><img src="/img/sponsors/amazon.png" /></span>
+<img class="sponsor" src="/img/sponsors/amazon.png" />
 </p>
 
-<h2>Gold Members</h2>
-<p>
-<img class="sponsor" src="/img/sponsors/ethereum.png" />
-</p>
-
-<h2>Silver Members</h2>
-<p>
-<span class="founding"><img src="/img/sponsors/certora.png" /></span>
-<span class="founding"><img src="/img/sponsors/adacore.png" /></span>
-</p>
 
 <h2>Government Sponsors</h2>
 <p>
@@ -29,11 +18,24 @@ title: affiliates and sponsors
 </p>
 
 <h2>Additional Sponsors</h2>
+
 <p>
-<span class="founding"><img class="sponsor" src="/img/sponsors/vmware.png" /></span>
+<img class="sponsor" src="/img/sponsors/ethereum.png" />
 </p>
 
+
 </div>
+
+
+# Founding Sponsors
+<ul>
+<li>Amazon</li>
+<li>Adacore</li>
+<li>Certora</li>
+<li>Vmware</li>
+</ul>
+
+
 
 # Affiliated Stanford Centers
 [Stanford Center for Agile Hardware](https://aha.stanford.edu)  

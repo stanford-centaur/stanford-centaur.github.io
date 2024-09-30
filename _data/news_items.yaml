@@ -1,3 +1,24 @@
+- title: "SMT tutorial paper has been selected as distinguished tutorial at FM 2024"
+  urls:
+    - url: "https://hanielbarbosa.com/papers/fm2024.pdf"
+      label: "Satisfiability Modulo Theories: A Beginner’s Tutorial"
+  excerpt: "<b> Satisfiability Modulo Theories: A Beginner's Tutorial </b> by Clark Barrett, Cesare Tinelli, Haniel Barbosa, Aina Niemetz,
+   Mathias Preiner, Andrew Reynolds, and Yoni Zohar has been selected as a distinguished tutorial at  the <i> 26th International Symposium on Formal Methods </i> located in Milan, Italy!"
+  date: "2024-09-26"
+
+
+- title: "4 papers from CENTAUR have been accepted to FMCAD 2024!"
+  urls:
+    - url: "https://arxiv.org/abs/2405.14058"
+      label: "Formally Verifying Deep Reinforcement Learning Controllers with Lyapunov Barrier Certificates"
+    - url:  "https://arxiv.org/abs/2405.06127"
+      label: "Efficiently Synthesizing Lowest Cost Rewrite Rules for Instruction Selection"
+    - url: "https://repositum.tuwien.at/bitstream/20.500.12708/200789/1/Cleaveland-2024-Memory%20Consistency%20Model-Aware%20Cache%20Coherence%20for%20Hetero...-vor.pdf"
+      label: Memory Consistency Model-Aware Cache Coherence for Heterogeneous Hardware
+  excerpt: " Papers by Udayan Mandal, Ross Daly, and Rachel Cleaveland as well as a tool paper 'SMT-D: New Strategies for Portfolio-Based SMT Solving' have been accepted to FMCAD2024. "
+  date: "2024-09-26"
+
+
 - title: "Clark Barrett and David Dill received the CAV Award"
   urls:
     - url: "https://i-cav.org/2024/cav-award/"
