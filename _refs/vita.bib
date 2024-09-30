@@ -1,32 +1,43 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % In preparation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% SAT for digital logic
-% Sophie's paper
-% Ross
+% Pantograph: Leni
+% Journal version of ITP
+% Liza - finite fields
+% Daneshvar - stability
+% Ross/Caleb (rewrite rules)
+% GSAI?
+% Harun - CPP - transcendentals
+% GQED IEEE Design and Test (FAQ)
+% Edward PnR tool paper
+% Jack - ASPLOS
+% Scott - Markovian
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Submitted
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% FMSD journal
-% LPAR
+% SAT for digital logic (Sunil)
+% Sophie's paper
+% Verix+
 % PEak journal paper
-% LICS
-% IJCAR - Optimization modulo theories
-% CAV - Marabou 2.0
-% CAV - SplitGB
-% CAV - Nham
-% CAV - Pei
-% CAV - Clover
+% Ben - Nielson transformations
+% FMSD journal
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % To Appear
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Rewrite rule verification
-% Lemur
-% Quantization AAAI
+% NeurIPS - SGL
+% FMCAD - Ross
+% FMCAD - Nham
+% FMCAD - Docking
+% FM - Ben's paper
+% FM tutorial paper
+% DASC
+% ITP - Ieva's paper
+% Quantization - SAIV
+% Clover - SAIV
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Patents
@@ -1151,6 +1162,229 @@ make it effective in practice are also described."
 % Conference Papers
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%complete
+@inproceedings{WIZ+24,
+  url       = "http://theory.stanford.edu/~barrett/pubs/WIZ+24.pdf",
+  author    = "Haoze Wu and Omri Isac and Aleksandar Zelji{\'{c}} and Teruhiro Tagomori and Matthew Daggitt and Wen Kokke and Idan Refaeli and Guy Amir and Kyle Julian and Shahaf Bassan and Pei Huang and Ori Lahav and Min Wu and Min Zhang and Ekaterina Komendantskaya and Guy Katz and Clark Barrett",
+  title     = "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks", 
+  booktitle = "Proceedings of the $36^{th}$ International Conference on Computer Aided Verification (CAV '24)",
+  series    = "Lecture Notes in Computer Science",
+  publisher = "Springer",
+  editor    = "Gurfinkel, Arie and Ganesh, Vijay",
+  volume    = 14681,
+  month     = jul,
+  pages     = "249--264",
+  year      = 2024,
+  note      = "Montreal, Canada",
+  category  = "Conference Publications",
+  abstract  = "This paper serves as a comprehensive system description of
+                  version 2.0 of the Marabou framework for formal analysis of
+                  neural networks. We discuss the tool's architectural design
+                  and highlight the major features and components introduced
+                  since its initial release."
+}
+
+%complete
+@inproceedings{OPB+24,
+  url       = "http://theory.stanford.edu/~barrett/pubs/OPB+24.pdf",
+  author    = "Alex Ozdemir and Shankara Pailoor and Alp Bassa and Kostas Ferles and Clark Barrett and I\c{s}il Dillig",
+  title     = "Split Gr{\"o}bner Bases for Satisfiability Modulo Finite Fields",
+  booktitle = "Proceedings of the $36^{th}$ International Conference on Computer Aided Verification (CAV '24)",
+  series    = "Lecture Notes in Computer Science",
+  publisher = "Springer",
+  editor    = "Gurfinkel, Arie and Ganesh, Vijay",
+  volume    = 14681,
+  month     = jul,
+  pages     = "3--25",
+  year      = 2024,
+  doi       = "10.1007/978-3-031-65627-9_1",
+  note      = "Montreal, Canada",
+  category  = "Conference Publications",
+  abstract  = "Satisfiability modulo finite fields enables automated
+                  verification for cryptosystems. Unfortunately, previous
+                  solvers scale poorly for even some simple systems of field
+                  equations, in part because they build a full Gröbner basis
+                  (GB) for the system. We propose a new solver that uses
+                  multiple, simpler GBs instead of one full GB. Our solver,
+                  implemented within the cvc5 SMT solver, admits specialized
+                  propagation algorithms, e.g., for understanding
+                  bitsums. Experiments show that it solves important
+                  bitsum-heavy determinism benchmarks far faster than prior
+                  solvers, without introducing much overhead for other
+                  benchmarks."
+}
+
+%complete
+@inproceedings{TBT24,
+  url       = "http://theory.stanford.edu/~barrett/pubs/TBT24.pdf",
+  author    = "Nestan Tsiskaridze and Clark Barrett and Cesare Tinelli",
+  title     = "Generalized Optimization Modulo Theories",
+  booktitle = "Proceedings of the $12^{th}$ International Joint Conference on Automated Reasoning (IJCAR '24)",
+  series    = "Lecture Notes in Computer Science",
+  volume    = 14739,
+  publisher = "Springer",
+  editor    = "Christoph Benzm{\"u}ller and Marijn J.H. Heule",
+  pages     = "458--479",
+  month     = jul,
+  year      = 2024,
+  doi       = "10.1007/978-3-031-63498-7_27",
+  note      = "Nancy, France",
+  category  = "Conference Publications",
+  abstract  = "Optimization Modulo Theories (OMT) has emerged as an important
+                  extension of the highly successful Satisfiability Modulo
+                  Theories (SMT) paradigm. The OMT problem requires solving an
+                  SMT problem with the restriction that the solution must be
+                  optimal with respect to a given objective function. We
+                  introduce a generalization of the OMT problem where, in
+                  particular, objective functions can range over partially
+                  ordered sets. We provide a formalization of and an abstract
+                  calculus for the Generalized OMT problem and prove their key
+                  correctness properties. Generalized OMT extends previous work
+                  on OMT in several ways. First, in contrast to many current
+                  OMT solvers, our calculus is theory-agnostic, enabling the
+                  optimization of queries over any theories or combinations
+                  thereof. Second, our formalization unifies both single- and
+                  multi-objective optimization problems, allowing us to study
+                  them both in a single framework and facilitating the use of
+                  objective functions that are not supported by existing OMT
+                  approaches. Finally, our calculus is sufficiently general to
+                  fully capture a wide variety of current OMT approaches (each
+                  of which can be realized as a specific strategy for rule
+                  application in the calculus) and to support the exploration
+                  of new search strategies. Much like the original abstract
+                  DPLL(T) calculus for SMT, our Generalized OMT calculus is
+                  designed to establish a theoretical foundation for
+                  understanding and research and to serve as a framework for
+                  studying variations of and extensions to existing OMT
+                  methodologies.",
+}
+
+%complete
+@inproceedings{WCB24,
+  url       = "https://openreview.net/forum?id=Q3YaCghZNt",
+  author    = "Haoze Wu and Clark Barrett and Nina Narodytska",
+  title     = "Lemur: Integrating Large Language Models in Automated Program Verification",
+  booktitle = "The Twelfth International Conference on Learning Representations (ICLR '24)",
+  month     = may,
+  year      = 2024,
+  note      = "Vienna, Austria",
+  category  = "Conference Publications",
+  abstract  = "The demonstrated code-understanding capability of LLMs raises
+                  the question of whether they can be used for automated
+                  program verification, a task that demands high-level abstract
+                  reasoning about program properties that is challenging for
+                  verification tools. We propose a general methodology to
+                  combine the power of LLMs and automated reasoners for
+                  automated program verification. We formally describe this
+                  methodology as a set of derivation rules and prove its
+                  soundness. We instantiate the calculus as a sound automated
+                  verification procedure, which led to practical improvements
+                  on a set of synthetic and competition benchmarks."
+}
+
+%complete
+@inproceedings{MRT+24,
+  url       = "http://theory.stanford.edu/~barrett/pubs/MRT+24.pdf",
+  author    = "Mudathir Mahgoub Yahia Mohamed and Andrew Reynolds and Cesare Tinelli and Clark Barrett",
+  title     = "Verifying {SQL} queries using theories of tables and relations",
+  booktitle = "Proceedings of 25th Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR '24)",
+  editor    = "Nikolaj Bj{\o}rner and Marijn Heule and Andrei Voronkov",
+  series    = "EPiC Series in Computing",
+  volume    = 100,
+  pages     = "445--463",
+  month     = may,
+  year      = 2024,
+  publisher = "EasyChair",
+  doi       = "10.29007/rlt7",
+  note      = "Port Louis, Mauritius",
+  category  = "Conference Publications",
+  abstract  = "We present a number of first- and second-order extensions to SMT
+                  theories specifically aimed at representing and analyzing SQL
+                  queries with join, projection, and selection operations. We
+                  support reasoning about SQL queries with either bag or set
+                  semantics for database tables. We provide the former via an
+                  extension of a theory of finite bags and the latter via an
+                  extension of the theory of finite relations. Furthermore, we
+                  add the ability to reason about tables with null values by
+                  introducing a theory of nullable sorts based on an extension
+                  of the theory of algebraic datatypes. We implemented solvers
+                  for these theories in the SMT solver cvc5 and evaluated them
+                  on a set of benchmarks derived from public sets of SQL
+                  equivalence problems.",
+}
+  
+%complete
+@inproceedings{LFA+24,
+  url       = "http://theory.stanford.edu/~barrett/pubs/LFA+24.pdf",
+  author    = "Hanna Lachnitt and Mathias Fleury and Leni Aniva and Andrew Reynolds and Haniel Barbosa and Andres N{\"o}tzli and Clark Barrett and Cesare Tinelli",
+  title     = "{IsaRare}: Automatic Verification of {SMT} Rewrites in {Isabelle/HOL}",
+  booktitle = "Proceedings of the $30^{th}$ International Conference on Tools
+               and Algorithms for the Construction and Analysis of Systems
+               (TACAS '24)",
+  series    = "Lecture Notes in Computer Science",
+  editor    = "Bernd Finkbeiner and Laura Kov{\'a}cs",
+  volume    = "14570",
+  pages     = "311--330",
+  publisher = "Springer",
+  year      = "2024",
+  month     = "apr",
+  doi       = "10.1007/978-3-031-57246-3_17",
+  note      = "Luxembourg City, Luxembourg",
+  category  = "Conference Publications",
+  abstract  = "Satisfiability modulo theories (SMT) solvers are widely used to
+                  ensure the correctness of safety- and security-critical
+                  applications.  Therefore, being able to trust a solver's
+                  results is crucial. One way to increase trust is to generate
+                  independently checkable proof certificates, which record the
+                  reasoning steps done by the solver. A key challenge with this
+                  approach is that it is difficult to efficiently and
+                  accurately produce proofs for reasoning steps involving
+                  term rewriting rules. Previous work showed how a
+                  domain-specific language, Rare, can be used to capture
+                  rewriting rules for the purposes of proof
+                  production. However, in that work, the Rare rules had to be
+                  trusted, as the correctness of the rules themselves was not
+                  checked by the proof checker. In this paper, we present
+                  IsaRare, a tool that can automatically translate Rare rules
+                  into Isabelle/HOL lemmas. The soundness of the rules can then
+                  be verified by proving the lemmas. Because an incorrect
+                  rule can put the entire soundness of a proof system in
+                  jeopardy, our solution closes an important gap in the
+                  trustworthiness of SMT proof certificates. The same tool also
+                  provides a necessary component for enabling full proof
+                  reconstruction of SMT proof certificates in Isabelle/HOL. We
+                  evaluate our approach by verifying an extensive set of
+                  rewrite rules used by the cvc5 SMT solver."
+}
+
+%complete
+@inproceedings{HWY+24,
+  url       = "https://doi.org/10.1609/aaai.v38i19.30108",
+  author    = "Huang, Pei and Wu, Haoze and Yang, Yuting and Daukantas, Ieva and Wu, Min and Zhang, Yedi and Barrett, Clark",
+  title     = "Towards Efficient Verification of Quantized Neural Networks",
+  booktitle = "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-24)",
+  volume    = 38,
+  number    = 19,
+  pages     = "21152--21160",
+  month     = feb,
+  year      = 2024,
+  doi       = "10.1609/aaai.v38i19.30108",
+  note      = "Vancouver, Canada",
+  category  = "Conference Publications",
+  abstract  = "Quantization replaces floating point arithmetic with integer
+                  arithmetic in deep neural network models, providing more
+                  efficient on-device inference with less power and memory. In
+                  this work, we propose a framework for formally verifying
+                  properties of quantized neural networks. Our baseline
+                  technique is based on integer linear programming which
+                  guarantees both soundness and completeness. We then show how
+                  efficiency can be improved by utilizing gradient-based
+                  heuristic search methods and also bound-propagation
+                  techniques. We evaluate our approach on perception networks
+                  quantized with PyTorch. Our results show that we can verify
+                  quantized networks with better scalability and efficiency
+                  than the previous state of the art."
+}
 
 %complete
 @inproceedings{WWB23,
@@ -1162,7 +1396,7 @@ make it effective in practice are also described."
   publisher = "Curran Associates, Inc.",
   pages     = "22247--22268",
   volume    = 36,
-  mon       = dec,
+  month     = dec,
   year      = 2023,
   category  = "Conference Publications",
   abstract  = "We present VeriX (Verified eXplainability), a system for
@@ -1185,7 +1419,7 @@ make it effective in practice are also described."
   publisher = "Curran Associates, Inc.",
   pages     = "59062--59094",
   volume    = 36,
-  mon       = dec,
+  month     = dec,
   year      = 2023,
   category  = "Conference Publications",
   abstract  = "Large Language Models (LLMs) and other large foundation models
@@ -1223,7 +1457,7 @@ make it effective in practice are also described."
   publisher = "Curran Associates, Inc.",
   pages     = "34661--34710",
   volume    = 36,
-  mon       = dec,
+  month     = dec,
   year      = 2023,
   category  = "Conference Publications",
   abstract  = "Large Language Models (LLMs), despite their recent impressive
@@ -2244,7 +2478,7 @@ make it effective in practice are also described."
   year      = "2022",
   month     = "apr",
   doi       = "10.1007/978-3-030-99524-9\_24",
-  note      = "\em Best SCP Tool Paper Award",
+  note      = "{\em Best SCP Tool Paper Award}",
   category  = "Conference Publications",
   abstract  = "cvc5 is the latest SMT solver in the cooperating validity checker series
   and builds on the successful code base of CVC4.
@@ -2635,6 +2869,7 @@ make it effective in practice are also described."
   year      = 2021,
   doi       = "10.1007/978-3-030-72013-1",
   category  = "Conference Publications",
+  note      = "{\em Nominated for the EATCS Best ETAPS Theory Paper Award}",
   abstract  = "This paper presents a novel approach for quantifier
                   instantiation in Satisfiability Modulo Theories (SMT) that
                   leverages syntax-guided synthesis (SyGuS) to choose
@@ -2651,7 +2886,6 @@ make it effective in practice are also described."
                   versatility of the approach, showing that it is competitive
                   with or exceeds the performance of state-of-the-art solvers
                   on a range of background theories.",
-  note = "{\em Nominated for the EATCS Best ETAPS Theory Paper Award}"
 }
 
 %complete
