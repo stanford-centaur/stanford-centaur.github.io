@@ -8601,6 +8601,7 @@ references:
   issued:
   - year: 2023
     month: 7
+  award: Distinguished Paper Award
   page: 3-17
   publisher: Springer
   title: Bitwuzla
@@ -8634,6 +8635,7 @@ references:
   issued:
   - year: 2023
     month: 7
+  award: Highlighted Paper
   page: "8:1-8:13"
   publisher: Schloss Dagstuhl - Leibniz-Zentrum für Informatik
   title: "IPASIR-UP: User propagators for CDCL"

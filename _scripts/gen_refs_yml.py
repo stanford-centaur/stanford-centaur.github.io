@@ -45,6 +45,7 @@ subst = {
         r'\*(Best.*?ward.*?)\*': r'\n  award: \1',
         r'\*(Distinguished.*?ward.*?)\*': r'\n  award: \1',
         r'\*(Nominated.*?ward.*?)\*': r'\n  award: \1',
+        r'\*(Highlighted Paper)\*': r'\n  award: \1',
         r'.*note: "([\s\S]*?)"': r'\1',
         r'\s+\n': '\n',
         r"([A-Z]) '([1-2])": r"\1'\2",
