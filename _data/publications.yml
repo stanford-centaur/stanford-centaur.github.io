@@ -1783,7 +1783,7 @@ references:
   publisher: Curran Associates, Inc.
   title: "H<sub>2</sub>o: Heavy-hitter oracle for efficient generative inference
     of large language models"
-  title-short: H$_2$o
+  title-short: H<sub>2</sub>o
   type: paper-conference
   url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/6ceefa7b15572587b78ecfcebb2827f8-Paper-Conference.pdf"
   volume: 36
@@ -3736,13 +3736,13 @@ references:
   issued:
   - year: 2021
     month: 3
+  award: Nominated for the EATCS Best ETAPS Theory Paper Award
   page: 145-163
   publisher: Springer
   title: Syntax-guided quantifier instantiation
   type: paper-conference
   url: "http://theory.stanford.edu/\\~barrett/pubs/NPR+21.pdf"
   volume: 12652
-  award: Nominated for the EATCS Best ETAPS Theory Paper Award
 - abstract: Deep learning has emerged as an effective approach for
     creating modern software systems, with neural networks often
     surpassing hand-crafted systems. Unfortunately, neural networks are
@@ -5543,6 +5543,7 @@ references:
   issued:
   - year: 2018
     month: 4
+  note: Thessaloniki, Greece.
   award: Distinguished Artifact Award
   page: 55-71
   publisher: Springer
@@ -8225,6 +8226,34 @@ references:
   type: article-journal
   url: "http://theory.stanford.edu/\\~barrett/pubs/B13.pdf"
   volume: 51
+
+- author:
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Zohar
+    given: Yoni
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 36th international
+    conference, CAV 2024, montreal, QC, canada, july 24-27, 2024,
+    proceedings, part I
+  doi: 10.1007/978-3-031-65627-9\\\_9
+  editor:
+  - family: Gurfinkel
+    given: Arie
+  - family: Ganesh
+    given: Vijay
+  id: "DBLP:conf/cav/NiemetzPZ24"
+  issued:
+  - year: 2024
+    month: 1
+  page: 178-200
+  publisher: Springer
+  title: Scalable bit-blasting with abstractions
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-031-65627-9\\\\\\_9"
+  volume: 14681
 - author:
   - family: Niemetz
     given: Aina
@@ -8243,14 +8272,13 @@ references:
   id: "DBLP:conf/cav/NiemetzP23"
   issued:
   - year: 2023
-    month: 7
+    month: 1
   page: 3-17
   publisher: Springer
   title: Bitwuzla
   type: paper-conference
   url: "https://doi.org/10.1007/978-3-031-37703-7\\\\\\_1"
   volume: 13965
-  award: CAV Distinguished Paper Award
 - author:
   - family: Fazekas
     given: Katalin
@@ -8277,14 +8305,13 @@ references:
   id: "DBLP:conf/sat/FazekasNPKSB23"
   issued:
   - year: 2023
-    month: 7
+    month: 1
   page: "8:1-8:13"
   publisher: Schloss Dagstuhl - Leibniz-Zentrum für Informatik
   title: "IPASIR-UP: User propagators for CDCL"
   type: paper-conference
   url: "https://doi.org/10.4230/LIPIcs.SAT.2023.8"
   volume: 271
-  award: SAT Highlighted Paper
 - author:
   - family: Scott
     given: Joseph
@@ -8302,9 +8329,9 @@ references:
   issue: 2
   issued:
   - year: 2023
-    month: 2
+    month: 1
   page: 219-239
-  title: Algorithm Selection for SMT
+  title: Algorithm selection for SMT
   type: article-journal
   url: "https://doi.org/10.1007/s10009-023-00696-0"
   volume: 25

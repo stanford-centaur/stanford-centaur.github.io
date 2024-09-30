@@ -43,9 +43,13 @@ subst = {
         r'\]{\.nocase}': '',
         r'(' + "|".join(w for w in special_fields) + ')=(.*),': r'\n  \1: \2',
         r'\*(Best.*?ward.*?)\*': r'\n  award: \1',
+        r'\*(Distinguished.*?ward.*?)\*': r'\n  award: \1',
+        r'\*(Nominated.*?ward.*?)\*': r'\n  award: \1',
         r'.*note: "([\s\S]*?)"': r'\1',
         r'\s+\n': '\n',
         r"([A-Z]) '([1-2])": r"\1'\2",
+        r'H\$_2\$o': 'H<sub>2</sub>o',
+        r'Best SCP': 'SCP Best',
         }
 
 for s, r in subst.items():
