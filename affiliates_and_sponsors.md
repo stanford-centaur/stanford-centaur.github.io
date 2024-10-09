@@ -53,17 +53,20 @@ world and collaborate with the center on solutions.
 | Sponsorship level                       | Platinum      |  Gold           |
 ----------------------------------------- | ------------- | --------------- |
 | Membership fee per year                 | $200K         | $100K           |
-| Corporate commitment                    | 3 years       | yearly          |
+| Corporate commitment[^1]                | 3 years       | yearly          |
 | Engagement with Faculty and Students    | High          | Medium          |
 | Feature request priority                | Top           | High            |
 | Bug fix priority                        | Top           | High            |
-| Visiting scholar positions              | Yes           | Additional fee  |
+| Visiting scholar positions[^2]          | Yes           | Additional fee  |
 | Annual research retreat                 | Yes           | Yes             |
 | Faculty site visits                     | Yes           | No              |
 | Zulip channel invitation                | Yes           | Yes             |
 | Research seminar invitations            | Yes           | Yes             |
 | Student internships and recruiting      | Yes           | Yes             |
 | Discounted Stanford courses             | Yes           | Yes             |
+
+[^1]: The desired commitment is 3 years to ensure continuity of funding and successful completion of research. Membership is renewed annually.
+[^2]: See [Stanford's Research Policy Handbook](https://doresearch.stanford.edu/policies/research-policy-handbook/non-facultyresearch-appointments/visiting-scholars).
 
 It is the intention of all Centaur researchers that any software developed will be released under a corporate-friendly open-source model, such as the 3-clause BSD license.
 
