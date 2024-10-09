@@ -66,7 +66,7 @@ world and collaborate with the center on solutions.
 | Discounted Stanford courses             | Yes           | Yes             |
 
 [^1]: The desired commitment is 3 years to ensure continuity of funding and successful completion of research. Membership is renewed annually.
-[^2]: See [Stanford's Research Policy Handbook](https://doresearch.stanford.edu/policies/research-policy-handbook/non-facultyresearch-appointments/visiting-scholars).
+[^2]: See the section on visiting scholars in [Stanford's Research Policy Handbook](https://doresearch.stanford.edu/policies/research-policy-handbook/non-faculty-research-appointments/visiting-scholars).
 
 It is the intention of all Centaur researchers that any software developed will be released under a corporate-friendly open-source model, such as the 3-clause BSD license.
 
