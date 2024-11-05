@@ -164,10 +164,10 @@ and "Letty can cook soup or bread" is
 ```
 
 This is **subtyping**, a construction in Lean where the type of a variable is
-restricted to the set of another type. `?letty.val` is now restricted to either
+restricted to the set of another type. `?Letty.val` is now restricted to either
 `.soup` or `.bread`.
 
-`?letty` is a **unassigned metavariable** or a **goal**. Lean 4 uses
+`?Letty` is a **unassigned metavariable** or a **goal**. Lean 4 uses
 metavariables to drive the proof search process.  The user's task is to provide
 a solution to every goal. In Lean, the user assigns values to goals by directly
 writing out a proof expression or use commands called **tactics**. A tactic
