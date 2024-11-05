@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 title: "Search and Metavariable Coupling"
 author: Leni Aniva
 brief: "Search and Metavariable Coupling by Leni Aniva"
-date: 2024-11-15
+date: 2024-11-05
 ---
 **Search** is the underlying theme of many difficult computational tasks.
 Search algorithms have achieved incredible success in the fields of board games,
@@ -55,7 +55,7 @@ Each person can only prepare certain dishes:
 
 Given these restrictions, what should each person prepare for the picnic?
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/picnic-graph.svg" width="100%" alt="Picnic setting graph" />
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/picnic-graph.svg" width="100%" alt="Picnic setting graph" />
 
 ### Solution
 
@@ -73,15 +73,15 @@ We could start by assigning Merlin the task of cooking dessert. At this point,
 we do not know if this assignment will be correct in the end, but we must make
 *some* attempt to reach a fuller solution.
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/picnic-search-step1.svg" width="40%" alt="Search Step 1"/>
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/picnic-search-step1.svg" width="40%" alt="Search Step 1"/>
 
 Then we could try assigning Chen the task of bread.
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/picnic-search-step2.svg" width="70%" alt="Search Step 2"/>
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/picnic-search-step2.svg" width="70%" alt="Search Step 2"/>
 
 This leaves not many options for the remaining members. Letty then must be cooking soup.
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/picnic-search-step3.svg" width="100%" alt="Search Step 3"/>
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/picnic-search-step3.svg" width="100%" alt="Search Step 3"/>
 
 But this is a problem. There is no dish Yomu can cook now! If every person can
 only cook one dish, Yomu must do *something*. Recall that our decisions about
@@ -89,17 +89,17 @@ what the tasks of Merlin and Chen were arbitrary, so we could retrace our step
 back to Chen's decision. This is known as **backtracking**. Suppose Chen this
 time cooks Fish.
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/picnic-search-step4.svg" width="100%" alt="Search Step 4"/>
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/picnic-search-step4.svg" width="100%" alt="Search Step 4"/>
 
 Learning from our mistakes (*foreshadowing*), we assign Letty to the task of
 bread.
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/picnic-search-step5.svg" width="100%" alt="Search Step 5"/>
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/picnic-search-step5.svg" width="100%" alt="Search Step 5"/>
 
 At this stage, the tasks of Alice and Yomu have been narrowed down so they do
 not affect each other. Thus we conclude the roles of each person are
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/picnic-search-full.svg" width="100%" alt="Picnic Search Graph"/>
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/picnic-search-full.svg" width="100%" alt="Picnic Search Graph"/>
 
 
 | Person | Dish           |
@@ -240,7 +240,7 @@ definition and solution to coupling. Aesop's solution to coupling is *copying*.
 When a goal is solved via a tactic execution, all the goals that were coupled to
 it are copied (called **resumption**) as children goals.
 
-<img src="/assets/blog-images/2024-11-15-search-and-metavariable-coupling/metavariable-coupling-copying.svg" width="60%" alt="Copying as a solution to coupling"/>
+<img src="/assets/blog-images/2024-11-05-search-and-metavariable-coupling/metavariable-coupling-copying.svg" width="60%" alt="Copying as a solution to coupling"/>
 
 In our tool [Pantograph](https://arxiv.org/abs/2410.16429), the user has the
 choice on how to handle metavariable coupling. The user has the choice to decide
