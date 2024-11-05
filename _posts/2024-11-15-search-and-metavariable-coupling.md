@@ -166,7 +166,7 @@ and "Letty can cook soup or bread" is
 ```
 
 This is **subtyping**, a construction in Lean where the type of a variable is
-restricted to the set of another type. `?Letty.val` is now restricted to either
+restricted to a subset of another type. `?Letty.val` is now restricted to either
 `.soup` or `.bread`.
 
 `?Letty` is a **unassigned metavariable** or a **goal**. Lean 4 uses
