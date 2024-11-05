@@ -1,9 +1,11 @@
 ---
 layout: blog-post
 categories: blog
+math: true
 excerpt_separator: <!--more-->
 title: "Search and Metavariable Coupling"
 author: Leni Aniva
+brief: "Search and Metavariable Coupling by Leni Aniva"
 date: 2024-11-15
 ---
 **Search** is the underlying theme of many difficult computational tasks.
@@ -214,7 +216,7 @@ amounts to proving
 $$\begin{aligned}
 ?1 &\vdash 2 \leq ?z \\
 ?2 &\vdash ?z \leq 5 \\
-?z &\vdash \Nat
+?z &\vdash \mathbb N
 \end{aligned}$$
 
 Not only do we have to exhibit some value $z$, we also need to prove that it is
