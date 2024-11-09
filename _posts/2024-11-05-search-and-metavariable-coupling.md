@@ -62,8 +62,8 @@ Given these restrictions, what should each person prepare for the picnic?
 A common solution for a problem of this scale is to enumerate every single
 combination of person and dish. While it is a sensible method for smaller
 problems, the number of possible combinations quickly explode in size as the
-number of questions get large. In fact it grows as $O(n!)$ for combinatorial
-problems of size $n$. For problems involving numbers, there may be infinite
+number of questions get large. In fact it grows as \\(O(n!)\\) for combinatorial
+problems of size \\(n\\). For problems involving numbers, there may be infinite
 combinations.
 
 A brute force solution will not scale, so we turn to the next best method of
@@ -122,7 +122,7 @@ can write a function that maps a natural number to another natural number:
 λ (x: Nat) ⇒ 3 * x + 2
 ```
 
-$\vdash$ is the **entailment operator**, indicating the *type* of the left side
+\\(\vdash\\)s the **entailment operator**, indicating the *type* of the left side
 is equal to the right side. Each valid expression has a property called **type**
 that is another expression. This article will not go into exactly what is a
 type. Readers who are interested should read [Calculus of Inductive
@@ -197,20 +197,21 @@ $$\begin{aligned}
     ?1 &\vdash
         \mathsf{unique}(?\text{Chen}, ?\text{Alice}, ?\text{Letty}, ?\text{Merlin}, ?\text{Yomu})
 \end{aligned}$$
+
 When we begun to search for the optimal picnic arrangement, we did not have a
 fully clear picture of the solution, represented by the question marks.  Yet we
 can still reference these indeterminant values in statements such as "whoever
 makes the dessert cannot also make fruit".
 
 In particular the assignments of metavariables affect each other. If
-$?\text{Chen} := \text{Bread}$, then we cannot have $?\text{Letty} =
-\text{Bread}$. What we observed above is a phenomenon called **Metavariable
+\\(?\text{Chen} := \text{Bread}\\), then we cannot have \\(?\text{Letty} =
+\text{Bread}\\). What we observed above is a phenomenon called **Metavariable
 Coupling** and the terminology was first introduced in
 [Aesop](https://zenodo.org/records/7430233).
 
 Metavariable coupling often arise in mathematical problems. A minimal
-metavariable coupling example is the following. Consider proving $2 \leq 5$. Set
-this to a goal $?1$ and suppose we use $\leq$'s transitivity to prove it. This
+metavariable coupling example is the following. Consider proving \\(2 \leq 5\\). Set
+this to a goal \\(?1\\)and suppose we use \\(\leq\\)'s transitivity to prove it. This
 amounts to proving
 
 $$\begin{aligned}
@@ -219,9 +220,9 @@ $$\begin{aligned}
 ?z &\vdash \mathbb N
 \end{aligned}$$
 
-Not only do we have to exhibit some value $z$, we also need to prove that it is
-between $2$ and $5$! In an example like this, it is straightforward to try a
-value of $z$ such as $z := 3$. This **decouples** the two goals $?1$ and $?2$:
+Not only do we have to exhibit some value \\(z\\), we also need to prove that it is
+between \\(2\\)and \\(5\\)! In an example like this, it is straightforward to try a
+value of \\(z\\)such as \\(z := \\). This **decouples** the two goals \\(?1\\)and \\(?2\\):
 
 $$\begin{aligned}
 ?1 &\vdash 2 \leq 3 \\
