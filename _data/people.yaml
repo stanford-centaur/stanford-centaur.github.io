@@ -137,12 +137,6 @@
   website: https://profiles.stanford.edu/scott-viteri
   start: 2019
 
-- name: Leni V. Aniva
-  position: phd
-  website: https://leni.sh/
-  img: aniva.jpg
-  start: 2023
-
 - name: Amalee Wilson
   position: phd
   img: wilson.jpg
@@ -152,6 +146,12 @@
 
 - name: Aron Perez-Lopez
   position: phd
+  start: 2022
+
+- name: Leni Aniva
+  position: phd
+  website: https://leni.sh/
+  img: aniva.jpg
   start: 2022
 
 - name: Chuyue (Livia) Sun
