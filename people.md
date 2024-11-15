@@ -8,6 +8,7 @@ title: people
 {% assign postdocs = site.data.people | where: 'position', 'postdoc' %}
 {% assign visiting = site.data.people | where: 'position', 'visiting' %}
 {% assign phd = site.data.people | where: 'position', 'phd' %}
+{% assign rotating = site.data.people | where: 'position', 'rotating' %}
 {% assign master = site.data.people | where: 'position', 'master' %}
 {% assign bachelor = site.data.people | where: 'position', 'bachelor' %}
 {% assign grad = phd | concat: master | concat: bachelor %}
@@ -17,6 +18,7 @@ title: people
 {% assign postdocs = postdocs | where_exp: 'p', 'p.end == nil' %}
 {% assign visiting = visiting | where_exp: 'p', 'p.end == nil' %}
 {% assign grad = grad | where_exp: 'g', 'g.end == nil' %}
+{% assign rotating = rotating | where_exp: 'r', 'r.end == nil' %}
 
 <div class="people">
 
@@ -120,6 +122,28 @@ Visiting Researcher
 <b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
 <br/>
 {% if p.position == 'phd' %}Ph.D.{% elsif p.position == 'master' %}Masters{% elsif p.position == 'bachelor' %}Bachelors{% endif %} Student
+</div>
+{% endfor %}
+</div>
+{% endif %}
+
+
+{% if rotating.size != 0 %}
+<h2>Rotating Graduate Students</h2>
+<div class="row">
+{% for p in rotating %}
+<div class="col">
+{% if p.website %}
+<a href="{{ p.website }}">
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+</a>
+{% else %}
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
+<br/>
+<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
+<br/>
+Rotating Student
 </div>
 {% endfor %}
 </div>

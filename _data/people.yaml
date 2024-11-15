@@ -166,6 +166,14 @@
   website: https://limpa105.github.io/
   start: 2023
 
+# Rotating students 
+- name: Milan Ganai
+  position: rotating 
+  start: 2024
+
+- name: Yicheng Qian 
+  position: rotating
+  start: 2024
 # Master students
 
 
@@ -215,7 +223,7 @@
 - name: Haoze Wu
   position: phd
   img: wu_andrew.jpg
-  website: https://anwu1219.github.io/
+  website: https://anwu1219.github.io/ 
   start: 2018
   end: 2024
   now: Amherst College
