@@ -7,6 +7,8 @@ categories:
   name: Model Checking
 - id: 3
   name: Neural Network Verification
+- id: 4
+  name: Theorem Proving
 - id: 10
   name: Deprecated Tools
 
@@ -128,3 +130,12 @@ tools:
   desc-long: >-
     Smt-Switch provides abstract C++ classes which can be implemented by
     different SMT solvers. Our model checker Pono is built using Smt-Switch.
+
+- name: Pantograph
+  category: 4
+  logo: pantograph.svg
+  website: https://lenianiva.github.io/PyPantograph/intro.html
+  github: https://github.com/lenianiva/PyPantograph
+  desc-brief: A Machine-to-Machine Interaction Interface for Lean 4
+  desc-long: >-
+    Pantograph provides interfaces to implement efficient proof search in Lean 4 and is tailored towards machine learning agents.
