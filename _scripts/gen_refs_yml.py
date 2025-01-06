@@ -32,7 +32,7 @@ special_fields = ['pdf', 'bibtex', 'artifact']
 subst = {
         '---\n': '',
         '\n---': '',
-        'nocite: \"\[@\*\]\"\n': '',
+        r'nocite: \"\[@\*\]\"\n': '',
         r'issued: ([0-9][0-9][0-9][0-9])-([0-9][0-9])':\
                 r'issued:\n  - year: \1\n    month: \2',
         r'issued: ([0-9][0-9][0-9][0-9])': \

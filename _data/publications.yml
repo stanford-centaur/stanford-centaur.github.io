@@ -8566,7 +8566,7 @@ references:
   container-title: Computer aided verification - 36th international
     conference, CAV 2024, montreal, QC, canada, july 24-27, 2024,
     proceedings, part I
-  doi: 10.1007/978-3-031-65627-9\\\_9
+  doi: 10.1007/978-3-031-65627-9_9
   editor:
   - family: Gurfinkel
     given: Arie
@@ -8580,7 +8580,7 @@ references:
   publisher: Springer
   title: Scalable bit-blasting with abstractions
   type: paper-conference
-  url: "https://doi.org/10.1007/978-3-031-65627-9\\\\\\_9"
+  url: "https://doi.org/10.1007/978-3-031-65627-9_9"
   volume: 14681
 - author:
   - family: Niemetz
@@ -8591,7 +8591,7 @@ references:
   container-title: Computer aided verification - 35th international
     conference, CAV 2023, paris, france, july 17-22, 2023, proceedings,
     part II
-  doi: 10.1007/978-3-031-37703-7\\\_1
+  doi: 10.1007/978-3-031-37703-7_1
   editor:
   - family: Enea
     given: Constantin
@@ -8606,7 +8606,7 @@ references:
   publisher: Springer
   title: Bitwuzla
   type: paper-conference
-  url: "https://doi.org/10.1007/978-3-031-37703-7\\\\\\_1"
+  url: "https://doi.org/10.1007/978-3-031-37703-7_1"
   volume: 13965
 - author:
   - family: Fazekas
@@ -8676,7 +8676,7 @@ references:
   container-title: Computer aided verification - 33rd international
     conference, CAV 2021, virtual event, july 20-23, 2021, proceedings,
     part II
-  doi: 10.1007/978-3-030-81688-9\\\_11
+  doi: 10.1007/978-3-030-81688-9_11
   editor:
   - family: Silva
     given: Alexandra
@@ -8692,7 +8692,7 @@ references:
     and friends"
   title-short: ddSMT 2.0
   type: paper-conference
-  url: "https://doi.org/10.1007/978-3-030-81688-9\\\\\\_11"
+  url: "https://doi.org/10.1007/978-3-030-81688-9_11"
   volume: 12760
 - author:
   - family: Scott
@@ -8711,7 +8711,7 @@ references:
     held as part of the european joint conferences on theory and
     practice of software, ETAPS 2021, luxembourg city, luxembourg, march
     27 - april 1, 2021, proceedings, part II
-  doi: 10.1007/978-3-030-72013-1\\\_16
+  doi: 10.1007/978-3-030-72013-1_16
   editor:
   - family: Groote
     given: Jan Friso
@@ -8727,7 +8727,7 @@ references:
     solvers"
   title-short: MachSMT
   type: paper-conference
-  url: "https://doi.org/10.1007/978-3-030-72013-1\\\\\\_16"
+  url: "https://doi.org/10.1007/978-3-030-72013-1_16"
   volume: 12652
 - author:
   - family: Niemetz
@@ -8736,7 +8736,7 @@ references:
     given: Mathias
   container-title: 2020 formal methods in computer aided design, FMCAD
     2020, haifa, israel, september 21-24, 2020
-  doi: 10.34727/2020/isbn.978-3-85448-042-6\\\_29
+  doi: 10.34727/2020/isbn.978-3-85448-042-6_29
   id: "DBLP:conf/fmcad/NiemetzP20"
   issued:
   - year: 2020
@@ -8746,7 +8746,7 @@ references:
   title: Ternary propagation-based local search for more bit-precise
     reasoning
   type: paper-conference
-  url: "https://doi.org/10.34727/2020/isbn.978-3-85448-042-6\\\\\\_29"
+  url: "https://doi.org/10.34727/2020/isbn.978-3-85448-042-6_29"
 - author:
   - family: Niemetz
     given: Aina
@@ -8761,7 +8761,7 @@ references:
     conference, CAV 2018, held as part of the federated logic
     conference, FloC 2018, oxford, UK, july 14-17, 2018, proceedings,
     part I
-  doi: 10.1007/978-3-319-96145-3\\\_32
+  doi: 10.1007/978-3-319-96145-3_32
   editor:
   - family: Chockler
     given: Hana
@@ -8775,7 +8775,7 @@ references:
   publisher: Springer
   title: Btor2 , BtorMC and boolector 3.0
   type: paper-conference
-  url: "https://doi.org/10.1007/978-3-319-96145-3\\\\\\_32"
+  url: "https://doi.org/10.1007/978-3-319-96145-3_32"
   volume: 10981
 - author:
   - family: Nötzli
