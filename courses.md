@@ -4,6 +4,7 @@ title: courses
 ---
 
 ## 2025 Spring
+- [CS 99: Functional Programming and Theorem Proving in Lean 4](https://explorecourses.stanford.edu/search?q=CS99)
 - [PHIL 152: Computability and Logic](https://explorecourses.stanford.edu/search?q=PHIL152)
 - [PHIL 359: Logic Spring Seminar](https://explorecourses.stanford.edu/search?q=PHIL359)
 
