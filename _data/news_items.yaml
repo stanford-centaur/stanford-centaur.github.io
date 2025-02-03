@@ -1,3 +1,12 @@
+- title: A New Course on Lean 4
+  excerpt: "In Spring 2025, Centaur Lab will launch a new course: CS 99 Functional Programming and Theorem Proving in Lean 4, covering from <span style='color:#ff8888'>functional programming</span>, <span style='color:#8888ff'>theorem proving</span>, to <span style='color:#ff88ff'>metaprogramming</span>. The instructors will be Leni Aniva and Abdalrhman Mohamed. The course is designed to systematically cover Lean 4's features and working principles."
+  urls:
+    - url: "https://explorecourses.stanford.edu/search?q=CS99"
+      label: "Explore Courses"
+    - url: "https://perfect-math-class.leni.sh/"
+      label: "Preview"
+  date: "2025-02-02"
+
 - title: "SMT tutorial paper has been selected as distinguished tutorial at FM 2024"
   urls:
     - url: "https://hanielbarbosa.com/papers/fm2024.pdf"
