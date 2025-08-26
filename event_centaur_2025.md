@@ -19,8 +19,8 @@ Recap Video
 <table>
 <tr>
 <td style="width:20%;">8:30am-9:00am</td>
-<td style="width:32">Breakfast and Registration</td>
-<td style="width:18%;"></td>
+<td style="width:40">Breakfast and Registration</td>
+<td style="width:20%;"></td>
 <td style="width:20%;"></td>
 </tr>
 
