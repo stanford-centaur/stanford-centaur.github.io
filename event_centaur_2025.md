@@ -131,6 +131,7 @@ Session IV
 <td>Mudathir Mohamed</td>
 <td>PhD Student at University of Iowa</td>
 </tr>
+<tr>
 <td>3:20pm-3:50pm</td>
 <td>Coffee break</td>
 <td></td>
@@ -160,7 +161,6 @@ Session V
 <td>Rachel Cleaveland</td>
 <td>PhD Student</td>
 </tr>
-<tr>
 <tr>
 <td>4:50pm-5:00pm</td>
 <td>Closing Remarks</td>
