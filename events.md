@@ -2,8 +2,8 @@
 layout: default
 title: events
 ---
-<!--## Upcoming
-- [CENTAUR Annual Meeting](event_centaur_2025.html), September 23, 2025.-->
+## Upcoming
+- [CENTAUR Annual Meeting](event_centaur_2025.html), September 23, 2025.
 
 ## Past
 - [CENTAUR Annual Meeting](event_centaur_2024.html), August 27, 2024.
