@@ -126,7 +126,7 @@ Session IV
 <td>PhD Student</td>
 </tr>
 <tr>
-<td>4:30pm-4:50pm</td>
+<td>3:00pm-3:20pm</td>
 <td>Incorporating Native String Reasoning in Symbolic Execution of C Programs</td>
 <td>Rachel Cleaveland</td>
 <td>PhD Student</td>
@@ -151,12 +151,12 @@ Session V
 </tr>
 <tr>
 <td>4:10pm-4:30pm</td>
-<td>Towards SMT Solver Stability via Input Normalization</td>
-<td>Daneshvar Amrollahi</td>
-<td>PhD Student</td>
+<td>TBD</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>3:00pm-3:20pm</td>
+<td>4:30pm-4:50pm</td>
 <td>Bounded Quantifiers for Finite Relations</td>
 <td>Mudathir Mohamed</td>
 <td>PhD Student at University of Iowa</td>
