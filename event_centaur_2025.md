@@ -126,10 +126,10 @@ Session IV
 <td>PhD Student</td>
 </tr>
 <tr>
-<td>3:00pm-3:20pm</td>
-<td>Bounded Quantifiers for Finite Relations</td>
-<td>Mudathir Mohamed</td>
-<td>PhD Student at University of Iowa</td>
+<td>4:30pm-4:50pm</td>
+<td>Incorporating Native String Reasoning in Symbolic Execution of C Programs</td>
+<td>Rachel Cleaveland</td>
+<td>PhD Student</td>
 </tr>
 <tr>
 <td>3:20pm-3:50pm</td>
@@ -156,10 +156,10 @@ Session V
 <td>PhD Student</td>
 </tr>
 <tr>
-<td>4:30pm-4:50pm</td>
-<td>Incorporating Native String Reasoning in Symbolic Execution of C Programs</td>
-<td>Rachel Cleaveland</td>
-<td>PhD Student</td>
+<td>3:00pm-3:20pm</td>
+<td>Bounded Quantifiers for Finite Relations</td>
+<td>Mudathir Mohamed</td>
+<td>PhD Student at University of Iowa</td>
 </tr>
 <tr>
 <td>4:50pm-5:00pm</td>
