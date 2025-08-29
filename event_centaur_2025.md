@@ -38,15 +38,15 @@ Session I
 </tr>
 <tr>
 <td>9:10am-9:30am</td>
-<td>CSLib: A Formal Methods Platform for the Future of Everything</td>
+<td>CSLib and a Platform for Formally Verifying Everything</td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
 <tr>
 <td>9:30am-9:50am</td>
-<td>Lean SMT: An SMT Tactic for Discharging Proof Goals in Lean</td>
-<td>Abdalrhman Mohamed</td>
-<td>PhD Student</td>
+<td>Scalable Hardware Side-Channel Discovery with Property Decomposition and Model Checkers</td>
+<td>Caroline Trippel</td>
+<td>Faculty
 </tr>
 <tr>
 <td>9:50am-10:20am</td>
@@ -69,8 +69,8 @@ Session II
 </tr>
 <tr>
 <td>10:40am-11:00am</td>
-<td>Verifying Nonlinear Neural Feedback Systems Using Polyhedral Enclosures</td>
-<td>Samuel Akinwande</td>
+<td>Lean SMT: An SMT Tactic for Discharging Proof Goals in Lean</td>
+<td>Abdalrhman Mohamed</td>
 <td>PhD Student</td>
 </tr>
 <tr>
@@ -115,14 +115,14 @@ Session IV
 </tr>
 <tr>
 <td>2:20pm-2:40pm</td>
-<td>Bit-precise Reasoning with Parametric Bit-vectors</td>
-<td>Yoni Zohar</td>
-<td>Professor, Bar-Ilan University</td>
+<td>Per-Instance Subproblem Generation for Strategy Selection in SMT</td>
+<td>Amalee Wilson</td>
+<td>PhD Student</td>
 </tr>
 <tr>
 <td>2:40pm-3:00pm</td>
-<td>Integer Reasoning Modulo Different Constants in SMT</td>
-<td>Elizaveta Pertseva</td>
+<td>Verifying Nonlinear Neural Feedback Systems Using Polyhedral Enclosures</td>
+<td>Samuel Akinwande</td>
 <td>PhD Student</td>
 </tr>
 <tr>
@@ -145,15 +145,15 @@ Session V
 </tr>
 <tr>
 <td>3:50pm-4:10pm</td>
-<td>Per-Instance Subproblem Generation for Strategy Selection in SMT</td>
-<td>Amalee Wilson</td>
-<td>PhD Student</td>
+<td>Bit-precise Reasoning with Parametric Bit-vectors</td>
+<td>Yoni Zohar</td>
+<td>Professor, Bar-Ilan University</td>
 </tr>
 <tr>
 <td>4:10pm-4:30pm</td>
-<td>TBD</td>
-<td></td>
-<td></td>
+<td>Integer Reasoning Modulo Different Constants in SMT</td>
+<td>Elizaveta Pertseva</td>
+<td>PhD Student</td>
 </tr>
 <tr>
 <td>4:30pm-4:50pm</td>
