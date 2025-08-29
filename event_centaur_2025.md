@@ -46,7 +46,7 @@ Session I
 <td>9:30am-9:50am</td>
 <td>Scalable Hardware Side-Channel Discovery with Property Decomposition and Model Checkers</td>
 <td>Caroline Trippel</td>
-<td>Faculty
+<td>Faculty</td>
 </tr>
 <tr>
 <td>9:50am-10:20am</td>
