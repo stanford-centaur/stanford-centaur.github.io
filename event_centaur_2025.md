@@ -159,7 +159,7 @@ Session V
 <td>4:30pm-4:50pm</td>
 <td>Bounded Quantifiers for Finite Relations</td>
 <td>Mudathir Mohamed</td>
-<td>PhD Student at University of Iowa</td>
+<td>Postdoc at University of Iowa</td>
 </tr>
 <tr>
 <td>4:50pm-5:00pm</td>
