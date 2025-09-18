@@ -1,3 +1,16 @@
+- title: AI For Math Fund Awards Stanford University Centaur Lab $1,000,000
+  excerpt: "Centaur Lab has been awarded $1,000,000 as part of the AI for Math
+  Fund, managed by Renaissance Philanthropy in partnership with founding donor
+  XTX Markets. With this award, Centaur Lab will have the opportunity to
+  develop a two pronged approach to formal theorem proving. One is a more
+  transparent, search-based white-box algorithm for general machine-assisted
+  theorem proving. The other one is an SMT-solver based tactic for Lean 4."
+  urls:
+    - url: "https://www.renaissancephilanthropy.org/gnn-smt-consortium-based-proof-automation-for-lean-4"
+      label: "News"
+    - url: "https://www.renaissancephilanthropy.org/ai-for-math-fund-projects"
+      label: "Funded Projects"
+  date: "2025-09-17"
 - title: A New Course on Lean 4
   excerpt: "In Spring 2025, Centaur Lab will launch a new course: CS 99 Functional Programming and Theorem Proving in Lean 4, covering from <span style='color:#ff8888'>functional programming</span>, <span style='color:#8888ff'>theorem proving</span>, to <span style='color:#ff88ff'>metaprogramming</span>. The instructors will be Leni Aniva and Abdalrhman Mohamed. The course is designed to systematically cover Lean 4's features and working principles."
   urls:
