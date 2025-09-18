@@ -1,8 +1,9 @@
 - title: AI For Math Fund Awards Stanford University Centaur Lab $1,000,000
-  excerpt: "Centaur Lab has been awarded $1,000,000 as part of the AI for Math
+  excerpt: "The Stanford Center for Automated Reasoning (Centaur) has been
+  awarded $1,000,000 as part of the AI for Math
   Fund, managed by Renaissance Philanthropy in partnership with founding donor
-  XTX Markets. With this award, Centaur Lab will have the opportunity to
-  develop a two pronged approach to formal theorem proving. One is a more
+  XTX Markets. With this award, Centaur will have the opportunity to
+  develop a two-pronged approach to formal theorem proving. One is a more
   transparent, search-based white-box algorithm for general machine-assisted
   theorem proving. The other one is an SMT-solver based tactic for Lean 4."
   urls:
