@@ -9,6 +9,11 @@ title: Affiliates and sponsors
 <img class="sponsor" src="/img/sponsors/amazon.png" />
 </p>
 
+<h2>Gold Members</h2>
+<p>
+<img class="sponsor" src="/img/sponsors/huppy.png" />
+</p>
+
 
 <h2>Government Sponsors</h2>
 <p>
@@ -21,6 +26,7 @@ title: Affiliates and sponsors
 
 <p>
 <img class="sponsor" src="/img/sponsors/ethereum.png" />
+<img class="sponsor" src="/img/sponsors/synopsys.png" />
 </p>
 
 
