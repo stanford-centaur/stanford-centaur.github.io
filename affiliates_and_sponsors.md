@@ -11,7 +11,7 @@ title: Affiliates and sponsors
 
 <h2>Gold Members</h2>
 <p>
-<img class="sponsor" src="/img/sponsors/huppy.png" />
+<img class="sponsor" src="/img/sponsors/hupyy.png" />
 </p>
 
 
