@@ -7,6 +7,7 @@ title: Affiliates and sponsors
 <h2>Platinum Members</h2>
 <p>
 <img class="sponsor" src="/img/sponsors/amazon.png" />
+<img class="sponsor" src="/img/sponsors/pramaana.jpg" />
 </p>
 
 <h2>Gold Members</h2>
