@@ -25,7 +25,7 @@ tools:
     arrays and uninterpreted functions and their combinations.
 
 - name: Boolector
-  category: 1
+  category: 10
   logo: boolector.png
   website: https://boolector.github.io
   github: https://github.com/boolector/boolector
