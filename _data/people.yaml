@@ -63,12 +63,6 @@
   website: https://cs.stanford.edu/~minwu/
   start: 2022
 
-- name: Max Lamparth
-  position: postdoc
-  website: https://www.maxlamparth.com/
-  start: 2023
-
-
 # Visiting Researchers
 
 - name: Guy Amir
@@ -89,6 +83,7 @@
 - name: Fuqi Jia
   position: visiting
   start: 2024
+  end: 2025
 
 # PhD students
 
@@ -108,12 +103,6 @@
   start: 2022
   img: cleaveland.jpg
 
-- name: Caleb Donovick
-  position: phd
-  website: https://profiles.stanford.edu/caleb-donovick
-  start: 2016
-  end: 2024
-
 - name: Hanna Lachnitt
   position: phd
   img: lachnitt.jpg
@@ -124,25 +113,11 @@
   position: phd
   start: 2022
 
-- name: Alex Ozdemir
-  position: phd
-  img: ozdemir.jpg
-  website: https://cs.stanford.edu/~aozdemir/
-  start: 2018
-
-
 - name: Scott Viteri
   position: phd
   img: viteri.jpg
   website: https://profiles.stanford.edu/scott-viteri
   start: 2019
-
-- name: Amalee Wilson
-  position: phd
-  img: wilson.jpg
-  website: https://profiles.stanford.edu/amalee-wilson
-  start: 2019
-
 
 - name: Aron Perez-Lopez
   position: phd
@@ -166,22 +141,56 @@
   website: https://limpa105.github.io/
   start: 2023
 
-# Rotating students 
 - name: Milan Ganai
-  position: rotating 
+  position: phd
   start: 2024
 
 - name: Yicheng Qian 
-  position: rotating
+  position: phd
   start: 2024
+
+- name: Harun Khan
+  position: phd
+  start: 2024
+
+# Rotating students
+
 # Master students
-
-
-
 
 # Bachelor students
 
 # Alumni
+
+- name: Max Lamparth
+  position: postdoc
+  website: https://www.maxlamparth.com/
+  start: 2023
+  end: 2025
+
+- name: Amalee Wilson
+  position: phd
+  img: wilson.jpg
+  website: https://profiles.stanford.edu/amalee-wilson
+  start: 2019
+  end: 2026
+
+- name: Alex Ozdemir
+  position: phd
+  img: ozdemir.jpg
+  website: https://cs.stanford.edu/~aozdemir/
+  start: 2018
+  end: 2025
+
+- name: Caleb Donovick
+  position: phd
+  website: https://profiles.stanford.edu/caleb-donovick
+  start: 2016
+  end: 2024
+
+- name: Po-Chun Chien
+  position: visiting
+  start: 2025
+  end: 2025
 
 - name: Jibiana Jakpor
   position: bachelor
