@@ -30,7 +30,7 @@ These centers collaborate with our center on various projects.
 <li>[Stanford Center for Portable Accelerated Learning](https://portal.stanford.edu/)</li>
 <li>[Stanford Center for AI Safety](https://aisafety.stanford.edu/)</li>
 <li>[Stanford Center for Blockchain Research](https://cbr.stanford.edu/)</li>
-<\ul>
+</ul>
 
 
 
