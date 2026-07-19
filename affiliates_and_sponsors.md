@@ -26,8 +26,11 @@ In addition to the Industrial Affiliates Program, Centaur is supported by gifts 
 # Affiliated Stanford Centers
 These centers collaborate with our center on various projects.
 
-[Stanford Center for Portable Accelerated Learning](https://portal.stanford.edu)  
-[Stanford Center for AI Safety](https://aisafety.stanford.edu/)
-[Stanford Center for Blockchain Research](https://cbr.stanford.edu/)
+<ul>
+<li>[Stanford Center for Portable Accelerated Learning](https://portal.stanford.edu/)</li>
+<li>[Stanford Center for AI Safety](https://aisafety.stanford.edu/)</li>
+<li>[Stanford Center for Blockchain Research](https://cbr.stanford.edu/)</li>
+<\ul>
+
 
 
