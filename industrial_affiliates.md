@@ -13,9 +13,9 @@ title: Industrial Affiliates Program
 </div>
 
 
-# Founding Sponsors
+# Founding Members
 
-We thank the following companies for supporting Centaur's Industrial Affiliates Program in its first year (2022), and recognize them here as "Founding Sponsors."
+We thank the following companies for their membership in Centaur's Industrial Affiliates Program during its first year (2022), and recognize them here as "Founding Members."
 <ul>
 <li>Amazon</li>
 <li>Adacore</li>
