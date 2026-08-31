@@ -3,9 +3,10 @@ layout: default
 title: events
 ---
 ## Upcoming
-- [CENTAUR Annual Meeting](event_centaur_2025.html), September 23, 2025.
+- [CENTAUR Annual Meeting](event_centaur_2026.html), October 6, 2026.
 
 ## Past
+- [CENTAUR Annual Meeting](event_centaur_2025.html), September 23, 2025.
 - [CENTAUR Annual Meeting](event_centaur_2024.html), August 27, 2024.
 - [CENTAUR Annual Meeting](event_centaur_2023.html), August 17, 2023.
 - [Formal Reasoning about Financial Systems Workshop](https://reasoningaboutfinancialsystems.org/), September 1, 2022, [[video](https://youtube.com/playlist?list=PLKtu7wuOMP9VXT92wyIpon9VRIv7hOuW4)]
