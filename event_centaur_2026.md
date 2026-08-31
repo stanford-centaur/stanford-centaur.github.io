@@ -8,10 +8,10 @@ title: events
 555 Salvatierra Walk<br/>
 Stanford, CA 94305</h4>
 <br/>
-<!--<a href="https://www.eventbrite.com/e/2025-centaur-annual-meeting-tickets-1528070553159" class="btn">
+<a href="https://www.eventbrite.com/e/2026-centaur-annual-meeting-tickets-1996908326560?aff=oddtdtcreator" class="btn">
 Register
 </a>
-<a href="https://youtu.be/g4yNwnGNANI?si=IwMv4t33gyCxMHBv" class="btn">
+<!--<a href="https://youtu.be/g4yNwnGNANI?si=IwMv4t33gyCxMHBv" class="btn">
 Recap Video
 </a>-->
 
