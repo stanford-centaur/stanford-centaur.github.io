@@ -157,9 +157,9 @@ Session V
 </tr>
 <tr>
 <td>4:30pm-4:50pm</td>
-<td>TBD</td>
-<td></td>
-<td></td>
+<td>An AI-Assisted Procedure for Inductively Strengthening Invariants for Functional Hardware Verification.</td>
+<td>Daniel Mendoza</td>
+<td>PhD Student</td>
 </tr>
 <tr>
 <td>4:50pm-5:00pm</td>
