@@ -79,10 +79,16 @@ Session II
 <td>Mathias Preiner</td>
 <td>Senior Research Scientist</td>
 </tr>
+<tr>
+<td>11:20am-11:30am</td>
+<td>Automated Reasoning at AWS</td>
+<td>Robert Jones</td>
+<td>Senior Principal Applied Scientist, AWS</td>
+</tr>
 
 
 <tr>
-<td>11:20am-11:50am</td>
+<td>11:30am-11:50am</td>
 <td>Coffee break</td>
 <td></td>
 <td></td>
@@ -95,14 +101,21 @@ Session III
 </tr>
 
 <tr>
-<td>11:50am-12:20pm</td>
+<td>11:50am-12:00pm</td>
+<td>Update from Pramaana Labs</td>
+<td>Sanjay Subramaniam</td>
+<td>Pramaana Labs</td>
+</tr>
+
+<tr>
+<td>12:00pm-12:30pm</td>
 <td>Lightning Talks</td>
 <td></td>
 <td></td>
 </tr>
 
 <tr>
-<td>12:20pm-2:20pm</td>
+<td>12:30pm-2:20pm</td>
 <td>Lunch and Poster Session</td>
 <td></td>
 <td></td>
