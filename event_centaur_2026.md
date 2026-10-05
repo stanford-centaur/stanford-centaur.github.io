@@ -102,8 +102,8 @@ Session III
 
 <tr>
 <td>11:50am-12:00pm</td>
-<td>Update from Pramaana Labs</td>
-<td>Sanjay Subramaniam</td>
+<td>Pramaana Labs: Formalizing Knowledge at Scale</td>
+<td>Arnav Mehta</td>
 <td>Pramaana Labs</td>
 </tr>
 
