@@ -1,0 +1,23 @@
+{% assign p = include.item %}
+<div class="col">
+{% if p.website %}
+<a href="{{ p.website }}">
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+</a>
+{% else %}
+  <img src="img/people/{% if p.img %}{{ p.img }}{% else %}default.png{% endif %}" alt="{{ p.name }}"/>
+{% endif %}
+<br/>
+<b>{% if p.website %}<a href="{{ p.website }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>
+<br/>
+{% case p.position %}
+{% when 'faculty' %}{{ p.title }}
+{% when 'research_scientist' %}{% if p.title %}{{ p.title }}{% else %}Research Scientist{% endif %}
+{% when 'postdoc' %}Postdoctoral Researcher
+{% when 'visiting' %}Visiting Researcher
+{% when 'phd' %}Ph.D. Student
+{% when 'master' %}Masters Student
+{% when 'bachelor' %}Bachelors Student
+{% when 'rotating' %}Rotating Student
+{% endcase %}
+</div>

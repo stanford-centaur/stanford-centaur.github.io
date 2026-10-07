@@ -1,0 +1,20 @@
+{% comment %}
+  Renders include.items in rows of at most three entries, distributed
+  as evenly as possible so that no row has a single entry (unless there
+  is only one item), e.g., 4 -> 2+2, 7 -> 3+2+2, 13 -> 3+3+3+2+2.
+  Each item is rendered with the include given in include.card.
+{% endcomment %}
+{% assign n = include.items.size %}
+{% assign nrows = n | plus: 2 | divided_by: 3 %}
+{% assign base = n | divided_by: nrows %}
+{% assign extra = n | modulo: nrows %}
+{% assign row_start = 0 %}
+{% for r in (1..nrows) %}
+{% if r <= extra %}{% assign row_size = base | plus: 1 %}{% else %}{% assign row_size = base %}{% endif %}
+<div class="row">
+{% for item in include.items limit: row_size offset: row_start %}
+{% include {{ include.card }} item=item %}
+{% endfor %}
+</div>
+{% assign row_start = row_start | plus: row_size %}
+{% endfor %}
