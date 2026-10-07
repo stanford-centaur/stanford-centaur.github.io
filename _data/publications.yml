@@ -10579,6 +10579,194 @@ references:
   volume: 51
 
 - author:
+  - family: Preiner
+    given: Mathias
+  - family: Niemetz
+    given: Aina
+  - family: Barrett
+    given: Clark W.
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 38th international
+    conference, CAV 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part II
+  doi: 10.1007/978-3-032-32526-6_2
+  editor:
+  - family: Darulova
+    given: Eva
+  - family: Lin
+    given: Anthony W.
+  - family: Rümmer
+    given: Philipp
+  id: "DBLP:conf/cav/PreinerNB26"
+  issued:
+  - year: 2026
+    month: 7
+  award: Distinguished Paper Award
+  page: 27-49
+  publisher: Springer
+  title: Satisfiability modulo extensional constant arrays
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32526-6_2"
+  volume: 16683
+- author:
+  - family: Reynolds
+    given: Andrew
+  - family: Schurr
+    given: Hans-Jörg
+  - family: Barbosa
+    given: Haniel
+  - family: Israel
+    given: Ofec
+  - family: Jakpor
+    given: Jibiana
+  - family: Lachnitt
+    given: Hanna
+  - family: Mohamed
+    given: Abdalrhman
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Zohar
+    given: Yoni
+  - family: Jones
+    given: Robert B.
+  - family: Barrett
+    given: Clark W.
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 38th international
+    conference, CAV 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part II
+  doi: 10.1007/978-3-032-32526-6_9
+  editor:
+  - family: Darulova
+    given: Eva
+  - family: Lin
+    given: Anthony W.
+  - family: Rümmer
+    given: Philipp
+  id: "DBLP:conf/cav/ReynoldsSBIJLMNPZJBT26"
+  issued:
+  - year: 2026
+    month: 7
+  page: 188-212
+  publisher: Springer
+  title: "The cooperating proof calculus: Comprehensive proofs for an
+    SMT solver"
+  title-short: The cooperating proof calculus
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32526-6_9"
+  volume: 16683
+- author:
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  collection-title: Lecture notes in computer science
+  container-title: Tools and algorithms for the construction and
+    analysis of systems - 32nd international conference, TACAS 2026,
+    held as part of the international joint conferences on theory and
+    practice of software, ETAPS 2026, turin, italy, april 11-16, 2026,
+    proceedings, part I
+  doi: 10.1007/978-3-032-22752-2_4
+  editor:
+  - family: Junges
+    given: Sebastian
+  - family: Katz
+    given: Guy
+  id: "DBLP:conf/tacas/NiemetzP26"
+  issued:
+  - year: 2026
+    month: 4
+  page: 66-88
+  publisher: Springer
+  title: Bit-precise interpolation in Bitwuzla
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-22752-2_4"
+  volume: 16505
+- author:
+  - family: Schreiber
+    given: Dominik
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  collection-title: Lecture notes in computer science
+  container-title: Tools and algorithms for the construction and
+    analysis of systems - 32nd international conference, TACAS 2026,
+    held as part of the international joint conferences on theory and
+    practice of software, ETAPS 2026, turin, italy, april 11-16, 2026,
+    proceedings, part I
+  doi: 10.1007/978-3-032-22752-2_9
+  editor:
+  - family: Junges
+    given: Sebastian
+  - family: Katz
+    given: Guy
+  id: "DBLP:conf/tacas/SchreiberNP26"
+  issued:
+  - year: 2026
+    month: 4
+  award: Best Tool Paper Award, Distinguished Paper Award,
+    Distinguished Artifact Award
+  page: 170-191
+  publisher: Springer
+  title: Massively parallel bit-precise verification with Bitwuzla and
+    Mallob
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-22752-2_9"
+  volume: 16505
+- author:
+  - family: Fichte
+    given: Johannes Klaus
+  - family: Järvisalo
+    given: Matti
+  - family: Niemetz
+    given: Aina
+  - family: Niskanen
+    given: Andreas
+  - family: Tack
+    given: Guido
+  container-title: Dagstuhl Reports
+  doi: 10.4230/DAGREP.15.10.135
+  id: "DBLP:journals/dagstuhl-reports/FichteJNNT25"
+  issue: 10
+  issued:
+  - year: 2025
+    month: 10
+  page: 135-154
+  title: Competitions and empirical evaluations in automated reasoning
+    (Dagstuhl seminar 25441)
+  type: article-journal
+  url: "https://doi.org/10.4230/DagRep.15.10.135"
+  volume: 15
+- author:
+  - family: Fazekas
+    given: Katalin
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Kirchweger
+    given: Markus
+  - family: Szeider
+    given: Stefan
+  - family: Biere
+    given: Armin
+  container-title: J. Artif. Intell. Res.
+  doi: 10.1613/JAIR.1.16163
+  id: "DBLP:journals/jair/FazekasNPKSB24"
+  issued:
+  - year: 2024
+    month: 12
+  page: 989-1017
+  title: Satisfiability modulo user propagators
+  type: article-journal
+  url: "https://doi.org/10.1613/jair.1.16163"
+  volume: 81
+- author:
   - family: Niemetz
     given: Aina
   - family: Preiner
@@ -10646,8 +10834,8 @@ references:
     given: Armin
   collection-title: LIPIcs
   container-title: 26th international conference on theory and
-    applications of satisfiability testing, SAT 2023, july 4-8, 2023,
-    alghero, italy
+    applications of satisfiability testing, SAT 2023, alghero, italy,
+    july 4-8, 2023
   doi: 10.4230/LIPICS.SAT.2023.8
   editor:
   - family: Mahajan
@@ -10770,6 +10958,31 @@ references:
     reasoning
   type: paper-conference
   url: "https://doi.org/10.34727/2020/isbn.978-3-85448-042-6_29"
+- author:
+  - family: Weber
+    given: Tjark
+  - family: Conchon
+    given: Sylvain
+  - family: Déharbe
+    given: David
+  - family: Heizmann
+    given: Matthias
+  - family: Niemetz
+    given: Aina
+  - family: Reger
+    given: Giles
+  container-title: J. Satisf. Boolean Model. Comput.
+  doi: 10.3233/SAT190123
+  id: "DBLP:journals/jsat/WeberCDHNR19"
+  issue: 1
+  issued:
+  - year: 2019
+    month: 9
+  page: 221-259
+  title: The SMT competition 2015-2018
+  type: article-journal
+  url: "https://doi.org/10.3233/SAT190123"
+  volume: 11
 - author:
   - family: Niemetz
     given: Aina
