@@ -57,12 +57,6 @@
   website:
   start: 2022
 
-- name: Min Wu
-  position: postdoc
-  img: wu_min.jpg
-  website: https://cs.stanford.edu/~minwu/
-  start: 2022
-
 # Visiting Researchers
 
 - name: Guy Amir
@@ -161,11 +155,12 @@
 
 # Alumni
 
-- name: Max Lamparth
+- name: Min Wu
   position: postdoc
-  website: https://www.maxlamparth.com/
-  start: 2023
-  end: 2025
+  img: wu_min.jpg
+  website: https://cs.stanford.edu/~minwu/
+  start: 2022
+  end: 2026
 
 - name: Amalee Wilson
   position: phd
@@ -173,6 +168,12 @@
   website: https://profiles.stanford.edu/amalee-wilson
   start: 2019
   end: 2026
+
+- name: Max Lamparth
+  position: postdoc
+  website: https://www.maxlamparth.com/
+  start: 2023
+  end: 2025
 
 - name: Alex Ozdemir
   position: phd
@@ -200,14 +201,13 @@
 - name: Benjamin Przybocki
   position: bachelor
   start: 2023
-  end: 2024 
+  end: 2024
   now: Cambridge
 
 - name: Kaia Xiaofu Li
   position: bachelor
   start: 2023
-  end: 2024 
-
+  end: 2024
 
 - name: Ying Sheng
   position: phd
