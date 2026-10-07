@@ -50,6 +50,7 @@ subst = {
         r'\s+\n': '\n',
         r"([A-Z]) '([1-2])": r"\1'\2",
         r'H\$_2\$o': 'H<sub>2</sub>o',
+        r'\$\\delta\$': 'δ',
         r'Best SCP': 'SCP Best',
         }
 

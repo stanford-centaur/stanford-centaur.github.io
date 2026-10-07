@@ -1,43 +1,45 @@
-]%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % In preparation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Pantograph: Leni
-% Journal version of ITP
-% Liza - finite fields
-% Daneshvar - stability
+% Journal version of Ieva's paper
 % Ross/Caleb (rewrite rules)
-% GSAI?
-% Harun - CPP - transcendentals
 % GQED IEEE Design and Test (FAQ)
-% Edward PnR tool paper
-% Jack - ASPLOS
-% Scott - Markovian
+% GSAI CACM
+% Edward's Synopsys paper
+% Saranyu
+% Shweta - parametric bv
+% Nestan - function approximation
+% Edward - COMPASS - SMT
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Submitted
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% SAT for digital logic (Sunil)
-% Sophie's paper
-% Verix+
-% PEak journal paper
-% Ben - Nielson transformations
-% FMSD journal
+% Daneshvar - Neurips position paper (proofs not tests) - May 5
+% Combining Combination part 2
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % To Appear
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% NeurIPS - SGL
-% FMCAD - Ross
-% FMCAD - Nham
-% FMCAD - Docking
-% FM - Ben's paper
-% FM tutorial paper
-% DASC
-% ITP - Ieva's paper
-% Quantization - SAIV
-% Clover - SAIV
+% Milan - CoRL
+% CACM - CSLib
+% Daneshvar - roundtrip - ARR - May 12
+% Omri - proof-producing NNV - FMCAD
+% Finite fields - FMCAD
+% Leni - GNN - FMCAD
+% Mudathir - FMCAD
+% Nested Datatypes - SMT
+% Amalee - FFD - SMT
+% CDC - Sam - backwards reachability
+% Andrew - Lookahead (IJCAI)
+% Milan RSS paper
+% CAV x 3
+% IJCAR x 3
+% IGPL - Unicorns journal
+% Scott - Markovian (ICLR)
+% L4DC - polyhedral enclosures
+% NFM - Edward
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Patents
@@ -59,6 +61,23 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Edited Proceedings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%complete
+@proceedings{BW25,
+   url       = "https://dl.acm.org/doi/proceedings/10.1007/978-3-031-99984-0",
+   editor    = "Clark Barrett and Uwe Waldmann",
+   title     = "Automated Deduction - CADE 30: Proceedings of the $30^{th}$ International Conference on Automated Deduction",
+   series    = "Lecture Notes in Artificial Intelligence",
+   volume    = 15943,
+   publisher = "Springer",
+   address   = "Berlin, Heidelberg",
+   month     = jul,
+   year      = 2025,
+   isbn      = "978-3-031-99983-3",
+   doi       = "10.1007/978-3-031-99984-0",
+   note      = "Stuttgart, Germany",
+   category  = "Edited Volumes",
+}
 
 %complete
 @proceedings{BY19,
@@ -266,6 +285,170 @@ solvers, and several extensions and enhancements."
 
 
 %complete
+@article{DMD+26,
+  url       = "http://theory.stanford.edu/~barrett/pubs/DMD+26.pdf",
+  author    = "Donovick, Caleb and Melchert, Jackson and Daly, Ross and Truong, Lenny and Raina, Priyanka and Hanrahan, Pat and Barrett, Clark",
+  title     = "{PE}ak: A Single Source of Truth for Hardware Design and Verification",
+  journal   = "ACM Transactions on Embedded Computing Systems",
+  keywords  = "PEak, domain-specific languages, hardware design, formal methods",
+  publisher = "ACM",
+  volume    = 25,
+  number    = 2,
+  pages     = "1--22",
+  month     = mar,
+  year      = 2026,
+  doi       = "10.1145/3703456",
+  category  = "Journal Articles",
+  abstract  = "Domain-specific languages for hardware can significantly enhance
+                  designer productivity, but sometimes at the cost of ease of
+                  verification. On the other hand, ISA specification languages
+                  are too static to be used during early stage design space
+                  exploration. We present PEak, an open-source hardware design
+                  and specification language, which aims to improve both design
+                  productivity and verification capability. PEak does this by
+                  providing a single source of truth for functional models,
+                  formal specifications, and RTL. PEak has been used in several
+                  academic projects, and PEak-generated RTL has been included
+                  in three fabricated hardware accelerators. In these projects,
+                  the formal capabilities of PEak were crucial for enabling
+                  both novel design space exploration techniques and automated
+                  compiler synthesis.",
+}
+
+%complete
+@article{TZB25,
+  url       = "http://theory.stanford.edu/~barrett/pubs/TZN25.pdf",
+  author    = "Guilherme V. Toledo and Yoni Zohar and Clark Barrett",
+  title     = "Combining Combination Properties, Part I: Nelson-Oppen and Politeness",
+  journal   = "Journal of Automated Reasoning",
+  publisher = "Springer",
+  volume    = 70,
+  number    = 1,
+  month     = dec,
+  year      = 2025,
+  doi       = "10.1007/s10817-025-09746-5",
+  category  = "Journal Articles",
+  abstract  = "This is the first part of an analysis of the interplay between
+                  multiple properties that are related to combination
+                  methodologies for theories in the field of satisfiability
+                  modulo theories. We here focus on Nelson-Oppen and polite
+                  theory combinations, leading to a total of five
+                  model-theoretic properties to be considered: stable
+                  infiniteness, smoothness, finite witnessability, strong
+                  finite witnessability, and convexity. Our first result is an
+                  improvement on polite theory combination, showing that it is
+                  possible when only assuming stable infiniteness and strong
+                  finite witnessability, and thus implying smoothness is not a
+                  prerequisite for this method. Second, we provide examples of
+                  Boolean combinations of the aforementioned 5 properties
+                  whenever they are possible (e.g., a theory that admits all
+                  the properties, a theory that admits none, etc.), sharp in
+                  the sense that no theories within simpler signatures may
+                  exhibit the exact same properties, and prove which
+                  combinations cannot occur. Among these examples, the most
+                  surprising one is that of a polite yet not strongly polite
+                  theory in one sort, a combination whose previous example in
+                  the literature was two-sorted."
+}
+
+%complete
+@article{BHS25,
+   url       = "https://dl.acm.org/doi/full/10.1145/3737447",
+   author    = "Clark Barrett and Thomas A Henzinger and Sanjit A Seshia",
+   title     = "Certificates in {AI}: Learn but Verify",
+   journal   = "Communications of the Association for Computing Machinery (CACM)",
+   publisher = "Association for Computing Machinery",
+   volume    = 69,
+   number    = 1,
+   pages     = "66--75",
+   month     = dec,
+   year      = 2025,
+   doi       = "10.1145/3737447",
+   category  = "Journal Articles",
+   abstract  = "In certifiable machine learning, AI systems produce not only
+                  results but also verifiable certificates that the results can
+                  be trusted.",
+}
+
+%complete
+@article {BBC+25,
+   url       = "https://dl.acm.org/doi/abs/10.1145/3763167",
+   author    = "Henrik B{\"o}ving and Siddharth Bhat and Luisa Cicolini and Alex Keizer and L{\'e}on Frenot and Abdalrhman Mohamed and L{\'e}o Stefanesco and Harun Khan and Joshua Clune and Clark Barrett and Tobias Grosser",
+   title     = "Interactive Bitvector Reasoning using Verified Bit-Blasting",
+   journal   = "Proceedings of the ACM on Programming Languages",
+   volume    = 9,
+   number    = "OOPSLA2",
+   pages     = "3259--3285",
+   doi       = "10.1145/3763167",
+   month     = oct,
+   year      = 2025,
+   category  = "Journal Articles",
+   abstract  = "Bit-blasting SMT solvers enable efficient automatic reasoning about bitvectors, which are fundamental for the verification of compiler backends, cryptographic algorithms, hardware designs and other soft- or hardware tasks. Despite the clear demand for efficient bitvector reasoning infrastructure and the impressive advancements in state-of-the-art bit-blasting SMT solvers such as Bitwuzla, effective bitvector reasoning within interactive theorem provers (ITPs) remains a challenge, hindering their use for mechanized proofs. Incomplete bitvector libraries, unavailable or only partially integrated decision procedures, complex and hard-to-bitblast operations, and limited integration with the host language prevent the wide adoption of bitvector reasoning in proving contexts. We introduce bv_decide: the first end-to-end verified bitblaster designed for interactive bitvector reasoning in a dependently-typed ITP. Our verified bitblaster is scalable, comes with a complete end-to-end proof (trusting only the Lean compiler and kernel), and is available as a proof tactic that allows interactive reasoning right from within a programming language, in our case Lean. We use Lean's Functional But In-Place (FBIP) paradigm to efficiently encode our core data structures (e.g., AIGs), demonstrating that fast execution of an SMT solver need not come at the expense of rigorous formalization. We enable dependable interactive verification of user-written-code by basing Lean's C-Style standard dataypes UInt/SInt on our bitvector type, adding a lowering from enums and structs to bitvectors to enable transparent bit-blasting support for composed types, and by offering an interactive tactic that either solves a goal or provides a counter-example. Moreover, we present the design of Lean's canonical bitvector library, which supports all operations (with reasoning principles) for the SMT-LIB 2.7 standard (including overflow modeling), is fast-to-execute, and offers a comprehensive API and automation for bit-width-independent reasoning. We thoroughly evaluate our bit-blaster on a comprehensive set of benchmarks, including the full SMT-LIB dataset, where bv_decide solves more theorems than the state-of-the-art in verified bit-blasting, CoqQFBV. We also verify over 7000 SMT statements extracted from LLVM, providing the largest mechanized verification of LLVM rewrites to date, to our knowledge. By making bit-blasting bitvector reasoning a polished, well-supported, and interactive feature of modern ITPs, we enable effective, dependable white-box reasoning for bitvector-level verification.",
+}
+
+% complete
+@article {OWB+25,
+   url       = "http://theory.stanford.edu/~barrett/pubs/OWB+25.pdf",
+   author    = "Ozdemir, Alex and Wahby, Riad S. and Brown, Fraser and Barrett, Clark",
+   title     = "Bounded Verification for Finite-Field-Blasting in a Compiler for Zero Knowledge Proofs",
+   journal   = "Formal Methods in System Design",
+   publisher = "Springer",
+   keywords  = "Zero-knowledge proofs, finite fields, compilers, verification, SMT",
+   month     = may,
+   year      = 2025,
+   volume    = 67,
+   pages     = "161--188",
+   doi       = "10.1007/s10703-025-00476-3",
+   category  = "Journal Articles",
+   abstract  = "Zero Knowledge Proofs (ZKPs) are cryptographic protocols by
+                  which a prover convinces a verifier of the truth of a
+                  statement without revealing any other information. Typically,
+                  statements are expressed in a high-level language and then
+                  compiled to a low-level representation on which the ZKP
+                  operates. Thus, a bug in a ZKP compiler can compromise the
+                  statement that the ZK proof is supposed to establish. This
+                  paper takes a step towards ZKP compiler correctness by
+                  partially verifying a field-blasting compiler pass, a pass
+                  that translates Boolean and bit-vector logic into equivalent
+                  operations in a finite field. First, we define correctness
+                  for field-blasters and ZKP compilers more generally. Next, we
+                  describe the specific field-blaster using a set of encoding
+                  rules and define verification conditions for individual
+                  rules. Finally, we connect the rules and the correctness
+                  definition by showing that if our verification conditions
+                  hold, the field-blaster is correct. We have implemented our
+                  approach in the CirC ZKP compiler and have proved bounded
+                  versions of the corresponding verification conditions using
+                  an SMT solver. We show that our partially verified
+                  field-blaster does not hurt the performance of the compiler
+                  or its output; we also report on four bugs uncovered during
+                  verification.",
+}
+
+
+
+%complete
+@article{DLF+24,
+  url       = "http://dx.doi.org/10.1561/3500000003",
+  author    = "Keerthikumara Devarajegowda and Florian Lonsing and Mohammad R. Fadiheh and Saranyu Chattopadhyay and David Lin and Srinivas Shashank Nuthakki and Eshan Singh and Clark Barrett and Wolfgang Ecker and Wolfgang Kunz and Yanjing Li and Dominik Stoffel and Subhasish Mitra",
+  title     = "{QED} and Symbolic {QED}: Dramatic Improvements in Pre-Silicon Verification and Post-Silicon Validation",
+  journal   = "Foundations and Trends in Integrated Circuits and Systems",
+  publisher = "now publishers inc.",
+  volume    = 3,
+  number    = "2--3",
+  pages     = "51--217",
+  month     = oct,
+  year      = 2024,
+  doi       = "10.1561/3500000003",
+  category  = "Journal Articles",
+  abstract  = "System-on-Chips (SoCs) are an integral part of our lives. The complexity of SoCs requires sophisticated tools and methods for ensuring functional correctness, especially in critical domains such as automotive and healthcare applications. In addition, the prevalence of security features in SoCs and emerging threats such as Spectre and Meltdown underscore the need for advanced verification techniques to combat security vulnerabilities. Existing verification approaches consume over 50\% of development effort. Pre-silicon verification ensures functional correctness before chip fabrication, while post-silicon validation detects bugs that escape pre-silicon verification. Existing pre-silicon and post-silicon approaches are inadequate resulting in skyrocketing bug escapes and respins. To address these challenges, this book presents pre-silicon verification and post-silicon validation methods based on Quick Error Detection (QED) principles: self-consistency checking to detect and localize design bugs.
+
+Symbolic QED combines QED principles with model checking (a formal verification technique) for pre-silicon verification. Many studies, including industrial case studies, have demonstrated the effectiveness and practicality of Symbolic QED. In an industrial case study using well-verified designs, Symbolic QED detected all logic bugs found by traditional methods and additional bugs they missed. This significantly boosted design productivity, reducing verification efforts by 8X for new designs and 80X for revisions. QED-based methods for post-silicon validation significantly reduce the error detection latency (the time elapsed between the occurrence of a bug and its manifestation as an observable failure) by several orders of magnitude, addressing the limitations of existing validation and debug approaches.
+
+We also discuss Unique Program Execution Checking (UPEC), a hardware security verification technique inspired by QED principles. UPEC systematically detects Transient Execution Side-channels (TES) in processor implementations and has demonstrated its ability to detect Spectre and Meltdown type security attacks on complex processor cores, including out-of-order cores. UPEC is the first formal verification approach at the Register-Transfer Level that comprehensively checks for TES vulnerabilities in microarchitectures without prior knowledge of specific attacks. This enables the detection of new or previously unknown TES threats through UPEC rather than depending on the insights of security researchers and experts. Beyond the specific QED techniques described here, a new pre-silicon verification approach called G-QED (Generalized Quick Error Detection) is already demonstrating drastic benefits for pre-silicon verification of a wide variety of designs.",  
+}
+
+%complete
 @article{SNR+23,
   url       = "https://link.springer.com/article/10.1007/s10817-023-09682-2",
   author    = "Ying Sheng and Andres N{\"o}tzli and Andrew Reynolds and Yoni Zohar and David Dill and Wolfgang Grieskamp and Junkil Park and Shaz Qadeer and Clark Barrett and Cesare Tinelli",
@@ -314,7 +497,7 @@ solvers, and several extensions and enhancements."
   abstract  = "Polite theory combination is a method for obtaining a solver for
                   a combination of two (or more) theories using the solvers of
                   each individual theory as black boxes. Unlike the earlier
-                  Nelson–Oppen method, which is usable only when both theories
+                  Nelson-Oppen method, which is usable only when both theories
                   are stably infinite, only one of the theories needs to be
                   strongly polite in order to use the polite combination
                   method. In its original presentation, politeness was required
@@ -324,11 +507,11 @@ solvers, and several extensions and enhancements."
                   different, obtained by presenting a polite theory that is not
                   strongly polite. We also study several variants of this
                   question.  The cost of the generality afforded by the polite
-                  combination method, compared to the Nelson–Oppen method, is a
+                  combination method, compared to the Nelson-Oppen method, is a
                   larger space of arrangements to consider, involving variables
                   that are not necessarily shared between the purified parts of
                   the input formula. The second contribution of this paper is a
-                  hybrid method (building on both polite and Nelson–Oppen
+                  hybrid method (building on both polite and Nelson-Oppen
                   combination), which aims to reduce the number of considered
                   variables when a theory is stably infinite with respect to
                   some of its sorts but not all of them. The time required to
@@ -431,9 +614,49 @@ solvers, and several extensions and enhancements."
                   programs for a set of intricate benchmarks. Additionally, we
                   present a case study where we integrate CEGIS($\mathcal{T}$)
                   within the mature synthesiser CVC4 and show that
-                  CEGIS($\mathcal{T}$) improves CVC4’s results."
+                  CEGIS($\mathcal{T}$) improves CVC4's results."
 }
 
+
+%complete
+@article {KMS+23,
+   url       = "http://theory.stanford.edu/~barrett/pubs/KMS+23.pdf",
+   author    = "Kalhan Koul and Jackson Melchert and Kavya Sreedhar and Leonard Truong and Gedeon Nyengele and Keyi Zhang and Qiaoyi Liu and Jeff Setter and Po-Han Chen and Yuchen Mei and Maxwell Strange and Ross Daly and Caleb Donovick and Alex Carsello and Taeyoung Kong and Kathleen Feng and Dillon Huff and Ankita Nayak and Rajsekhar Setaluri and James Thomas and Nikhil Bhagdikar and David Durst and Zachary Myers and Nestan Tsiskaridze and Stephen Richardson and Rick Bahr and Kayvon Fatahalian and Pat Hanrahan and Clark Barrett and Mark Horowitz and Christopher Torng and Fredrik Kjolstad and Priyanka Raina",
+   title     = "{AHA}: An Agile Approach to the Design of Course-Grained Reconfigurable Accelerators and Compilers",
+   journal   = "ACM Transactions on Embedded Computing Systems",
+   volume    = 22,
+   number    = 2,
+   pages     = "1--34",
+   doi       = "10.1145/3534933",
+   month     = jan,
+   year      = 2023,
+   category  = "Journal Articles",
+   abstract  = "With the slowing of Moore's law, computer architects have
+                  turned to domain-specific hardware specialization to continue
+                  improving the performance and efficiency of computing
+                  systems. However, specialization typically entails
+                  significant modifications to the software stack to properly
+                  leverage the updated hardware. The lack of a structured
+                  approach for updating both the compiler and the accelerator
+                  in tandem has impeded many attempts to systematize this
+                  procedure. We propose a new approach to enable flexible and
+                  evolvable domain-specific hardware specialization based on
+                  coarse-grained reconfigurable arrays (CGRAs). Our agile
+                  methodology employs a combination of new programming
+                  languages and formal methods to automatically generate the
+                  accelerator hardware and its compiler from a single source of
+                  truth. This enables the creation of design-space exploration
+                  frameworks that automatically generate accelerator
+                  architectures that approach the efficiencies of hand-designed
+                  accelerators, with a significantly lower design effort for
+                  both hardware and compiler generation. Our current system
+                  accelerates dense linear algebra applications, but is modular
+                  and can be extended to support other domains. Our methodology
+                  has the potential to significantly improve the productivity
+                  of hardware-software engineering teams and enable quicker
+                  customization and deployment of complex accelerator-rich
+                  computing systems."
+}
 
 %complete
 @article {WBS+22,
@@ -467,47 +690,6 @@ solvers, and several extensions and enhancements."
                   verifying important properties of a state-of-the-art
                   GNN-based scheduler compared to previous methods."
 }
-
-%incomplete
-@article {KMS+22,
-   url       = "http://theory.stanford.edu/~barrett/pubs/KMS+22.pdf",
-   author    = "Kalhan Koul and Jackson Melchert and Kavya Sreedhar and Leonard Truong and Gedeon Nyengele and Keyi Zhang and Qiaoyi Liu and Jeff Setter and Po-Han Chen and Yuchen Mei and Maxwell Strange and Ross Daly and Caleb Donovick and Alex Carsello and Taeyoung Kong and Kathleen Feng and Dillon Huff and Ankita Nayak and Rajsekhar Setaluri and James Thomas and Nikhil Bhagdikar and David Durst and Zachary Myers and Nestan Tsiskaridze and Stephen Richardson and Rick Bahr and Kayvon Fatahalian and Pat Hanrahan and Clark Barrett and Mark Horowitz and Christopher Torng and Fredrik Kjolstad and Priyanka Raina",
-   title     = "{AHA}: An Agile Approach to the Design of Course-Grained Reconfigurable Accelerators and Compilers",
-   journal   = "ACM Transactions on Embedded Computing Systems",
-   doi       = "10.1145/3534933",
-   month     = apr,
-   year      = 2022,
-   category  = "Journal Articles",
-   abstract  = "With the slowing of Moore's law, computer architects have
-                  turned to domain-specific hardware specialization to continue
-                  improving the performance and efficiency of computing
-                  systems. However, specialization typically entails
-                  significant modifications to the software stack to properly
-                  leverage the updated hardware. The lack of a structured
-                  approach for updating both the compiler and the accelerator
-                  in tandem has impeded many attempts to systematize this
-                  procedure. We propose a new approach to enable flexible and
-                  evolvable domain-specific hardware specialization based on
-                  coarse-grained reconfigurable arrays (CGRAs). Our agile
-                  methodology employs a combination of new programming
-                  languages and formal methods to automatically generate the
-                  accelerator hardware and its compiler from a single source of
-                  truth. This enables the creation of design-space exploration
-                  frameworks that automatically generate accelerator
-                  architectures that approach the efficiencies of hand-designed
-                  accelerators, with a significantly lower design effort for
-                  both hardware and compiler generation. Our current system
-                  accelerates dense linear algebra applications, but is modular
-                  and can be extended to support other domains. Our methodology
-                  has the potential to significantly improve the productivity
-                  of hardware-software engineering teams and enable quicker
-                  customization and deployment of complex accelerator-rich
-                  computing systems."
-}
-%   url       = "https://arxiv.org/pdf/2101.06825v6.pdf",
-%   volume    = 18,
-%   number    = 3,
-
 
 %complete
 @article {MIG+22,
@@ -929,7 +1111,7 @@ with specialized string solvers with a comparable input language."
 initiated in 2005 in order to stimulate the advance of state-of-the-art techniques and
 tools developed by the Satisﬁability Modulo Theories (SMT) community. This paper
 summarizes the ﬁrst six editions of the competition. We present the evolution of the
-competition’s organization and rules, show how the state of the art has improved
+competition's organization and rules, show how the state of the art has improved
 over the course of the competition, and discuss the impact SMT-COMP has had on
 the SMT community and beyond. Additionally, we include an exhaustive list of all
 competitors, and present experimental results showing signiﬁcant improvement in SMT
@@ -993,7 +1175,7 @@ heuristics. Inspired by Simplify and motivated by a desire to
 provide a competitive alternative to ATP systems, this paper describes a
 methodology for reasoning about quantifiers in SMT systems.We present
 the methodology in the context of the Abstract DPLL Modulo Theories
-framework. Besides adapting many of Simplify’s techniques, we also introduce
+framework. Besides adapting many of Simplify's techniques, we also introduce
 a number of new heuristics. Most important is the notion of
 instantiation level which provides an effective mechanism for prioritizing
 and managing the large search space inherent in quantifier instantiation
@@ -1158,15 +1340,984 @@ make it effective in practice are also described."
 }
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Conference Papers
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%complete
+@inproceedings{PCL+26,
+  author       = {Aron Ricardo Perez{-}Lopez and
+                  Po{-}Chun Chien and
+                  Florian Lonsing and
+                  Samantha Archer and
+                  Ahmed Irfan and
+                  Clark W. Barrett},
+  editor       = {Augusto Sampaio and
+                  Marielle Stoelinga},
+  title        = {Pono 2.0: {A} Versatile SMT-Based Model Checker for Safety and Liveness
+                  (Long Tool Paper)},
+  booktitle    = {Formal Methods - 27th International Symposium, {FM} 2026, Tokyo, Japan,
+                  May 18-22, 2026, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {3--26},
+  publisher    = {Springer},
+  month        = may,
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-26220-2_1},
+  doi          = {10.1007/978-3-032-26220-2_1},
+  timestamp    = {Tue, 26 May 2026 12:43:49 +0200},
+  biburl       = {https://dblp.org/rec/conf/fm/PerezLopezCLAIB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {Symbolic model checking is an important tool for finding bugs (or proving the absence of bugs) in modern system designs. Because of this, improving the ease of use, scalability, and performance of model checking tools and algorithms continues to be an important research direction. In service of this goal, we present Pono, an open-source SMT-based model checker. Pono is designed to be both a research platform for developing and improving model checking algorithms, as well as a performance-competitive tool that can be used for academic and industry verification applications. In addition to performance, Pono prioritizes transparency (developed as an open-source project on GitHub), flexibility (Pono can be adapted to a variety of tasks by exploiting its general SMT-based interface), and extensibility (it is easy to add new algorithms and new back-end solvers). In this paper, we describe the design of the tool with a focus on the flexible and extensible architecture, cover its current capabilities, and demonstrate that Pono is competitive with state-of-the-art tools.},
+}
+
+%complete
+@inproceedings{CB26,
+  url          = {http://theory.stanford.edu/~barrett/pubs/CB26.pdf},
+  author       = {Rachel Cleaveland and
+                  Clark W. Barrett},
+  editor       = {Sebastian Junges and
+                  Guy Katz},
+  title        = {Integrating String Reasoning in Symbolic Execution of {C} Programs},
+  booktitle    = {Tools and Algorithms for the Construction and Analysis of Systems
+                  - 32nd International Conference, {TACAS} 2026, Held as Part of the
+                  International Joint Conferences on Theory and Practice of Software,
+                  {ETAPS} 2026, Turin, Italy, April 11-16, 2026, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {151--172},
+  publisher    = {Springer},
+  month        = apr,
+  year         = {2026},
+  doi          = {10.1007/978-3-032-22749-2_8},
+  timestamp    = {Sun, 26 Apr 2026 20:45:57 +0200},
+  biburl       = {https://dblp.org/rec/conf/tacas/CleavelandB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {Symbolic execution is a powerful program analysis technique which explores new paths through a program by generating inputs that are guaranteed to exercise those paths. However, there is a lack of modern research on symbolic execution for programs that manipulate strings, especially for C programs. In this work, we develop an approach for symbolically executing string-manipulating C programs and implement it in a proof-of-concept tool called SymCC-str. SymCC-str is built on top of the concolic execution engine SymCC and the smt-switch SMT solving API, enabling it to make use of modern advancements in both symbolic execution and string solving. SymCC-str's novelty lies in its hybrid data representation, expressing symbolic data both as SMT bitvectors and strings in order to balance the performance and expressivity of these respective theories. Through this novel approach, SymCC-str achieves a median 9.9\% increase in branch coverage (up to 990\% in the best case) compared to SymCC on 6 real-world benchmark programs.},
+}
+
+%complete
+@inproceedings{SBP+26,
+  url          = {http://theory.stanford.edu/~barrett/pubs/SBP+26.pdf},
+  author       = {Hans{-}J{\"{o}}rg Schurr and
+                  Fran{\c{c}}ois Bobot and
+                  Mathias Preiner and
+                  Aina Niemetz and
+                  Clark W. Barrett and
+                  Pascal Fontaine and
+                  Cesare Tinelli},
+  editor       = {Sebastian Junges and
+                  Guy Katz},
+  title        = {Exploring the {SMT-LIB} Benchmark Library},
+  booktitle    = {Tools and Algorithms for the Construction and Analysis of Systems
+                  - 32nd International Conference, {TACAS} 2026, Held as Part of the
+                  International Joint Conferences on Theory and Practice of Software,
+                  {ETAPS} 2026, Turin, Italy, April 11-16, 2026, Proceedings, Part {I}},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {150--169},
+  publisher    = {Springer},
+  month        = apr,
+  year         = {2026},
+  doi          = {10.1007/978-3-032-22752-2_8},
+  timestamp    = {Thu, 21 May 2026 17:36:17 +0200},
+  biburl       = {https://dblp.org/rec/conf/tacas/SchurrBPNBFT26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {The SMT-LIB benchmark collection is a large set of problems for SMT solvers. It has been continuously maintained and expanded since its creation in the early 2000s by the SMT-LIB initiative. It has been used since 2005 by the annual SMT solver competition to compare the performance of SMT solvers, and by researchers to study novel solving techniques. Effective use of the collection often requires access to benchmark metadata (e.g., date, source, satisfiability status, theory symbol count, and so on). Furthermore, this metadata and the past competition results contain a wealth of historical information about the development of SMT solving. In this paper, we report on our efforts to collect and curate all metadata from the SMT-LIB benchmarks together with the results of all past SMT-COMP competitions in a single SQLite database. We also present tools to explore this database and extract relevant insights. Since APIs for SQLite databases are available for all major programming languages, the database makes it easy to add features using SMT benchmark metadata to SMT development tools. To illustrate the structure of the collected data we perform multiple case studies. In particular, we present a comparison of SMT solvers that is independent of the changing hardware and benchmarks used by the competition. The database is released annually on Zenodo, and serves as an archive of the state of SMT-LIB and, by extension, of the state of the art in SMT.},
+}
+
+%complete
+@inproceedings{SSA+26,
+  url          = {http://theory.stanford.edu/~barrett/pubs/SSA+26.pdf},
+  author       = {Chuyue Sun and
+                  Yican Sun and
+                  Daneshvar Amrollahi and
+                  Ethan Zhang and
+                  Shuvendu K. Lahiri and
+                  Shan Lu and
+                  David L. Dill and
+                  Clark W. Barrett},
+  editor       = {Sebastian Junges and
+                  Guy Katz},
+  title        = {VeriStruct: AI-assisted Automated Verification of Data-Structure Modules
+                  in Verus},
+  booktitle    = {Tools and Algorithms for the Construction and Analysis of Systems
+                  - 32nd International Conference, {TACAS} 2026, Held as Part of the
+                  International Joint Conferences on Theory and Practice of Software,
+                  {ETAPS} 2026, Turin, Italy, April 11-16, 2026, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {109--128},
+  publisher    = {Springer},
+  month        = apr,
+  year         = {2026},
+  doi          = {10.1007/978-3-032-22749-2_6},
+  timestamp    = {Thu, 21 May 2026 17:36:17 +0200},
+  biburl       = {https://dblp.org/rec/conf/tacas/SunSAZLLDB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {We introduce VeriStruct, a novel framework that extends AI-assisted automated verification from single functions to more complex data structure modules in Verus. VeriStruct employs a planner module to orchestrate the systematic generation of abstractions, type invariants, specifications, and proof code. To address the challenge that LLMs often misunderstand Verus' annotation syntax and verification-specific semantics, VeriStruct embeds syntax guidance within prompts and includes a repair stage to automatically correct annotation errors. In an evaluation on eleven Rust data structure modules, VeriStruct succeeds on ten of the eleven, successfully verifying 128 out of 129 functions (99.2\%) in total. These results represent an important step toward the goal of automatic AI-assisted formal verification.},
+}
+
+%complete
+@inproceedings{HWI+26,
+  author       = {Pei Huang and
+                  Dennis Wei and
+                  Omri Isac and
+                  Haoze Wu and
+                  Min Wu and
+                  Clark W. Barrett},
+  editor       = {Sven Koenig and
+                  Chad Jenkins and
+                  Matthew E. Taylor},
+  title        = {Parameterized Abstract Interpretation for Transformer Verification},
+  booktitle    = {Fortieth {AAAI} Conference on Artificial Intelligence, Thirty-Eighth
+                  Conference on Innovative Applications of Artificial Intelligence,
+                  Sixteenth Symposium on Educational Advances in Artificial Intelligence,
+                  {AAAI} 2026, Singapore, January 20-27, 2026},
+  pages        = {35500--35508},
+  publisher    = {{AAAI} Press},
+  month        = jan,
+  year         = {2026},
+  url          = {https://doi.org/10.1609/aaai.v40i42.40860},
+  doi          = {10.1609/AAAI.V40I42.40860},
+  timestamp    = {Wed, 25 Mar 2026 07:33:34 +0100},
+  biburl       = {https://dblp.org/rec/conf/aaai/HuangWIWWB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {Transformers based on the self-attention mechanism have become foundational models across a wide range of domains, thereby creating an urgent need for effective formal verification techniques to better understand their behavior and ensure safety guarantees. In this paper, we propose two parameterized linear abstract domains for the inner products in the self-attention module, aiming to improve verification precision. The first one constructs symbolic quadratic upper and lower bounds for the product of two scalars, and then derives parameterized affine bounds using tangents. The other one constructs parameterized bounds by interpolating affine bounds proposed in prior work. We evaluate these two parameterization methods and demonstrate that both of them outperform the state-of-the-art approach which is regarded as optimal with respect to a certain mean gap. Experimental results show that, in the context of robustness verification, our approach is able to verify many instances that cannot be verified by existing methods. In the interval analysis, our method achieves tighter results compared to the SOTA, with the strength becoming more pronounced as the network depth increases.},
+}
+
+%complete
+@inproceedings{WBN26,
+  author       = {Haoze Wu and
+                  Clark W. Barrett and
+                  Nina Narodytska},
+  editor       = {Sven Koenig and
+                  Chad Jenkins and
+                  Matthew E. Taylor},
+  title        = {Cubing for Tuning},
+  booktitle    = {Fortieth {AAAI} Conference on Artificial Intelligence, Thirty-Eighth
+                  Conference on Innovative Applications of Artificial Intelligence,
+                  Sixteenth Symposium on Educational Advances in Artificial Intelligence,
+                  {AAAI} 2026, Singapore, January 20-27, 2026},
+  pages        = {14361--14370},
+  publisher    = {{AAAI} Press},
+  month        = jan,
+  year         = {2026},
+  url          = {https://doi.org/10.1609/aaai.v40i17.38451},
+  doi          = {10.1609/AAAI.V40I17.38451},
+  timestamp    = {Mon, 30 Mar 2026 17:02:29 +0200},
+  biburl       = {https://dblp.org/rec/conf/aaai/WuBN26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {We are exploring the problem of building an automated reasoning procedure that adaptively tunes the high-level solving strategy for a given problem. There are two main distinctive characteristics of our approach: tuning is performed solely online, unlike the common use of tuning as an offline process; and tuning data comes exclusively from the given instance, so we do not rely on the availability of similar benchmarks and can work with unique challenging instances. Our approach builds on top of the divide-and-conquer paradigm that naturally serves partitioned sub-problems for an automated tuning algorithm to obtain a good solving strategy. We demonstrate performance improvement on two classes of important problems--SAT-solving and neural network verification--and show that our method can learn unconventional solving strategies in some cases.},
+}
+
+%complete
+@inproceedings{WLW+26,
+  author       = {Min Wu and
+                  Xiaofu Li and
+                  Haoze Wu and
+                  Clark W. Barrett},
+  editor       = {Sven Koenig and
+                  Chad Jenkins and
+                  Matthew E. Taylor},
+  title        = {Efficiently Computing Compact Formal Explanations},
+  booktitle    = {Fortieth {AAAI} Conference on Artificial Intelligence, Thirty-Eighth
+                  Conference on Innovative Applications of Artificial Intelligence,
+                  Sixteenth Symposium on Educational Advances in Artificial Intelligence,
+                  {AAAI} 2026, Singapore, January 20-27, 2026},
+  pages        = {35857--35866},
+  publisher    = {{AAAI} Press},
+  month        = jan,
+  year         = {2026},
+  url          = {https://doi.org/10.1609/aaai.v40i42.40900},
+  doi          = {10.1609/AAAI.V40I42.40900},
+  timestamp    = {Tue, 21 Apr 2026 16:20:35 +0200},
+  biburl       = {https://dblp.org/rec/conf/aaai/WuLWB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {Building on VeriX (Verified eXplainability), a system for producing optimal verified explanations for machine learning models, we present VeriX+, which significantly improves both the size and the generation time of formal explanations. We introduce a bound propagation-based sensitivity technique to improve the size, and a binary search-based traversal with confidence ranking for improving time---the two techniques are orthogonal and can be used independently or together. We also show how to adapt the QuickXplain algorithm to our setting to provide a trade-off between size and time. Experimental evaluations on standard benchmarks demonstrate significant improvements on both metrics, e.g., a size reduction of 38\% on the GTSRB dataset and a time reduction of 90\% on MNIST. We demonstrate that our approach is scalable to transformers and real-world scenarios such as autonomous aircraft taxiing and sentiment analysis. We conclude by showcasing several novel applications of formal explanations.}
+}
+
+%complete
+@inproceedings{MKM+26,
+  author       = {Tomaz Mascarenhas and
+                  Harun Khan and
+                  Abdalrhman Mohamed and
+                  Andrew Reynolds and
+                  Haniel Barbosa and
+                  Clark W. Barrett and
+                  Cesare Tinelli},
+  editor       = {Kathrin Stark and
+                  Yannick Zakowski and
+                  Nikhil Swamy and
+                  Nicolas Tabareau},
+  title        = {Formalization of a Proof Calculus for Incremental Linearization for
+                  Satisfiability Modulo Nonlinear Arithmetic and Transcendental Functions},
+  booktitle    = {Proceedings of the 15th {ACM} {SIGPLAN} International Conference on
+                  Certified Programs and Proofs, {CPP} 2026, Rennes, France, January
+                  12-13, 2026},
+  pages        = {216--230},
+  publisher    = {{ACM}},
+  month        = jan,
+  year         = {2026},
+  url          = {https://doi.org/10.1145/3779031.3779111},
+  doi          = {10.1145/3779031.3779111},
+  timestamp    = {Tue, 03 Feb 2026 08:27:35 +0100},
+  biburl       = {https://dblp.org/rec/conf/cpp/Mascarenhas0M0B26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {Determining the satisfiability of formulas involving nonlinear real arithmetic and transcendental functions is necessary in many applications, such as formally verifying dynamic systems. Doing this automatically generally requires costly and intricate methods, which limits their applicability. In the context of SMT solving, Incremental Linearization was introduced recently to facilitate reasoning on this domain, via an incomplete but easy to implement and highly effective approach. The approach, based on abstraction-refinement via an incremental axiomatization of the nonlinear and transcendental operators, is currently implemented in the SMT solvers MathSAT and cvc5. The cvc5 implementation is also proof-producing. This paper presents two contributions: a formalization in the Lean proof assistant of the proof calculus employed by cvc5, and an extension of the lean-smt plugin to reconstruct the proofs produced by cvc5 using this proof calculus. These contributions ensure the soundness of the proof calculus, making the underlying algorithm more trustworthy. Moreover, they allow users to check cvc5 results obtained via incremental linearization, as well as improve Lean's automation for problems in nonlinear arithmetic. We discuss how we modeled the rules in the proof assistant and the challenges encountered while formalizing them, as well as the issues in reconstructing proofs involving these rules in Lean, and how we solved them.},
+}
+
+%complete
+@inproceedings{IRW+26,
+  author       = {Omri Isac and
+                  Idan Refaeli and
+                  Haoze Wu and
+                  Clark W. Barrett and
+                  Guy Katz},
+  editor       = {Yu{-}Fang Chen and
+                  Thomas P. Jensen and
+                  Ondrej Leng{\'{a}}l},
+  title        = {Proof Minimization in Neural Network Verification},
+  booktitle    = {Verification, Model Checking, and Abstract Interpretation - 27th International
+                  Conference, {VMCAI} 2026, Rennes, France, January 12-13, 2026, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {99--124},
+  publisher    = {Springer},
+  month        = jan,
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-15700-3_6},
+  doi          = {10.1007/978-3-032-15700-3_6},
+  timestamp    = {Thu, 07 May 2026 20:28:47 +0200},
+  biburl       = {https://dblp.org/rec/conf/vmcai/IsacRWBK26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Conference Publications},
+  abstract     = {The widespread adoption of deep neural networks (DNNs) requires efficient techniques for verifying their safety. DNN verifiers are complex tools, which might contain bugs that could compromise their soundness and undermine the reliability of the verification process. This concern can be mitigated using proofs: artifacts that are checkable by an external and reliable proof checker, and which attest to the correctness of the verification process. However, such proofs tend to be extremely large, limiting their use in many scenarios. In this work, we address this problem by minimizing proofs of unsatisfiability produced by DNN verifiers. We present algorithms that remove facts which were learned during the verification process, but which are unnecessary for the proof itself. Conceptually, our method analyzes the dependencies among facts used to deduce UNSAT, and removes facts that did not contribute. We then further minimize the proof by eliminating remaining unnecessary dependencies, using two alternative procedures. We implemented our algorithms on top of a proof producing DNN verifier, and evaluated them across several benchmarks. Our results show that our best-performing algorithm reduces proof size by 37\%-82\% and proof checking time by 30\%-88\%, while introducing a runtime overhead of 7\%-20\% to the verification process itself.}
+}
+
+%complete
+@inproceedings{MTP+25,
+  url       = "https://repositum.tuwien.at/handle/20.500.12708/219556",
+  author    = "Melchert, Jackson and Terrill, Caleb and Perez-Lopez, {\'A}ron Ricardo and Barrett, Clark and Raina, Priyanka",
+  title     = "Automated Translation Validation of a Compiler for Statically Scheduled Accelerators",
+  booktitle = "Proceedings of the $25^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '25)",
+  editor    = "Ahmed Irfan and Daniela Kaufmann",
+  publisher = "TU Wien Academic Press",
+  pages     = "198--208",
+  month     = oct,
+  year      = 2025,
+  doi       = "10.34727/2025/isbn.978-3-85448-084-6_26",
+  note      = "Menlo Park, CA, USA",
+  category  = "Conference Publications",
+  abstract  = "Compilers for programmable hardware accelerators are complex and
+                  involve progressively lowering an application down to the
+                  hardware. Bugs can be introduced at many different stages,
+                  but simulation does not provide full bug coverage and has
+                  poor bug localization. We propose a methodology for automated
+                  formal translation validation of compilers for statically
+                  scheduled accelerators. This includes generating symbolic
+                  representations of every stage in the application compiler
+                  and the hardware, leveraging scheduling information for
+                  automatically generating translation validation queries, and
+                  implementing performance enhancements for effective formal
+                  verification. This work provides a blueprint for rigorous
+                  verification of compilers and generators for hardware
+                  accelerators.",
+}
+
+%complete
+@inproceedings{MFR+25,
+  url       = "https://repositum.tuwien.at/handle/20.500.12708/219545",
+  author    = "Mohamed, Mudathir and Feng, Nick and Reynolds, Andrew and Tinelli, Cesare and Barrett, Clark and Chechik, Marsha",
+  title     = "Solving Set Constraints with Comprehensions and Bounded Quantifiers",
+  booktitle = "Proceedings of the $25^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '25)",
+  editor    = "Ahmed Irfan and Daniela Kaufmann",
+  publisher = "TU Wien Academic Press",
+  pages     = "104--114",
+  month     = oct,
+  year      = 2025,
+  doi       = "10.34727/2025/isbn.978-3-85448-084-6_16",
+  note      = "Menlo Park, CA, USA",
+  category  = "Conference Publications",
+  abstract  = "Many problems in real-world applications can be expressed easily as quantified formulas in SMT. Unfortunately, reasoning about quantified formulas in SMT is notoriously difficult. While different strategies and quantifier instantiation techniques have been developed to tackle this challenge, SMT solvers still struggle with quantified formulas generated by some applications. We discuss the use of set-bounded quantifiers, quantifiers whose variable ranges over a finite, but possibly unbounded, set. Such quantifiers can be eliminated using the quantifier-free fragment of the theory of finite relations extended with a filter operator, which provides a form of restricted set comprehension. We show that this reduction to filter constraints outperforms other quantification techniques in satisfiable problems generated by the SLEEC tool, and is very competitive on unsatisfiable benchmarks with LEGOS, a specialized solver for SLEEC. We also identify a decidable class of constraints with restricted applications of the filter operator, while showing that unrestricted applications lead to undecidability.",
+}
+
+%complete
+@inproceedings{WNB+25,
+  url       = "https://repositum.tuwien.at/handle/20.500.12708/219543",
+  author    = "Amalee Wilson and Nina Narodytska and Clark Barrett and Haoze Wu",
+  title     = "Per-Instance Subproblem Generation for Strategy Selection in SMT",
+  booktitle = "Proceedings of the $25^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '25)",
+  editor    = "Ahmed Irfan and Daniela Kaufmann",
+  publisher = "TU Wien Academic Press",
+  pages     = "94--103",
+  month     = oct,
+  year      = 2025,
+  doi       = "10.34727/2025/isbn.978-3-85448-084-6_15",
+  note      = "Menlo Park, CA, USA",
+  category  = "Conference Publications",
+  abstract  = "In this paper, we investigate customizing the solving strategy for an individual SMT problem, based solely on the problem itself, without relying on any offline strategy tuning. Our key insight is to generate a set of subproblems derived from the original formula, analyze the behavior of candidate solving strategies on these smaller, representative subproblems, and predict which strategy will perform best on the original formula. We demonstrate that performance on the subproblems is frequently indicative of performance on the original formula. Additionally, we introduce a novel subproblem generation procedure that outperforms existing SMT formula partitioning techniques for the proposed workflow. Finally, we show that on a selection of SMT-LIB benchmarks, when our approach can make a prediction, it can reduce the total compute time substantially.",
+}
+
+%complete
+@inproceedings{APN+25,
+  url       = "https://repositum.tuwien.at/handle/20.500.12708/219542",
+  author    = "Amrollahi, Daneshvar and Preiner, Mathias and Niemetz, Aina and Reynolds, Andrew and Charikar, Moses and Tinelli, Cesare and Barrett, Clark",
+  title     = "Towards SMT Solver Stability via Input Normalization",
+  booktitle = "Proceedings of the $25^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '25)",
+  editor    = "Ahmed Irfan and Daniela Kaufmann",
+  publisher = "TU Wien Academic Press",
+  pages     = "84--93",
+  month     = oct,
+  year      = 2025,
+  doi       = "10.34727/2025/isbn.978-3-85448-084-6_14",
+  note      = "Menlo Park, CA, USA",
+  category  = "Conference Publications",
+  abstract  = "In many applications, SMT solvers are utilized to solve similar or identical tasks over time. Significant variations in performance due to small changes in the input are not uncommon and lead to frustration for users. This sort of stability problem represents an important usability challenge for SMT solvers. We introduce an approach for mitigating the stability problem based on normalizing solver inputs. We show that a perfect normalizing algorithm exists but is computationally expensive. We then describe an approximate algorithm and evaluate it on a set of benchmarks from related work, as well as a large set of benchmarks sampled from SMT-LIB. Our evaluation shows that our approximate normalizer reduces runtime variability with minimal overhead and is able to normalize a large class of mutated benchmarks to a unique normal form.",
+}
+
+
+%complete
+@InProceedings{LFB+25,
+  url       = "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2025.26",
+  author    = "Hanna Lachnitt and Mathias Fleury and Haniel Barbosa and Andrew Reynolds and Jibiana Jakpor and Bruno Andreotti and Clark Barrett and Hans-Joerg Schurr and Cesare Tinelli",
+  title     = "Improving the {SMT} Proof Reconstruction Pipeline in {I}sabelle/{HOL}",
+  booktitle = "Proceedings of the $16^{th}$ International Conference on Interactive Theorem Proving (ITP '25)",
+  series    = "Leibniz International Proceedings in Informatics (LIPIcs)",
+  volume    = 352,
+  publisher = "Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik",
+  editor    = "Forster, Yannick and Keller, Chantal",
+  month     = sep,
+  pages     = "26:1--26:22",
+  year      = 2025,
+  doi       = "10.4230/LIPIcs.ITP.2025.26",
+  note      = "Reykjavik, Iceland",
+  category  = "Conference Publications",
+  absract   = "We report the results of a verification experiment on an
+                  algorithm for robust mean estimation, i.e., an algorithm that
+                  computes a mean in the presence of outliers. We formalize the
+                  algorithm in the Coq proof assistant and devise a pragmatic
+                  approach for identifying and solving issues related to the
+                  choice of bounds. To keep our formalization succinct and
+                  generic, we recast the original argument using an existing
+                  library for finite probabilities that we extend with reusable
+                  lemmas. To formalize the original algorithm, which relies on
+                  a subtle convergence argument, we observe that by adding
+                  suitable termination checks, we can turn it into a
+                  well-founded recursion without losing its original
+                  properties. We also exploit a tactic for solving real-valued
+                  inequalities by approximation to heuristically fix inaccurate
+                  constant values in the original proof.",
+}
+
+%complete
+@inproceedings{BZN+25,
+  url       = "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2025.4",
+  author    = "Zvika Berger and Yoni Zohar and Aina Niemetz and Mathias Preiner and Andrew Reynolds and Clark Barrett and Cesare Tinelli",
+  title     = "Bit-Precise Reasoning with Parametric Bit-Vectors",
+  booktitle = "Proceedings of the $28^{th}$ International Conference on Theory and Applications of Satisfiability Testing (SAT '25)",
+  series    = "Leibniz International Proceedings in Informatics (LIPIcs)",
+  volume    = 341,
+  publisher = "Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik",
+  editor    = "Berg, Jeremias and Nordstr{\"o}m, Jakob",
+  pages     = "4:1--4:24",
+  month     = aug,
+  year      = 2025,
+  doi       = "10.4230/LIPIcs.SAT.2025.4",
+  note      = "Glasgow, Scotland",
+  category  = "Conference Publications",
+  abstract  = "The SMT-LIB theory of bit-vectors is restricted to bit-vectors
+                  of fixed width. However, several important applications can
+                  benefit from reasoning about bit-vectors of symbolic widths,
+                  i.e., parametric bit-vectors. Recent work has introduced an
+                  approach for solving formulas over parametric bit-vectors,
+                  via an eager translation to quantified integer arithmetic
+                  with uninterpreted functions. The approach was shown to be
+                  successful for several applications, including the bit-width
+                  independent verification of compiler optimizations,
+                  invertibility conditions, and rewrite rules. We extend and
+                  improve that approach in several aspects. Theoretically, we
+                  improve expressiveness by defining a new theory of parametric
+                  bit-vectors that supports more operators and allows reasoning
+                  about the bit-widths themselves. Algorithmically, we
+                  introduce a lazy algorithm that avoids the use of
+                  uninterpreted functions and quantified axioms for
+                  them. Empirically, we show a significant improvement by
+                  implementing and evaluating our approach, and comparing it
+                  experimentally to the previous one.",
+}
+
+%complete
+@inproceedings{SAC+25,
+  url       = "http://theory.stanford.edu/~barrett/pubs/SAC+25.pdf",
+  author    = "Sun, Chuyue and Agashe, Viraj and Chakraborty, Saikat and Taneja, Jubi and Barrett, Clark and Dill, David and Qiu, Xiaokang and Lahiri, Shuvendu K.",
+  title     = "ClassInvGen: Class Invariant Synthesis Using Large Language Models",
+  booktitle = "Proceedings of the $2^{nd}$ International Symposium on AI Verification (SAIV '25)",
+  publisher = "Springer",
+  month     = jul,
+  pages     = "64--96",
+  year      = 2025,
+  doi       = "10.1007/978-3-031-99991-8_4",
+  note      = "Zagreb, Croatia",
+  category  = "Conference Publications",
+  abstract  = "Formal program specifications in the form of preconditions,
+                  postconditions, and class invariants have several benefits
+                  for the construction and maintenance of programs. They not
+                  only aid in program understanding due to their unambiguous
+                  semantics but can also be enforced dynamically (or even
+                  statically when the language supports a formal
+                  verifier). However, synthesizing high-quality specifications
+                  in an underlying programming language is limited by the
+                  expressivity of the specifications or the need to express
+                  them in a declarative manner. Prior work has demonstrated the
+                  potential of large language models (LLMs) for synthesizing
+                  high-quality method pre/postconditions for Python and Java,
+                  but does not consider class invariants.
+
+                  In this work, we describe ClassInvGen, a method for
+                  co-generating executable class invariants and test inputs to
+                  produce high-quality class invariants for a mainstream
+                  language such as C++, leveraging LLMs' ability to synthesize
+                  pure functions. We demonstrate that ClassInvGen outperforms a
+                  pure LLM-based technique for generating specifications (from
+                  code) as well as prior data-driven invariant inference
+                  techniques such as Daikon. We contribute a benchmark of
+                  standard C++ data structures along with a harness that can
+                  help measure both the correctness and completeness of
+                  generated specifications using tests and mutants. We also
+                  demonstrate its applicability to real-world code by
+                  performing a case study on several classes within a widely
+                  used and high-integrity C++ codebase."
+}
+
+%complete
+@inproceedings{MMK+25,
+  url       = "https://doi.org/10.1007/978-3-031-98682-6_11",
+  author    = "Mohamed, Abdalrhman and Mascarenhas, Tomaz and Khan, Harun and Barbosa, Haniel and Reynolds, Andrew and Qian, Yicheng and Tinelli, Cesare and Barrett, Clark",
+  title     = "Lean-{SMT}: An {SMT} Tactic for Discharging Proof Goals in Lean",
+  booktitle = "Proceedings of the $37^{th}$ International Conference on Computer Aided Verification (CAV '25)",
+  series    = "Lecture Notes in Computer Science",
+  publisher = "Springer",
+  editor    = "Piskac, Ruzica and Rakamari{\'{c}}, Zvonimir",
+  volume    = 15931,
+  month     = jul,
+  pages     = "197--212",
+  year      = 2025,
+  doi       = "10.1007/978-3-031-98682-6_11",
+  note      = "Zagreb, Croatia",
+  category  = "Conference Publications",
+  abstract  = "Lean is an increasingly popular proof assistant based on dependent type theory. Despite its success, it still lacks important automation features present in more seasoned proof assistants, such as the Sledgehammer tactic in Isabelle/HOL. A key aspect of Sledgehammer is the use of proof-producing SMT solvers to prove a translated proof goal and the reconstruction of the resulting proof into valid justifications for the original goal. We present Lean-SMT, a tactic providing this functionality in Lean. We detail how the tactic converts Lean goals into SMT problems and, more importantly, how it reconstructs SMT proofs into native Lean proofs. We evaluate the tactic on established benchmarks used to evaluate Sledgehammer's SMT integration, with promising results. We also evaluate Lean-SMT as a standalone proof checker for proofs of SMT-LIB problems. We show that Lean-SMT offers a smaller trusted core without sacrificing too much performance.",
+}
+
+%complete
+@inproceedings{QCB+25,
+  url       = "https://doi.org/10.1007/978-3-031-98682-6_10",
+  author    = "Qian, Yicheng and Clune, Joshua and Barrett, Clark and Avigad, Jeremy",
+  title     = "Lean-Auto: An Interface Between Lean 4 and Automated Theorem Provers",
+  booktitle = "Proceedings of the $37^{th}$ International Conference on Computer Aided Verification (CAV '25)",
+  series    = "Lecture Notes in Computer Science",
+  publisher = "Springer",
+  editor    = "Piskac, Ruzica and Rakamari{\'{c}}, Zvonimir",
+  volume    = 15931,
+  month     = jul,
+  pages     = "175--196",
+  year      = 2025,
+  doi       = "10.1007/978-3-031-98682-6_10",
+  note      = "Zagreb, Croatia",
+  category  = "Conference Publications",
+  abstract  = "Proof automation is crucial to large-scale formal mathematics and software/hardware verification projects in ITPs. Sophisticated tools called hammers have been developed to provide general-purpose proof automation in ITPs such as Coq and Isabelle, leveraging the power of ATPs. An important component of a hammer is the translation algorithm from the ITP's logical system to the ATP's logical system. In this paper, we propose a novel translation algorithm for ITPs based on dependent type theory. The algorithm is implemented in Lean 4 under the name Lean-auto. When combined with ATPs, Lean-auto provides general-purpose, ATP-based proof automation in Lean 4 for the first time. Soundness of the main translation procedure is guaranteed, and experimental results suggest that our algorithm is sufficiently complete to automate the proof of many problems that arise in practical uses of Lean 4. We also find that Lean-auto solves more problems than existing tools on Lean 4's math library Mathlib4.",
+}
+
+%complete
+@inproceedings{MML+25,
+  url       = "https://doi.org/10.1007/978-3-031-98668-0_19",
+  author    = "Mazzucato, Denis and Mohamed, Abdalrhman and Lee, Juneyoung and Barrett, Clark and Grundy, Jim and Harrison, John and P{\u{a}}s{\u{a}}reanu, Corina S.",
+  title     = "Relational Hoare Logic for Realistically Modelled Machine Code",
+  booktitle = "Proceedings of the $37^{th}$ International Conference on Computer Aided Verification (CAV '25)",
+  series    = "Lecture Notes in Computer Science",
+  publisher = "Springer",
+  editor    = "Piskac, Ruzica and Rakamari{\'{c}}, Zvonimir",
+  volume    = 15931,
+  month     = jul,
+  pages     = "389--413",
+  year      = 2025,
+  doi       = "10.1007/978-3-031-98668-0_19",
+  note      = "Zagreb, Croatia",
+  category  = "Conference Publications",
+  abstract  = "Many security- and performance-critical domains, such as cryptography, rely on low-level verification to minimize the trusted computing surface and allow code to be written directly in assembly. However, verifying assembly code against a realistic machine model is a challenging task. Furthermore, certain security properties---such as constant-time behavior---require relational reasoning that goes beyond traditional correctness by linking multiple execution traces within a single specification. Yet, relational verification has been extensively explored at a higher level of abstraction. In this work, we introduce a Hoare-style logic that provides low-level, expressive relational verification. We demonstrate our approach on the s2n-bignum library, proving both constant-time discipline and equivalence between optimized and verification-friendly routines. Formalized in HOL Light, our results confirm the real-world applicability of relational verification in large assembly codebases.",
+}
+
+%complete
+@inproceedings{POP+25,
+  url       = "https://doi.org/10.1007/978-3-031-98668-0_17",
+  author    = "Pertseva, Elizaveta and Ozdemir, Alex and Pailoor, Shankara and Bassa, Alp and Porncharoenwase, Sorawee and Dillig, I{\c{s}}il and Barrett, Clark",
+  title     = "Integer Reasoning Modulo Different Constants in SMT",
+  booktitle = "Proceedings of the $37^{th}$ International Conference on Computer Aided Verification (CAV '25)",
+  series    = "Lecture Notes in Computer Science",
+  publisher = "Springer",
+  editor    = "Piskac, Ruzica and Rakamari{\'{c}}, Zvonimir",
+  volume    = 15931,
+  month     = jul,
+  pages     = "339--362",
+  year      = 2025,
+  doi       = "10.1007/978-3-031-98668-0_17",
+  note      = "Zagreb, Croatia",
+  category  = "Conference Publications",
+  abstract  = "This paper presents a new refutation procedure for multimodular systems of integer constraints that commonly arise when verifying cryptographic protocols. These systems, involving polynomial equalities and disequalities modulo different constants, are challenging for existing solvers due to their inability to exploit multimodular structure. To address this issue, our method partitions constraints by modulus and uses lifting and lowering techniques to share information across subsystems, supported by algebraic tools like weighted Gr bner bases. Our experiments show that the proposed method outperforms existing state-of-the-art solvers in verifying cryptographic implementations related to Montgomery arithmetic and zero-knowledge proofs.",
+}
+
+%complete
+@inproceedings{ASM+25,
+  url       = "http://theory.stanford.edu/~barrett/pubs/ASM+25.pdf",
+  author    = "Leni Aniva and Chuyue Sun and Brando Miranda and Clark Barrett and Sanmi Koyejo",
+  title     = "Pantograph: {A} Machine-to-Machine Interaction Interface for Advanced Theorem Proving, High Level Reasoning, and Data Extraction in Lean 4",
+  booktitle = "Proceedings of the $31^{st}$ International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS '25)",
+  series    = "Lecture Notes in Computer Science",
+  editor    = "Arie Gurfinkel and Marijn Heule",
+  volume    = "15696",
+  pages     = "104--123",
+  publisher = "Springer",
+  month     = may,
+  year      = 2025,
+  doi       = "10.1007/978-3-031-90643-5_6",
+  note      = "Hamilton, Ontario, Canada",
+  category  = "Conference Publications",
+  abstract  = "Machine-assisted theorem proving refers to the process of
+                  conducting structured reasoning to automatically generate
+                  proofs for mathematical theorems. Recently, there has been a
+                  surge of interest in using machine learning models in
+                  conjunction with proof assistants to perform this task. In
+                  this paper, we introduce Pantograph, a tool that provides a
+                  versatile interface to the Lean 4 proof assistant and enables
+                  efficient proof search via powerful search algorithms such as
+                  Monte Carlo Tree Search. In addition, Pantograph enables
+                  high-level reasoning by enabling a more robust handling of
+                  Lean 4's inference steps. We provide an overview of
+                  Pantograph's architecture and features. We also report on an
+                  illustrative use case: using machine learning models and
+                  proof sketches to prove Lean 4 theorems. Pantograph's
+                  innovative features pave the way for more advanced machine
+                  learning models to perform complex proof searches and
+                  high-level reasoning, equipping future researchers to design
+                  more versatile and powerful theorem provers."
+}  
+
+%complete
+@inproceedings{SBH25,
+  url       = "http://theory.stanford.edu/~barrett/pubs/SBH25.pdf",
+  author    = "Sunil Sudhakaran and Clark Barrett and Mark Horowitz",
+  title     = "Application of Formal Methods {(SAT/SMT)} to the Design of Constrained Codes",
+  booktitle = "Proceedings of Design, Automation {\&} Test in Europe Conference (DATE '25)",
+  publisher = "IEEE",
+  month     = apr,
+  doi       = "10.23919/DATE64628.2025.10992737",
+  year      = 2025,
+  note      = "Lyon, France",
+  category  = "Conference Publications",
+  abstract  = "Constrained coding plays a crucial role in high-speed
+                  communication links by restricting bit sequences to reduce
+                  the adverse effects imposed by the characteristics of the
+                  channel. This technique trades off some bit efficiency for
+                  higher transmission rates, thereby boosting overall data
+                  throughput. We show how the design of hardware-efficient
+                  translation logic to and from the restricted code space can
+                  be formulated as a Satisfiability Modulo Theories (SMT)
+                  problem. Using SMT, we can not only try to minimize the
+                  complexity of this logic and limit the effect of transmission
+                  errors on the final decoded output, but also significantly
+                  reduce development time—from weeks to just hours. Our initial
+                  results demonstrate the efficiency and effectiveness of this
+                  approach."
+}
+
+
+%complete
+@inproceedings{ASB25,
+  url       = "http://theory.stanford.edu/~barrett/pubs/ASB25.pdf",
+  author    = "Sophie Andrews and Matthew Sotoudeh and Clark Barrett",
+  title     = "Efficient SAT-Based Bounded Model Checking of Evolving Systems",
+  booktitle = "Proceedings of Design, Automation {\&} Test in Europe Conference (DATE '25)",
+  publisher = "IEEE",
+  month     = apr,
+  doi       = "10.23919/DATE64628.2025.10993135",
+  year      = 2025,
+  note      = "Lyon, France",
+  category  = "Conference Publications",
+  abstract  = "SAT-based verification is a common technique used by industry
+                  practitioners to find bugs in computer systems. However,
+                  these systems are rarely designed in a single step: instead,
+                  designers repeatedly make small modifications, reverifying
+                  after each change. With current tools, this reverification
+                  step takes as long as a full, from-scratch verification, even
+                  if the design has only been modified slightly. We propose a
+                  novel SAT-based verification technique that performs
+                  significantly better than the naïve approach in the setting
+                  of evolving systems. The key idea is to reuse information
+                  learned during the verification of earlier versions of the
+                  system to speed up the verification of later versions. We
+                  instantiate our technique in a bounded model checking tool
+                  for SystemVerilog code and apply it to a new benchmark set
+                  based on real edit history for a set of open source RISC-V
+                  cores. This new benchmark set is now publicly available for
+                  further research on verification of evolving systems. Our
+                  tool, PrediCore, significantly improves the time required to
+                  verify properties on later versions of the cores compared to
+                  the current state-of-the-art, verify-from-scratch approach."
+}
+
+%complete
+@inproceedings{ZYX+24,
+  url       = "https://www.proceedings.com/079017-2000.html",
+  author    = "Lianmin Zheng and Liangsheng Yin and Zhiqiang Xie and Chuyue Sun and Jeff Huang and Cody Hao Yu and Shiyi Cao and Christos Kozyrakis and Ion Stoica and Joseph Gonzalez and Clark Barrett and Ying Sheng",
+  title     = "SGLang: Efficient Execution of Structured Language Model Programs",
+  booktitle = "Advances in Neural Information Processing Systems 37 (NeurIPS 2024)",
+  editor    = "Amir Globersons and Lester Mackey and Danielle Belgrave and Angela Fan and Ulrich Paquet and Jakub M. Tomczak and Cheng Zhang",
+  publisher = "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+  volume    = 37,
+  pages     = "62557--62583",
+  month     = dec,
+  year      = 2024,
+  doi       = "10.52202/079017-2000",
+  note      = "Vancouver, Canada",
+  category  = "Conference Publications",
+  abstract  = "Large language models (LLMs) are increasingly used for complex
+                  tasks that require multiple generation calls, advanced
+                  prompting techniques, control flow, and structured
+                  inputs/outputs. However, efficient systems are lacking for
+                  programming and executing these applications. We introduce
+                  SGLang, a system for efficient execution of complex language
+                  model programs. SGLang consists of a frontend language and a
+                  runtime. The frontend simplifies programming with primitives
+                  for generation and parallelism control. The runtime
+                  accelerates execution with novel optimizations like
+                  RadixAttention for KV cache reuse and compressed finite state
+                  machines for faster structured output decoding. Experiments
+                  show that SGLang achieves up to 6.4x higher throughput
+                  compared to state-of-the-art inference systems on various
+                  large language and multi-modal models on tasks including
+                  agent control, logical reasoning, few-shot learning
+                  benchmarks, JSON decoding, retrieval-augmented generation
+                  pipelines, and multi-turn chat. The code is publicly
+                  available at \url{https://github.com/sgl-project/sglang}.",
+}
+
+%complete
+@inproceedings{DDT+24,
+  url       = "https://repositum.tuwien.at/handle/20.500.12708/200774",
+  author    = "Ross Daly and Caleb Donovick and Caleb Terrill and Jackson Melchert and Priyanka Raina and Clark Barrett and Pat Hanrahan",
+  title     = "Efficiently Synthesizing Lowest Cost Rewrite Rules for Instruction Selection",
+  booktitle = "Proceedings of the $24^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '24)",
+  editor    = "Nina Narodytska and Philipp R{\"u}mmer",
+  publisher = "TU Wien Academic Press",
+  pages     = "8--17",
+  month     = oct,
+  year      = 2024,
+  doi       = "10.34727/2024/isbn.978-3-85448-065-5_7",
+  note      = "Prague, Czech Republic",
+  category  = "Conference Publications",
+  abstract  = "Compiling programs to an instruction set architecture (ISA)
+                  requires a set of rewrite rules that map patterns consisting
+                  of compiler instructions to patterns consisting of ISA
+                  instructions. We synthesize such rules by constructing SMT
+                  queries, whose solutions represent two functionally
+                  equivalent programs. These two programs are interpreted as an
+                  instruction selection rewrite rule. Existing work is limited
+                  to single-instruction ISA patterns, whereas our solution does
+                  not have that restriction. Furthermore, we address
+                  inefficiencies of existing work by developing two optimized
+                  algorithms. The first only generates unique rules by
+                  preventing synthesis of duplicate and composite rules. The
+                  second only generates lowest-cost rules by preventing
+                  synthesis of higher-cost rules. We evaluate our algorithms on
+                  multiple ISAs. Without our optimizations, the vast majority
+                  of synthesized rewrite rules are either duplicates,
+                  composites, or higher cost. Our optimizations result in
+                  synthesis speed-ups of up to 768x and 4004x for the two
+                  algorithms.",
+}
+
+%complete
+@inproceedings{BCC+24,
+  url       = "https://repositum.tuwien.at/handle/20.500.12708/200777",
+  author    = "Clark Barrett and Pei-Wei Chen and Byron Cook and Bruno Dutertre and Robert Jones and Nham Le and Andrew Reynolds and Kunal Sheth and Mike Whalen and Chriss Stephens",
+  title     = "SMT-D: New Strategies for Portfolio-Based SMT Solving",
+  booktitle = "Proceedings of the $24^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '24)",
+  editor    = "Nina Narodytska and Philipp R{\"u}mmer",
+  publisher = "TU Wien Academic Press",
+  pages     = "39--48",
+  month     = oct,
+  year      = 2024,
+  doi       = "10.34727/2024/isbn.978-3-85448-065-5_10",
+  note      = "Prague, Czech Republic",
+  category  = "Conference Publications",
+  abstract  = "We introduce SMT-D, a tool for portfolio-based distributed SMT
+                  solving. We propose a general architecture consisting of two
+                  main components: (i) solvers extended with the capability of
+                  sharing and importing information on the fly while solving;
+                  and (ii) a central manager that orchestrates and monitors
+                  solvers while also deciding which information to share with
+                  which solvers. We introduce new information-sharing
+                  strategies based on the idea of maximizing the amount of
+                  useful diversity in the system. We show that on hard
+                  benchmarks from recent related work, SMT-D instantiated with
+                  the cvc5 SMT solver achieves significant speed-up over
+                  sequential performance, is competitive with existing
+                  portfolio approaches, and contributes a number of unique
+                  solutions.",
+}
+
+%complete
+@inproceedings{MAW+FMCAD24,
+  url       = "https://repositum.tuwien.at/handle/20.500.12708/200782",
+  author    = "Mandal, Udayan and Amir, Guy and Wu, Haoze and Daukantas, Ieva and Newell, Fletcher Lee and Ravaioli, Umberto J. and Meng, Baoluo and Durling, Michael and Ganai, Milan and Shim, Tobey and Katz, Guy and Barrett, Clark",
+  title     = "Formally Verifying Deep Reinforcement Learning Controllers with Lyapunov Barrier Certificates",
+  booktitle = "Proceedings of the $24^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '24)",
+  editor    = "Nina Narodytska and Philipp R{\"u}mmer",
+  publisher = "TU Wien Academic Press",
+  pages     = "95--106", 
+  month     = oct,
+  year      = 2024,
+  doi       = "10.34727/2024/isbn.978-3-85448-065-5_15",
+  note      = "Prague, Czech Republic",
+  category  = "Conference Publications",
+  abstract  = "Deep reinforcement learning (DRL) is a powerful machine learning
+                  paradigm for generating agents that control autonomous
+                  systems. However, the ``black box'' nature of DRL agents limits
+                  their deployment in real-world safety-critical
+                  applications. A promising approach for providing strong
+                  guarantees on an agent's behavior is to use Neural Lyapunov
+                  Barrier (NLB) certifcates, which are learned functions over
+                  the system whose properties indirectly imply that an agent
+                  behaves as desired.  However, NLB-based certifcates are
+                  typically diffcult to learn and even more diffcult to verify,
+                  especially for complex systems.  In this work, we present a
+                  novel method for training and verifying NLB-based certifcates
+                  for discrete-time systems. Specifcally, we introduce a
+                  technique for certifcate composition, which simplifes the
+                  verifcation of highly-complex systems by strategically
+                  designing a sequence of certifcates. When jointly verifed
+                  with neural network verifcation engines, these certifcates
+                  provide a formal guarantee that a DRL agent both achieves its
+                  goals and avoids unsafe behavior. Furthermore, we introduce a
+                  technique for certifcate fltering, which signifcantly
+                  simplifes the process of producing formally verifed
+                  certifcates. We demonstrate the merits of our approach with a
+                  case study on providing safety and liveness guarantees for a
+                  DRL-controlled spacecraft.",
+}
+
+%complete
+@InProceedings{BTB+24,
+  url       = "https://link.springer.com/chapter/10.1007/978-3-031-71177-0_31",
+  author    = "Barrett, Clark and Tinelli, Cesare and Barbosa, Haniel and Niemetz, Aina and Preiner, Mathias and Reynolds, Andrew and Zohar, Yoni",
+  title     = "Satisfiability Modulo Theories: A Beginner's Tutorial",
+  booktitle = "Proceedings of the $26^{th}$ International Symposium on Formal Methods (FM '24), Part II",
+  series    = "Lecture Notes in Computer Science",
+  volume    = 14934,
+  publisher = "Springer Nature Switzerland",
+  editor    = "Platzer, Andr\'e and Rozier, Kristin Yvonne and Pradella, Matteo and Rossi, Matteo",
+  month     = sep,
+  pages     = "571--596",
+  year      = 2024,
+  doi       = "10.1007/978-3-031-71177-0_31",
+  note      = "Milan, Italy. {\em Distinguished Tutorial Paper Award}",
+  category  = "Conference Publications",
+  abstract  = "Great minds have long dreamed of creating machines that can
+                  function as general-purpose problem solvers. Satisfiability
+                  modulo theories (SMT) has emerged as one pragmatic
+                  realization of this dream, providing significant expressive
+                  power and automation. This tutorial is a beginner's guide to
+                  SMT. It includes an overview of SMT and its formal
+                  foundations, a catalog of the main theories used in SMT
+                  solvers, and illustrations of how to obtain models and
+                  proofs. Throughout the tutorial, examples and exercises are
+                  provided as hands-on activities for the reader. They can be
+                  run using either Python or the SMT-LIB language, using either
+                  the cvc5 or the Z3 SMT solver.",
+}
+
+%complete
+@InProceedings{PTZ+24,
+  url       = "https://link.springer.com/chapter/10.1007/978-3-031-71162-6_34",
+  author    = "Przybocki, Benjamin and Toledo, Guilherme and Zohar, Yoni and Barrett, Clark",
+  title     = "The Nonexistence of Unicorns and Many-Sorted L{\"o}wenheim--Skolem Theorems",
+  booktitle = "Proceedings of the $26^{th}$ International Symposium on Formal Methods (FM '24), Part I",
+  series    = "Lecture Notes in Computer Science",
+  volume    = 14933,
+  publisher = "Springer Nature Switzerland",
+  editor    = "Platzer, Andr\'e and Rozier, Kristin Yvonne and Pradella, Matteo and Rossi, Matteo",
+  month     = sep,
+  pages     = "658--675",
+  year      = 2024,
+  doi       = "10.1007/978-3-031-71162-6_34",
+  note      = "Milan, Italy",
+  category  = "Conference Publications",
+  abstract  = "Stable infiniteness, strong finite witnessability, and
+                  smoothness are model-theoretic properties relevant to theory
+                  combination in satisfiability modulo theories. Theories that
+                  are strongly finitely witnessable and smooth are called
+                  strongly polite and can be effectively combined with other
+                  theories. Toledo, Zohar, and Barrett conjectured that stably
+                  infinite and strongly finitely witnessable theories are
+                  smooth and therefore strongly polite. They called
+                  counterexamples to this conjecture unicorn theories, as their
+                  existence seemed unlikely. We prove that, indeed, unicorns do
+                  not exist. We also prove versions of the
+                  L{\"o}wenheim--Skolem theorem and the {\L}o{\'{s}}--Vaught
+                  test for many-sorted logic.",
+}
+
+%complete
+@InProceedings{ABB+24,
+  url       = "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2024.39",
+  author    = "Affeldt, Reynald and Barrett, Clark and Bruni, Alessandro and Daukantas, Ieva and Khan, Harun and Saikawa, Takafumi and Sch{\"u}rmann, Carsten",
+  title     = "Robust Mean Estimation by All Means",
+  booktitle = "Proceedings of the $15^{th}$ International Conference on Interactive Theorem Proving (ITP 2024)",
+  series    = "Leibniz International Proceedings in Informatics (LIPIcs)",
+  volume    = 309,
+  publisher = "Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik",
+  editor    = "Bertot, Yves and Kutsia, Temur and Norrish, Michael",
+  month     = sep,
+  pages     = "39:1--39:8",
+  year      = 2024,
+  doi       = "10.4230/LIPIcs.ITP.2024.39",
+  note      = "Tbilisi, Georgia",
+  category  = "Conference Publications",
+  absract   = "We report the results of a verification experiment on an
+                  algorithm for robust mean estimation, i.e., an algorithm that
+                  computes a mean in the presence of outliers. We formalize the
+                  algorithm in the Coq proof assistant and devise a pragmatic
+                  approach for identifying and solving issues related to the
+                  choice of bounds. To keep our formalization succinct and
+                  generic, we recast the original argument using an existing
+                  library for finite probabilities that we extend with reusable
+                  lemmas. To formalize the original algorithm, which relies on
+                  a subtle convergence argument, we observe that by adding
+                  suitable termination checks, we can turn it into a
+                  well-founded recursion without losing its original
+                  properties. We also exploit a tactic for solving real-valued
+                  inequalities by approximation to heuristically fix inaccurate
+                  constant values in the original proof.",
+}
+
+%complete
+@InProceedings{MAW+DASC24,
+  url       = "https://ieeexplore.ieee.org/document/10749499",
+  author    = "Mandal, Udayan and Amir, Guy and Wu, Haoze and Daukantas, Ieva and Newell, Fletcher Lee and Ravaioli, Umberto and Meng, Baoluo and Durling, Michael and Hobbs, Kerianne and Ganai, Milan and Shim, Tobey and Katz, Guy and Barrett, Clark",
+  title     = "Safe and Reliable Training of Learning-Based Aerospace Controllers",
+  booktitle = "2024 AIAA DATC/IEEE $43^{rd}$ Digital Avionics Systems Conference (DASC '24)",
+  publisher = "IEEE",
+  month     = sep,
+  year      = 2024,
+  doi       = "10.1109/DASC62030.2024.10749499",
+  keywords  = "Training;Space vehicles;Neural networks;Aerospace electronics;Deep reinforcement learning;Control systems;Aerospace safety;Reliability;Reachability analysis;Artificial intelligence;AI Safety;Deep Reinforcement Learning;Formal Verification;Deep Neural Network Verification",
+  note      = "San Diego, CA",
+  category  = "Conference Publications",
+  abstract  = "In recent years, deep reinforcement learning (DRL) approaches
+                  have generated highly successful controllers for a myriad of
+                  complex domains. However, the opaque nature of these models
+                  limits their applicability in aerospace systems and
+                  sasfety-critical domains, in which a single mistake can have
+                  dire consequences. In this paper, we present novel
+                  advancements in both the training and verification of DRL
+                  controllers, which can help ensure their safe behavior. We
+                  showcase a design-for-verification approach utilizing
+                  k-induction and demonstrate its use in verifying liveness
+                  properties. In addition, we also give a brief overview of
+                  neural Lyapunov Barrier certificates and summarize their
+                  capabilities on a case study. Finally, we describe several
+                  other novel reachability-based approaches which, despite
+                  failing to provide guarantees of interest, could be effective
+                  for verification of other DRL systems, and could be of
+                  further interest to the community.",
+}
+
+%complete
+@inproceedings{HYW+24,
+  url       = "http://theory.stanford.edu/~barrett/pubs/HYW+24.pdf",
+  author    = "Huang, Pei and Yang, Yuting and Wu, Haoze and Daukantas, Ieva and Wu, Min and Jia, Fuqi and Barrett, Clark",
+  title     = "Parallel Verification for $\delta$-Equivalence of Neural Network Quantization",
+  booktitle = "Proceedings of the First International Symposium on AI Verification (SAIV '24)",
+  publisher = "Springer-Verlag",
+  month     = jul,
+  pages     = "78--99",
+  year      = 2024,
+  doi       = "10.1007/978-3-031-65112-0_4",
+  note      = "Montreal, Canada",
+  category  = "Conference Publications",
+  abstract  = "Quantization replaces floating point arithmetic with integer
+                  arithmetic in deep neural networks, enabling more efficient
+                  on-device inference with less power and memory. However, it
+                  also brings in loss of generalization and even potential
+                  errors to the models. In this work, we propose a
+                  parallelization technique for formally verifying the
+                  equivalence between quantized models and their original
+                  real-valued counterparts. In order to guarantee both
+                  soundness and completeness, mixed integer linear programming
+                  (MILP) is deployed as the baseline technique. Nevertheless,
+                  the incorporation of two networks as well as the mixture of
+                  integer and real number arithmetic make the problem much more
+                  challenging than verifying a single network, and thus using
+                  MILP alone is inadequate for the non-trivial cases. To tackle
+                  this, we design a distributed verification technique that can
+                  leverage hundreds of CPUs on high-performance computing
+                  clusters. We develop a two-tier parallel framework and
+                  propose property- and output-based partition
+                  strategies. Evaluated on perception networks quantized with
+                  PyTorch, our approach outperforms existing methods in
+                  successfully verifying many cases that are otherwise
+                  considered infeasible.",
+}
+
+%complete
+@inproceedings{SSP+24,
+  url       = "http://theory.stanford.edu/~barrett/pubs/SSP+24.pdf",
+  author    = "Sun, Chuyue and Sheng, Ying and Padon, Oded and Barrett, Clark",
+  title     = "Clover: Closed-Loop Verifiable Code Generation",
+  booktitle = "Proceedings of the First International Symposium on AI Verification (SAIV '24)",
+  publisher = "Springer-Verlag",
+  month     = jul,
+  pages     = "134--155",
+  year      = 2024,
+  doi       = "10.1007/978-3-031-65112-0_7",
+  note      = "Montreal, Canada",
+  category  = "Conference Publications",
+  abstract  = "The use of large language models for code generation is a
+                  rapidly growing trend in software development. However,
+                  without effective methods for ensuring the correctness of
+                  generated code, this trend could lead to undesirable
+                  outcomes. In this paper, we introduce a new approach for
+                  addressing this challenge: the Clover paradigm, short for
+                  Closed-Loop Verifiable Code Generation, which uses
+                  consistency checking to provide a strong filter for incorrect
+                  code. Clover performs consistency checks among code,
+                  docstrings, and formal annotations. The checker is
+                  implemented using a novel integration of formal verification
+                  tools and large language models. We provide a theoretical
+                  analysis to support our thesis that Clover should be
+                  effective at consistency checking. We also empirically
+                  investigate its performance on a hand-designed dataset
+                  (CloverBench) featuring annotated Dafny programs at a
+                  textbook level of difficulty. Experimental results show that
+                  for this dataset: (i) LLMs are reasonably successful at
+                  automatically generating formal specifications; and (ii) our
+                  consistency checker achieves a promising acceptance rate (up
+                  to 87\%) for correct instances while maintaining zero
+                  tolerance for adversarial incorrect ones (no false
+                  positives). Clover also discovered 6 incorrect programs in
+                  the existing human-written dataset MBPP-DFY-50."
+}
 
 %complete
 @inproceedings{WIZ+24,
   url       = "http://theory.stanford.edu/~barrett/pubs/WIZ+24.pdf",
   author    = "Haoze Wu and Omri Isac and Aleksandar Zelji{\'{c}} and Teruhiro Tagomori and Matthew Daggitt and Wen Kokke and Idan Refaeli and Guy Amir and Kyle Julian and Shahaf Bassan and Pei Huang and Ori Lahav and Min Wu and Min Zhang and Ekaterina Komendantskaya and Guy Katz and Clark Barrett",
-  title     = "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks", 
+  title     = "Marabou 2.0: A Versatile Formal Analyzer of Neural Networks",
   booktitle = "Proceedings of the $36^{th}$ International Conference on Computer Aided Verification (CAV '24)",
   series    = "Lecture Notes in Computer Science",
   publisher = "Springer",
@@ -1706,7 +2857,7 @@ make it effective in practice are also described."
                   they produce the same result for a given input independent of
                   its context within a sequence of inputs. We present a new
                   technique called G-QED (Generalized QED) which goes beyond
-                  non-interfering HAs while retaining A-QED’s benefits. Our
+                  non-interfering HAs while retaining A-QED's benefits. Our
                   extensive results as well as a detailed industrial case study
                   show that: G-QED is highly thorough in detecting critical
                   bugs in well-verified designs that otherwise escape
@@ -1806,7 +2957,7 @@ make it effective in practice are also described."
                   reachability problem, whose approximation is
                   NP-complete. These results answer two fundamental questions
                   about the computability and complexity of DNN verification,
-                  and the ways it is affected by the network’s activation
+                  and the ways it is affected by the network's activation
                   functions and error tolerance; and could help guide future
                   efforts in developing DNN verification tools.",
 }
@@ -3026,7 +4177,7 @@ make it effective in practice are also described."
 %complete
 @inproceedings{WOZ+20,
   url       = "http://theory.stanford.edu/~barrett/pubs/WOZ+20.pdf",
-  author    = "Haoze Wu and Alex Ozdemir and Aleksandar Zelji{\'{c}} and Kyle Julian and Ahmed Irfan and Divya Gopinath and Sadjad Fouladi and Guy Katz and Corina Pasareanu and Clark Barrett",
+  author    = "Haoze Wu and Alex Ozdemir and Aleksandar Zelji{\'{c}} and Kyle Julian and Ahmed Irfan and Divya Gopinath and Sadjad Fouladi and Guy Katz and Corina P{\u{a}}s{\u{a}}reanu and Clark Barrett",
   title     = "Parallelization Techniques for Verifying Neural Networks",
   booktitle = "Proceedings of the $20^{th}$ International Conference on Formal Methods In Computer-Aided Design (FMCAD '20)",
   editor    = "Alexander Ivrii and Ofer Strichman",
@@ -3915,7 +5066,7 @@ those to covert channels unknown so far."
 %complete
 @inproceedings{GKP+18,
   url       = "http://theory.stanford.edu/~barrett/pubs/GKP+18.pdf",
-  author    = "Divya Gopinath and Guy Katz and Corina S. P\u{a}s\u{a}reanu and Clark Barrett",
+  author    = "Divya Gopinath and Guy Katz and Corina S. P{\u{a}}s{\u{a}}reanu and Clark Barrett",
   title     = "DeepSafe: A Data-driven Approach for Assessing Robustness of Neural Networks",
   booktitle = "Proceedings of the $16^{th}$ International Symposium on Automated Technology for Verification and Analysis (ATVA '18)",
   series    = "Lecture Notes in Computer Science",
@@ -4284,7 +5435,7 @@ This paper describes SMTCoq, a plug-in for the integration of external
 solvers into the Coq proof assistant. Based on a checker for generic first-order
 proof certificates fully implemented and proved correct in Coq, SMTCoq offers
 facilities to check answers from external SAT and SMT solvers and to increase
-Coq’s automation using such solvers, all in a safe way. The current version supports
+Coq's automation using such solvers, all in a safe way. The current version supports
 proof certificates produced by the SAT solver ZChaff, for propositional logic, and
 the SMT solvers veriT and CVC4, for the quantifier-free fragment of the combined
 theory of fixed-size bit vectors, functional arrays with extensionality, linear integer
@@ -4563,7 +5714,7 @@ constraints implemented in the SMT solver CVC4."
   booktitle = "Proceedings of the $27^{th}$ International Conference on Computer Aided Verification (CAV '15)",
   volume    = 9206,
   number    = 2,
-  editor    = "Daniel Kroening and Corina S. P\u{a}s\u{a}reanu",
+  editor    = "Daniel Kroening and Corina S. P{\u{a}}s{\u{a}}reanu",
   pages     = "198--216",
   series    = "Lecture Notes in Computer Science",
   publisher = "Springer",
@@ -4594,7 +5745,7 @@ the CVC4 SMT solver is competitive with state-of-the-art tools for synthesis."
   booktitle = "Proceedings of the $27^{th}$ International Conference on Computer Aided Verification (CAV '15)",
   volume    = 9206,
   number    = 2,
-  editor    = "Daniel Kroening and Corina S. P\u{a}s\u{a}reanu",
+  editor    = "Daniel Kroening and Corina S. P{\u{a}}s{\u{a}}reanu",
   pages     = "87--105",
   series    = "Lecture Notes in Computer Science",
   publisher = "Springer",
@@ -4968,7 +6119,7 @@ industrial applications and is competitive with other approaches."
   series    = "Lecture Notes in Computer Science",
   volume    = 5079,
   publisher = "Springer",
-  editor    = "Mar\'{i}a Alpuente and Germ\'{a}n Vidal",
+  editor    = "Mar{\'i}a Alpuente and Germ{\'a}n Vidal",
   pages     = "62--77",
   month     = jul,
   year      = 2008,
@@ -5015,7 +6166,7 @@ heuristics. Inspired by Simplify and motivated by a desire to
 provide a competitive alternative to ATP systems, this paper describes a
 methodology for reasoning about quantifiers in SMT systems. We present
 the methodology in the context of the Abstract DPLL Modulo Theories
-framework. Besides adapting many of Simplify’s techniques, we also introduce
+framework. Besides adapting many of Simplify's techniques, we also introduce
 a number of new heuristics. Most important is the notion of
 instantiation level which provides an effective mechanism for prioritizing
 and managing the large search space inherent in quantifier instantiation
@@ -5302,6 +6453,18 @@ as permutations."
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Workshop Papers
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%complete
+@inproceedings{TRT+25,
+  url       = "https://ceur-ws.org/Vol-4008/SMT_paper25.pdf",
+  author    = "Nestan Tsiskaridze and Andrew Reynolds and Cesare Tinelli and Clark Barrett",
+  title     = "A Proposal for an {OMT} Extension to {SMT-LIB}",
+  booktitle = "Joint Proceedings of the $23^{rd}$ International Workshop on Satisfiability Modulo Theories and the 16th Pragmatics of SAT International Workshop (SMT '25 and PoS '25)",
+  month     = aug,
+  year      = 2025,
+  category  = "Refereed Workshop Publications",
+  abstract  = "Optimization Modulo Theories (OMT) has emerged as a prominent extension of the Satisfiability Modulo Theories (SMT) paradigm, bringing optimization objectives into first-order logic constraint solving. Unlike SMT, which focuses solely on satisfiability with respect to a given theory, OMT additionally seeks to optimize a specified objective function. Several state-of-the-art SMT solvers have integrated OMT capabilities. However, no official SMT-LIB extension has yet been adopted for OMT. As a result, OMT benchmarks lack standardization, which hinders broader adoption and progress in the field. In this paper, we propose an extension to SMT-LIB that supports all of the different flavors of OMT found in the literature. Our goal is to foster the development of OMT solvers and applications, to enable more robust, reusable, and comparable OMT solutions, and to promote the creation of standardized OMT benchmarks in SMT-LIB format for systematic and meaningful evaluation.",
+}
 
 @inproceedings{MWT+20,
   url       = "http://theory.stanford.edu/~barrett/pubs/MWT+20.pdf",
@@ -5657,6 +6820,31 @@ Autonomous vehicles are highly complex systems, required to function reliably in
 % Technical Reports
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%complete
+@article{BCM+26,
+  author       = {Clark W. Barrett and
+                  Swarat Chaudhuri and
+                  Fabrizio Montesi and
+                  Jim Grundy and
+                  Pushmeet Kohli and
+                  Leonardo de Moura and
+                  Alexandre Rademaker and
+                  Sorrachai Yingchareonthawornchai},
+  title        = {CSLib: The Lean Computer Science Library},
+  journal      = {CoRR},
+  volume       = {abs/2602.04846},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2602.04846},
+  doi          = {10.48550/ARXIV.2602.04846},
+  eprinttype   = {arXiv},
+  eprint       = {2602.04846},
+  timestamp    = {Thu, 19 Mar 2026 09:22:46 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2602-04846.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  category     = {Technical Reports},
+  abstract     = {We introduce CSLib, an open-source framework for proving computer-science-related theorems and writing formally verified code in the Lean proof assistant. CSLib aims to be for computer science what Lean's Mathlib is for mathematics. Mathlib has been tremendously impactful: it is a key reason for Lean's popularity within the mathematics research community, and it has also played a critical role in the training of AI systems for mathematical reasoning. However, the base of computer science knowledge in Lean is currently quite limited. CSLib will vastly enhance this knowledge base and provide infrastructure for using this knowledge in real-world verification projects. By doing so, CSLib will (1) enable the broad use of Lean in computer science education and research, and (2) facilitate the manual and AI-aided engineering of large-scale formally verified systems.}
+}
+
 @TechReport{SZY+23,
   url         = "http://arxiv.org/abs/2303.06865",
   author      = "Ying Sheng and Lianmin Zheng and Binhang Yuan and Zhuohan Li and Max Ryabinin and Daniel Y. Fu and Zhiqiang Xie and Beidi Chen and Clark Barrett and Joseph E. Gonzalez and Percy Liang and Christopher R\'e and Ion Stoica and Ce Zhang",
@@ -5687,29 +6875,6 @@ Autonomous vehicles are highly complex systems, required to function reliably in
                   effective batch size of 144. On the HELM benchmark, FlexGen
                   can benchmark a 30B model with a 16GB GPU on 7 representative
                   sub-scenarios in 21 hours."
-}
-
-@TechReport{DDM+23,
-  url         = "http://arxiv.org/abs/2308.13106",
-  author      = "Caleb Donovick and Ross Daly and Jackson Melchert and Lenny Truong and Priyanka Raina and Pat Hanrahan and Clark Barrett",
-  title       = "PEak: A Single Source of Truth for Hardware Design and Verification",
-  year        = 2023,
-  eprint      = "2308.13106",
-  category    = "Technical Reports",
-  abstract    = "Domain-specific languages for hardware can significantly
-                  enhance designer productivity, but sometimes at the cost of
-                  ease of verification. On the other hand, ISA specification
-                  languages are too static to be used during early stage design
-                  space exploration. We present PEak, an open-source hardware
-                  design and specification language, which aims to improve both
-                  design productivity and verification capability. PEak does
-                  this by providing a single source of truth for functional
-                  models, formal specifications, and RTL. PEak has been used in
-                  several academic projects, and PEak-generated RTL has been
-                  included in three fabricated hardware accelerators. In these
-                  projects, the formal capabilities of PEak were crucial for
-                  enabling both novel design space exploration techniques and
-                  automated compiler synthesis."
 }
 
 @TechReport{GLN+20,
@@ -5935,4 +7100,3 @@ Autonomous vehicles are highly complex systems, required to function reliably in
    year      = 2013,
    category  = "Book Reviews"
 }
-
