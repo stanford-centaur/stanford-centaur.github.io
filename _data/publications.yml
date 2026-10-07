@@ -1991,6 +1991,9 @@ references:
   issued:
   - year: 2026
     month: 5
+  awards:
+    - award: FM Best Tool Paper Award
+      url: https://conf.researchr.org/home/fm-2026
   page: 3-26
   publisher: Springer
   title: "Pono 2.0: A versatile SMT-based model checker for safety and
