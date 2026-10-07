@@ -20,6 +20,17 @@ title: people
 {% assign grad = grad | where_exp: 'g', 'g.end == nil' %}
 {% assign rotating = rotating | where_exp: 'r', 'r.end == nil' %}
 
+{% include sort_by_last_name.html items=staff %}
+{% assign staff = sorted %}
+{% include sort_by_last_name.html items=postdocs %}
+{% assign postdocs = sorted %}
+{% include sort_by_last_name.html items=visiting %}
+{% assign visiting = sorted %}
+{% include sort_by_last_name.html items=grad %}
+{% assign grad = sorted %}
+{% include sort_by_last_name.html items=rotating %}
+{% assign rotating = sorted %}
+
 <div class="people">
 
 {% if faculty.size != 0 %}

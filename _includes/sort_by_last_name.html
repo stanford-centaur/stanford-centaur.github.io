@@ -1,0 +1,15 @@
+{% comment %}
+  Sorts include.items by last name (last word of name), result in 'sorted'.
+{% endcomment %}
+{% assign keys = '' | split: '' %}
+{% for item in include.items %}
+{% assign last = item.name | split: ' ' | last %}
+{% assign key = last | append: '|' | append: forloop.index0 %}
+{% assign keys = keys | push: key %}
+{% endfor %}
+{% assign keys = keys | sort_natural %}
+{% assign sorted = '' | split: '' %}
+{% for key in keys %}
+{% assign i = key | split: '|' | last | plus: 0 %}
+{% assign sorted = sorted | push: include.items[i] %}
+{% endfor %}
