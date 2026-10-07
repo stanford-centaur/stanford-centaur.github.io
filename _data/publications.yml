@@ -3347,7 +3347,8 @@ references:
   - year: 2024
     month: 9
   note: Milan, Italy.
-  award: Distinguished Tutorial Paper Award
+  awards:
+    - award: Distinguished Tutorial Paper Award
   page: 571-596
   publisher: Springer Nature Switzerland
   title: "Satisfiability modulo theories: A beginner's tutorial"
@@ -5476,7 +5477,8 @@ references:
   issued:
   - year: 2022
     month: 4
-  award: SCP Best Tool Paper Award
+  awards:
+    - award: SCP Best Tool Paper Award
   page: 415-442
   publisher: Springer
   title: "cvc5: A versatile and industrial-strength SMT solver"
@@ -6046,7 +6048,8 @@ references:
   issued:
   - year: 2021
     month: 3
-  award: Nominated for the EATCS Best ETAPS Theory Paper Award
+  awards:
+    - award: Nominated for the EATCS Best ETAPS Theory Paper Award
   page: 145-163
   publisher: Springer
   title: Syntax-guided quantifier instantiation
@@ -6619,7 +6622,8 @@ references:
   issued:
   - year: 2020
     month: 7
-  award: Best Paper Award
+  awards:
+    - award: Best Paper Award
   page: 238-255
   publisher: Springer International Publishing
   title: Politeness for the theory of algebraic datatypes
@@ -7854,7 +7858,8 @@ references:
   - year: 2018
     month: 4
   note: Thessaloniki, Greece.
-  award: Distinguished Artifact Award
+  awards:
+    - award: Distinguished Artifact Award
   page: 55-71
   publisher: Springer
   title: "EMME: A formal tool for ECMAScript memory model evaluation"
@@ -8224,7 +8229,8 @@ references:
   - year: 2016
     month: 10
   note: Mountain View, California.
-  award: Best Paper Award
+  awards:
+    - award: Best Paper Award
   page: 93-100
   publisher: FMCAD Inc.
   title: Lazy proofs for DPLL(T)-based SMT solvers
@@ -8374,7 +8380,8 @@ references:
   - year: 2015
     month: 10
   note: Anaheim, California.
-  award: Best Paper Award
+  awards:
+    - award: Best Paper Award
   page: 1-10
   publisher: IEEE
   title: A structured approach to post-silicon validation and debug
@@ -9523,7 +9530,8 @@ references:
   - year: 1998
     month: 6
   note: San Francisco, California.
-  award: Best Paper Award
+  awards:
+    - award: Best Paper Award
   page: 522-527
   publisher: Association for Computing Machinery
   title: A decision procedure for bit-vector arithmetic
@@ -10601,7 +10609,8 @@ references:
   issued:
   - year: 2026
     month: 7
-  award: Distinguished Paper Award
+  awards:
+    - award: Distinguished Paper Award
   page: 27-49
   publisher: Springer
   title: Satisfiability modulo extensional constant arrays
@@ -10709,8 +10718,10 @@ references:
   issued:
   - year: 2026
     month: 4
-  award: Best Tool Paper Award, Distinguished Paper Award,
-    Distinguished Artifact Award
+  awards:
+    - award: Best Tool Paper Award
+    - award: Distinguished Paper Award
+    - award: Distinguished Artifact Award
   page: 170-191
   publisher: Springer
   title: Massively parallel bit-precise verification with Bitwuzla and
@@ -10718,6 +10729,12 @@ references:
   type: paper-conference
   url: "https://doi.org/10.1007/978-3-032-22752-2_9"
   volume: 16505
+  awards:
+    - award: ETAPS Best Tool Paper Award
+      url: https://etaps.org/awards/best-paper/
+    - award: TACAS Distinguished Paper Award
+      url: https://etaps.org/2026/programme/
+    - award: TACAS Distinguished Artifact Award
 - author:
   - family: Fichte
     given: Johannes Klaus
@@ -10812,7 +10829,8 @@ references:
   issued:
   - year: 2023
     month: 7
-  award: Distinguished Paper Award
+  awards:
+    - award: Distinguished Paper Award
   page: 3-17
   publisher: Springer
   title: Bitwuzla
@@ -10846,7 +10864,8 @@ references:
   issued:
   - year: 2023
     month: 7
-  award: Highlighted Paper
+  awards:
+    - award: Highlighted Paper
   page: "8:1-8:13"
   publisher: Schloss Dagstuhl - Leibniz-Zentrum für Informatik
   title: "IPASIR-UP: User propagators for CDCL"
