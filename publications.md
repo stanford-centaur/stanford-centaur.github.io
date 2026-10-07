@@ -89,7 +89,7 @@ title: publications
   | where_exp: 'r', 'r.issued[0].month == month' %}
 {% for item in mpapers %}
 {% if item.url %}[{{ item.title }}]({{ item.url }}){% else %}<b>{{ item.title }}</b> {% endif %}. {% for author in item.author %}{% if item.author.size > 1 %}{% if forloop.last == true %} and {% elsif forloop.first == false %}, {% endif %}{% endif %}{{ author.given }} {{ author.family }}{% endfor %}. {% if item.container-title %} In {{ item.container-title }},{% endif %}{% if item.volume %} vol. {{ item.volume }},{% endif %} {% if item.collection-title %}{{ item.collection-title }},{% endif %} {% if item.page %} pp. {{ item.page }},{% endif %} {{ item.publisher }}. ({{ item.issued[0].year}})
-{% for a in item.awards %}<br/><span class="awards"><strong>{{ a.award }}</strong></span>{% endfor %}
+{% for a in item.awards %}<br/><span class="awards">{% if a.url %}<a href="{{ a.url }}">{% endif %}<strong>{{ a.award }}</strong>{% if a.url %}</a>{% endif %}</span>{% endfor %}
 {% endfor %}
 {% endfor %}
 {% endif %}

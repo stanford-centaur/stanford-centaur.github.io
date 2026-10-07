@@ -46,29 +46,55 @@ subst = {
         r"([A-Z]) '([1-2])": r"\1'\2",
         r'H\$_2\$o': 'H<sub>2</sub>o',
         r'\$\\delta\$': 'δ',
-        r'award: Best SCP': 'award: SCP Best',
         }
 
-def extract_awards(m):
-    """Turn emphasized parts of a note (*...*) into a list of awards."""
+def get_venue(entry):
+    """Get venue abbreviation from container title, e.g., (FM'24) or CAV 2026."""
+    m = re.search(r'\n  container-title: (.*(?:\n    .*)*)', entry)
+    if not m:
+        return None
+    title = re.sub(r'\s+', ' ', m.group(1))
+    m = re.search(r"\(([A-Z]+) ?'[0-9][0-9]\)", title) \
+            or re.search(r'\b([A-Z]{2,}) [0-9]{4}\b', title)
+    return m.group(1) if m else None
+
+def extract_awards(entry):
+    """
+    Turn emphasized parts of a note (*...*), optionally linked
+    ([*...*](url)), into a list of awards. Awards without venue are
+    prefixed with the venue abbreviation.
+    """
+    # notes may be wrapped over multiple (indented) lines
+    m = re.search(r'\n  note: (.*(?:\n    .*)*)', entry)
+    if not m:
+        return entry
     note = re.sub(r'\s+', ' ', m.group(1)).strip()
     if note.startswith('"') and note.endswith('"'):
         note = note[1:-1]
-    awards = re.findall(r'\*([^*]+)\*', note)
+    pattern = r'\[\*([^*]+)\*\]\(([^)]+)\)|\*([^*]+)\*'
+    awards = re.findall(pattern, note)
     if not awards:
-        return m.group(0)
+        return entry
+    venue = get_venue(entry)
     res = ''
-    rest = re.sub(r'\*[^*]+\*', '', note).strip(' ,;')
+    rest = re.sub(pattern, '', note).strip(' ,;')
     if rest:
         res += '\n  note: ' + rest
     res += '\n  awards:'
-    for a in awards:
-        res += '\n    - award: ' + a.strip(' ,;')
-    return res
+    for linked, url, plain in awards:
+        award = (linked or plain).strip(' ,;')
+        award = award.replace('Best SCP', 'SCP Best')
+        if venue and not re.match(r'(Nominated|[A-Z]{2,}) ', award):
+            award = f'{venue} {award}'
+        res += '\n    - award: ' + award
+        if url:
+            res += '\n      url: ' + url
+    return entry[:m.start()] + res + entry[m.end():]
 
-# notes may be wrapped over multiple (indented) lines
-markdown_vita = re.sub(r'\n  note: (.*(?:\n    .*)*)', extract_awards, markdown_vita)
-markdown_refs = re.sub(r'\n  note: (.*(?:\n    .*)*)', extract_awards, markdown_refs)
+markdown_vita = ''.join(
+        extract_awards(e) for e in re.split(r'(?=\n- )', markdown_vita))
+markdown_refs = ''.join(
+        extract_awards(e) for e in re.split(r'(?=\n- )', markdown_refs))
 
 for s, r in subst.items():
     markdown_vita = re.sub(s, r, markdown_vita)

@@ -3348,7 +3348,7 @@ references:
     month: 9
   note: Milan, Italy.
   awards:
-    - award: Distinguished Tutorial Paper Award
+    - award: FM Distinguished Tutorial Paper Award
   page: 571-596
   publisher: Springer Nature Switzerland
   title: "Satisfiability modulo theories: A beginner's tutorial"
@@ -6623,7 +6623,7 @@ references:
   - year: 2020
     month: 7
   awards:
-    - award: Best Paper Award
+    - award: IJCAR Best Paper Award
   page: 238-255
   publisher: Springer International Publishing
   title: Politeness for the theory of algebraic datatypes
@@ -7859,7 +7859,7 @@ references:
     month: 4
   note: Thessaloniki, Greece.
   awards:
-    - award: Distinguished Artifact Award
+    - award: TACAS Distinguished Artifact Award
   page: 55-71
   publisher: Springer
   title: "EMME: A formal tool for ECMAScript memory model evaluation"
@@ -8230,7 +8230,7 @@ references:
     month: 10
   note: Mountain View, California.
   awards:
-    - award: Best Paper Award
+    - award: FMCAD Best Paper Award
   page: 93-100
   publisher: FMCAD Inc.
   title: Lazy proofs for DPLL(T)-based SMT solvers
@@ -8381,7 +8381,7 @@ references:
     month: 10
   note: Anaheim, California.
   awards:
-    - award: Best Paper Award
+    - award: ITC Best Paper Award
   page: 1-10
   publisher: IEEE
   title: A structured approach to post-silicon validation and debug
@@ -9531,7 +9531,7 @@ references:
     month: 6
   note: San Francisco, California.
   awards:
-    - award: Best Paper Award
+    - award: DAC Best Paper Award
   page: 522-527
   publisher: Association for Computing Machinery
   title: A decision procedure for bit-vector arithmetic
@@ -10610,7 +10610,8 @@ references:
   - year: 2026
     month: 7
   awards:
-    - award: Distinguished Paper Award
+    - award: CAV Distinguished Paper Award
+      url: http://conferences.i-cav.org/2026/accepted/
   page: 27-49
   publisher: Springer
   title: Satisfiability modulo extensional constant arrays
@@ -10719,9 +10720,11 @@ references:
   - year: 2026
     month: 4
   awards:
-    - award: Best Tool Paper Award
-    - award: Distinguished Paper Award
-    - award: Distinguished Artifact Award
+    - award: ETAPS Best Tool Paper Award
+      url: https://etaps.org/awards/best-paper/
+    - award: TACAS Distinguished Paper Award
+      url: https://etaps.org/2026/programme/
+    - award: TACAS Distinguished Artifact Award
   page: 170-191
   publisher: Springer
   title: Massively parallel bit-precise verification with Bitwuzla and
@@ -10729,12 +10732,6 @@ references:
   type: paper-conference
   url: "https://doi.org/10.1007/978-3-032-22752-2_9"
   volume: 16505
-  awards:
-    - award: ETAPS Best Tool Paper Award
-      url: https://etaps.org/awards/best-paper/
-    - award: TACAS Distinguished Paper Award
-      url: https://etaps.org/2026/programme/
-    - award: TACAS Distinguished Artifact Award
 - author:
   - family: Fichte
     given: Johannes Klaus
@@ -10830,7 +10827,8 @@ references:
   - year: 2023
     month: 7
   awards:
-    - award: Distinguished Paper Award
+    - award: CAV Distinguished Paper Award
+      url: http://www.i-cav.org/2023/accepted-papers/
   page: 3-17
   publisher: Springer
   title: Bitwuzla
@@ -10865,7 +10863,8 @@ references:
   - year: 2023
     month: 7
   awards:
-    - award: Highlighted Paper
+    - award: SAT Highlighted Paper
+      url: http://satisfiability.org/SAT23/pages/awards.html
   page: "8:1-8:13"
   publisher: Schloss Dagstuhl - Leibniz-Zentrum für Informatik
   title: "IPASIR-UP: User propagators for CDCL"
