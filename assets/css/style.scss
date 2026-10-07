@@ -47,7 +47,10 @@ a:hover {
   color: #de4f39;
 }
 
-span.awards {
+span.awards,
+span.awards a,
+span.awards a:visited,
+span.awards a:hover {
   color: #de4f39;
 }
 
