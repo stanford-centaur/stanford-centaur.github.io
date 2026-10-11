@@ -4,22 +4,28 @@ title: people
 ---
 
 {% assign faculty = site.data.people | where: 'position', 'faculty' %}
+{% assign visiting_faculty = site.data.people | where: 'position', 'visiting_faculty' %}
 {% assign staff = site.data.people | where: 'position', 'research_scientist' %}
 {% assign postdocs = site.data.people | where: 'position', 'postdoc' %}
 {% assign visiting = site.data.people | where: 'position', 'visiting' %}
 {% assign phd = site.data.people | where: 'position', 'phd' %}
+{% assign visiting_students = site.data.people | where: 'position', 'visiting_student' %}
 {% assign rotating = site.data.people | where: 'position', 'rotating' %}
 {% assign master = site.data.people | where: 'position', 'master' %}
 {% assign bachelor = site.data.people | where: 'position', 'bachelor' %}
 {% assign grad = phd | concat: master | concat: bachelor %}
 
 {% assign faculty = faculty | where_exp: 'f', 'f.end == nil' %}
+{% assign visiting_faculty = visiting_faculty | where_exp: 'f', 'f.end == nil' %}
 {% assign staff = staff | where_exp: 's', 's.end == nil' %}
 {% assign postdocs = postdocs | where_exp: 'p', 'p.end == nil' %}
 {% assign visiting = visiting | where_exp: 'p', 'p.end == nil' %}
 {% assign grad = grad | where_exp: 'g', 'g.end == nil' %}
+{% assign visiting_students = visiting_students | where_exp: 'v', 'v.end == nil' %}
 {% assign rotating = rotating | where_exp: 'r', 'r.end == nil' %}
 
+{% include sort_by_last_name.html items=visiting_faculty %}
+{% assign visiting_faculty = sorted %}
 {% include sort_by_last_name.html items=staff %}
 {% assign staff = sorted %}
 {% include sort_by_last_name.html items=postdocs %}
@@ -28,6 +34,8 @@ title: people
 {% assign visiting = sorted %}
 {% include sort_by_last_name.html items=grad %}
 {% assign grad = sorted %}
+{% include sort_by_last_name.html items=visiting_students %}
+{% assign visiting_students = sorted %}
 {% include sort_by_last_name.html items=rotating %}
 {% assign rotating = sorted %}
 
@@ -36,6 +44,11 @@ title: people
 {% if faculty.size != 0 %}
 <h2>Faculty</h2>
 {% include rows.html items=faculty card="person_card.html" %}
+{% endif %}
+
+{% if visiting_faculty.size != 0 %}
+<h2>Visiting Faculty</h2>
+{% include rows.html items=visiting_faculty card="person_card.html" %}
 {% endif %}
 
 {% if staff.size != 0 %}
@@ -56,6 +69,11 @@ title: people
 {% if grad.size != 0 %}
 <h2>Graduate Students</h2>
 {% include rows.html items=grad card="person_card.html" %}
+{% endif %}
+
+{% if visiting_students.size != 0 %}
+<h2>Visiting Student Researchers</h2>
+{% include rows.html items=visiting_students card="person_card.html" %}
 {% endif %}
 
 

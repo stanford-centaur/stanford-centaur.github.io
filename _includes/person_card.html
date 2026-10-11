@@ -12,9 +12,11 @@
 <br/>
 {% case p.position %}
 {% when 'faculty' %}{{ p.title }}
+{% when 'visiting_faculty' %}{% if p.title %}{{ p.title }}{% else %}Visiting Professor{% endif %}
 {% when 'research_scientist' %}{% if p.title %}{{ p.title }}{% else %}Research Scientist{% endif %}
 {% when 'postdoc' %}Postdoctoral Researcher
 {% when 'visiting' %}Visiting Researcher
+{% when 'visiting_student' %}Visiting Student Researcher
 {% when 'phd' %}Ph.D. Student
 {% when 'master' %}Masters Student
 {% when 'bachelor' %}Bachelors Student

@@ -28,6 +28,15 @@
   website: https://web.stanford.edu/~icard/
   start: 2022
 
+# Visiting faculty
+
+- name: Daniel Reichman
+  position: visiting_faculty
+  title: Visiting Professor<br/>Associate Professor, Worcester Polytechnic Institute
+  img: reichman.jpg
+  website: https://www.linkedin.com/in/daniel-reichman-71a60a2/
+  start: 2026
+
 # Research scientists
 
 - name: Aina Niemetz
@@ -105,6 +114,7 @@
 
 - name: Abdalrhman Mohamed
   position: phd
+  img: mohamed.jpg
   start: 2022
 
 - name: Scott Viteri
@@ -115,18 +125,13 @@
 
 - name: Aron Perez-Lopez
   position: phd
+  img: perez-lopez.jpg
   start: 2022
 
 - name: Leni Aniva
   position: phd
   website: https://leni.sh/
   img: aniva.jpg
-  start: 2022
-
-- name: Chuyue (Livia) Sun
-  position: phd
-  img: sun.jpeg
-  website: https://web.stanford.edu/~chuyues/
   start: 2022
 
 - name: Elizaveta (Liza) Pertseva
@@ -137,6 +142,7 @@
 
 - name: Milan Ganai
   position: phd
+  img: ganai.jpg
   start: 2024
 
 - name: Yicheng Qian 
@@ -145,7 +151,16 @@
 
 - name: Harun Khan
   position: phd
+  img: khan.jpg
   start: 2024
+
+# Visiting student researchers
+
+- name: Tianyi Zhou
+  position: visiting_student
+  img: zhou.jpg
+  website: https://www.linkedin.com/in/tianyi-zhou-b28830269/
+  start: 2026
 
 # Rotating students
 
@@ -154,6 +169,14 @@
 # Bachelor students
 
 # Alumni
+
+- name: Chuyue (Livia) Sun
+  position: phd
+  img: sun.jpeg
+  website: https://web.stanford.edu/~chuyues/
+  start: 2022
+  end: 2026
+  now: "&Truth"
 
 - name: Min Wu
   position: postdoc
@@ -165,9 +188,10 @@
 - name: Amalee Wilson
   position: phd
   img: wilson.jpg
-  website: https://profiles.stanford.edu/amalee-wilson
+  website: https://www.linkedin.com/in/amalee-wilson/
   start: 2019
   end: 2026
+  now: Quantum Computing Architect, NVIDIA
 
 - name: Thomas Hader
   position: visiting
@@ -179,13 +203,15 @@
   website: https://www.maxlamparth.com/
   start: 2023
   end: 2025
+  now: Research Fellow, Hoover Institution, Stanford
 
 - name: Alex Ozdemir
   position: phd
   img: ozdemir.jpg
-  website: https://cs.stanford.edu/~aozdemir/
+  website: https://faculty.cc.gatech.edu/~aozdemir/
   start: 2018
   end: 2025
+  now: Assistant Professor, Georgia Tech
 
 - name: Caleb Donovick
   position: phd
@@ -198,16 +224,20 @@
   start: 2025
   end: 2025
 
+- name: Yican Sun
+  position: visiting
+  start: 2025
+  end: 2025
+
 - name: Jibiana Jakpor
   position: bachelor
   start: 2024
-  end: 2024
+  end: 2026
 
 - name: Benjamin Przybocki
   position: bachelor
   start: 2023
   end: 2024
-  now: Cambridge
 
 - name: Kaia Xiaofu Li
   position: bachelor
@@ -217,22 +247,20 @@
 - name: Ying Sheng
   position: phd
   img: sheng.jpg
-  website: https://profiles.stanford.edu/ying-sheng
+  website: https://www.linkedin.com/in/yingsheng1123/
   start: 2018
   end: 2024
-  now: XAI, UCLA
+  now: CEO, RadixArk
 
 - name: Sophie Andrews
   position: master
   start: 2023
   end: 2024
-  now: Apple
 
 - name: Harun Khan
   position: master
   start: 2023
   end: 2024
-  now: Ph.D. student at Stanford
 
 - name: Haoze Wu
   position: phd
@@ -246,7 +274,6 @@
   position: master
   start: 2022
   end: 2024
-  now: Atlassian
 
 - name: Joey Guman
   position: bachelor
@@ -258,7 +285,7 @@
   website: https://ahmed-irfan.github.io/
   start: 2019
   end: 2021
-  now: SRI
+  now: Code Metal
 
 - name: Guy Katz
   position: postdoc
@@ -270,10 +297,9 @@
 
 - name: Gereon Kremer
   position: postdoc
-  website: https://cs.stanford.edu/~gkremer/
+  website: https://gereon-kremer.de/
   start: 2020
   end: 2022
-  now: Certora
 
 - name: Florian Lonsing
   position: research_scientist
@@ -281,7 +307,6 @@
   website: http://www.florianlonsing.com/
   start: 2019
   end: 2022
-  now: AWS
 
 - name: Cristian Mattarei
   position: postdoc
@@ -294,10 +319,10 @@
 - name: Makai Mann
   position: phd
   img: mann.jpg
-  website: https://makaimann.github.io
+  website: https://www.linkedin.com/in/makai-mann/
   start: 2016
   end: 2021
-  now: MIT Lincoln Laboratory
+  now: Senior Robotics Software Engineer, Anduril
 
 - name: Andres Nötzli
   position: phd
@@ -323,7 +348,6 @@
   position: master
   start: 2018
   end: 2019
-  now: Apple
 
 - name: Tobey Shim
   position: bachelor
@@ -334,19 +358,16 @@
   position: master
   start: 2019
   end: 2020
-  now: Apple
 
 - name: Shantanu Takoor
   position: master
   start: 2018
   end: 2019
-  now: DeepMind
 
 - name: Yahan Yang
   position: master
   start: 2019
   end: 2020
-  now: Ph.D. student at U Penn
 
 - name: Aleksandar Zeljić
   position: postdoc
@@ -354,13 +375,12 @@
   website: https://aleksandarzeljic.github.io/
   start: 2018
   end: 2022
-  now: Synopsis
+  now: Aleksandar Zeljic Coaching LLC
 
 - name: Emma Zhong
   position: master
   start: 2019
   end: 2020
-  now: Facebook Novi
 
 - name: Yoni Zohar
   position: postdoc

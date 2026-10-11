@@ -9,7 +9,9 @@ title: alumni
 {% assign phd = site.data.people | where: 'position', 'phd' %}
 {% assign master = site.data.people | where: 'position', 'master' %}
 {% assign bachelor = site.data.people | where: 'position', 'bachelor' %}
-{% assign visiting = site.data.people | where: 'position', 'visiting' %}
+{% assign visiting_faculty = site.data.people | where: 'position', 'visiting_faculty' %}
+{% assign visiting_students = site.data.people | where: 'position', 'visiting_student' %}
+{% assign visiting = site.data.people | where: 'position', 'visiting' | concat: visiting_faculty | concat: visiting_students %}
 
 {% assign faculty = faculty | where_exp: 'p', 'p.end != nil' %}
 {% assign staff = staff | where_exp: 'p', 'p.end != nil' %}
