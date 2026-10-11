@@ -58,11 +58,31 @@ def get_venue(entry):
             or re.search(r'\b([A-Z]{2,}) [0-9]{4}\b', title)
     return m.group(1) if m else None
 
+def load_award_urls(*paths):
+    """
+    Map each BibTeX key to the URLs in its awardurl field. The field holds
+    one URL per award, in the same order as the emphasized awards in the
+    note; standard BibTeX styles ignore it, so the .bib files stay portable.
+    """
+    urls = {}
+    for path in paths:
+        text = path.read_text(encoding='utf8')
+        # each entry starts with "@type{key," at the beginning of a line
+        for entry in re.split(r'\n(?=@)', text):
+            m = re.match(r'@\w+\s*\{\s*([^,\s]+)\s*,', entry)
+            f = re.search(r'\bawardurl\s*=\s*[{"]([^}"]*)[}"]', entry)
+            if m and f:
+                urls[m.group(1)] = f.group(1).split()
+    return urls
+
+award_urls = load_award_urls(path_vita_bib, path_refs_bib)
+
 def extract_awards(entry):
     """
     Turn emphasized parts of a note (*...*), optionally linked
-    ([*...*](url)), into a list of awards. Awards without venue are
-    prefixed with the venue abbreviation.
+    ([*...*](url)), into a list of awards. Links for unlinked awards come
+    from the entry's awardurl field. Awards without venue are prefixed
+    with the venue abbreviation.
     """
     # notes may be wrapped over multiple (indented) lines
     m = re.search(r'\n  note: (.*(?:\n    .*)*)', entry)
@@ -81,7 +101,11 @@ def extract_awards(entry):
     if rest:
         res += '\n  note: ' + rest
     res += '\n  awards:'
-    for linked, url, plain in awards:
+    m_id = re.search(r'\n  id: (.*)', entry)
+    entry_urls = award_urls.get(m_id.group(1).strip().strip('"'), []) if m_id else []
+    for i, (linked, url, plain) in enumerate(awards):
+        if not url and i < len(entry_urls):
+            url = entry_urls[i]
         award = (linked or plain).strip(' ,;')
         award = award.replace('Best SCP', 'SCP Best')
         if venue and not re.match(r'(Nominated|[A-Z]{2,}) ', award):
