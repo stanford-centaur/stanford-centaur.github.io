@@ -1948,6 +1948,453 @@ references:
   type: article-journal
   url: "http://theory.stanford.edu/\\~barrett/pubs/SJO+05.pdf"
   volume: 24
+- abstract: In this work, we investigate the effect of lookahead
+    branching strategies in neural network verification. We present a
+    general recipe to integrate lookahead into any branch-and-bound
+    verifier and demonstrate how one of the current state-of-the-art
+    branching heuristics, FSB, can be viewed as a special instantiation
+    of the lookahead branching strategy. We also describe how, in
+    addition to improving the quality of branching decisions, lookahead
+    can generate additional lemmas that accelerate verification. We
+    instantiate the method in two representative branch-and-bound-based
+    verifiers (Marabou and α-β-CROWN), and demonstrate that lookahead
+    leads to consistent speedups in verification time and up to 57
+  author:
+  - family: Davis
+    given: Liam
+  - family: Zhou
+    given: Duo
+  - family: Zhang
+    given: Huan
+  - family: Katz
+    given: Guy
+  - family: Barrett
+    given: Clark W.
+  - family: Wu
+    given: Haoze
+  container-title: Proceedings of the thirty-fifth international joint
+    conference on artificial intelligence and the 29th european
+    conference on artificial intelligence, IJCAI/ECAI 2026, bremen,
+    germany, 15-21 august 2026
+  doi: 10.24963/IJCAI.2026/59
+  id: DZZ+26
+  issued:
+  - year: 2026
+    month: 1
+  note: Bremen, Germany
+  page: 518-526
+  publisher: ijcai.org
+  title: Lookahead branching for neural network verification
+  type: paper-conference
+  url: "https://doi.org/10.24963/ijcai.2026/59"
+- abstract: Reasoning about array data structures is a key requirement
+    for many applications in hardware and software verification,
+    especially in combination with machine integers. The Satisfiability
+    Modulo Theories (SMT) theory of extensional arrays provides array
+    read and write operators and allows extensionality over arrays. This
+    is sufficient to express many aspects of computer-aided
+    verification, but lacks succinctness to efficiently deal with arrays
+    that are initialized with a default value. Existing procedures for
+    extending the SMT-LIB theory of arrays with support for constant
+    arrays are limited to arrays with infinite index domains, and
+    existing implementations in SMT solvers only support a fragment of
+    the theory for finite index domains. In this paper, we present a
+    novel decision procedure for the theory of arrays with constant
+    arrays that supports arbitrary index domains and is not limited to
+    the infinite case. We present our procedure as an abstract calculus
+    and show its refutational and satisfiability soundness. We implement
+    a decision procedure based on our calculus in the state-of-the-art
+    SMT solver Bitwuzla and evaluate its performance on a diverse
+    collection of benchmarks and use cases.
+  author:
+  - family: Preiner
+    given: Mathias
+  - family: Niemetz
+    given: Aina
+  - family: Barrett
+    given: Clark W.
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 38th international
+    conference, CAV 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part II
+  doi: 10.1007/978-3-032-32526-6_2
+  editor:
+  - family: Darulova
+    given: Eva
+  - family: Lin
+    given: Anthony W.
+  - family: Rümmer
+    given: Philipp
+  id: PNB26
+  issued:
+  - year: 2026
+    month: 1
+  note: Lisbon, Portugal.
+  awards:
+    - award: CAV Distinguished Paper Award
+      url: http://conferences.i-cav.org/2026/accepted/
+  page: 27-49
+  publisher: Springer
+  title: Satisfiability modulo extensional constant arrays
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32526-6_2"
+  volume: 16683
+- abstract: Efforts to verify Zero-Knowledge Proof circuit encodings
+    have highlighted the challenge of proving the correctness of
+    quantifier-free statements that make use of both bitvector and
+    finite field operations. Existing verification workflows are either
+    manual or rely on SMT solvers, which scale poorly on some classes of
+    problems for reasons that include difficulties with conversion
+    operators and challenges reasoning about inequalities. To address
+    these limitations, we present a novel Lean tactic BitModEq that
+    leverages range lemmas and case analysis to produce verified
+    translations from finite fields to bitvectors. Our approach,
+    combined with bit-blasting, outperforms state-of-the-art SMT
+    solvers, solving 19
+  author:
+  - family: Pertseva
+    given: Elizaveta
+  - family: Robert
+    given: Valentin
+  - family: Barrett
+    given: Clark W.
+  - family: Parker
+    given: James
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 38th international
+    conference, CAV 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part II
+  doi: 10.1007/978-3-032-32526-6_8
+  editor:
+  - family: Darulova
+    given: Eva
+  - family: Lin
+    given: Anthony W.
+  - family: Rümmer
+    given: Philipp
+  id: PRB+26
+  issued:
+  - year: 2026
+    month: 1
+  note: Lisbon, Portugal
+  page: 165-187
+  publisher: Springer
+  title: Automating bitvector and finite field equivalence proofs in
+    lean
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32526-6_8"
+  volume: 16683
+- abstract: We present the Cooperating Proof Calculus (CPC), an evolving
+    set of proof rules encompassing all inferences used in the
+    mainstream theories of the SMT solver cvc5. CPC consists of 585
+    proof rules, which are formalized in 8025 lines of definitions in
+    the logical framework Eunoia. Eunoia proofs are independently
+    checkable by the proof checker Ethos. This paper gives a detailed
+    summary of CPC, surveying its proof rules over its major components.
+    Having instrumented cvc5 to generate CPC proofs in Eunoia, we show
+    that the solver is capable of generating fine-grained CPC proofs,
+    with no proof holes, for all benchmarks in the SMT library except
+    those in logics with floating-point arithmetic, which are currently
+    not supported. This results in more than 900 million proof steps
+    using 427 unique proof rules. We also discuss ongoing work in the
+    proof assistants Lean and Isabelle to verify the correctness of CPC.
+  author:
+  - family: Reynolds
+    given: Andrew
+  - family: Schurr
+    given: Hans-Jörg
+  - family: Barbosa
+    given: Haniel
+  - family: Israel
+    given: Ofec
+  - family: Jakpor
+    given: Jibiana
+  - family: Lachnitt
+    given: Hanna
+  - family: Mohamed
+    given: Abdalrhman
+  - family: Niemetz
+    given: Aina
+  - family: Preiner
+    given: Mathias
+  - family: Zohar
+    given: Yoni
+  - family: Jones
+    given: Robert B.
+  - family: Barrett
+    given: Clark W.
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Computer aided verification - 38th international
+    conference, CAV 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part II
+  doi: 10.1007/978-3-032-32526-6_9
+  editor:
+  - family: Darulova
+    given: Eva
+  - family: Lin
+    given: Anthony W.
+  - family: Rümmer
+    given: Philipp
+  id: RSB+26
+  issued:
+  - year: 2026
+    month: 1
+  note: Lisbon, Portugal
+  page: 188-212
+  publisher: Springer
+  title: "The cooperating proof calculus: Comprehensive proofs for an
+    SMT solver"
+  title-short: The cooperating proof calculus
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32526-6_9"
+  volume: 16683
+- abstract: Nielsen transformations form the basis of a simple and
+    widely used procedure for solving word equations. We make progress
+    on the problem of determining when this procedure terminates in the
+    presence of length constraints. To do this, we introduce extended
+    word equations, a mathematical model of a word equation with partial
+    information about length constraints. We then define extended
+    Nielsen transformations, which adapt Nielsen transformations to the
+    setting of extended word equations. We provide a partial
+    characterization of when repeatedly applying extended Nielsen
+    transformations to an extended word equation is guaranteed to
+    terminate.
+  author:
+  - family: Przybocki
+    given: Benjamin
+  - family: Barrett
+    given: Clark W.
+  collection-title: Lecture notes in computer science
+  container-title: Automated reasoning - 13th international joint
+    conference, IJCAR 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part II
+  doi: 10.1007/978-3-032-32592-1_14
+  editor:
+  - family: Biere
+    given: Armin
+  - family: Lutz
+    given: Carsten
+  - family: Negri
+    given: Sara
+  id: PB26
+  issued:
+  - year: 2026
+    month: 1
+  note: Lisbon, Portugal
+  page: 234-250
+  publisher: Springer
+  title: The termination of nielsen transformations applied to word
+    equations with length constraints
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32592-1_14"
+  volume: 16689
+- abstract: cvc5 is a state-of-the-art proof-producing SMT solver,
+    capable of solving formulas over a myriad of theories, including
+    Unicode strings. Matching regular expressions against concrete
+    strings is done numerous times during the solving process, and forms
+    a bottleneck in proof-checking for unsatisfiable formulas. We
+    describe three approaches for checking regular expressions in the
+    Eunoia proof-checking framework, and evaluate them on proofs
+    produced by cvc5.
+  author:
+  - family: Israel
+    given: Ofec
+  - family: Zohar
+    given: Yoni
+  - family: Reynolds
+    given: Andrew
+  - family: Hitarth
+    given: S.
+  - family: Dutertre
+    given: Bruno
+  - family: Barrett
+    given: Clark W.
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Automated reasoning - 13th international joint
+    conference, IJCAR 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part I
+  doi: 10.1007/978-3-032-32589-1_16
+  editor:
+  - family: Biere
+    given: Armin
+  - family: Lutz
+    given: Carsten
+  - family: Negri
+    given: Sara
+  id: IZR+26
+  issued:
+  - year: 2026
+    month: 1
+  note: Lisbon, Portugal
+  page: 267-275
+  publisher: Springer
+  title: Checking regular expressions in Cvc5 proofs
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32589-1_16"
+  volume: 16688
+- abstract: SMT solvers are used in many safety-critical applications.
+    To provide evidence of the correctness of their answers, some SMT
+    solvers generate externally checkable proof certificates. We present
+    a high-performance checker for SMT proof certificates called Ethos.
+    In contrast with other dedicated SMT proof checkers, Ethos does not
+    implement a fixed proof calculus. Instead, it allows users to
+    specify their own calculus in the declarative language Eunoia, which
+    extends the familiar SMT-LIB syntax to make that easy and
+    convenient. We give a short overview of Eunoia and then focus on
+    Ethos itself. We describe multiple optimization and implementation
+    details which make Ethos fast and practical. We also evaluate Ethos
+    on proofs generated by cvc5, showing that the flexibility of Ethos
+    allows us to efficiently check fine-grained proofs, containing no
+    proof holes, over all SMT-LIB logics without floating point
+    arithmetic.
+  author:
+  - family: Reynolds
+    given: Andrew
+  - family: Schurr
+    given: Hans-Jörg
+  - family: Soldevila
+    given: Mallku
+  - family: Barbosa
+    given: Haniel
+  - family: Barrett
+    given: Clark W.
+  - family: Tinelli
+    given: Cesare
+  collection-title: Lecture notes in computer science
+  container-title: Automated reasoning - 13th international joint
+    conference, IJCAR 2026, lisbon, portugal, july 26-29, 2026,
+    proceedings, part I
+  doi: 10.1007/978-3-032-32589-1_19
+  editor:
+  - family: Biere
+    given: Armin
+  - family: Lutz
+    given: Carsten
+  - family: Negri
+    given: Sara
+  id: RSS+26
+  issued:
+  - year: 2026
+    month: 1
+  note: Lisbon, Portugal
+  page: 305-314
+  publisher: Springer
+  title: "Ethos: A fast proof checker for the eunoia logical framework"
+  title-short: Ethos
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-32589-1_19"
+  volume: 16688
+- abstract: "Chain-of-Thought (CoT) reasoning often fails to faithfully
+    reflect a language model's underlying decision process. We address
+    this by introducing a \\*Markovian\\* language model framework with an
+    autoencoder-style \\*reasoning bottleneck\\*: all information flowing
+    from question to answer must pass through a bounded-length CoT,
+    creating a bandwidth bottleneck analogous to the latent layer of an
+    autoencoder. In practice, the KL penalty toward the pretrained
+    distribution and the inductive biases of gradient descent discourage
+    steganographic encoding, so the model learns to express its
+    reasoning in natural-language steps from which the answer can be
+    derived. We train this system with a GRPO-style policy gradient
+    algorithm using parallel sampling, a frozen baseline CoT',
+    within-batch standardized advantages, and actor-reward (chain-rule)
+    gradients. On QA tasks, Markovian training recovers most of the
+    gains of a Non-Markovian GRPO variant while forcing the model to
+    answer from the CoT alone (e.g., GSM8K: 19.6%→ 57.1%; ARC-Challenge:
+    36.1%→ 79.9%; on average within≈3--4 pp of a Non-Markovian variant).
+    Perturbation analyses across types and severities show that
+    Markovian models incur systematically larger log-probability drops
+    under CoT corruption than matched Non-Markovian baselines,
+    indicating stronger causal reliance on the CoT. Cross-model
+    evaluation confirms that learned CoTs generalize across
+    architectures, suggesting they encode transferable reasoning steps
+    rather than model-specific artifacts."
+  author:
+  - family: Viteri
+    given: Scott
+  - family: Lamparth
+    given: Max
+  - family: Chatain
+    given: Peter
+  - family: Barrett
+    given: Clark W.
+  container-title: The fourteenth international conference on learning
+    representations, ICLR 2026, rio de janeiro, brazil, april 23-27,
+    2026
+  editor:
+  - family: Vondrick
+    given: Carl
+  - family: Hariharan
+    given: Bharath
+  - family: Raffel
+    given: Colin
+  - family: Pinto
+    given: Lerrel
+  - family: Yang
+    given: Diyi
+  - family: Faust
+    given: Aleksandra
+  id: VLC+26
+  issued:
+  - year: 2026
+    month: 1
+  note: Rio de Janeiro, Brazil
+  publisher: proceedings.iclr.cc
+  title: Markovian transformers for informative language modeling
+  type: paper-conference
+  url: "https://proceedings.iclr.cc/paper_files/paper/2026/file/1aa7204c266db52337fbeaea420cf4f0-Paper-Conference.pdf"
+- abstract: "The adoption of large language models (LLMs) in hardware
+    design automation poses correctness risks for safety-critical
+    applications. We systematically evaluate LLMs against Satisfiability
+    Modulo Theories (SMT) solvers across three hardware synthesis tasks,
+    revealing that LLMs achieve lower levels of functional correctness
+    compared to SMT approaches in our benchmarks. Our findings reveal a
+    crucial distinction: whilst SMT solvers can excel at direct
+    synthesis and can exhaustively validate LLM outputs, their
+    counterexample feedback fails to improve LLM performance. This
+    demonstrates that effective validation does not translate to
+    effective improvement guidance for LLMs, establishing formal methods
+    as essential for direct synthesis and a need for better iterative
+    refinement methods in reliable AI-assisted hardware design."
+  author:
+  - family: Wang
+    given: Edward
+  - family: Walston
+    given: Joe
+  - family: Daniel
+    given: Luca
+  - family: Tan
+    given: Tony
+  - family: Zohar
+    given: Yoni
+  - family: Barrett
+    given: Clark W.
+  collection-title: Lecture notes in computer science
+  container-title: NASA formal methods - 18th international symposium,
+    NFM 2026, los angeles, CA, USA, may 5-7, 2026, proceedings
+  doi: 10.1007/978-3-032-28079-4\\\_12
+  editor:
+  - family: Deshmukh
+    given: Jyotirmoy V.
+  - family: Havelund
+    given: Klaus
+  - family: Pinto
+    given: Alessandro
+  id: WWD+26
+  issued:
+  - year: 2026
+    month: 1
+  note: Los Angeles, CA
+  page: 261-284
+  publisher: Springer
+  title: "Artificial incorrectness: SMT and LLMs in hardware synthesis"
+  title-short: Artificial incorrectness
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-032-28079-4_12"
+  volume: 16622
 - abstract: Symbolic model checking is an important tool for finding
     bugs (or proving the absence of bugs) in modern system designs.
     Because of this, improving the ease of use, scalability, and
@@ -10589,89 +11036,6 @@ references:
   url: "http://theory.stanford.edu/\\~barrett/pubs/B13.pdf"
   volume: 51
 
-- author:
-  - family: Preiner
-    given: Mathias
-  - family: Niemetz
-    given: Aina
-  - family: Barrett
-    given: Clark W.
-  collection-title: Lecture notes in computer science
-  container-title: Computer aided verification - 38th international
-    conference, CAV 2026, lisbon, portugal, july 26-29, 2026,
-    proceedings, part II
-  doi: 10.1007/978-3-032-32526-6_2
-  editor:
-  - family: Darulova
-    given: Eva
-  - family: Lin
-    given: Anthony W.
-  - family: Rümmer
-    given: Philipp
-  id: "DBLP:conf/cav/PreinerNB26"
-  issued:
-  - year: 2026
-    month: 7
-  awards:
-    - award: CAV Distinguished Paper Award
-      url: http://conferences.i-cav.org/2026/accepted/
-  page: 27-49
-  publisher: Springer
-  title: Satisfiability modulo extensional constant arrays
-  type: paper-conference
-  url: "https://doi.org/10.1007/978-3-032-32526-6_2"
-  volume: 16683
-- author:
-  - family: Reynolds
-    given: Andrew
-  - family: Schurr
-    given: Hans-Jörg
-  - family: Barbosa
-    given: Haniel
-  - family: Israel
-    given: Ofec
-  - family: Jakpor
-    given: Jibiana
-  - family: Lachnitt
-    given: Hanna
-  - family: Mohamed
-    given: Abdalrhman
-  - family: Niemetz
-    given: Aina
-  - family: Preiner
-    given: Mathias
-  - family: Zohar
-    given: Yoni
-  - family: Jones
-    given: Robert B.
-  - family: Barrett
-    given: Clark W.
-  - family: Tinelli
-    given: Cesare
-  collection-title: Lecture notes in computer science
-  container-title: Computer aided verification - 38th international
-    conference, CAV 2026, lisbon, portugal, july 26-29, 2026,
-    proceedings, part II
-  doi: 10.1007/978-3-032-32526-6_9
-  editor:
-  - family: Darulova
-    given: Eva
-  - family: Lin
-    given: Anthony W.
-  - family: Rümmer
-    given: Philipp
-  id: "DBLP:conf/cav/ReynoldsSBIJLMNPZJBT26"
-  issued:
-  - year: 2026
-    month: 7
-  page: 188-212
-  publisher: Springer
-  title: "The cooperating proof calculus: Comprehensive proofs for an
-    SMT solver"
-  title-short: The cooperating proof calculus
-  type: paper-conference
-  url: "https://doi.org/10.1007/978-3-032-32526-6_9"
-  volume: 16683
 - author:
   - family: Niemetz
     given: Aina

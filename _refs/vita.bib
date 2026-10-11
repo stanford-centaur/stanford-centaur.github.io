@@ -9,7 +9,7 @@
 % Saranyu
 % Shweta - parametric bv
 % Nestan - function approximation
-% Edward - COMPASS - SMT
+% Edward - COMPASS
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Submitted
@@ -24,7 +24,7 @@
 
 % Milan - CoRL
 % CACM - CSLib
-% Daneshvar - roundtrip - ARR - May 12
+% Daneshvar - roundtrip - ACL - May 12
 % Omri - proof-producing NNV - FMCAD
 % Finite fields - FMCAD
 % Leni - GNN - FMCAD
@@ -32,14 +32,9 @@
 % Nested Datatypes - SMT
 % Amalee - FFD - SMT
 % CDC - Sam - backwards reachability
-% Andrew - Lookahead (IJCAI)
 % Milan RSS paper
-% CAV x 3
-% IJCAR x 3
 % IGPL - Unicorns journal
-% Scott - Markovian (ICLR)
 % L4DC - polyhedral enclosures
-% NFM - Edward
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Patents
@@ -1344,6 +1339,253 @@ make it effective in practice are also described."
 % Conference Papers
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+@inproceedings{DZZ+26,
+  author       = {Liam Davis and
+                  Duo Zhou and
+                  Huan Zhang and
+                  Guy Katz and
+                  Clark W. Barrett and
+                  Haoze Wu},
+  title        = {Lookahead Branching for Neural Network Verification},
+  booktitle    = {Proceedings of the Thirty-Fifth International Joint Conference on
+                  Artificial Intelligence and the 29th European Conference on Artificial
+                  Intelligence, {IJCAI/ECAI} 2026, Bremen, Germany, 15-21 August 2026},
+  pages        = {518--526},
+  publisher    = {ijcai.org},
+  year         = {2026},
+  url          = {https://doi.org/10.24963/ijcai.2026/59},
+  doi          = {10.24963/IJCAI.2026/59},
+  timestamp    = {Tue, 22 Sep 2026 16:55:28 +0200},
+  biburl       = {https://dblp.org/rec/conf/ijcai/DavisZZKBW26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Bremen, Germany},
+  category     = {Conference Publications},
+  abstract     = {In this work, we investigate the effect of lookahead branching strategies in neural network verification. We present a general recipe to integrate lookahead into any branch-and-bound verifier and demonstrate how one of the current state-of-the-art branching heuristics, FSB, can be viewed as a special instantiation of the lookahead branching strategy. We also describe how, in addition to improving the quality of branching decisions, lookahead can generate additional lemmas that accelerate verification. We instantiate the method in two representative branch-and-bound-based verifiers (Marabou and α-β-CROWN), and demonstrate that lookahead leads to consistent speedups in verification time and up to 57% more solved instances. Code is available at https://github.com/ai-ar-research/lookahead-branching.},
+}
+
+@inproceedings{PNB26,
+  author       = {Mathias Preiner and
+                  Aina Niemetz and
+                  Clark W. Barrett},
+  editor       = {Eva Darulova and
+                  Anthony W. Lin and
+                  Philipp R{\"{u}}mmer},
+  title        = {Satisfiability Modulo Extensional Constant Arrays},
+  booktitle    = {Computer Aided Verification - 38th International Conference, {CAV}
+                  2026, Lisbon, Portugal, July 26-29, 2026, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16683},
+  pages        = {27--49},
+  publisher    = {Springer},
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-32526-6_2},
+  doi          = {10.1007/978-3-032-32526-6_2},
+  timestamp    = {Wed, 29 Jul 2026 14:21:08 +0200},
+  biburl       = {https://dblp.org/rec/conf/cav/PreinerNB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Lisbon, Portugal. \href{http://conferences.i-cav.org/2026/accepted/}{\em CAV Distinguished Paper Award}},
+  category     = {Conference Publications},
+  abstract     = {Reasoning about array data structures is a key requirement for many applications in hardware and software verification, especially in combination with machine integers. The Satisfiability Modulo Theories (SMT) theory of extensional arrays provides array read and write operators and allows extensionality over arrays. This is sufficient to express many aspects of computer-aided verification, but lacks succinctness to efficiently deal with arrays that are initialized with a default value. Existing procedures for extending the SMT-LIB theory of arrays with support for constant arrays are limited to arrays with infinite index domains, and existing implementations in SMT solvers only support a fragment of the theory for finite index domains. In this paper, we present a novel decision procedure for the theory of arrays with constant arrays that supports arbitrary index domains and is not limited to the infinite case. We present our procedure as an abstract calculus and show its refutational and satisfiability soundness. We implement a decision procedure based on our calculus in the state-of-the-art SMT solver Bitwuzla and evaluate its performance on a diverse collection of benchmarks and use cases.},
+}
+
+@inproceedings{PRB+26,
+  author       = {Elizaveta Pertseva and
+                  Valentin Robert and
+                  Clark W. Barrett and
+                  James Parker},
+  editor       = {Eva Darulova and
+                  Anthony W. Lin and
+                  Philipp R{\"{u}}mmer},
+  title        = {Automating Bitvector and Finite Field Equivalence Proofs in Lean},
+  booktitle    = {Computer Aided Verification - 38th International Conference, {CAV}
+                  2026, Lisbon, Portugal, July 26-29, 2026, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16683},
+  pages        = {165--187},
+  publisher    = {Springer},
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-32526-6_8},
+  doi          = {10.1007/978-3-032-32526-6_8},
+  timestamp    = {Tue, 08 Sep 2026 16:10:32 +0200},
+  biburl       = {https://dblp.org/rec/conf/cav/PertsevaRBP26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Lisbon, Portugal},
+  category     = {Conference Publications},
+  abstract     = {Efforts to verify Zero-Knowledge Proof circuit encodings have highlighted the challenge of proving the correctness of quantifier-free statements that make use of both bitvector and finite field operations. Existing verification workflows are either manual or rely on SMT solvers, which scale poorly on some classes of problems for reasons that include difficulties with conversion operators and challenges reasoning about inequalities. To address these limitations, we present a novel Lean tactic BitModEq that leverages range lemmas and case analysis to produce verified translations from finite fields to bitvectors. Our approach, combined with bit-blasting, outperforms state-of-the-art SMT solvers, solving 19% more ZKP arithmetization benchmarks.},
+}
+
+@inproceedings{RSB+26,
+  author       = {Andrew Reynolds and
+                  Hans{-}J{\"{o}}rg Schurr and
+                  Haniel Barbosa and
+                  Ofec Israel and
+                  Jibiana Jakpor and
+                  Hanna Lachnitt and
+                  Abdalrhman Mohamed and
+                  Aina Niemetz and
+                  Mathias Preiner and
+                  Yoni Zohar and
+                  Robert B. Jones and
+                  Clark W. Barrett and
+                  Cesare Tinelli},
+  editor       = {Eva Darulova and
+                  Anthony W. Lin and
+                  Philipp R{\"{u}}mmer},
+  title        = {The Cooperating Proof Calculus: Comprehensive Proofs for an {SMT}
+                  Solver},
+  booktitle    = {Computer Aided Verification - 38th International Conference, {CAV}
+                  2026, Lisbon, Portugal, July 26-29, 2026, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16683},
+  pages        = {188--212},
+  publisher    = {Springer},
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-32526-6_9},
+  doi          = {10.1007/978-3-032-32526-6_9},
+  timestamp    = {Tue, 08 Sep 2026 16:10:32 +0200},
+  biburl       = {https://dblp.org/rec/conf/cav/ReynoldsSBIJLMNPZJBT26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Lisbon, Portugal},
+  category     = {Conference Publications},
+  abstract     = {We present the Cooperating Proof Calculus (CPC), an evolving set of proof rules encompassing all inferences used in the mainstream theories of the SMT solver cvc5. CPC consists of 585 proof rules, which are formalized in 8025 lines of definitions in the logical framework Eunoia. Eunoia proofs are independently checkable by the proof checker Ethos. This paper gives a detailed summary of CPC, surveying its proof rules over its major components. Having instrumented cvc5 to generate CPC proofs in Eunoia, we show that the solver is capable of generating fine-grained CPC proofs, with no proof holes, for all benchmarks in the SMT library except those in logics with floating-point arithmetic, which are currently not supported. This results in more than 900 million proof steps using 427 unique proof rules. We also discuss ongoing work in the proof assistants Lean and Isabelle to verify the correctness of CPC.},
+}
+
+@inproceedings{PB26,
+  author       = {Benjamin Przybocki and
+                  Clark W. Barrett},
+  editor       = {Armin Biere and
+                  Carsten Lutz and
+                  Sara Negri},
+  title        = {The Termination of Nielsen Transformations Applied to Word Equations
+                  with Length Constraints},
+  booktitle    = {Automated Reasoning - 13th International Joint Conference, {IJCAR}
+                  2026, Lisbon, Portugal, July 26-29, 2026, Proceedings, Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16689},
+  pages        = {234--250},
+  publisher    = {Springer},
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-32592-1_14},
+  doi          = {10.1007/978-3-032-32592-1_14},
+  timestamp    = {Mon, 03 Aug 2026 20:41:20 +0200},
+  biburl       = {https://dblp.org/rec/conf/ijcar/PrzybockiB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Lisbon, Portugal},
+  category     = {Conference Publications},
+  abstract     = {Nielsen transformations form the basis of a simple and widely used procedure for solving word equations. We make progress on the problem of determining when this procedure terminates in the presence of length constraints. To do this, we introduce extended word equations, a mathematical model of a word equation with partial information about length constraints. We then define extended Nielsen transformations, which adapt Nielsen transformations to the setting of extended word equations. We provide a partial characterization of when repeatedly applying extended Nielsen transformations to an extended word equation is guaranteed to terminate.},
+}
+
+@inproceedings{IZR+26,
+  author       = {Ofec Israel and
+                  Yoni Zohar and
+                  Andrew Reynolds and
+                  S. Hitarth and
+                  Bruno Dutertre and
+                  Clark W. Barrett and
+                  Cesare Tinelli},
+  editor       = {Armin Biere and
+                  Carsten Lutz and
+                  Sara Negri},
+  title        = {Checking Regular Expressions in Cvc5 Proofs},
+  booktitle    = {Automated Reasoning - 13th International Joint Conference, {IJCAR}
+                  2026, Lisbon, Portugal, July 26-29, 2026, Proceedings, Part {I}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16688},
+  pages        = {267--275},
+  publisher    = {Springer},
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-32589-1_16},
+  doi          = {10.1007/978-3-032-32589-1_16},
+  timestamp    = {Wed, 29 Jul 2026 14:21:09 +0200},
+  biburl       = {https://dblp.org/rec/conf/ijcar/IsraelZRHDBT26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Lisbon, Portugal},
+  category     = {Conference Publications},
+  abstract     = {cvc5 is a state-of-the-art proof-producing SMT solver, capable of solving formulas over a myriad of theories, including Unicode strings. Matching regular expressions against concrete strings is done numerous times during the solving process, and forms a bottleneck in proof-checking for unsatisfiable formulas. We describe three approaches for checking regular expressions in the Eunoia proof-checking framework, and evaluate them on proofs produced by cvc5.},
+}
+
+@inproceedings{RSS+26,
+  author       = {Andrew Reynolds and
+                  Hans{-}J{\"{o}}rg Schurr and
+                  Mallku Soldevila and
+                  Haniel Barbosa and
+                  Clark W. Barrett and
+                  Cesare Tinelli},
+  editor       = {Armin Biere and
+                  Carsten Lutz and
+                  Sara Negri},
+  title        = {Ethos: {A} Fast Proof Checker for the Eunoia Logical Framework},
+  booktitle    = {Automated Reasoning - 13th International Joint Conference, {IJCAR}
+                  2026, Lisbon, Portugal, July 26-29, 2026, Proceedings, Part {I}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16688},
+  pages        = {305--314},
+  publisher    = {Springer},
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-32589-1_19},
+  doi          = {10.1007/978-3-032-32589-1_19},
+  timestamp    = {Wed, 29 Jul 2026 14:21:09 +0200},
+  biburl       = {https://dblp.org/rec/conf/ijcar/ReynoldsSSBBT26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Lisbon, Portugal},
+  category     = {Conference Publications},
+  abstract     = {SMT solvers are used in many safety-critical applications. To provide evidence of the correctness of their answers, some SMT solvers generate externally checkable proof certificates. We present a high-performance checker for SMT proof certificates called Ethos. In contrast with other dedicated SMT proof checkers, Ethos does not implement a fixed proof calculus. Instead, it allows users to specify their own calculus in the declarative language Eunoia, which extends the familiar SMT-LIB syntax to make that easy and convenient. We give a short overview of Eunoia and then focus on Ethos itself. We describe multiple optimization and implementation details which make Ethos fast and practical. We also evaluate Ethos on proofs generated by cvc5, showing that the flexibility of Ethos allows us to efficiently check fine-grained proofs, containing no proof holes, over all SMT-LIB logics without floating point arithmetic.},
+}
+
+@inproceedings{VLC+26,
+  author       = {Scott Viteri and
+                  Max Lamparth and
+                  Peter Chatain and
+                  Clark W. Barrett},
+  editor       = {Carl Vondrick and
+                  Bharath Hariharan and
+                  Colin Raffel and
+                  Lerrel Pinto and
+                  Diyi Yang and
+                  Aleksandra Faust},
+  title        = {Markovian Transformers for Informative Language Modeling},
+  booktitle    = {The Fourteenth International Conference on Learning Representations,
+                  {ICLR} 2026, Rio de Janeiro, Brazil, April 23-27, 2026},
+  publisher    = {proceedings.iclr.cc},
+  year         = {2026},
+  url          = {https://proceedings.iclr.cc/paper_files/paper/2026/file/1aa7204c266db52337fbeaea420cf4f0-Paper-Conference.pdf},
+  timestamp    = {Sun, 27 Sep 2026 13:38:51 +0200},
+  biburl       = {https://dblp.org/rec/conf/iclr/ViteriLCB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Rio de Janeiro, Brazil},
+  category     = {Conference Publications},
+  abstract     = {Chain-of-Thought (CoT) reasoning often fails to faithfully reflect a language model's underlying decision process. We address this by introducing a *Markovian* language model framework with an autoencoder-style *reasoning bottleneck*: all information flowing from question to answer must pass through a bounded-length CoT, creating a bandwidth bottleneck analogous to the latent layer of an autoencoder. In practice, the KL penalty toward the pretrained distribution and the inductive biases of gradient descent discourage steganographic encoding, so the model learns to express its reasoning in natural-language steps from which the answer can be derived. We train this system with a GRPO-style policy gradient algorithm using parallel sampling, a frozen baseline CoT', within-batch standardized advantages, and actor-reward (chain-rule) gradients. On QA tasks, Markovian training recovers most of the gains of a Non-Markovian GRPO variant while forcing the model to answer from the CoT alone (e.g., GSM8K: 19.6\%→ 57.1\%; ARC-Challenge: 36.1\%→ 79.9\%; on average within≈3--4 pp of a Non-Markovian variant). Perturbation analyses across types and severities show that Markovian models incur systematically larger log-probability drops under CoT corruption than matched Non-Markovian baselines, indicating stronger causal reliance on the CoT. Cross-model evaluation confirms that learned CoTs generalize across architectures, suggesting they encode transferable reasoning steps rather than model-specific artifacts.},
+  }
+
+
+@inproceedings{WWD+26,
+  author       = {Edward Wang and
+                  Joe Walston and
+                  Luca Daniel and
+                  Tony Tan and
+                  Yoni Zohar and
+                  Clark W. Barrett},
+  editor       = {Jyotirmoy V. Deshmukh and
+                  Klaus Havelund and
+                  Alessandro Pinto},
+  title        = {Artificial Incorrectness: {SMT} and LLMs in Hardware Synthesis},
+  booktitle    = {{NASA} Formal Methods - 18th International Symposium, {NFM} 2026,
+                  Los Angeles, CA, USA, May 5-7, 2026, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16622},
+  pages        = {261--284},
+  publisher    = {Springer},
+  year         = {2026},
+  url          = {https://doi.org/10.1007/978-3-032-28079-4_12},
+  doi          = {10.1007/978-3-032-28079-4\_12},
+  timestamp    = {Wed, 09 Sep 2026 18:08:09 +0200},
+  biburl       = {https://dblp.org/rec/conf/nfm/WangWDTZB26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  note         = {Los Angeles, CA},
+  category     = {Conference Publications},
+  abstract     = {The adoption of large language models (LLMs) in hardware design automation poses correctness risks for safety-critical applications. We systematically evaluate LLMs against Satisfiability Modulo Theories (SMT) solvers across three hardware synthesis tasks, revealing that LLMs achieve lower levels of functional correctness compared to SMT approaches in our benchmarks. Our findings reveal a crucial distinction: whilst SMT solvers can excel at direct synthesis and can exhaustively validate LLM outputs, their counterexample feedback fails to improve LLM performance. This demonstrates that effective validation does not translate to effective improvement guidance for LLMs, establishing formal methods as essential for direct synthesis and a need for better iterative refinement methods in reliable AI-assisted hardware design.},
+ }
 
 %complete
 @inproceedings{PCL+26,
