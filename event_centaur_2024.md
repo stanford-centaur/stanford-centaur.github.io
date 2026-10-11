@@ -3,7 +3,7 @@ layout: default
 title: events
 ---
 
-<h1>CENTAUR Annual Meeting 2024</h1>
+<h1>Centaur Annual Meeting 2024</h1>
 <h4>Paul Brest Hall<br/>
 555 Salvatierra Walk<br/>
 Stanford, CA 94305</h4>

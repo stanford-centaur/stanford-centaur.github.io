@@ -35,8 +35,8 @@
     - url: "https://cvc5.github.io/"
       label: "cvc5"
   date: "2026-04-15"
-- title: "4 papers from CENTAUR at FMCAD 2026"
-  excerpt: "Four papers from CENTAUR have been accepted to FMCAD 2026 in Graz, Austria: <b>Nazrin: An Atomic Neural Proof Automation Tactic in Lean 4</b> by Leni Aniva and colleagues; <b>PICID: Proof-Driven Clause Learning in Neural Network Verification</b> by Omri Isac and colleagues; <b>Extending an SMT Solver with LIA⋆ Constraints</b> by Mudathir Mohamed and colleagues; and <b>Proof Production for Satisfiability Modulo Finite Fields with Proof Checking in Pacheck and Lean</b>, with Abdalrhman Mohamed and Liza Pertseva among the authors. Clark Barrett also gave an invited talk at the conference."
+- title: "4 papers from Centaur at FMCAD 2026"
+  excerpt: "Four papers from Centaur have been accepted to FMCAD 2026 in Graz, Austria: <b>Nazrin: An Atomic Neural Proof Automation Tactic in Lean 4</b> by Leni Aniva and colleagues; <b>PICID: Proof-Driven Clause Learning in Neural Network Verification</b> by Omri Isac and colleagues; <b>Extending an SMT Solver with LIA⋆ Constraints</b> by Mudathir Mohamed and colleagues; and <b>Proof Production for Satisfiability Modulo Finite Fields with Proof Checking in Pacheck and Lean</b>, with Abdalrhman Mohamed and Liza Pertseva among the authors. Clark Barrett also gave an invited talk at the conference."
   urls:
     - url: "https://fmcad.org/FMCAD26/accepted_papers/"
       label: "FMCAD 2026 Accepted Papers"
@@ -57,7 +57,7 @@
   date: "2026-08-18"
 
 - title: "cvc5 and Bitwuzla win FLoC Olympic Games awards at FLoC 2026"
-  excerpt: "Two solvers developed at CENTAUR were honored at the FLoC 2026 Olympic Games award ceremony in Lisbon. <b>cvc5</b> received the award for <b>Best Overall Ranking in SMT-COMP 2025 and 2026</b>, for winning the best overall ranking in three of the four main tracks of SMT-COMP 2026 (Single Query, Incremental, and Model Validation) and in all four main tracks in 2025 (adding Unsat Core). <b>Bitwuzla</b>, developed by Aina Niemetz and Mathias Preiner, received an award for <b>consistently outstanding performance in bit-vector logics</b>. The cvc5 award recognizes Haniel Barbosa, Clark Barrett, Lydia Kondylidou, Hanna Lachnitt, Daniel Larraz, Abdalrhman Mohamed, Mudathir Mohamed, José Neto, Aina Niemetz, Alex Ozdemir, Mathias Preiner, Andrew Reynolds, Hans-Jörg Schurr, Cesare Tinelli, and Yoni Zohar."
+  excerpt: "Two solvers developed at Centaur were honored at the FLoC 2026 Olympic Games award ceremony in Lisbon. <b>cvc5</b> received the award for <b>Best Overall Ranking in SMT-COMP 2025 and 2026</b>, for winning the best overall ranking in three of the four main tracks of SMT-COMP 2026 (Single Query, Incremental, and Model Validation) and in all four main tracks in 2025 (adding Unsat Core). <b>Bitwuzla</b>, developed by Aina Niemetz and Mathias Preiner, received an award for <b>consistently outstanding performance in bit-vector logics</b>. The cvc5 award recognizes Haniel Barbosa, Clark Barrett, Lydia Kondylidou, Hanna Lachnitt, Daniel Larraz, Abdalrhman Mohamed, Mudathir Mohamed, José Neto, Aina Niemetz, Alex Ozdemir, Mathias Preiner, Andrew Reynolds, Hans-Jörg Schurr, Cesare Tinelli, and Yoni Zohar."
   urls:
     - url: "https://www.floc26.org/olympics"
       label: "FLoC Olympic Games 2026"
@@ -69,8 +69,8 @@
       label: "Bitwuzla"
   date: "2026-07-28"
 
-- title: "2 papers from CENTAUR at the SMT 2026 workshop"
-  excerpt: "Two papers from CENTAUR have been accepted to the <i>24th International Workshop on Satisfiability Modulo Theories</i> (SMT 2026), held with IJCAR at FLoC 2026 in Lisbon: <b>Accelerating Parallel SMT Solving with Fixed First Decisions</b> by Amalee Wilson and colleagues, and <b>Automated Reasoning with Nested Datatypes</b> by Tomer Hakak, Yoni Zohar, Andrew Reynolds, Clark Barrett, and Cesare Tinelli."
+- title: "2 papers from Centaur at the SMT 2026 workshop"
+  excerpt: "Two papers from Centaur have been accepted to the <i>24th International Workshop on Satisfiability Modulo Theories</i> (SMT 2026), held with IJCAR at FLoC 2026 in Lisbon: <b>Accelerating Parallel SMT Solving with Fixed First Decisions</b> by Amalee Wilson and colleagues, and <b>Automated Reasoning with Nested Datatypes</b> by Tomer Hakak, Yoni Zohar, Andrew Reynolds, Clark Barrett, and Cesare Tinelli."
   urls:
     - url: "https://smt-workshop.cs.uiowa.edu/2026/accepted.shtml"
       label: "SMT 2026 Accepted Papers"
@@ -85,8 +85,8 @@
       label: "CAV 2026"
   date: "2026-07-26"
 
-- title: "3 papers from CENTAUR at CAV 2026"
-  excerpt: "Three papers from CENTAUR appear at CAV 2026, part of FLoC 2026 in Lisbon, Portugal: the Distinguished Paper Award winner on extensional constant arrays by Mathias Preiner, Aina Niemetz, and Clark Barrett; Liza Pertseva's paper on automating bitvector and finite field equivalence proofs in Lean; and a paper on the cooperating proof calculus behind cvc5's proofs, with Jibiana Jakpor, Hanna Lachnitt, Abdalrhman Mohamed, Aina Niemetz, Mathias Preiner, and Clark Barrett among the authors."
+- title: "3 papers from Centaur at CAV 2026"
+  excerpt: "Three papers from Centaur appear at CAV 2026, part of FLoC 2026 in Lisbon, Portugal: the Distinguished Paper Award winner on extensional constant arrays by Mathias Preiner, Aina Niemetz, and Clark Barrett; Liza Pertseva's paper on automating bitvector and finite field equivalence proofs in Lean; and a paper on the cooperating proof calculus behind cvc5's proofs, with Jibiana Jakpor, Hanna Lachnitt, Abdalrhman Mohamed, Aina Niemetz, Mathias Preiner, and Clark Barrett among the authors."
   urls:
     - url: "https://doi.org/10.1007/978-3-032-32526-6_2"
       label: "Satisfiability Modulo Extensional Constant Arrays"
@@ -96,8 +96,8 @@
       label: "The Cooperating Proof Calculus: Comprehensive Proofs for an SMT Solver"
   date: "2026-07-26"
 
-- title: "3 papers from CENTAUR at IJCAR 2026"
-  excerpt: "Three papers from CENTAUR appear at the <i>13th International Joint Conference on Automated Reasoning</i> (IJCAR 2026), also part of FLoC 2026 in Lisbon: Benjamin Przybocki and Clark Barrett's paper on the termination of Nielsen transformations for word equations with length constraints, a paper on checking regular expression reasoning in cvc5 proofs, and Ethos, a fast proof checker for the Eunoia logical framework."
+- title: "3 papers from Centaur at IJCAR 2026"
+  excerpt: "Three papers from Centaur appear at the <i>13th International Joint Conference on Automated Reasoning</i> (IJCAR 2026), also part of FLoC 2026 in Lisbon: Benjamin Przybocki and Clark Barrett's paper on the termination of Nielsen transformations for word equations with length constraints, a paper on checking regular expression reasoning in cvc5 proofs, and Ethos, a fast proof checker for the Eunoia logical framework."
   urls:
     - url: "https://doi.org/10.1007/978-3-032-32592-1_14"
       label: "The Termination of Nielsen Transformations Applied to Word Equations with Length Constraints"
@@ -139,8 +139,8 @@
       label: "ETAPS Awards"
   date: "2026-04-15"
 
-- title: "5 papers from CENTAUR at TACAS 2026"
-  excerpt: "Five papers from CENTAUR appear at TACAS 2026, part of ETAPS 2026: papers by Aina Niemetz and Mathias Preiner on Bitwuzla, a study of the SMT-LIB benchmark library, Rachel Cleaveland's work on string reasoning in symbolic execution of C programs, and VeriStruct by Chuyue (Livia) Sun, Yican Sun, Daneshvar Amrollahi, and colleagues."
+- title: "5 papers from Centaur at TACAS 2026"
+  excerpt: "Five papers from Centaur appear at TACAS 2026, part of ETAPS 2026: papers by Aina Niemetz and Mathias Preiner on Bitwuzla, a study of the SMT-LIB benchmark library, Rachel Cleaveland's work on string reasoning in symbolic execution of C programs, and VeriStruct by Chuyue (Livia) Sun, Yican Sun, Daneshvar Amrollahi, and colleagues."
   urls:
     - url: "https://doi.org/10.1007/978-3-032-22752-2_9"
       label: "Massively Parallel Bit-Precise Verification with Bitwuzla and Mallob"
@@ -165,7 +165,7 @@
       label: "How to Contribute"
   date: "2026-02-20"
 
-- title: "3 papers from CENTAUR at AAAI 2026, plus papers at VMCAI and CPP 2026"
+- title: "3 papers from Centaur at AAAI 2026, plus papers at VMCAI and CPP 2026"
   excerpt: "Papers by Haoze Wu, Min Wu, and Pei Huang appear at AAAI 2026 in Singapore, covering cube-and-conquer tuning, compact formal explanations, and transformer verification. In January, Omri Isac's paper on proof minimization in neural network verification appeared at VMCAI 2026, and a paper with Harun Khan and Abdalrhman Mohamed on formalizing incremental linearization appeared at CPP 2026."
   urls:
     - url: "https://doi.org/10.1609/aaai.v40i17.38451"
@@ -194,7 +194,7 @@
       label: "Interactive Bitvector Reasoning using Verified Bit-Blasting"
   date: "2025-10-12"
 
-- title: "4 papers from CENTAUR at FMCAD 2025"
+- title: "4 papers from Centaur at FMCAD 2025"
   excerpt: "Papers by Amalee Wilson, Daneshvar Amrollahi, and Aron Perez-Lopez and colleagues, along with a paper on solving set constraints with comprehensions, appear at FMCAD 2025."
   urls:
     - url: "https://repositum.tuwien.at/handle/20.500.12708/219543"
@@ -214,8 +214,8 @@
       label: "Improving the SMT Proof Reconstruction Pipeline in Isabelle/HOL"
   date: "2025-09-28"
 
-- title: "4 papers from CENTAUR at CAV 2025"
-  excerpt: "Four papers from CENTAUR appear at CAV 2025 in Zagreb, Croatia: two connecting Lean 4 with automated reasoning (Lean-SMT by Abdalrhman Mohamed, Harun Khan, Yicheng Qian, and colleagues, and Lean-auto by Yicheng Qian), Liza Pertseva's work on integer reasoning modulo different constants, and a relational Hoare logic for machine code."
+- title: "4 papers from Centaur at CAV 2025"
+  excerpt: "Four papers from Centaur appear at CAV 2025 in Zagreb, Croatia: two connecting Lean 4 with automated reasoning (Lean-SMT by Abdalrhman Mohamed, Harun Khan, Yicheng Qian, and colleagues, and Lean-auto by Yicheng Qian), Liza Pertseva's work on integer reasoning modulo different constants, and a relational Hoare logic for machine code."
   urls:
     - url: "https://doi.org/10.1007/978-3-031-98682-6_11"
       label: "Lean-SMT: An SMT Tactic for Discharging Proof Goals in Lean"
@@ -287,7 +287,7 @@
   date: "2024-09-26"
 
 
-- title: "4 papers from CENTAUR have been accepted to FMCAD 2024!"
+- title: "4 papers from Centaur have been accepted to FMCAD 2024!"
   urls:
     - url: "https://arxiv.org/abs/2405.14058"
       label: "Formally Verifying Deep Reinforcement Learning Controllers with Lyapunov Barrier Certificates"
