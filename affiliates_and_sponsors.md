@@ -16,7 +16,9 @@ In addition to the Industrial Affiliates Program, Centaur is supported by gifts 
 <h2>Additional Sponsors</h2>
 
 <p>
+<img class="sponsor" src="/img/sponsors/amazon.png" />
 <img class="sponsor" src="/img/sponsors/ethereum.png" />
+<img class="sponsor" src="/img/sponsors/renaissance.png" />
 <img class="sponsor" src="/img/sponsors/synopsys.png" />
 </p>
 
