@@ -38,6 +38,11 @@ Take termination. Showing directly that a program always terminates is hard. But
 
 The two agents work in a loop. If a check fails, the verifier sends feedback, such as a concrete counterexample or a hint, and the learner tries again. The learner can adjust the result, the certificate, or both. That flexibility matters: generating a result first and only then looking for a justification can fail because no suitable certificate exists for that particular result. Learning the two together avoids the problem.
 
+<figure style="margin: 2em 0; text-align: center;">
+  <img src="/assets/blog-images/2025-12-01-certificates-in-ai-learn-but-verify/learner-verifier-loop.svg" alt="The learner-verifier loop: the learner proposes a candidate result and certificate, and the verifier either returns a proof that the certificate is valid or reasons why it could not prove it." style="width: 100%; max-width: 720px;"/>
+  <figcaption style="font-style: italic; margin-top: 0.5em;">The learner-verifier loop. Adapted from Figure 1 of <a href="https://doi.org/10.1145/3737447">Barrett, Henzinger, and Seshia, "Certificates in AI: Learn but Verify," <em>Communications of the ACM</em></a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 As long as the verifier is sound, any result it accepts is guaranteed to meet its specification. When a formal check isn't possible, for example when the specification is in natural language, an informal, best-effort verifier can still catch problems and give feedback, though without a guarantee.
 
 CML builds on a long line of work, most notably counterexample-guided inductive synthesis (CEGIS), which paired a learner that generates candidates with a verifier that checks them. CML goes a step further by asking the learner to do most of the work of producing certificates as well. It also differs from explainable AI: explanations aim to help *humans* understand a result, while certificates are meant to be checked by *machines*.

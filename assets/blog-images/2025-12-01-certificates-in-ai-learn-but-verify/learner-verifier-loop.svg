@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 230" role="img" aria-labelledby="title desc">
+  <title id="title">The learner-verifier loop</title>
+  <desc id="desc">The learner sends the verifier a pair (r, c) consisting of a candidate result r and a candidate certificate c. If the check fails, the verifier sends back reasons for failing to prove that c is a certificate for r. If it succeeds, the verifier outputs a proof that c is a certificate for result r.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: Georgia, "Times New Roman", serif; font-size: 17px; fill: #222; }
+    .node { font-size: 20px; }
+    .v { font-style: italic; }
+  </style>
+
+  <!-- input arrow into the learner -->
+  <line x1="20" y1="115" x2="88" y2="115" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- learner and verifier -->
+  <circle cx="145" cy="115" r="55" fill="#fff" stroke="#333" stroke-width="1.6"/>
+  <text class="node" x="145" y="122" text-anchor="middle">Learner</text>
+  <circle cx="470" cy="115" r="55" fill="#fff" stroke="#333" stroke-width="1.6"/>
+  <text class="node" x="470" y="122" text-anchor="middle">Verifier</text>
+
+  <!-- learner to verifier -->
+  <path d="M 185 77 Q 307 18 430 77" fill="none" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="307" y="28" text-anchor="middle">Pair (<tspan class="v">r</tspan>, <tspan class="v">c</tspan>) consisting of a candidate result <tspan class="v">r</tspan> and a candidate certificate <tspan class="v">c</tspan></text>
+
+  <!-- verifier back to learner -->
+  <path d="M 430 153 Q 307 212 185 153" fill="none" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="307" y="218" text-anchor="middle">Reasons for failing to prove that <tspan class="v">c</tspan> is a certificate for <tspan class="v">r</tspan></text>
+
+  <!-- verifier output -->
+  <line x1="525" y1="115" x2="585" y2="115" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="595" y="96">Proof that <tspan class="v">c</tspan></text>
+  <text x="595" y="119">is a certificate</text>
+  <text x="595" y="142">for result <tspan class="v">r</tspan></text>
+</svg>
