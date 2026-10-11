@@ -1,3 +1,260 @@
+- title: "Samuel Akinwande's paper accepted to CDC 2026"
+  excerpt: "<b>The FABRIC Strategy for Verifying Neural Feedback Systems</b> by Samuel Akinwande, Sydney Katz, Mykel Kochenderfer, and Clark Barrett has been accepted to the <i>65th IEEE Conference on Decision and Control</i> (CDC 2026) in Honolulu, Hawaii."
+  urls:
+    - url: "https://arxiv.org/abs/2603.08964"
+      label: "The FABRIC Strategy for Verifying Neural Feedback Systems"
+  date: "2026-10-10"
+
+- title: "Milan Ganai's paper accepted to CoRL 2026"
+  excerpt: "<b>DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?</b> by Jadelynn Dao, Milan Ganai, Yasmina Abukhadra, Ajay Sridhar, Mozhgan Nasr Azadani, Katie Luo, Clark Barrett, Jiajun Wu, Chelsea Finn, and Marco Pavone has been accepted to the <i>Conference on Robot Learning</i> (CoRL 2026) in Austin, Texas."
+  urls:
+    - url: "https://arxiv.org/abs/2606.12402"
+      label: "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?"
+    - url: "https://jadee-dao.github.io/direct/"
+      label: "Project Website"
+  date: "2026-10-10"
+
+- title: "Milan Ganai's paper at RSS 2026"
+  excerpt: "<b>Self-Supervised Bootstrapping of Action-Predictive Embodied Reasoning</b> by Milan Ganai, Katie Luo, Jonas Frey, Clark Barrett, and Marco Pavone appears at <i>Robotics: Science and Systems</i> (RSS 2026) in Sydney, Australia."
+  urls:
+    - url: "https://arxiv.org/abs/2602.08167"
+      label: "Self-Supervised Bootstrapping of Action-Predictive Embodied Reasoning"
+    - url: "https://milanganai.github.io/rnb-encore/"
+      label: "Project Website"
+  date: "2026-07-13"
+
+- title: "CVC4/cvc5 wins the Rance Cleaveland Test-of-Time Tool Award at ETAPS 2026"
+  excerpt: "The SMT solver CVC4/cvc5 has received the 2026 Rance Cleaveland
+  Test-of-Time Tool Award from ETAPS, which recognizes research tools with a
+  lasting impact on the community. Developed and maintained at Stanford University
+  and the University of Iowa over the past 17 years, CVC4 and its successor cvc5
+  are open-source and have been built on by many tools in formal methods."
+  urls:
+    - url: "https://etaps.org/awards/test-of-time-tool/"
+      label: "ETAPS Award"
+    - url: "https://cvc5.github.io/"
+      label: "cvc5"
+  date: "2026-04-15"
+- title: "4 papers from CENTAUR at FMCAD 2026"
+  excerpt: "Four papers from CENTAUR have been accepted to FMCAD 2026 in Graz, Austria: <b>Nazrin: An Atomic Neural Proof Automation Tactic in Lean 4</b> by Leni Aniva and colleagues; <b>PICID: Proof-Driven Clause Learning in Neural Network Verification</b> by Omri Isac and colleagues; <b>Extending an SMT Solver with LIA⋆ Constraints</b> by Mudathir Mohamed and colleagues; and <b>Proof Production for Satisfiability Modulo Finite Fields with Proof Checking in Pacheck and Lean</b>, with Abdalrhman Mohamed and Liza Pertseva among the authors. Clark Barrett also gave an invited talk at the conference."
+  urls:
+    - url: "https://fmcad.org/FMCAD26/accepted_papers/"
+      label: "FMCAD 2026 Accepted Papers"
+  date: "2026-09-14"
+
+- title: "Daneshvar Amrollahi's paper accepted to Findings of ACL: EMNLP 2026"
+  excerpt: "<b>Faithful Autoformalization via Roundtrip Verification and Repair</b> by Daneshvar Amrollahi, Jerry Lopez, and Clark Barrett has been accepted to <i>Findings of the Association for Computational Linguistics: EMNLP 2026</i>. The paper checks whether an LLM's formalization of natural language is faithful by translating it back and re-formalizing, then diagnoses and repairs the step that went wrong."
+  urls:
+    - url: "https://arxiv.org/abs/2604.25031"
+      label: "Faithful Autoformalization via Roundtrip Verification and Repair"
+  date: "2026-08-20"
+
+- title: "Haoze Wu's paper at IJCAI 2026"
+  excerpt: "<b>Lookahead Branching for Neural Network Verification</b> by Liam Davis, Duo Zhou, Huan Zhang, Guy Katz, Clark Barrett, and Haoze Wu appears at the <i>35th International Joint Conference on Artificial Intelligence</i> (IJCAI-ECAI 2026) in Bremen, Germany."
+  urls:
+    - url: "https://doi.org/10.24963/ijcai.2026/59"
+      label: "Lookahead Branching for Neural Network Verification"
+  date: "2026-08-18"
+
+- title: "cvc5 and Bitwuzla win FLoC Olympic Games awards at FLoC 2026"
+  excerpt: "Two solvers developed at CENTAUR were honored at the FLoC 2026 Olympic Games award ceremony in Lisbon. <b>cvc5</b> received the award for <b>Best Overall Ranking in SMT-COMP 2025 and 2026</b>, for winning the best overall ranking in three of the four main tracks of SMT-COMP 2026 (Single Query, Incremental, and Model Validation) and in all four main tracks in 2025 (adding Unsat Core). <b>Bitwuzla</b>, developed by Aina Niemetz and Mathias Preiner, received an award for <b>consistently outstanding performance in bit-vector logics</b>. The cvc5 award recognizes Haniel Barbosa, Clark Barrett, Lydia Kondylidou, Hanna Lachnitt, Daniel Larraz, Abdalrhman Mohamed, Mudathir Mohamed, José Neto, Aina Niemetz, Alex Ozdemir, Mathias Preiner, Andrew Reynolds, Hans-Jörg Schurr, Cesare Tinelli, and Yoni Zohar."
+  urls:
+    - url: "https://www.floc26.org/olympics"
+      label: "FLoC Olympic Games 2026"
+    - url: "https://smt-comp.github.io/2026/"
+      label: "SMT-COMP 2026"
+    - url: "https://cvc5.github.io/"
+      label: "cvc5"
+    - url: "https://bitwuzla.github.io/"
+      label: "Bitwuzla"
+  date: "2026-07-28"
+
+- title: "2 papers from CENTAUR at the SMT 2026 workshop"
+  excerpt: "Two papers from CENTAUR have been accepted to the <i>24th International Workshop on Satisfiability Modulo Theories</i> (SMT 2026), held with IJCAR at FLoC 2026 in Lisbon: <b>Accelerating Parallel SMT Solving with Fixed First Decisions</b> by Amalee Wilson and colleagues, and <b>Automated Reasoning with Nested Datatypes</b> by Tomer Hakak, Yoni Zohar, Andrew Reynolds, Clark Barrett, and Cesare Tinelli."
+  urls:
+    - url: "https://smt-workshop.cs.uiowa.edu/2026/accepted.shtml"
+      label: "SMT 2026 Accepted Papers"
+  date: "2026-07-24"
+
+- title: "CAV 2026 Distinguished Paper Award for Mathias Preiner, Aina Niemetz, and Clark Barrett"
+  excerpt: "<b>Satisfiability Modulo Extensional Constant Arrays</b> by Mathias Preiner, Aina Niemetz, and Clark Barrett received a Distinguished Paper Award at the <i>38th International Conference on Computer Aided Verification</i> (CAV 2026) in Lisbon, Portugal."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-032-32526-6_2"
+      label: "Satisfiability Modulo Extensional Constant Arrays"
+    - url: "http://conferences.i-cav.org/2026/accepted/"
+      label: "CAV 2026"
+  date: "2026-07-26"
+
+- title: "3 papers from CENTAUR at CAV 2026"
+  excerpt: "Three papers from CENTAUR appear at CAV 2026, part of FLoC 2026 in Lisbon, Portugal: the Distinguished Paper Award winner on extensional constant arrays by Mathias Preiner, Aina Niemetz, and Clark Barrett; Liza Pertseva's paper on automating bitvector and finite field equivalence proofs in Lean; and a paper on the cooperating proof calculus behind cvc5's proofs, with Jibiana Jakpor, Hanna Lachnitt, Abdalrhman Mohamed, Aina Niemetz, Mathias Preiner, and Clark Barrett among the authors."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-032-32526-6_2"
+      label: "Satisfiability Modulo Extensional Constant Arrays"
+    - url: "https://doi.org/10.1007/978-3-032-32526-6_8"
+      label: "Automating Bitvector and Finite Field Equivalence Proofs in Lean"
+    - url: "https://doi.org/10.1007/978-3-032-32526-6_9"
+      label: "The Cooperating Proof Calculus: Comprehensive Proofs for an SMT Solver"
+  date: "2026-07-26"
+
+- title: "3 papers from CENTAUR at IJCAR 2026"
+  excerpt: "Three papers from CENTAUR appear at the <i>13th International Joint Conference on Automated Reasoning</i> (IJCAR 2026), also part of FLoC 2026 in Lisbon: Benjamin Przybocki and Clark Barrett's paper on the termination of Nielsen transformations for word equations with length constraints, a paper on checking regular expression reasoning in cvc5 proofs, and Ethos, a fast proof checker for the Eunoia logical framework."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-032-32592-1_14"
+      label: "The Termination of Nielsen Transformations Applied to Word Equations with Length Constraints"
+    - url: "https://doi.org/10.1007/978-3-032-32589-1_16"
+      label: "Checking Regular Expressions in cvc5 Proofs"
+    - url: "https://doi.org/10.1007/978-3-032-32589-1_19"
+      label: "Ethos: A Fast Proof Checker for the Eunoia Logical Framework"
+  date: "2026-07-26"
+
+- title: "Samuel Akinwande's paper at L4DC 2026"
+  excerpt: "<b>Verifying Nonlinear Neural Feedback Systems using Polyhedral Enclosures</b> by Samuel Akinwande, Chelsea Sidrane, Mykel Kochenderfer, and Clark Barrett appears at the <i>8th Annual Learning for Dynamics and Control Conference</i> (L4DC 2026) in Los Angeles."
+  urls:
+    - url: "https://proceedings.mlr.press/v331/akinwande26a.html"
+      label: "Verifying Nonlinear Neural Feedback Systems using Polyhedral Enclosures"
+  date: "2026-06-17"
+
+- title: "Pono 2.0 wins the FM 2026 Best Tool Paper Award"
+  excerpt: "<b>Pono 2.0: A Versatile SMT-Based Model Checker for Safety and Liveness</b> by Aron Perez-Lopez, Po-Chun Chien, Florian Lonsing, Samantha Archer, Ahmed Irfan, and Clark Barrett received the Best Tool Paper Award at the <i>27th International Symposium on Formal Methods</i> (FM 2026) in Tokyo, Japan."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-032-26220-2_1"
+      label: "Pono 2.0: A Versatile SMT-Based Model Checker for Safety and Liveness"
+    - url: "https://conf.researchr.org/home/fm-2026"
+      label: "FM 2026"
+  date: "2026-05-18"
+
+- title: "Scott Viteri and Max Lamparth's paper at ICLR 2026"
+  excerpt: "<b>Markovian Transformers for Informative Language Modeling</b> by Scott Viteri, Max Lamparth, Peter Chatain, and Clark Barrett appears at the <i>Fourteenth International Conference on Learning Representations</i> (ICLR 2026) in Rio de Janeiro, Brazil."
+  urls:
+    - url: "https://proceedings.iclr.cc/paper_files/paper/2026/file/1aa7204c266db52337fbeaea420cf4f0-Paper-Conference.pdf"
+      label: "Markovian Transformers for Informative Language Modeling"
+  date: "2026-04-23"
+
+- title: "Bitwuzla and Mallob paper wins three awards at ETAPS 2026"
+  excerpt: "<b>Massively Parallel Bit-Precise Verification with Bitwuzla and Mallob</b> by Dominik Schreiber, Aina Niemetz, and Mathias Preiner received the ETAPS Best Tool Paper Award, the TACAS Distinguished Paper Award, and the TACAS Distinguished Artifact Award at ETAPS 2026 in Turin, Italy."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-032-22752-2_9"
+      label: "Massively Parallel Bit-Precise Verification with Bitwuzla and Mallob"
+    - url: "https://etaps.org/awards/best-paper/"
+      label: "ETAPS Awards"
+  date: "2026-04-15"
+
+- title: "5 papers from CENTAUR at TACAS 2026"
+  excerpt: "Five papers from CENTAUR appear at TACAS 2026, part of ETAPS 2026: papers by Aina Niemetz and Mathias Preiner on Bitwuzla, a study of the SMT-LIB benchmark library, Rachel Cleaveland's work on string reasoning in symbolic execution of C programs, and VeriStruct by Chuyue (Livia) Sun, Yican Sun, Daneshvar Amrollahi, and colleagues."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-032-22752-2_9"
+      label: "Massively Parallel Bit-Precise Verification with Bitwuzla and Mallob"
+    - url: "https://doi.org/10.1007/978-3-032-22752-2_4"
+      label: "Bit-Precise Interpolation in Bitwuzla"
+    - url: "https://doi.org/10.1007/978-3-032-22752-2_8"
+      label: "Exploring the SMT-LIB Benchmark Library"
+    - url: "https://doi.org/10.1007/978-3-032-22749-2_8"
+      label: "Integrating String Reasoning in Symbolic Execution of C Programs"
+    - url: "https://doi.org/10.1007/978-3-032-22749-2_6"
+      label: "VeriStruct: AI-Assisted Automated Verification of Data-Structure Modules in Verus"
+  date: "2026-04-11"
+
+- title: "Launch of CSLib, the Lean Computer Science Library"
+  excerpt: "CSLib, an open-source effort to formalize computer science in the Lean 4 theorem prover, has officially launched. Inspired by Mathlib's impact on mathematics, CSLib has two pillars: formalizing core computer science concepts in Lean, and building Lean infrastructure for reasoning about real-world code. The project also aims to advance neurosymbolic approaches that connect modern AI with formal reasoning. Clark Barrett serves on the CSLib Steering Committee with Swarat Chaudhuri, Fabrizio Montesi, Jim Grundy, Pushmeet Kohli, and Leo de Moura. Researchers, practitioners, and enthusiasts are invited to get involved."
+  urls:
+    - url: "https://cslib.io"
+      label: "CSLib"
+    - url: "https://arxiv.org/abs/2602.04846"
+      label: "White Paper"
+    - url: "https://github.com/leanprover/cslib/blob/main/CONTRIBUTING.md"
+      label: "How to Contribute"
+  date: "2026-02-20"
+
+- title: "3 papers from CENTAUR at AAAI 2026, plus papers at VMCAI and CPP 2026"
+  excerpt: "Papers by Haoze Wu, Min Wu, and Pei Huang appear at AAAI 2026 in Singapore, covering cube-and-conquer tuning, compact formal explanations, and transformer verification. In January, Omri Isac's paper on proof minimization in neural network verification appeared at VMCAI 2026, and a paper with Harun Khan and Abdalrhman Mohamed on formalizing incremental linearization appeared at CPP 2026."
+  urls:
+    - url: "https://doi.org/10.1609/aaai.v40i17.38451"
+      label: "Cubing for Tuning"
+    - url: "https://doi.org/10.1609/aaai.v40i42.40900"
+      label: "Efficiently Computing Compact Formal Explanations"
+    - url: "https://doi.org/10.1609/aaai.v40i42.40860"
+      label: "Parameterized Abstract Interpretation for Transformer Verification"
+    - url: "https://doi.org/10.1007/978-3-032-15700-3_6"
+      label: "Proof Minimization in Neural Network Verification"
+    - url: "https://doi.org/10.1145/3779031.3779111"
+      label: "Formalization of a Proof Calculus for Incremental Linearization"
+  date: "2026-01-20"
+
+- title: "Certificates in AI: Learn but Verify in Communications of the ACM"
+  excerpt: "Clark Barrett, Thomas Henzinger, and Sanjit Seshia make the case for pairing machine learning with formal certificates in the December 2025 issue of <i>Communications of the ACM</i>."
+  urls:
+    - url: "https://dl.acm.org/doi/full/10.1145/3737447"
+      label: "Certificates in AI: Learn but Verify"
+  date: "2025-12-01"
+
+- title: "Abdalrhman Mohamed and Harun Khan's paper in PACMPL"
+  excerpt: "<b>Interactive Bitvector Reasoning using Verified Bit-Blasting</b>, with Abdalrhman Mohamed, Harun Khan, and Clark Barrett among the authors, appears in <i>Proceedings of the ACM on Programming Languages</i>."
+  urls:
+    - url: "https://dl.acm.org/doi/abs/10.1145/3763167"
+      label: "Interactive Bitvector Reasoning using Verified Bit-Blasting"
+  date: "2025-10-12"
+
+- title: "4 papers from CENTAUR at FMCAD 2025"
+  excerpt: "Papers by Amalee Wilson, Daneshvar Amrollahi, and Aron Perez-Lopez and colleagues, along with a paper on solving set constraints with comprehensions, appear at FMCAD 2025."
+  urls:
+    - url: "https://repositum.tuwien.at/handle/20.500.12708/219543"
+      label: "Per-Instance Subproblem Generation for Strategy Selection in SMT"
+    - url: "https://repositum.tuwien.at/handle/20.500.12708/219542"
+      label: "Towards SMT Solver Stability via Input Normalization"
+    - url: "https://repositum.tuwien.at/handle/20.500.12708/219556"
+      label: "Automated Translation Validation of a Compiler for Statically Scheduled Accelerators"
+    - url: "https://repositum.tuwien.at/handle/20.500.12708/219545"
+      label: "Solving Set Constraints with Comprehensions and Bounded Quantifiers"
+  date: "2025-10-06"
+
+- title: "Hanna Lachnitt's paper at ITP 2025"
+  excerpt: "<b>Improving the SMT Proof Reconstruction Pipeline in Isabelle/HOL</b> by Hanna Lachnitt, Jibiana Jakpor, Clark Barrett, and colleagues appears at the <i>16th International Conference on Interactive Theorem Proving</i> (ITP 2025)."
+  urls:
+    - url: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2025.26"
+      label: "Improving the SMT Proof Reconstruction Pipeline in Isabelle/HOL"
+  date: "2025-09-28"
+
+- title: "4 papers from CENTAUR at CAV 2025"
+  excerpt: "Four papers from CENTAUR appear at CAV 2025 in Zagreb, Croatia: two connecting Lean 4 with automated reasoning (Lean-SMT by Abdalrhman Mohamed, Harun Khan, Yicheng Qian, and colleagues, and Lean-auto by Yicheng Qian), Liza Pertseva's work on integer reasoning modulo different constants, and a relational Hoare logic for machine code."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-031-98682-6_11"
+      label: "Lean-SMT: An SMT Tactic for Discharging Proof Goals in Lean"
+    - url: "https://doi.org/10.1007/978-3-031-98682-6_10"
+      label: "Lean-auto: An Interface between Lean 4 and Automated Theorem Provers"
+    - url: "https://doi.org/10.1007/978-3-031-98668-0_17"
+      label: "Integer Reasoning Modulo Different Constants in SMT"
+    - url: "https://doi.org/10.1007/978-3-031-98668-0_19"
+      label: "Relational Hoare Logic for Realistically Modelled Machine Code"
+  date: "2025-07-21"
+
+- title: "Chuyue (Livia) Sun's paper at SAIV 2025"
+  excerpt: "<b>ClassInvGen: Class Invariant Synthesis using Large Language Models</b> by Chuyue (Livia) Sun, Clark Barrett, and colleagues appears at the <i>2nd International Symposium on AI Verification</i> (SAIV 2025)."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-031-99991-8_4"
+      label: "ClassInvGen: Class Invariant Synthesis using Large Language Models"
+  date: "2025-07-21"
+
+- title: "Leni Aniva's paper at TACAS 2025"
+  excerpt: "<b>Pantograph: A Machine-to-Machine Interaction Interface for Advanced Theorem Proving, High Level Reasoning, and Data Extraction in Lean 4</b> by Leni Aniva, Chuyue (Livia) Sun, Clark Barrett, and colleagues appears at TACAS 2025."
+  urls:
+    - url: "https://doi.org/10.1007/978-3-031-90643-5_6"
+      label: "Pantograph"
+  date: "2025-05-03"
+
+- title: "Sophie Andrews's paper at DATE 2025"
+  excerpt: "<b>Efficient SAT-Based Bounded Model Checking of Evolving Systems</b> by Sophie Andrews, Matthew Sotoudeh, and Clark Barrett appears at the <i>Design, Automation and Test in Europe Conference</i> (DATE 2025)."
+  urls:
+    - url: "https://doi.org/10.23919/DATE64628.2025.10993135"
+      label: "Efficient SAT-Based Bounded Model Checking of Evolving Systems"
+  date: "2025-03-31"
+
+- title: "Ying Sheng's SGLang paper at NeurIPS 2024"
+  excerpt: "<b>SGLang: Efficient Execution of Structured Language Model Programs</b> by Ying Sheng, Chuyue (Livia) Sun, Clark Barrett, and colleagues appears at NeurIPS 2024."
+  urls:
+    - url: "https://doi.org/10.52202/079017-2000"
+      label: "SGLang: Efficient Execution of Structured Language Model Programs"
+  date: "2024-12-10"
+
 - title: AI For Math Fund Awards Stanford University Centaur Lab $1,000,000
   excerpt: "The Stanford Center for Automated Reasoning (Centaur) has been
   awarded $1,000,000 as part of the AI for Math
@@ -139,6 +396,15 @@ Yoni Zohar, and Clark Barrett has been accepted to the <i> 26th International Sy
       label: "CRA Announcement"
   excerpt: "Benjamin Przybocki was awarded the Churchill Scholarship for a year of independent research at Cambridge and selected as a runner-up for the Computing Research Association (CRA) Outstanding Undergraduate Research Award!"
   date: "2024-01-18"
+
+- title: "Benjamin Przybocki named a runner-up for the CRA Outstanding Undergraduate Researcher Award"
+  excerpt: "Benjamin Przybocki has been named a runner-up for the Computing Research Association's 2024 Outstanding Undergraduate Researcher Award, which recognizes undergraduate students in North American universities who show outstanding potential in an area of computing research. Ben's research in automated reasoning includes results on the theory of finite sequences and on combinations of first-order theories."
+  urls:
+    - url: "https://cra.org/crn/2024/01/outstanding-undergraduate-research-awards-winners-announcement/"
+      label: "CRA Announcement"
+    - url: "https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#tab-id-3"
+      label: "CRA Outstanding Undergraduate Researcher Award"
+  date: "2024-01-02"
 
 - title: "Haoze Wu joining Amherst College"
   excerpt: "Haoze (Andrew) Wu will be joining Amherst College as an Assistant Professor in the Computer Science Department starting Fall 2024!"
