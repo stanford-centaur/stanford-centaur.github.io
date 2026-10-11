@@ -8,7 +8,6 @@ author: Clark Barrett
 brief: "Why AI should be asked for evidence along with its answers, from our article in Communications of the ACM"
 date: 2025-12-01
 ---
-<!-- DRAFT: written from the CACM article for the author to review and revise before publishing. -->
 
 Self-driving cars should not crash. Credit scores should not discriminate. Chatbots should not hallucinate. Much of what AI produces is expected to meet objective requirements, but how can we trust that it does? In our article *Certificates in AI: Learn but Verify*, published in the December 2025 issue of *Communications of the ACM*, we argue for a simple rule we call the principle of **certifiable machine learning** (CML).
 <!--more-->

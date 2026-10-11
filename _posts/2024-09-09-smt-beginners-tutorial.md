@@ -8,7 +8,6 @@ author: Clark Barrett
 brief: "A hands-on introduction to SMT solvers, recognized with the FM 2024 Distinguished Tutorial Paper Award"
 date: 2024-09-09
 ---
-<!-- DRAFT: written from the FM 2024 paper for the author to review and revise before publishing. -->
 
 SMT solvers power a huge range of verification and analysis tools, but getting started with one can feel daunting. To help, we wrote *Satisfiability Modulo Theories: A Beginner's Tutorial*, which received the Distinguished Tutorial Paper Award at the 26th International Symposium on Formal Methods (FM 2024) in Milan. In this post we give a taste of what the tutorial covers and how to work through it yourself.
 <!--more-->
