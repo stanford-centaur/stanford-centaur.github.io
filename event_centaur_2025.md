@@ -8,9 +8,6 @@ title: events
 555 Salvatierra Walk<br/>
 Stanford, CA 94305</h4>
 <br/>
-<a href="https://www.eventbrite.com/e/2025-centaur-annual-meeting-tickets-1528070553159" class="btn">
-Register
-</a>
 <!--<a href="https://youtu.be/g4yNwnGNANI?si=IwMv4t33gyCxMHBv" class="btn">
 Recap Video
 </a>-->
@@ -26,7 +23,7 @@ Recap Video
 
 <tr>
 <td>9:00am-9:10am</td>
-<td>Opening Remarks</td>
+<td><a href="https://www.youtube.com/watch?v=Miq5Uq5Pt40&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=1">Opening Remarks</a></td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
@@ -38,13 +35,13 @@ Session I
 </tr>
 <tr>
 <td>9:10am-9:30am</td>
-<td>CSLib and a Platform for Formally Verifying Everything</td>
+<td><a href="https://www.youtube.com/watch?v=fGzOlEGZkcI&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=2">CSLib and a Platform for Formally Verifying Everything</a></td>
 <td>Clark Barrett</td>
 <td>Director of Centaur</td>
 </tr>
 <tr>
 <td>9:30am-9:50am</td>
-<td>Scalable Hardware Side-Channel Discovery with Property Decomposition and Model Checkers</td>
+<td><a href="https://www.youtube.com/watch?v=O7I9SU4PLtk&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=3">Scalable Hardware Side-Channel Discovery with Property Decomposition and Model Checkers</a></td>
 <td>Caroline Trippel</td>
 <td>Faculty</td>
 </tr>
@@ -63,19 +60,19 @@ Session II
 
 <tr>
 <td>10:20am-10:40am</td>
-<td>Verification and Synthesis of Spatial Implications for Bounding Volume Hierarchy Traversals</td>
+<td><a href="https://www.youtube.com/watch?v=lxuCCiOCr0o&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=4">Verification and Synthesis of Spatial Implications for Bounding Volume Hierarchy Traversals</a></td>
 <td>Nestan Tsiskaridze</td>
 <td>Research Scientist</td>
 </tr>
 <tr>
 <td>10:40am-11:00am</td>
-<td>Lean SMT: An SMT Tactic for Discharging Proof Goals in Lean</td>
+<td><a href="https://www.youtube.com/watch?v=_n5coKH9XJY&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=5">Lean SMT: An SMT Tactic for Discharging Proof Goals in Lean</a></td>
 <td>Abdalrhman Mohamed</td>
 <td>PhD Student</td>
 </tr>
 <tr>
 <td>11:00am-11:20am</td>
-<td>Improving the SMT Proof Reconstruction Pipeline in Isabelle/HOL</td>
+<td><a href="https://www.youtube.com/watch?v=6PhrYkwFId4&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=6">Improving the SMT Proof Reconstruction Pipeline in Isabelle/HOL</a></td>
 <td>Hanna Lachnitt</td>
 <td>PhD Student</td>
 </tr>
@@ -96,7 +93,7 @@ Session III
 
 <tr>
 <td>11:50am-12:20pm</td>
-<td>Lightning Talks</td>
+<td><a href="https://www.youtube.com/watch?v=LeD07SMj0DM&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=7">Lightning Talks</a></td>
 <td></td>
 <td></td>
 </tr>
@@ -115,19 +112,19 @@ Session IV
 </tr>
 <tr>
 <td>2:20pm-2:40pm</td>
-<td>Per-Instance Subproblem Generation for Strategy Selection in SMT</td>
+<td><a href="https://www.youtube.com/watch?v=2s-DHsTx7wA&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=9">Per-Instance Subproblem Generation for Strategy Selection in SMT</a></td>
 <td>Amalee Wilson</td>
 <td>PhD Student</td>
 </tr>
 <tr>
 <td>2:40pm-3:00pm</td>
-<td>Verifying Nonlinear Neural Feedback Systems Using Polyhedral Enclosures</td>
+<td><a href="https://www.youtube.com/watch?v=FaVpclMHIYk&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=8">Verifying Nonlinear Neural Feedback Systems Using Polyhedral Enclosures</a></td>
 <td>Samuel Akinwande</td>
 <td>PhD Student</td>
 </tr>
 <tr>
 <td>3:00pm-3:20pm</td>
-<td>Incorporating Native String Reasoning in Symbolic Execution of C Programs</td>
+<td><a href="https://www.youtube.com/watch?v=fk9FulOzFMI&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=10">Incorporating Native String Reasoning in Symbolic Execution of C Programs</a></td>
 <td>Rachel Cleaveland</td>
 <td>PhD Student</td>
 </tr>
@@ -145,19 +142,19 @@ Session V
 </tr>
 <tr>
 <td>3:50pm-4:10pm</td>
-<td>Bit-precise Reasoning with Parametric Bit-vectors</td>
+<td><a href="https://www.youtube.com/watch?v=847xdlNT8F0&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=11">Bit-precise Reasoning with Parametric Bit-vectors</a></td>
 <td>Yoni Zohar</td>
 <td>Professor, Bar-Ilan University</td>
 </tr>
 <tr>
 <td>4:10pm-4:30pm</td>
-<td>Integer Reasoning Modulo Different Constants in SMT</td>
+<td><a href="https://www.youtube.com/watch?v=-9NeCR2GF8w&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=12">Integer Reasoning Modulo Different Constants in SMT</a></td>
 <td>Elizaveta Pertseva</td>
 <td>PhD Student</td>
 </tr>
 <tr>
 <td>4:30pm-4:50pm</td>
-<td>Bounded Quantifiers for Finite Relations</td>
+<td><a href="https://www.youtube.com/watch?v=kgEWmR9w9hU&list=PLqYw1C4YGfr1zg7mxZra8ZEUwOFHSjEXa&index=13">Bounded Quantifiers for Finite Relations</a></td>
 <td>Mudathir Mohamed</td>
 <td>Postdoc at University of Iowa</td>
 </tr>
