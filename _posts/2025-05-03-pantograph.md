@@ -16,6 +16,7 @@ that prove theorems, though, you first need a good way for a *machine* to talk
 to the proof assistant. That is what our TACAS 2025 paper, *Pantograph: A
 Machine-to-Machine Interaction Interface for Advanced Theorem Proving, High
 Level Reasoning, and Data Extraction in Lean 4*, provides.
+<!--more-->
 
 Pantograph is a Lean 4 interaction library specifically tailored to the need for
 training and evaluating machine theorem proving agents. It provides a few
