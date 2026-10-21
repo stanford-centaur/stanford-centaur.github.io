@@ -9,8 +9,8 @@ brief: "An interface that lets machine learning agents search for proofs with ha
 date: 2025-05-03
 ---
 
-Proof assistants like Lean 4 provides a programmatic interface to verify
-mathematical proofs. Writing such proof is tedious and require expertise.
+Proof assistants like Lean 4 provide a programmatic interface to verify
+mathematical proofs. Writing such proofs is tedious and requires expertise.
 Machine learning is a promising way to automate more of it. To build AI agents
 that prove theorems, though, you first need a good way for a *machine* to talk
 to the proof assistant. That is what our TACAS 2025 paper, *Pantograph: A
@@ -32,9 +32,9 @@ features not available in other Lean interaction systems:
 ## Why a new interface?
 
 The Lean 4 interface is not conducive to search. Readers familiar with Coq may
-know that the Coq Serapi was superseded by CoqLSP. In the opinion of the
+know that the Coq SerAPI was superseded by CoqLSP. In the opinion of the
 authors, this is a mistake. An interface conducive for human operators to write
-proofs is often not an interface conductive to machine learning agents for
+proofs is often not an interface conducive to machine learning agents for
 searching.
 
 The standard way to interact with Lean 4 is through its Language Server Protocol
