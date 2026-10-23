@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Towards Efficient Verification of Quantized Neural Networks"
 author: Pei Huang

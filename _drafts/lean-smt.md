@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Lean-SMT: Bringing SMT Solvers into Lean"
 author: Abdalrhman Mohamed

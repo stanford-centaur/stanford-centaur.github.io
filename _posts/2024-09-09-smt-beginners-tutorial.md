@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Satisfiability Modulo Theories: A Beginner's Tutorial"
 author: Clark Barrett

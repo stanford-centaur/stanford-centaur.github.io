@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Lean-auto: Connecting Lean 4 to Automated Theorem Provers"
 author: Yicheng Qian

@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Satisfiability Modulo Extensional Constant Arrays"
 author: Mathias Preiner and Aina Niemetz

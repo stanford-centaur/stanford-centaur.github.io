@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Towards SMT Solver Stability via Input Normalization"
 author: Daneshvar Amrollahi

@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Parameterized Abstract Interpretation for Transformer Verification"
 author: Pei Huang

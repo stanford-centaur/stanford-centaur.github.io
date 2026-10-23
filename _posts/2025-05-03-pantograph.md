@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Pantograph: A Machine-to-Machine Interaction Interface for Lean 4"
 author: Leni Aniva

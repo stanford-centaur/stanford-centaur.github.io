@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Certificates in AI: Learn but Verify"
 author: Clark Barrett

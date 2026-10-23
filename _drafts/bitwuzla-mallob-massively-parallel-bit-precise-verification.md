@@ -1,7 +1,6 @@
 ---
 layout: blog-post
 categories: blog
-math: true
 excerpt_separator: <!--more-->
 title: "Massively Parallel Bit-Precise Verification with Bitwuzla and Mallob"
 author: Aina Niemetz and Mathias Preiner
