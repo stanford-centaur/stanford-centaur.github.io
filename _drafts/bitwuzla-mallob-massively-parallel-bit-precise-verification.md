@@ -7,18 +7,30 @@ author: Aina Niemetz and Mathias Preiner
 brief: "How plugging Bitwuzla into the distributed SAT platform Mallob lets one SMT query use hundreds of cores"
 date: 2026-04-11
 ---
-<!-- DRAFT: written from the TACAS 2026 paper for the authors to review and revise before publishing. -->
 
-Our TACAS 2026 paper, *Massively Parallel Bit-Precise Verification with Bitwuzla and Mallob*, received three awards at ETAPS 2026: the ETAPS Best Tool Paper Award, the TACAS Distinguished Paper Award, and the TACAS Distinguished Artifact Award. In this post we explain the idea behind the system, which we call Bitwuzllob, and why it scales so well.
+Our **TACAS 2026** paper **Massively Parallel Bit-Precise Verification with
+Bitwuzla and Mallob** received *three* awards at ETAPS 2026: the *ETAPS Best
+Tool Paper Award*, the *TACAS Distinguished Paper Award*, and the *TACAS
+Distinguished Artifact Award*. In this post we explain the idea behind the
+system, which we call *Bitwuzllob*, and why it scales so well.
 <!--more-->
 
 ## Why parallelize at the SAT level?
 
-Bit-precise reasoning, that is, reasoning about fixed-size machine integers, is at the heart of many hardware and software verification tools. The dominant way SMT solvers handle bit-vectors is *bit-blasting*: after aggressive simplification, bit-vector constraints are translated into a propositional formula and handed to a SAT solver. This works remarkably well in practice, because modern SAT solvers can handle formulas with millions of variables. It also means that the SAT solver is usually where most of the time goes.
+Bit-precise reasoning, that is, reasoning about fixed-size bit-vectors, is at
+the heart of many hardware and software verification tools.
+The dominant technique for SMT solvers to handle bit-vectors is *bit-blasting:*
+after aggressive simplification, bit-vector constraints are translated into a propositional
+formula and handed to a SAT solver.
+This works remarkably well in practice, since modern SAT solvers can
+efficiently handle formulas with millions of variables.
+However, this also means that SAT solving is usually where most of the time is spent.
 
-[Bitwuzla](https://bitwuzla.github.io/) is our SMT solver for bit-precise reasoning. It supports bit-vectors and floating-point arithmetic, combined with arrays and uninterpreted functions, with and without quantifiers. Its architecture follows the *lemmas on demand* paradigm: rather than tightly interleaving SAT search and theory reasoning (as in classic CDCL(T)), Bitwuzla maintains a bit-vector abstraction of the problem, bit-blasts it, asks a SAT solver whether it is satisfiable, and refines the abstraction with lemmas when the theory solvers find the SAT solver's model inconsistent. The upshot is that almost all of Bitwuzla's non-trivial reasoning happens inside plain *incremental* SAT calls, which are far easier to parallelize than the fine-grained back-and-forth of CDCL(T).
+[Bitwuzla](https://bitwuzla.github.io/) is our SMT solver for bit-precise reasoning. It supports bit-vectors and floating-point arithmetic, combined with arrays and uninterpreted functions, with and without quantifiers. Its architecture follows the *lemmas on demand* paradigm: rather than tightly interleaving SAT search and theory reasoning (as in classic CDCL(T)), Bitwuzla maintains a bit-vector abstraction of the problem, bit-blasts it, asks a SAT solver whether it is satisfiable, and refines the abstraction with lemmas when the theory solvers find the SAT solver's model inconsistent.
+As a consequence, almost all of Bitwuzla's non-trivial reasoning happens inside plain *incremental* SAT calls, which are far easier to parallelize than the fine-grained back-and-forth of CDCL(T).
 
-Meanwhile, distributed SAT solving has made huge strides. [Mallob](https://github.com/domschrei/mallob) is a distributed platform for scheduling and solving many SAT tasks at once, growing and shrinking the resources given to each task on demand. Its SAT engine, MallobSat, runs a solver thread on every core and has them share learned clauses, which lets it solve hard problems hundreds of times faster than a sequential solver. Mallob also supports incremental SAT solving at a distributed scale. Before this work, though, none of that power had been put to use for SMT.
+Meanwhile, distributed SAT solving has made huge strides in recent years.
+[Mallob](https://github.com/domschrei/mallob) is a distributed platform for scheduling and solving many tasks at once, growing and shrinking the resources given to each task on demand. Its SAT engine, MallobSat, runs a solver thread on every core and has them share learned clauses, which lets it solve hard problems hundreds of times faster than a sequential solver. Mallob also supports incremental SAT solving at a distributed scale. Before this work, though, none of that power had been put to use for SMT.
 
 ## Putting the two together
 
