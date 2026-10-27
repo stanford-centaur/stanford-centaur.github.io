@@ -7,18 +7,37 @@ author: Mathias Preiner and Aina Niemetz
 brief: "A decision procedure for constant arrays over finite index domains, winner of a CAV 2026 Distinguished Paper Award"
 date: 2026-07-26
 ---
-<!-- DRAFT: written from the CAV 2026 paper for the authors to review and revise before publishing. -->
 
-Our paper *Satisfiability Modulo Extensional Constant Arrays* received a Distinguished Paper Award at CAV 2026 in Lisbon. It closes a long-standing gap in SMT solving: deciding problems with *constant arrays*, arrays that hold the same value at every index, when the index domain is finite, as it always is for machine integers. In this post we explain why that case is tricky and what our new procedure does about it.
+Our paper **Satisfiability Modulo Extensional Constant Arrays** received a
+Distinguished Paper Award at **CAV 2026** in Lisbon. It closes a long-standing gap
+in SMT solving: deciding problems with *constant arrays*, arrays that hold the
+same value at every index, when the index domain is finite, as it always is for
+machine integers. In this post we explain why that case is tricky and what our
+new procedure does about it.
+
 <!--more-->
 
 ## Arrays, and arrays with a default value
 
-Arrays are everywhere in verification. They are the natural model for memory in hardware and for array data structures in software. The SMT-LIB standard defines a theory of arrays with two operations: *select* reads the element at an index, and *store* writes an element at an index to produce a new array. The theory is *extensional*, meaning that two arrays are equal exactly when they agree at every index.
+Arrays are the natural model for memory in hardware and for array data
+structures in software and therefore ubiquitous in hardware and software
+verification. The SMT-LIB standard defines a theory of arrays with two
+operations: *select* reads the element at an index, and *store* writes an
+element at an index to produce a new array. The theory is *extensional*,
+meaning that two arrays are equal exactly when they agree at every index.
 
-What the standard theory can't express succinctly is an array initialized with a default value, for example a zero-initialized block of memory. Without a dedicated construct, you have to write the default value explicitly to every relevant index with a long chain of stores. That is both imprecise (only the indices you explicitly wrote are covered) and slow (the store chains can get very deep).
+What the standard theory cannot express succinctly is an array initialized with
+a default value, for example, a zero-initialized block of memory.
+Without a dedicated construct, this is usually encoded by writing the default
+value explicitly to every relevant index with a long chain of stores.
+However, that is both imprecise (only the indices you explicitly wrote are
+covered) and inefficient (the store chains can get very deep).
 
-*Constant arrays* fix this. A constant array \\(\langle v \rangle\\) stores the value \\(v\\) at every index, so reading it anywhere gives \\(v\\). Most SMT solvers accept this construct, written `((as const (Array I E)) v)` in SMT-LIB, even though it isn't yet part of the standard.
+Extending the standard theory with *constant arrays* closes this gap.
+A constant array \\(\langle v \rangle\\) stores the value \\(v\\) at every
+index, so reading it anywhere gives \\(v\\).
+SMT solvers that support this extension accept the constant array construct
+written as `((as const (Array I E)) v)` in SMT-LIB.
 
 ## Why finite index domains are hard
 
