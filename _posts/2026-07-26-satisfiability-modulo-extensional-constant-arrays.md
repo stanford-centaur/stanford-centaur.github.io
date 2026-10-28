@@ -55,6 +55,21 @@ With a *finite* index domain, such as the 8-bit bit-vectors, this reasoning brea
 
 is satisfiable: just choose \\(i\\) and \\(j\\) to be the two different indices. In general, a solver has to reason about whether the stores on both sides together cover the *entire* index domain. That is a counting argument, and it doesn't fit naturally into existing array procedures.
 
+The figure below illustrates a slightly larger example from the paper, with
+2-bit bit-vectors as indices and Booleans as elements:
+
+\\[ \langle v \rangle\langle i_1 \triangleleft u_1 \rangle \approx a\langle j_1 \triangleleft u_2 \rangle \wedge a\langle i_2 \triangleleft u_3 \rangle \approx \langle w \rangle\langle j_2 \triangleleft u_4 \rangle \wedge v \not\approx w \\]
+
+Over an infinite index domain, this formula is unsatisfiable, since
+\\(\langle v \rangle\\) and \\(\langle w \rangle\\) differ at infinitely many
+indices. With only four indices, however, the stores can be arranged such
+that both equalities hold.
+
+<figure style="margin: 2em 0; text-align: center;">
+  <img src="/assets/blog-images/2026-07-26-satisfiability-modulo-extensional-constant-arrays/finite-interpretation.png" alt="Diagram of an interpretation satisfying the formula, with each array drawn as four cells for indices 00, 01, 10 and 11: constant array v holds false everywhere and becomes true, false, false, false after storing true at index 00; array a holds true, false, true, false and becomes true, false, false, false after storing false at index 10, and true, true, true, false after storing true at index 01; constant array w holds true everywhere and becomes true, true, true, false after storing false at index 11. The arrays on both sides of each equality are thus equal." style="width: 100%; max-width: 720px; margin: 0 auto;"/>
+  <figcaption style="font-style: italic; margin-top: 0.5em;">An interpretation satisfying the formula, with indices 00, 01, 10, 11 from left to right. The four stores (highlighted) update four distinct indices, which makes both sides of each equality agree at every index. Figure 1 of <a href="https://doi.org/10.1007/978-3-032-32526-6_2">the paper</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+</figure>
+
 This isn't just a theoretical gap. Among the solvers we tested, cvc5 and the previous version of Bitwuzla reject these problems outright. Z3 and MathSAT5 accept them, but on our crafted benchmarks they returned wrong answers on dozens of instances, all involving extensionality over finite constant arrays.
 
 ## Our approach
