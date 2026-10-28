@@ -36,6 +36,11 @@ Meanwhile, distributed SAT solving has made huge strides in recent years.
 
 Bitwuzllob integrates Bitwuzla into Mallob as a new application engine. From the outside it behaves like an ordinary SMT solver: it reads SMT-LIB and produces the usual answers and models. Inside, each SAT solver instance that Bitwuzla creates is replaced by an adapter object in Mallob, which sends Bitwuzla's SAT calls to a distributed incremental SAT task.
 
+<figure style="margin: 2em 0; text-align: center;">
+  <img src="/assets/blog-images/2026-04-11-bitwuzla-mallob-massively-parallel-bit-precise-verification/overview.png" alt="Overview of Bitwuzllob: Bitwuzla receives the SMT input and returns the results, and each of its SAT adapters is connected to a distributed incremental SAT task running on a tree of Mallob processes, which are flexibly (re-)allocated and share clauses." style="width: 100%; max-width: 640px; margin: 0 auto;"/>
+  <figcaption style="font-style: italic; margin-top: 0.5em;">Overview of Bitwuzllob. Each SAT adapter in Bitwuzla is backed by a distributed incremental SAT task in Mallob, whose processes are flexibly (re-)allocated and share clauses. From Figure 2 of <a href="https://doi.org/10.1007/978-3-032-22752-2_9">the paper</a>.</figcaption>
+</figure>
+
 Because the parallelism lives entirely in the SAT back end, the approach is theory-agnostic. Every theory and combination that Bitwuzla supports benefits automatically, including quantified logics, floating-point arithmetic, and incremental (push/pop) problems.
 
 Making this work well took more than wiring the two systems together. Three engineering ideas turned out to matter most:
@@ -50,7 +55,25 @@ We evaluated Bitwuzllob on a representative sample of SMT-LIB benchmarks from ev
 
 On a single 48-core node, Bitwuzllob clearly outperformed all of these. On non-incremental bit-vector (QF_BV) problems, it matched the Gimsatul-based configuration on easy instances and pulled well ahead on harder ones. Across all logics, the difference was even starker. Gimsatul doesn't support incremental solving, so Bitwuzla has to recreate it for every SAT call, and that configuration ended up *slower* than plain sequential Bitwuzla. Bitwuzllob, by contrast, beat sequential Bitwuzla by a wide margin.
 
-Bitwuzllob also keeps scaling. Even on 4 cores it beats sequential Bitwuzla, and it continues to improve all the way up to 768 cores, with diminishing returns beyond about four nodes. Speedups grow with problem difficulty. On instances that take sequential Bitwuzla at least 300 seconds, the mean speedup is 9.9× on one node, 12.5× on four, and 15.6× on sixteen. Latency hiding pays off especially for incremental logics that issue more than a thousand SAT calls per instance, with mean speedups between 60% and 590%.
+<figure style="margin: 2em 0; text-align: center;">
+  <img src="/assets/blog-images/2026-04-11-bitwuzla-mallob-massively-parallel-bit-precise-verification/single-node.png" alt="Two plots of the number of instances solved within a given running time of up to 300 seconds on a single 48-core node. Left, non-incremental QF_BV: Bitwuzllob solves about 110 instances, Gims+Bzla about 80, STP-P-Bzla about 70, sequential Bitwuzla 40, and Yices about 20. Right, entire benchmark set: Bitwuzllob solves about 800 instances, sequential Bitwuzla about 575, and Gims+Bzla about 480." style="width: 100%; max-width: 720px; margin: 0 auto;"/>
+  <figcaption style="font-style: italic; margin-top: 0.5em;">Instances solved over time on a single 48-core node, on non-incremental <code>QF_BV</code> benchmarks (left) and on the entire benchmark set (right), with sequential Bitwuzla as the baseline. From Figure 4 of <a href="https://doi.org/10.1007/978-3-032-22752-2_9">the paper</a>.</figcaption>
+</figure>
+
+Bitwuzllob also keeps scaling. Even on 4 cores it beats sequential Bitwuzla, and it continues to improve all the way up to 768 cores, with diminishing returns beyond about four nodes. Speedups grow with problem difficulty. On instances that take sequential Bitwuzla at least 300 seconds, the mean speedup is 9.9× on one node, 12.5× on four, and 15.6× on sixteen.
+
+<figure style="margin: 2em 0; text-align: center;">
+  <img src="/assets/blog-images/2026-04-11-bitwuzla-mallob-massively-parallel-bit-precise-verification/scaling.png" alt="Left: number of instances solved within up to 300 seconds for Bitwuzllob on 1 node with 4, 12 and 48 cores and on 4 and 16 nodes with 48 cores each, all above sequential Bitwuzla. Right: mean speedup over sequential Bitwuzla on instances that took it at least a given number of seconds, rising from about 3 to 16 on 1 node, 4 to 21 on 4 nodes, and 5 to 25 on 16 nodes as the threshold grows from 0 to 600 seconds." style="width: 100%; max-width: 720px; margin: 0 auto;"/>
+  <figcaption style="font-style: italic; margin-top: 0.5em;">Left: instances solved over time on 4 to 768 cores, where <em>n</em>x<em>c</em> denotes <em>n</em> nodes with <em>c</em> cores each. Right: mean speedup over sequential Bitwuzla on the instances that took sequential Bitwuzla at least τ seconds. From Figure 6 of <a href="https://doi.org/10.1007/978-3-032-22752-2_9">the paper</a>.</figcaption>
+</figure>
+
+Latency hiding pays off especially for incremental logics that issue more than a thousand SAT calls per instance, with mean speedups between 60% and 590%.
+For logics with fewer SAT calls, it is not significantly beneficial, and in a few cases even detrimental.
+
+<figure style="margin: 2em 0; text-align: center;">
+  <img src="/assets/blog-images/2026-04-11-bitwuzla-mallob-massively-parallel-bit-precise-verification/latency-hiding.png" alt="Scatter plot with one point per logic: the mean number of SAT calls per instance on a logarithmic x-axis from 1 to over 1,000, and the mean speedup achieved by latency hiding on the y-axis. Most logics with fewer than a few hundred SAT calls lie close to a speedup of 1, a few of them below, while the incremental logics with around 1,000 or more SAT calls reach speedups between about 1.6 and 6.9." style="width: 100%; max-width: 400px; margin: 0 auto;"/>
+  <figcaption style="font-style: italic; margin-top: 0.5em;">Mean speedup achieved by latency hiding per logic, plotted against the mean number of SAT calls per instance. From Figure 7 of <a href="https://doi.org/10.1007/978-3-032-22752-2_9">the paper</a>.</figcaption>
+</figure>
 
 ## What's next
 
