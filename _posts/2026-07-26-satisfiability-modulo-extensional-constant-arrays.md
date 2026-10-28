@@ -9,7 +9,7 @@ date: 2026-07-26
 ---
 
 Our paper **Satisfiability Modulo Extensional Constant Arrays** received a
-Distinguished Paper Award at **CAV 2026** in Lisbon. It closes a long-standing gap
+*Distinguished Paper Award* at **CAV 2026** in Lisbon. It closes a long-standing gap
 in SMT solving: deciding problems with *constant arrays*, arrays that hold the
 same value at every index, when the index domain is finite, as it always is for
 machine integers. In this post we explain why that case is tricky and what our
