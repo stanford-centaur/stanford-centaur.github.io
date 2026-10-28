@@ -45,7 +45,7 @@
 - title: "Daneshvar Amrollahi's paper accepted to Findings of ACL: EMNLP 2026"
   excerpt: "<b>Faithful Autoformalization via Roundtrip Verification and Repair</b> by Daneshvar Amrollahi, Jerry Lopez, and Clark Barrett has been accepted to <i>Findings of the Association for Computational Linguistics: EMNLP 2026</i>. The paper checks whether an LLM's formalization of natural language is faithful by translating it back and re-formalizing, then diagnoses and repairs the step that went wrong."
   urls:
-    - url: "https://arxiv.org/abs/2604.25031"
+    - url: "https://aclanthology.org/2026.findings-emnlp.469/"
       label: "Faithful Autoformalization via Roundtrip Verification and Repair"
   date: "2026-08-20"
 

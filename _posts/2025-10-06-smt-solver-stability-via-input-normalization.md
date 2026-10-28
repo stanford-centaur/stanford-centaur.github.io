@@ -7,7 +7,6 @@ author: Daneshvar Amrollahi
 brief: "Making SMT solvers less sensitive to harmless changes in their input, from our FMCAD 2025 paper"
 date: 2025-10-06
 ---
-<!-- DRAFT: written from the FMCAD 2025 paper for the author to review and revise before publishing. -->
 
 If you use SMT solvers regularly, you have probably run into this: a query that solved in a second yesterday takes a minute today, or times out altogether, even though you only renamed a variable or moved a function. This is the *stability* problem. In our FMCAD 2025 paper, *Towards SMT Solver Stability via Input Normalization*, we show how to reduce it by putting every input into a canonical form before the solver sees it.
 <!--more-->
@@ -66,4 +65,4 @@ We evaluated the normalizer on about 41,000 benchmarks sampled from SMT-LIB and 
 
 The normalizer works with any SMT solver. Next, we plan to handle the remaining mutation types (commutative operands and flipped comparisons), explore further normalization techniques, and use normal forms to improve caching of solver results.
 
-For the details, see [the paper](https://doi.org/10.34727/2025/isbn.978-3-85448-084-6_14). The artifact is [available on Zenodo](https://doi.org/10.5281/zenodo.16929484).
+For the details, see [the paper](https://doi.org/10.34727/2025/isbn.978-3-85448-084-6_14). To try the normalizer yourself, run [cvc5](https://cvc5.github.io/) with the `-o normalize` option.
