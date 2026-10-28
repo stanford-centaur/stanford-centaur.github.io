@@ -41,7 +41,13 @@ written as `((as const (Array I E)) v)` in SMT-LIB.
 
 ## Why finite index domains are hard
 
-Previous decision procedures for extensional constant arrays all assume that the index domain is *infinite*, for example the mathematical integers. That assumption makes life much easier. Two infinite constant arrays with different default values can never be made equal, because you'd need infinitely many stores to change every index. So equalities between constant arrays reduce to equalities between their default values.
+Previous decision procedures for extensional constant arrays all assume that
+the index domain is *infinite*, for example the mathematical integers. That
+assumption makes reasoning much easier.
+Two infinite constant arrays with different default values can never be made
+equal, since this would require infinitely many stores to change every index.
+Thus, equalities between constant arrays reduce to equalities between their
+default values.
 
 With a *finite* index domain, such as the 8-bit bit-vectors, this reasoning breaks down. Two constant arrays with different defaults *can* become equal if enough stores overwrite every index. For example, with only two possible indices, the formula
 
